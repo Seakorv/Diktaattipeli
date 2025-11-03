@@ -25,12 +25,19 @@ public class AnswerButtonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void TaskOnClick()
     {
-        Debug.Log("Painoin nappulaa");
+        if (!IsCorrect)
+        {
+            Debug.Log("Väärin!");
+        }
+        else
+        {
+            Debug.Log("Oikein!");
+        }
     }
 
     public void SetButtonName()
