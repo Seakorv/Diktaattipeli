@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AnswerButtonScript : MonoBehaviour
+public class AnswerButton : MonoBehaviour
 {
     [SerializeField] private int myNumber;
     [SerializeField] private string myName; //Väliaikainen
