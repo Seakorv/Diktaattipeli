@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
+using System.Xml.Serialization;
 using JetBrains.Annotations;
 using TMPro;
 using Unity.VisualScripting;
@@ -21,6 +22,15 @@ public class Scales : MonoBehaviour
     private static Random rng = new();
     private bool isRandomised = false;
     [SerializeField] private TextMeshProUGUI currentScaletext;
+    [SerializeField] private TextMeshProUGUI correctCounterText;
+    [SerializeField] private TextMeshProUGUI wrongCounterText;
+    public int WrongCounter { get; private set; } = 0;
+    public int CorrectCounter { get; private set; } = 0;
+    // Allaoleva vain testausta varten.
+    [SerializeField] private TextMeshProUGUI kierroslaskuri;
+    private int kierrokset = -1;
+    private string kierrosText = "";
+    // Testit loppuu
 
     public static event Action<CurrentScaleState> OnScaleStateChanged;
 
@@ -34,6 +44,10 @@ public class Scales : MonoBehaviour
             Debug.Log(AllScales[i].ScaleName);
         }
         RandomizeScaleList();
+        SetCounterTexts();
+
+        // Testings
+        UpdateKierrosLaskuri();
     }
 
 
@@ -89,12 +103,17 @@ public class Scales : MonoBehaviour
         }
     }
 
-
+    /// <summary>
+    /// Setting the state to the current scale which is playing. 
+    /// The state includes the background music, setting up the button scales.
+    /// TODO: When time runs out, it will
+    /// set up the state "Game Over" and the game will end then.
+    /// </summary>
+    /// <param name="newScaleState">The current scale state</param>
     public void UpdateCurrentScale(CurrentScaleState newScaleState)
     {
         currentScale = newScaleState;
         SetButtonScales();
-        //currentScaleIndex += 1;
         if (newScaleState != CurrentScaleState.None || newScaleState != CurrentScaleState.GameOver)
         {
             currentScaletext.text = GetScaletextFromRandomList();
@@ -129,7 +148,7 @@ public class Scales : MonoBehaviour
                 // Pelin päättymistila
                 break;
         }
-
+        currentScaleIndex += 1;
         OnScaleStateChanged?.Invoke(newScaleState);
     }
 
@@ -210,6 +229,54 @@ public class Scales : MonoBehaviour
         }
 
         return randomScaleIndex;
+    }
+
+
+    /// <summary>
+    /// Will be called in the buttonscript when the correct button is pressed.
+    /// Calls the scalestate to be updated to next scale and randomizing buttons again.
+    /// Re-ranomizes the scales and resets current scale index if every scale has been went through
+    /// </summary>
+    public void PressedCorrect()
+    {
+        // If every scale has been gone through, restart and re-randomize the list
+        if (currentScaleIndex == AmountOfScales)
+        {
+            UpdateKierrosLaskuri(); // Testausta varten
+            currentScaleIndex = 0;
+            RandomizeScaleList();
+        }
+
+        UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
+    }
+
+    /// <summary>
+    /// Vain testaukseen, päivitetään kierrokset ruudulle
+    /// </summary>
+    private void UpdateKierrosLaskuri()
+    {
+        kierrokset++;
+        kierrosText = $"{kierrokset}";
+        kierroslaskuri.text = kierrosText;
+    }
+
+    public void UpdatePointCounters(bool correct)
+    {
+        if (correct)
+        {
+            CorrectCounter += 1;
+        }
+        else
+        {
+            WrongCounter += 1;
+        }
+        SetCounterTexts();
+    }
+    
+    private void SetCounterTexts()
+    {
+        correctCounterText.text = $"{CorrectCounter}";
+        wrongCounterText.text = $"{WrongCounter}";
     }
 }
 
