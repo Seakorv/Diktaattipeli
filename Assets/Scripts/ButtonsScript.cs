@@ -2,11 +2,33 @@ using UnityEngine;
 
 public class ButtonsScript : MonoBehaviour
 {
-    [SerializeField] private AnswerButton[] answerButtons = new AnswerButton[4];
+    public const int ButtonsLength = 4;
+    [SerializeField] private AnswerButton[] answerButtons = new AnswerButton[ButtonsLength];
+    public static ButtonsScript buttonsInstance;
+
+    void Awake()
+    {
+        buttonsInstance = this;
+    }
 
     void Start()
     {
-        answerButtons[0].IsCorrect = true;
+        //answerButtons[0].IsCorrect = true;
     }
-    
+
+    public int GetButtonsLength()
+    {
+        return ButtonsLength;
+    }
+
+    public void SetButtonInfo(int buttonIndex, string scaleName, bool correct)
+    {
+        answerButtons[buttonIndex].SetButtonNameAndText(scaleName);
+        answerButtons[buttonIndex].IsCorrect = correct;
+    }
+
+    public void SetButtonScaleState(int buttonIndex, CurrentScaleState buttonScaleState)
+    {
+        answerButtons[buttonIndex].ButtonScaleState = buttonScaleState;
+    }
 }

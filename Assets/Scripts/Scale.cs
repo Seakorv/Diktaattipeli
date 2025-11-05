@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Data;
 using System.Data.Common;
 using UnityEngine;
@@ -10,7 +11,9 @@ public class Scale : MonoBehaviour
     public Scale[] CloseScales { get; } = new Scale[4];
     private Scale thisScale;
 
-    public Scale()
+    public CurrentScaleState MyScaleEnum { get; set; }
+
+    /*public Scale()
     {
         ID = 0;
         CloseScales = new Scale[4];
@@ -22,12 +25,13 @@ public class Scale : MonoBehaviour
         ID = id;
         ScaleName = scaleName;
         CloseScales = new Scale[4];
-    }
+    }*/
 
-    public void SetIDandName(int id, String scaleName)
+    public void SetIDNameAndEnum(int id, String scaleName, CurrentScaleState scaleState)
     {
         ID = id;
         ScaleName = scaleName;
+        MyScaleEnum = scaleState;
     }
     
     public void SetCloseScales(Scale closeOne, Scale closeTwo, Scale closeThree, Scale closeFour)

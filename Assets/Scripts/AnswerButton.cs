@@ -4,21 +4,23 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public class AnswerButton : MonoBehaviour
 {
     [SerializeField] private int myNumber;
-    [SerializeField] private string myName; //Väliaikainen
+    [SerializeField] private string myName;
     [SerializeField] private Button myButton;
     [SerializeField] private TextMeshProUGUI myText;
 
     //[SerializeField] private  myScaleName;
     public bool IsCorrect { get; set; } = false;
+    public CurrentScaleState ButtonScaleState { get; set; }
 
     void Start()
     {
-        SetButtonName();
-        SetButtonText();
+        //SetButtonName();
+        //SetButtonText();
         Debug.Log(myButton.name);
         myButton.onClick.AddListener(TaskOnClick);
     }
@@ -30,6 +32,8 @@ public class AnswerButton : MonoBehaviour
 
     public void TaskOnClick()
     {
+        Random rand = new();
+        //Debug.Log(rand.Next(0, 4));
         if (!IsCorrect)
         {
             Debug.Log("Väärin!");
@@ -40,15 +44,10 @@ public class AnswerButton : MonoBehaviour
         }
     }
 
-    public void SetButtonName()
+    public void SetButtonNameAndText(string name)
     {
+        myName = name;
         myButton.name = myName;
+        myText.text = myName;
     }
-
-    public void SetButtonText()
-    {
-        myText.text = $"Asteikko {myName}";
-    }
-
-
 }
