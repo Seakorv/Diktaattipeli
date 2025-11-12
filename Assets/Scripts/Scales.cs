@@ -8,13 +8,14 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 using Random = System.Random;
 
 public class Scales : MonoBehaviour
 {
     public const int AmountOfScales = 7;
     public List<Scale> AllScales { get; private set; }
-    public List<Scale> AllScalesRandomOrder;
+    public List<Scale> AllScalesRandomOrder { get; private set; }
     public CurrentScaleState currentScale;
     public static Scales scaleInstance;
     private Scale testiScale;
@@ -24,6 +25,11 @@ public class Scales : MonoBehaviour
     [SerializeField] private TextMeshProUGUI currentScaletext;
     [SerializeField] private TextMeshProUGUI correctCounterText;
     [SerializeField] private TextMeshProUGUI wrongCounterText;
+    [SerializeField] private UnityEngine.UI.Slider timerBar;
+    private const float MAX_TIMER = 1000.0f;
+    [SerializeField] private float timerDecreaseSpeed = 1.0f;
+    [SerializeField] private float wrongAnswerTimerDecrease = 50.0f;
+    [SerializeField] private float correctAnswerTimerIncrease = 100.0f;
     public int WrongCounter { get; private set; } = 0;
     public int CorrectCounter { get; private set; } = 0;
     // Allaoleva vain testausta varten.
@@ -48,6 +54,10 @@ public class Scales : MonoBehaviour
 
         // Testings
         UpdateKierrosLaskuri();
+
+        timerBar.maxValue = MAX_TIMER;
+        timerBar.minValue = 0;
+        timerBar.value = timerBar.maxValue;
     }
 
 
@@ -61,6 +71,11 @@ public class Scales : MonoBehaviour
     void Update()
     {
 
+    }
+
+    void FixedUpdate()
+    {
+        timerBar.value -= timerDecreaseSpeed;
     }
 
     public void SetEveryScale()
@@ -246,7 +261,7 @@ public class Scales : MonoBehaviour
             currentScaleIndex = 0;
             RandomizeScaleList();
         }
-
+        
         UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
     }
 
@@ -264,10 +279,12 @@ public class Scales : MonoBehaviour
     {
         if (correct)
         {
+            timerBar.value += correctAnswerTimerIncrease;
             CorrectCounter += 1;
         }
         else
         {
+            timerBar.value -= wrongAnswerTimerDecrease;
             WrongCounter += 1;
         }
         SetCounterTexts();
