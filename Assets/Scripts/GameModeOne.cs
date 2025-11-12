@@ -11,17 +11,19 @@ using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Random = System.Random;
 
-public class Scales : MonoBehaviour
+public class GameModeOne : MonoBehaviour
 {
     public const int AmountOfScales = 7;
     public List<Scale> AllScales { get; private set; }
     public List<Scale> AllScalesRandomOrder { get; private set; }
     public CurrentScaleState currentScale;
-    public static Scales scaleInstance;
+    public static GameModeOne gameModeOneInstance;
     private Scale testiScale;
     private int currentScaleIndex = 0;
     private static Random rng = new();
     private bool isRandomised = false;
+    [SerializeField] private GameObject startGamePopUp;
+    [SerializeField] private GameObject gameOverPopUp;
     [SerializeField] private TextMeshProUGUI currentScaletext;
     [SerializeField] private TextMeshProUGUI correctCounterText;
     [SerializeField] private TextMeshProUGUI wrongCounterText;
@@ -34,37 +36,41 @@ public class Scales : MonoBehaviour
     public int CorrectCounter { get; private set; } = 0;
     // Allaoleva vain testausta varten.
     [SerializeField] private TextMeshProUGUI kierroslaskuri;
+
     private int kierrokset = -1;
     private string kierrosText = "";
     // Testit loppuu
+
+    private bool isGameOver = false;
 
     public static event Action<CurrentScaleState> OnScaleStateChanged;
 
     void Awake()
     {
-        scaleInstance = this;
+        gameModeOneInstance = this;
         SetEveryScale();
         //Debug
         for (int i = 0; i < AllScales.Count; i++)
         {
             Debug.Log(AllScales[i].ScaleName);
         }
-        RandomizeScaleList();
+        /*RandomizeScaleList();
         SetCounterTexts();
 
         // Testings
-        UpdateKierrosLaskuri();
+        UpdateKierrosLaskuri();*/
 
         timerBar.maxValue = MAX_TIMER;
         timerBar.minValue = 0;
-        timerBar.value = timerBar.maxValue;
+        //timerBar.value = timerBar.maxValue;
+        StartGame();
     }
 
 
     void Start()
     {
         //Always starting at the beginning of the list
-        UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
+        //UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
     }
 
     // Update is called once per frame
@@ -75,7 +81,14 @@ public class Scales : MonoBehaviour
 
     void FixedUpdate()
     {
-        timerBar.value -= timerDecreaseSpeed;
+        if (!startGamePopUp.activeSelf)
+        {
+            timerBar.value -= timerDecreaseSpeed;
+        }
+        if (timerBar.value == 0 && !isGameOver)
+        {
+            GameOver();
+        }
     }
 
     public void SetEveryScale()
@@ -275,6 +288,13 @@ public class Scales : MonoBehaviour
         kierroslaskuri.text = kierrosText;
     }
 
+    private void ResetKierrosLaskuri()
+    {
+        kierrokset = 0;
+        kierrosText = $"{kierrokset}";
+        kierroslaskuri.text = kierrosText;
+    }
+
     public void UpdatePointCounters(bool correct)
     {
         if (correct)
@@ -289,11 +309,40 @@ public class Scales : MonoBehaviour
         }
         SetCounterTexts();
     }
-    
+
     private void SetCounterTexts()
     {
         correctCounterText.text = $"{CorrectCounter}";
         wrongCounterText.text = $"{WrongCounter}";
+    }
+
+    private void GameOver()
+    {
+        isGameOver = true;
+        gameOverPopUp.SetActive(true);
+        gameOverPopUp.GetComponent<GameOver>().SetPoints(CorrectCounter);
+    }
+
+    public void StartGame()
+    {
+        RandomizeScaleList();
+        SetCounterTexts();
+
+        // Testings
+        UpdateKierrosLaskuri();
+        //Always starting at the beginning of the list
+        UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
+        ResetCounters();
+        timerBar.value = timerBar.maxValue;
+        isGameOver = false;
+    }
+    
+    private void ResetCounters()
+    {
+        CorrectCounter = 0;
+        WrongCounter = 0;
+        SetCounterTexts();
+        ResetKierrosLaskuri();
     }
 }
 

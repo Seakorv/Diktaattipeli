@@ -2,9 +2,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StartGame : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI gameName;
+    [SerializeField] private TextMeshProUGUI pointsText;
     [SerializeField] private Button startButton;
     [SerializeField] private Button toMainMenuButton;
 
@@ -16,7 +16,8 @@ public class StartGame : MonoBehaviour
 
     private void OnStartButtonClick()
     {
-        this.gameObject.SetActive(false);
+        GameModeOne.gameModeOneInstance.StartGame();
+        this.gameObject.SetActive(false);  
     }
 
     private void OnMainMenuClick()
@@ -24,8 +25,8 @@ public class StartGame : MonoBehaviour
         Debug.Log("Pitäisi sulkea peli ja mennä main menuun");
     }
 
-    public void SetPopUpGameName(string game)
+    public void SetPoints(int points)
     {
-        gameName.text = game;
+        pointsText.text = $"Points: {points}";
     }
 }

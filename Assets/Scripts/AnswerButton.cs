@@ -37,13 +37,13 @@ public class AnswerButton : MonoBehaviour
         if (!IsCorrect)
         {
             Debug.Log("Väärin!");
-            Scales.scaleInstance.UpdatePointCounters(false);
+            GameModeOne.gameModeOneInstance.UpdatePointCounters(false);
         }
         else
         {
             Debug.Log("Oikein!");
-            Scales.scaleInstance.UpdatePointCounters(true);
-            Scales.scaleInstance.PressedCorrect();
+            GameModeOne.gameModeOneInstance.UpdatePointCounters(true);
+            GameModeOne.gameModeOneInstance.PressedCorrect();
         }
     }
 
