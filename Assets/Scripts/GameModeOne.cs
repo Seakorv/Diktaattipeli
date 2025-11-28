@@ -13,37 +13,53 @@ using Random = System.Random;
 
 public class GameModeOne : MonoBehaviour
 {
+    // Scale things
     public const int AmountOfScales = 7;
     public List<Scale> AllScales { get; private set; }
     public List<Scale> AllScalesRandomOrder { get; private set; }
     public CurrentScaleState currentScale;
-    public static GameModeOne gameModeOneInstance;
     private Scale testiScale;
     private int currentScaleIndex = 0;
-    private static Random rng = new();
-    private bool isRandomised = false;
-    [SerializeField] private GameObject startGamePopUp;
-    [SerializeField] private GameObject gameOverPopUp;
-    [SerializeField] private TextMeshProUGUI currentScaletext;
-    [SerializeField] private TextMeshProUGUI correctCounterText;
-    [SerializeField] private TextMeshProUGUI wrongCounterText;
+
+    // Script's instance
+    public static GameModeOne gameModeOneInstance;
+    public static event Action<CurrentScaleState> OnScaleStateChanged;
+    
+    // Timer things
+    [Header("Timer things")]
     [SerializeField] private UnityEngine.UI.Slider timerBar;
-    private const float MAX_TIMER = 1000.0f;
     [SerializeField] private float timerDecreaseSpeed = 1.0f;
     [SerializeField] private float wrongAnswerTimerDecrease = 50.0f;
     [SerializeField] private float correctAnswerTimerIncrease = 100.0f;
+    private const float MAX_TIMER = 1000.0f;
+    private bool isGameOver = false; // idk maybe it fits here
+    
+    // Points counter things
+    [Header("Point Counter Texts")]
+    [SerializeField] private TextMeshProUGUI correctCounterText;
+    [SerializeField] private TextMeshProUGUI wrongCounterText;
     public int WrongCounter { get; private set; } = 0;
     public int CorrectCounter { get; private set; } = 0;
-    // Allaoleva vain testausta varten.
-    [SerializeField] private TextMeshProUGUI kierroslaskuri;
 
+    // Rng
+    private static Random rng = new();
+    private bool isRandomised = false;
+
+    // Pop Ups
+    [Header("Pop up window gameobjects")]
+    [SerializeField] private GameObject startGamePopUp;
+    [SerializeField] private GameObject gameOverPopUp;
+    
+
+    // Things for testing
+    [Header("Things for testing")]
+    [SerializeField] private TextMeshProUGUI kierroslaskuri;
+    [SerializeField] private TextMeshProUGUI currentScaletext;
     private int kierrokset = -1;
     private string kierrosText = "";
-    // Testit loppuu
 
-    private bool isGameOver = false;
 
-    public static event Action<CurrentScaleState> OnScaleStateChanged;
+    
 
     void Awake()
     {
