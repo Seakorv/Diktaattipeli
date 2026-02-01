@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "Type": "User",
+    "GUID": "{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}",
+    "Language": "SFX",
+    "Hash": "{5C283833-6D04-84F1-E57D-0AB1E1D83FEC}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk"
+   }
+  ],
+  "FileHash": "{069A1A13-4FD5-CEB7-9581-AC3B115AA763}"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3398329523",
+    "Type": "User",
+    "GUID": "{15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3}",
+    "Language": "SFX",
+    "Hash": "{548DF97F-59F4-71AB-330A-77F056D09661}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\EasySongs",
+    "ShortName": "EasySongs",
+    "Path": "EasySongs.bnk"
+   }
+  ],
+  "FileHash": "{FE9CE70C-00BB-34C8-328A-C8245E01B6E5}"
+ }
+}

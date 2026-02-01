@@ -1,0 +1,50 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Diktaattipeli_WwiseProject",
+   "GUID": "{77187925-B0A5-4C27-9A5D-4CE005BE88F0}",
+   "Generator": "2025.1.4.9062"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Android",
+    "GUID": "{83DDE79B-40A2-4443-A6D5-6AB4BAB7AD28}",
+    "BasePlatform": "Android",
+    "BasePlatformGUID": "{A2D401DE-B8B6-4FEB-8142-137C34D507CA}",
+    "Path": "Android"
+   },
+   {
+    "Name": "iOS",
+    "GUID": "{4844871F-170D-4838-B4F8-2D06C5A08E61}",
+    "BasePlatform": "iOS",
+    "BasePlatformGUID": "{ECE03DB4-F948-462D-B2BB-A9173012B1F8}",
+    "Path": "iOS"
+   },
+   {
+    "Name": "Mac",
+    "GUID": "{4CA76540-77C9-4544-86AA-29E758768CFD}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{509CE696-44DC-42AA-B14F-21EDC6BA0B19}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{B675A676-84D6-4764-95AA-8E9C2FE68E87}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{59F9575A-BC8A-8C05-9EAD-57715E8BA69C}"
+ }
+}
