@@ -3,8 +3,10 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{82E5DCEE-7C7E-45F2-A9AB-B4F0ED1D38DF}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="EasySongs" ID="{15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3}">
-					<ObjectInclusionList/>
+				<SoundBank Name="BGMusic" ID="{15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ScaleSongs" ID="{318A20ED-EE7E-4F1B-8A7E-E0E9C677A58D}" WorkUnitID="{F1253186-83A4-4903-939B-17D45E9A87B0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

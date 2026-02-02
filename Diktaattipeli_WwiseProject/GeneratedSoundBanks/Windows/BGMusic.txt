@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	817798694	Play_ScaleSongs			\BGMusic\Play_ScaleSongs	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1454150757	ScaleSwitch			\Default Work Unit\ScaleSwitch	
+
+Switch	ID	Name	Switch Group			Notes
+	40732931	Locrian	ScaleSwitch			
+	610372824	Dorian	ScaleSwitch			
+	927541631	Phrygian	ScaleSwitch			
+	1524650939	Ionian	ScaleSwitch			
+	2758142541	Mixolydian	ScaleSwitch			
+	3294824594	Aeolian	ScaleSwitch			
+	3817576676	Lydian	ScaleSwitch			
+	4158285989	GameOver	ScaleSwitch			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	92342489	ScaleGenres			\Default Work Unit\ScaleGenres	
+
+State	ID	Name	State Group			Notes
+	748895195	None	ScaleGenres			
+	926145703	EasySynth	ScaleGenres			
+	1090423996	ChillPiano	ScaleGenres			
+	3604647259	MainMenu	ScaleGenres			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	76466153	Gradu Doorinen	.cache\15\{159CB794-1A15-D7FA-E072-95A445DF7799}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Dorian\Gradu Doorinen\Gradu Doorinen		3435024
+	187528473	Gradu Lyydinen	.cache\F8\{F8AC45F9-977A-2E10-AA5E-225835E33B3E}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Lydian\Gradu Lyydinen\Gradu Lyydinen		3382176
+	428171784	Gradu Lokrinen	.cache\84\{84CAF019-67E8-0D9D-D941-303A6645DE69}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Locrian\Gradu Lokrinen\Gradu Lokrinen		3382176
+	442829054	Gradu Jooninen	.cache\3D\{3DB0DCED-FE06-ECFD-555D-C05A786B9EAF}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Ionian\Gradu Jooninen\Gradu Jooninen		1691172
+	597716061	Gradu Aiolinen	.cache\66\{664CADDE-F1E5-4D31-6C5B-F4F154BE3E35}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Aeolian\Gradu Aiolinen\Gradu Aiolinen		3382176
+	883258574	Gradu Fryyginen	.cache\DA\{DA5C32FC-9BF5-07C0-A617-DD9F95888CAD}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Phrygian\Gradu Fryyginen\Gradu Fryyginen		3382180
+	974254734	Gradu Mixolyydinen	.cache\7F\{7FFDED90-0D92-2F82-16D4-C2D195F9E45B}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Mixolydian\Gradu Mixolyydinen\Gradu Mixolyydinen		3382180
+

@@ -1,0 +1,283 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1038839729",
+    "Type": "User",
+    "GUID": "{15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3}",
+    "Language": "SFX",
+    "Hash": "{D42F53A3-1CBA-B0CD-1A15-579EEBB4074B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\BGMusic",
+    "ShortName": "BGMusic",
+    "Path": "BGMusic.bnk",
+    "Media": [
+     {
+      "Id": "76466153",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu Doorinen.wav",
+      "CachePath": "15/{159CB794-1A15-D7FA-E072-95A445DF7799}.wem"
+     },
+     {
+      "Id": "187528473",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu Lyydinen.wav",
+      "CachePath": "F8/{F8AC45F9-977A-2E10-AA5E-225835E33B3E}.wem"
+     },
+     {
+      "Id": "428171784",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu Lokrinen.wav",
+      "CachePath": "84/{84CAF019-67E8-0D9D-D941-303A6645DE69}.wem"
+     },
+     {
+      "Id": "442829054",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu Jooninen.wav",
+      "CachePath": "3D/{3DB0DCED-FE06-ECFD-555D-C05A786B9EAF}.wem"
+     },
+     {
+      "Id": "597716061",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu Aiolinen.wav",
+      "CachePath": "66/{664CADDE-F1E5-4D31-6C5B-F4F154BE3E35}.wem"
+     },
+     {
+      "Id": "883258574",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu Fryyginen.wav",
+      "CachePath": "DA/{DA5C32FC-9BF5-07C0-A617-DD9F95888CAD}.wem"
+     },
+     {
+      "Id": "974254734",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu Mixolyydinen.wav",
+      "CachePath": "7F/{7FFDED90-0D92-2F82-16D4-C2D195F9E45B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "817798694",
+      "Name": "Play_ScaleSongs",
+      "ObjectPath": "\\Events\\BGMusic\\Play_ScaleSongs",
+      "GUID": "{318A20ED-EE7E-4F1B-8A7E-E0E9C677A58D}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "926145703",
+         "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1454150757",
+           "Id": "3294824594",
+           "GUID": "{906637CC-E85F-4E85-A2C3-F6AEC5517DDB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "597716061"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1454150757",
+           "Id": "610372824",
+           "GUID": "{F66111AB-E1A4-494A-ABC2-6F0D1B5C569C}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "76466153"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1454150757",
+           "Id": "1524650939",
+           "GUID": "{2E986AAA-19EB-43EC-AE11-A70754E900EC}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "442829054"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1454150757",
+           "Id": "40732931",
+           "GUID": "{1D3BF287-FAAA-4D03-B245-F7C1E1C2E892}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "428171784"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1454150757",
+           "Id": "3817576676",
+           "GUID": "{1324D3DD-55A8-4543-92E9-DA87B63C2708}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "187528473"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1454150757",
+           "Id": "2758142541",
+           "GUID": "{4DEE75F2-4C3A-494C-AEF4-191F12CD721B}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "974254734"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1454150757",
+           "Id": "927541631",
+           "GUID": "{9D0DE504-78D1-4DE5-899E-CE54FDB2A8BC}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "883258574"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "92342489",
+      "Name": "ScaleGenres",
+      "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres",
+      "GUID": "{34119791-BC83-4C9E-ABD2-39739870E6C0}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\None",
+        "GUID": "{E221B796-6943-41E2-BF23-E0718CD665DE}"
+       },
+       {
+        "Id": "926145703",
+        "Name": "EasySynth",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\EasySynth",
+        "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
+       },
+       {
+        "Id": "1090423996",
+        "Name": "ChillPiano",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\ChillPiano",
+        "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\MainMenu",
+        "GUID": "{E5822606-7595-4C38-927F-E02B9E5302A0}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1454150757",
+      "Name": "ScaleSwitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch",
+      "GUID": "{D494047B-FA0B-4155-98E4-BB927BD535D7}",
+      "Switches": [
+       {
+        "Id": "40732931",
+        "Name": "Locrian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Locrian",
+        "GUID": "{1D3BF287-FAAA-4D03-B245-F7C1E1C2E892}"
+       },
+       {
+        "Id": "610372824",
+        "Name": "Dorian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Dorian",
+        "GUID": "{F66111AB-E1A4-494A-ABC2-6F0D1B5C569C}"
+       },
+       {
+        "Id": "927541631",
+        "Name": "Phrygian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Phrygian",
+        "GUID": "{9D0DE504-78D1-4DE5-899E-CE54FDB2A8BC}"
+       },
+       {
+        "Id": "1524650939",
+        "Name": "Ionian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Ionian",
+        "GUID": "{2E986AAA-19EB-43EC-AE11-A70754E900EC}"
+       },
+       {
+        "Id": "2758142541",
+        "Name": "Mixolydian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Mixolydian",
+        "GUID": "{4DEE75F2-4C3A-494C-AEF4-191F12CD721B}"
+       },
+       {
+        "Id": "3294824594",
+        "Name": "Aeolian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Aeolian",
+        "GUID": "{906637CC-E85F-4E85-A2C3-F6AEC5517DDB}"
+       },
+       {
+        "Id": "3817576676",
+        "Name": "Lydian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Lydian",
+        "GUID": "{1324D3DD-55A8-4543-92E9-DA87B63C2708}"
+       },
+       {
+        "Id": "4158285989",
+        "Name": "GameOver",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\GameOver",
+        "GUID": "{8EE19AC0-5B0E-4C15-8A29-32D17A6C3E34}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{04B8B556-A4B0-A750-2955-1860B7A4861E}"
+ }
+}

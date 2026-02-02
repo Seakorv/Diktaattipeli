@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BASENOTES = 3188720456U;
+        static const AkUniqueID PLAY_SCALESONGS = 817798694U;
     } // namespace EVENTS
 
     namespace STATES
@@ -26,6 +27,7 @@ namespace AK
             {
                 static const AkUniqueID CHILLPIANO = 1090423996U;
                 static const AkUniqueID EASYSYNTH = 926145703U;
+                static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace SCALEGENRES
@@ -54,6 +56,7 @@ namespace AK
             {
                 static const AkUniqueID AEOLIAN = 3294824594U;
                 static const AkUniqueID DORIAN = 610372824U;
+                static const AkUniqueID GAMEOVER = 4158285989U;
                 static const AkUniqueID IONIAN = 1524650939U;
                 static const AkUniqueID LOCRIAN = 40732931U;
                 static const AkUniqueID LYDIAN = 3817576676U;
@@ -67,7 +70,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID EASYSONGS = 3398329523U;
+        static const AkUniqueID BGMUSIC = 1038839729U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 

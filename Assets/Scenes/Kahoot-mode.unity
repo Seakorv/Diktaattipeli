@@ -1278,6 +1278,8 @@ GameObject:
   m_Component:
   - component: {fileID: 898296555}
   - component: {fileID: 898296554}
+  - component: {fileID: 898296557}
+  - component: {fileID: 898296558}
   m_Layer: 0
   m_Name: SceneScirptThings
   m_TagString: Untagged
@@ -1298,6 +1300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scales
   currentScale: 0
+  currentGenreState: 0
   timerBar: {fileID: 299231133}
   timerDecreaseSpeed: 2
   wrongAnswerTimerDecrease: 100
@@ -1306,6 +1309,66 @@ MonoBehaviour:
   wrongCounterText: {fileID: 2050627089}
   startGamePopUp: {fileID: 1681817160}
   gameOverPopUp: {fileID: 319435897}
+  mainMenuMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1e1194a44e9164436970125af6c4606c, type: 2}
+  easySynthMusicState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: db52475a4bced48b1b4a60567e7c52ef, type: 2}
+  ionianSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9721d3d36ac3e457bba00556cd56369f, type: 2}
+  lydianSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0dd53d53b72b947f783ef089c8d8a0e4, type: 2}
+  mixolydianSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a873d6ccc73fd457d82384571e43b0e1, type: 2}
+  dorianSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2b80d66d29adc4cd8ab2726d4b2d052f, type: 2}
+  aeolianSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea9d100443a854e3798866e00d39398e, type: 2}
+  phrygianSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ca92b2c3018104e8d85fbcdef12a7a48, type: 2}
+  locrianSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9ab3715c2ee7346fd9d85d2de485875e, type: 2}
+  GameOverSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 03f5693b5dad549aabce3762143d92a7, type: 2}
   kierroslaskuri: {fileID: 1379410221}
   currentScaletext: {fileID: 1328108113}
 --- !u!4 &898296555
@@ -1323,6 +1386,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &898296557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898296553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879900263c5dc4b6e8e263b30baf863d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &898296558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898296553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80853f6fdc324ce98e11e7393a7da53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAmbient
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 535ff62b4881d4788b4241304cb4ab8e, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
 --- !u!1 &1009199055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,7 +2135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1328108112
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2991,6 +3112,7 @@ GameObject:
   - component: {fileID: 2068546093}
   - component: {fileID: 2068546092}
   - component: {fileID: 2068546094}
+  - component: {fileID: 2068546095}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3160,12 +3282,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a80ca8db9ff425b8f07346b5cc60d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkBank
-  triggerList: f7e1664c
+  triggerList: ae8d9d44
   useOtherObject: 0
   data:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2bf316e633ed24d40908616acd223e23, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &2068546095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068546087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a80ca8db9ff425b8f07346b5cc60d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkBank
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3886c4bb1d02847ea894d242ee7e960f, type: 2}
   decodeBank: 0
   overrideLoadSetting: 0
   loadAsynchronous: 0

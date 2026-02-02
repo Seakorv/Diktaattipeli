@@ -24,6 +24,25 @@
 										<MusicTransition Name="Transition" ID="{2650E074-58DD-4280-A727-AAC66AA46D42}">
 											<TransitionInfo/>
 										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{E4231595-8725-4732-8B18-447D744AEA02}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="1"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList/>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{AD265702-55A8-4F00-AEAE-8382789933B2}">
+														<PropertyList>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+											</TransitionInfo>
+										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
 								</MusicTransition>
@@ -51,6 +70,11 @@
 											</PropertyList>
 											<ChildrenList>
 												<MusicTransition Name="Transition" ID="{AE2E41B0-AD40-4CDD-8BE1-203402155E70}">
+													<PropertyList>
+														<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+														<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+														<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+													</PropertyList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</ChildrenList>
@@ -1235,6 +1259,32 @@
 									</ChildrenList>
 								</MusicPlaylistContainer>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}"/>
+										<StateGroupInfo Name="" ID="{5817B9B0-DA3F-4EF0-8C3B-761D98A01CA0}" ShortID="575882970"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="ChillPiano" ID="{B244221A-5FCA-4053-A711-28F9A8F4A953}"/>
+										<CustomState Name="" ID="{579C97E8-CF54-44E1-A769-4ADE0C571940}" ShortID="27750565"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}"/>
+										<CustomState Name="" ID="{8314A0DA-74BE-4480-A845-6FCCE0E0F6FD}" ShortID="749878628"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+										<CustomState Name="" ID="{8D2FE22D-979F-480C-9AAA-14366645E35B}" ShortID="239528380"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{E5822606-7595-4C38-927F-E02B9E5302A0}"/>
+										<CustomState Name="" ID="{22F374FA-EC71-4ACF-BEB1-6BE8E19C983B}" ShortID="66028477"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="Arguments">
 									<PluginInnerObject Name="" ID="{9AB66ED6-68CE-4B25-84C1-7C87F6F6B83F}" PluginName="MusicArgumentsSlot" CompanyID="0" PluginID="89">
@@ -1372,6 +1422,19 @@
 											</ObjectList>
 										</ObjectLists>
 									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{9E7EA95D-694F-438E-9817-65726A40D719}">
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{D0C83385-BA05-4383-80D8-366CDE6365B6}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="GameOver" ID="{8EE19AC0-5B0E-4C15-8A29-32D17A6C3E34}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
 								</ObjectList>
 							</ObjectLists>
 						</MusicSwitchContainer>
@@ -1403,8 +1466,120 @@
 									</Custom>
 								</Reference>
 							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}"/>
+										<StateGroupInfo Name="" ID="{DBBA0136-8B67-4D73-B3E9-B2B0AAD80C36}" ShortID="203442643"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="ChillPiano" ID="{B244221A-5FCA-4053-A711-28F9A8F4A953}"/>
+										<CustomState Name="" ID="{6475DC62-0A91-4746-BEF9-A4D7EFF95FF9}" ShortID="1053844507"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}"/>
+										<CustomState Name="" ID="{B8CBCA6D-9292-468C-A2A5-6B7C66D6C949}" ShortID="315506642"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+										<CustomState Name="" ID="{F5457994-3FD4-4567-A5AF-4708DE018A97}" ShortID="94983471"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{E5822606-7595-4C38-927F-E02B9E5302A0}"/>
+										<CustomState Name="" ID="{B80C5A63-2CE0-497A-8E93-4EF61B74F329}" ShortID="646751359"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</MusicSwitchContainer>
+						<MusicPlaylistContainer Name="MainMenu" ID="{30F2DA07-4F98-4E72-A5D8-D8E9362B4016}" ShortID="425298203">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{31EC38D8-8FEE-4E48-A912-EC01AF2644ED}" ShortID="363534042"/>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{DA0A0057-D6C9-4366-BA2F-9735086C701E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{47440DA4-65B2-46EE-A6B4-CBE5C41630B6}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}"/>
+										<StateGroupInfo Name="" ID="{BDE26F2A-2ABD-4367-92E8-11C745544B0A}" ShortID="849907580"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="ChillPiano" ID="{B244221A-5FCA-4053-A711-28F9A8F4A953}"/>
+										<CustomState Name="" ID="{9679CC52-9515-4BFD-B959-BBB74D8D5EB0}" ShortID="731561927"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}"/>
+										<CustomState Name="" ID="{5BD1114A-6A42-4573-858E-3C143F6303B5}" ShortID="1060068447"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+										<CustomState Name="" ID="{423B879B-24BF-47A9-8F1B-A27F34C3F863}" ShortID="237965121"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{E5822606-7595-4C38-927F-E02B9E5302A0}"/>
+										<CustomState Name="" ID="{FA982F9E-8C98-4F18-B24E-F1B969F2DD12}" ShortID="950952119"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</MusicPlaylistContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}"/>
+								<StateGroupInfo Name="" ID="{BB2D18BE-582A-4045-94FF-8EAD0CE2699C}" ShortID="5642191"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="ChillPiano" ID="{B244221A-5FCA-4053-A711-28F9A8F4A953}"/>
+								<CustomState Name="" ID="{42C1C7D6-51FD-4B4E-97C1-7D0DA9BC7B4C}" ShortID="460774208"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}"/>
+								<CustomState Name="" ID="{CFC679DA-2FE0-4A9A-A3C3-059860960BC5}" ShortID="844159703"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+								<CustomState Name="" ID="{B1047605-D770-4092-9A97-CB657720940E}" ShortID="1013475044"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{E5822606-7595-4C38-927F-E02B9E5302A0}"/>
+								<CustomState Name="" ID="{41061089-0A8F-44D1-9DEA-0F73BCCF0FFC}" ShortID="482032938"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ObjectLists>
 						<ObjectList Name="Arguments">
 							<PluginInnerObject Name="" ID="{D28A47AA-50D5-4095-B541-C2B818B06A65}" PluginName="MusicArgumentsSlot" CompanyID="0" PluginID="89">
@@ -1414,6 +1589,58 @@
 									</Reference>
 								</ReferenceList>
 							</PluginInnerObject>
+						</ObjectList>
+						<ObjectList Name="Entries">
+							<MultiSwitchEntry Name="" ID="{4DAD8588-1503-48A6-8E24-1023C34A6B6E}">
+								<ReferenceList>
+									<Reference Name="AudioNode">
+										<ObjectRef Name="EasySongs" ID="{47F86E08-58D1-4CE2-9F35-F5FD49F19A09}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+									</Reference>
+								</ReferenceList>
+								<ObjectLists>
+									<ObjectList Name="EntryPath">
+										<PluginInnerObject Name="" ID="{631278EB-AA9B-476C-B5EF-9BD93AD12705}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+											<ReferenceList>
+												<Reference Name="EntryPathObject">
+													<ObjectRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+										</PluginInnerObject>
+									</ObjectList>
+								</ObjectLists>
+							</MultiSwitchEntry>
+							<MultiSwitchEntry Name="" ID="{8FF64EA0-6FCB-4331-8B09-CB0B9A539164}">
+								<ReferenceList>
+									<Reference Name="AudioNode">
+										<ObjectRef Name="MainMenu" ID="{30F2DA07-4F98-4E72-A5D8-D8E9362B4016}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+									</Reference>
+								</ReferenceList>
+								<ObjectLists>
+									<ObjectList Name="EntryPath">
+										<PluginInnerObject Name="" ID="{78D0FC98-F8A0-4234-B5B2-C594E65C636D}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+											<ReferenceList>
+												<Reference Name="EntryPathObject">
+													<ObjectRef Name="MainMenu" ID="{E5822606-7595-4C38-927F-E02B9E5302A0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+										</PluginInnerObject>
+									</ObjectList>
+								</ObjectLists>
+							</MultiSwitchEntry>
+							<MultiSwitchEntry Name="" ID="{CEFA52AD-715E-497A-8FFE-219FE4ABAC04}">
+								<ReferenceList/>
+								<ObjectLists>
+									<ObjectList Name="EntryPath">
+										<PluginInnerObject Name="" ID="{F8D9F45F-5B2E-4B34-9826-D1802FF50D2E}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+											<ReferenceList>
+												<Reference Name="EntryPathObject">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+										</PluginInnerObject>
+									</ObjectList>
+								</ObjectLists>
+							</MultiSwitchEntry>
 						</ObjectList>
 					</ObjectLists>
 				</MusicSwitchContainer>

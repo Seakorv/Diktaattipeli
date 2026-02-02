@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55442010c599b4f1194bfbe2a52ccb52, type: 3}
+  m_Name: 8EE19AC0-5B0E-4C15-8A29-32D17A6C3E34
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseSwitchReference
+  objectName: GameOver
+  id: 4158285989
+  guid: 8EE19AC0-5B0E-4C15-8A29-32D17A6C3E34
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 663132fffb2394966ac7ef592fad61b2, type: 2}

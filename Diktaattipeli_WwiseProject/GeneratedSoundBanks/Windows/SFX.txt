@@ -10,5 +10,5 @@ Switch	ID	Name	Switch Group			Notes
 	1117237268	Cis	BaseNotes			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1060215097	BaseNoteD	.cache\CB\{CB33347A-6CAF-AE8D-5DB0-466DD3586FD7}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteD		101580
+	1060215097	BaseNoteD	.cache\D0\{D0F188ED-5401-BEA4-7724-563C5FDFA720}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteD		101580
 

@@ -17,6 +17,7 @@ public class GameOver : MonoBehaviour
     private void OnStartButtonClick()
     {
         GameModeOne.gameModeOneInstance.StartGame();
+        GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
         this.gameObject.SetActive(false);  
     }
 

@@ -12,6 +12,7 @@
 						<Switch Name="Aeolian" ID="{906637CC-E85F-4E85-A2C3-F6AEC5517DDB}"/>
 						<Switch Name="Phrygian" ID="{9D0DE504-78D1-4DE5-899E-CE54FDB2A8BC}"/>
 						<Switch Name="Locrian" ID="{1D3BF287-FAAA-4D03-B245-F7C1E1C2E892}"/>
+						<Switch Name="GameOver" ID="{8EE19AC0-5B0E-4C15-8A29-32D17A6C3E34}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="BaseNotes" ID="{7145B5BF-CC01-4F79-ACE0-4AF333EFC696}">

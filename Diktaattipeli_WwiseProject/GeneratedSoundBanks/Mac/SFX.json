@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}",
     "Language": "SFX",
-    "Hash": "{C911F6EE-82EC-9DF5-A3C6-D90095889C18}",
+    "Hash": "{C75B405B-E795-ABA2-51AB-A089836168B7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "D.wav",
-      "CachePath": "CB/{CB33347A-6CAF-AE8D-5DB0-466DD3586FD7}.wem"
+      "CachePath": "D0/{D0F188ED-5401-BEA4-7724-563C5FDFA720}.wem"
      }
     ],
     "Events": [
@@ -80,6 +80,6 @@
     ]
    }
   ],
-  "FileHash": "{1206FEAE-47A4-5E2B-CDB5-476BB4B6E4B2}"
+  "FileHash": "{81CC8D76-4931-2183-4CEE-5A091559407C}"
  }
 }

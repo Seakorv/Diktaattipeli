@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ffb429bd27d4157b4c85a2799bf6b6, type: 3}
+  m_Name: B244221A-5FCA-4053-A711-28F9A8F4A953
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseStateReference
+  objectName: ChillPiano
+  id: 1090423996
+  guid: B244221A-5FCA-4053-A711-28F9A8F4A953
+  WwiseStateGroupReference: {fileID: 11400000, guid: ac19173c2355741939533cd3d5d10cdf, type: 2}

@@ -8,6 +8,7 @@
 						<State Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}"/>
 						<State Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
 						<State Name="ChillPiano" ID="{B244221A-5FCA-4053-A711-28F9A8F4A953}"/>
+						<State Name="MainMenu" ID="{E5822606-7595-4C38-927F-E02B9E5302A0}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

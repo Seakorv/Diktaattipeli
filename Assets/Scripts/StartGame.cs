@@ -14,8 +14,15 @@ public class StartGame : MonoBehaviour
         toMainMenuButton.onClick.AddListener(OnMainMenuClick);
     }
 
+    void Start()
+    {
+        //GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.None);
+    }
+
     private void OnStartButtonClick()
     {
+        //GameModeOne.gameModeOneInstance.StartGame();
+        GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
         this.gameObject.SetActive(false);
     }
 

@@ -4264,3 +4264,70 @@ Memory consumption went from 152.3 MB to 148.7 MB.
 Total: 6.385750 ms (FindLiveObjects: 0.382291 ms CreateObjectMapping: 0.243084 ms MarkObjects: 4.451833 ms  DeleteObjects: 1.308125 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9108.221406 seconds.
+  path: Assets/Prefabs/KeynoteButton.prefab
+  artifactKey: Guid(86d9b96847b0346ac9b6061f64d42d85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/KeynoteButton.prefab using Guid(86d9b96847b0346ac9b6061f64d42d85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c169467eab2bb3dbb445323446ff921') in 0.289026834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scripts/GameModeOne.cs
+  artifactKey: Guid(34d2e101b20894bbbb347f36b7b31df1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/GameModeOne.cs using Guid(34d2e101b20894bbbb347f36b7b31df1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8285db2e11ab224b8f9a12615b7090c2') in 0.003713166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/ButtonsScript.cs
+  artifactKey: Guid(3220ae3e606aa49358a2c5992d674cb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ButtonsScript.cs using Guid(3220ae3e606aa49358a2c5992d674cb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7568204aa65e2903bf4e71f1ac96259b') in 0.00299025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Wwise/ScriptableObjects/Mac.asset
+  artifactKey: Guid(6634466921e3149c5a7d9ea9e9aad7f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Mac.asset using Guid(6634466921e3149c5a7d9ea9e9aad7f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c7da4944595b6ac5dbcb7759de5b449') in 0.00658475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Wwise/ScriptableObjects/Soundbank
+  artifactKey: Guid(3bdd490fac55f4415b44b23067868515) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Soundbank using Guid(3bdd490fac55f4415b44b23067868515) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f070015f84f5163e7ed9f1d2c1482ff') in 0.0016635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/ScriptableObjects/Switch/CDEAD4ED-BD43-4FC6-AC23-75E007395E74.asset
+  artifactKey: Guid(2c3e8eb3fd348483e8df5fa9df4f4c3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Switch/CDEAD4ED-BD43-4FC6-AC23-75E007395E74.asset using Guid(2c3e8eb3fd348483e8df5fa9df4f4c3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0bea4769f280b5cc86c8c12a82879f3') in 0.007967709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wwise/ScriptableObjects/Windows.asset
+  artifactKey: Guid(e8fff913fdc9b404799f8e52ca29c6ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wwise/ScriptableObjects/Windows.asset using Guid(e8fff913fdc9b404799f8e52ca29c6ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b71c8aedbb4a0134c1f9648051166c11') in 0.003796542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/WwiseSettings.xml
+  artifactKey: Guid(1ea1384f573d24b938ebda91a5979a0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/WwiseSettings.xml using Guid(1ea1384f573d24b938ebda91a5979a0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c12d93e5a91edc44b614fe645d3dfd3') in 0.002180375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

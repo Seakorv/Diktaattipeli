@@ -66,6 +66,12 @@
         "Name": "ChillPiano",
         "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\ChillPiano",
         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\MainMenu",
+        "GUID": "{E5822606-7595-4C38-927F-E02B9E5302A0}"
        }
       ]
      }
@@ -144,12 +150,18 @@
         "Name": "Lydian",
         "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Lydian",
         "GUID": "{1324D3DD-55A8-4543-92E9-DA87B63C2708}"
+       },
+       {
+        "Id": "4158285989",
+        "Name": "GameOver",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\GameOver",
+        "GUID": "{8EE19AC0-5B0E-4C15-8A29-32D17A6C3E34}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{DF8310BA-377C-C4A9-2F15-95661BFCB281}"
+  "FileHash": "{E1291DF0-8959-A5DE-6044-32043A35B34D}"
  }
 }

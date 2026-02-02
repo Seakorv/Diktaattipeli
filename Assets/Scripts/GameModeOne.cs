@@ -18,6 +18,7 @@ public class GameModeOne : MonoBehaviour
     public List<Scale> AllScales { get; private set; }
     public List<Scale> AllScalesRandomOrder { get; private set; }
     public CurrentScaleState currentScale;
+    public CurrentGenreState currentGenreState;
     private Scale testiScale;
     private int currentScaleIndex = 0;
 
@@ -51,8 +52,24 @@ public class GameModeOne : MonoBehaviour
     [SerializeField] private GameObject gameOverPopUp;
 
     // Wwise
+    [Header("Wwise things")]
+    // States, chances the genres of music
+    public AK.Wwise.State mainMenuMusic;
+    public AK.Wwise.State easySynthMusicState;
     
-    
+    // Switches, changes the background songs of each scale
+    public AK.Wwise.Switch ionianSwitch;
+    public AK.Wwise.Switch lydianSwitch;
+    public AK.Wwise.Switch mixolydianSwitch;
+    public AK.Wwise.Switch dorianSwitch;
+    public AK.Wwise.Switch aeolianSwitch; 
+    public AK.Wwise.Switch phrygianSwitch;
+    public AK.Wwise.Switch locrianSwitch;
+    public AK.Wwise.Switch GameOverSwitch;
+
+    //Backgroud music events
+
+
 
     // Things for testing
     [Header("Things for testing")]
@@ -68,11 +85,10 @@ public class GameModeOne : MonoBehaviour
     {
         gameModeOneInstance = this;
         SetEveryScale();
-        //Debug
-        for (int i = 0; i < AllScales.Count; i++)
+        /*for (int i = 0; i < AllScales.Count; i++)
         {
             Debug.Log(AllScales[i].ScaleName);
-        }
+        }*/
         /*RandomizeScaleList();
         SetCounterTexts();
 
@@ -82,6 +98,7 @@ public class GameModeOne : MonoBehaviour
         timerBar.maxValue = MAX_TIMER;
         timerBar.minValue = 0;
         //timerBar.value = timerBar.maxValue;
+        UpdateGenreState(CurrentGenreState.None);
         StartGame();
     }
 
@@ -150,6 +167,23 @@ public class GameModeOne : MonoBehaviour
         }
     }
 
+    public void UpdateGenreState(CurrentGenreState newGenre)
+    {
+        currentGenreState = newGenre;
+
+        switch (newGenre)
+        {
+            case CurrentGenreState.None:
+                mainMenuMusic.SetValue(); 
+                break;
+            case CurrentGenreState.EasySynth:
+                easySynthMusicState.SetValue();
+                break;
+        }
+
+        
+    }
+
     /// <summary>
     /// Setting the state to the current scale which is playing. 
     /// The state includes the background music, setting up the button scales.
@@ -171,28 +205,28 @@ public class GameModeOne : MonoBehaviour
             case CurrentScaleState.None:
                 break;
             case CurrentScaleState.Ionian:
-                    
+                ionianSwitch.SetValue(gameObject);    
                 break;
             case CurrentScaleState.Dorian:
-
+                dorianSwitch.SetValue(gameObject);
                 break;
             case CurrentScaleState.Phrygian:
-
+                phrygianSwitch.SetValue(gameObject);
                 break;
             case CurrentScaleState.Lydian:
-
+                lydianSwitch.SetValue(gameObject);
                 break;
             case CurrentScaleState.Mixolydian:
-
+                mixolydianSwitch.SetValue(gameObject);
                 break;
             case CurrentScaleState.Aeolian:
-
+                aeolianSwitch.SetValue(gameObject);
                 break;
             case CurrentScaleState.Locrian:
-
+                locrianSwitch.SetValue(gameObject);
                 break;
             case CurrentScaleState.GameOver:
-                // Pelin päättymistila
+                GameOverSwitch.SetValue(gameObject);
                 break;
         }
         currentScaleIndex += 1;
@@ -338,6 +372,11 @@ public class GameModeOne : MonoBehaviour
     private void GameOver()
     {
         isGameOver = true;
+        if (currentScaleIndex >= AmountOfScales)
+        {
+            currentScaleIndex = AmountOfScales - 1;
+        }
+        UpdateGenreState(CurrentGenreState.None);
         gameOverPopUp.SetActive(true);
         gameOverPopUp.GetComponent<GameOver>().SetPoints(CorrectCounter);
     }
@@ -351,9 +390,11 @@ public class GameModeOne : MonoBehaviour
         UpdateKierrosLaskuri();
         //Always starting at the beginning of the list
         UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
+        //UpdateGenreState(CurrentGenreState.EasySynth); //TODO: jotain randomisaatiota tms. kun on enemmän genrejä
         ResetCounters();
         timerBar.value = timerBar.maxValue;
         isGameOver = false;
+        //Debug.Log(currentScaleIndex + " Current scale index");
     }
     
     private void ResetCounters()
@@ -376,4 +417,10 @@ public enum CurrentScaleState
     Aeolian,
     Locrian,
     GameOver,
+}
+
+public enum CurrentGenreState
+{
+    None,
+    EasySynth,
 }
