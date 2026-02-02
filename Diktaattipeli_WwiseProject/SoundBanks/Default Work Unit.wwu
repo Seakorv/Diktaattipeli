@@ -9,7 +9,9 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_BaseNotes" ID="{CF279CE2-A790-4465-88EC-0AFC495FF4C6}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

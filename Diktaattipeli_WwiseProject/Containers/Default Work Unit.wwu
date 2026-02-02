@@ -1,6 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}" SchemaVersion="133">
 	<Containers>
-		<WorkUnit Name="Default Work Unit" ID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{24373B40-C741-4A40-9439-3E1B24663DCE}" ShortID="63181627">
+					<ChildrenList>
+						<PropertyContainer Name="GameSFX" ID="{5D956C59-54F2-40A1-9998-DF00A27DD8EC}" ShortID="657859832">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="BaseNotes" ID="{F2C992A9-95F2-48D0-A8DC-41EB0BE75900}" ShortID="59640206">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="BaseNotes" ID="{7145B5BF-CC01-4F79-ACE0-4AF333EFC696}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BaseNoteD" ID="{2C300EAA-659B-4DDA-83A1-B036A2A6C973}" ShortID="373793436">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="D" ID="{5AFF7740-22E1-47A9-981B-210AFE9BD3F6}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.15690172653017"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.528235750344851"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1060215097"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="D" ID="{5AFF7740-22E1-47A9-981B-210AFE9BD3F6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="BaseNoteD" ID="{2C300EAA-659B-4DDA-83A1-B036A2A6C973}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="D" ID="{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"/>
+												<ItemList>
+													<ItemRef Name="BaseNoteD" ID="{2C300EAA-659B-4DDA-83A1-B036A2A6C973}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</PropertyContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Containers>
 </WwiseDocument>

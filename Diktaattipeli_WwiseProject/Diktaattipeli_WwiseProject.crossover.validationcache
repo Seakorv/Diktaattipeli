@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="133">
-	<ValidationCacheItem File="Y:\Library\Application Support\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1768245089" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Library\Application Support\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1769973074" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Attenuations\Factory Attenuations.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Busses\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
@@ -9,7 +9,8 @@
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Devices\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Diktaattipeli_WwiseProject.wproj" DateLow="1768245147" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Diktaattipeli_WwiseProject.crossover.wsettings" DateLow="1769973074" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Diktaattipeli_WwiseProject.wproj" DateLow="1769965422" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Effects\Factory Effects.wwu" DateLow="1768245147" DateHigh="0"/>
@@ -23,7 +24,7 @@
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Queries\Factory Queries.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Sidechain Mixes\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1769973071" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\States\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Unity\Diktaattipeli\Diktaattipeli_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1768245147" DateHigh="0"/>

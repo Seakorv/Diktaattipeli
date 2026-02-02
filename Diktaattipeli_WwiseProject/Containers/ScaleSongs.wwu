@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{552EE90C-A2FC-4D55-8CE6-003969261947}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="ScaleSongs" ID="{552EE90C-A2FC-4D55-8CE6-003969261947}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="ScaleSongs" ID="{BED42329-FBAA-45CA-AA0D-D5C43895336B}" ShortID="1040238095">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="109"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{5FC4894C-376D-490C-9BB9-E0FB64059BD4}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{2650E074-58DD-4280-A727-AAC66AA46D42}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSwitchContainer Name="EasySongs" ID="{47F86E08-58D1-4CE2-9F35-F5FD49F19A09}" ShortID="188996519">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{59B78328-CE28-47B0-9CA0-C1FCE03C145F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{AE2E41B0-AD40-4CDD-8BE1-203402155E70}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicPlaylistContainer Name="Aeolian" ID="{9C30EAD6-D100-45D6-8D9D-21FF96748053}" ShortID="256224026">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="109"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{DC40C256-0213-4869-A725-42618A007A05}" ShortID="145517165">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{3916BF5D-6AFC-422D-AA1D-4667E29A906F}" ShortID="180160738">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Gradu Aiolinen" ID="{0FDB6F51-6B89-42C8-857E-8DEBFEE39D25}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{9C7D2A46-3264-4E15-B41C-20D5A192B93A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{8212C6BD-184B-43EE-B61B-5AB68EE2F0A2}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Gradu Aiolinen" ID="{0FDB6F51-6B89-42C8-857E-8DEBFEE39D25}" ShortID="483318622">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="17614.6666666667"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Gradu Aiolinen" ID="{8CE985F2-04CB-45AC-BD6C-6A9C74A7DFB4}" ShortID="149052340">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{54A04908-898B-4C2F-8AD1-2AB4B98EC2FA}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu Aiolinen" ID="{DE63D009-AC08-447E-B4CD-C959DC3AF5E8}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu Aiolinen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="597716061"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{46BB7422-6016-42D8-B61E-AE9D5FA33399}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Gradu Aiolinen" ID="{05E995FF-F3D2-4493-BCEB-914461E5C61B}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="8807.33944954127"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Aiolinen" ID="{DE63D009-AC08-447E-B4CD-C959DC3AF5E8}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{02FE6830-C04A-4C6B-8FF3-5D41AE1DDF68}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{316A4B76-E3B5-453F-BC78-5806BF94BD6D}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{08C86288-FB2E-49B0-B444-DC9F614C9EBD}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{4D083BD4-938C-4A97-B1DB-08C8D791D4AC}"/>
+													<MusicCue Name="Exit Cue" ID="{887FCDAA-2633-442D-8C31-7587A8015307}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="8807.33944954128"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Dorian" ID="{2BEFD895-95B3-4931-B320-D965E13E4B7D}" ShortID="748513493">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="109"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{25ADE740-EFB5-419E-80FE-824A8EE03247}" ShortID="597914563">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{4D3321B9-A0C2-43B7-B6FD-53CD43D7BE4C}" ShortID="191061257">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Gradu Doorinen" ID="{79641C2F-3790-4E64-BFEC-901553DBCF37}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{5A22931E-5D73-45FF-B9A2-3141C9D6598A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{D6C4D2E4-DEFC-492D-8949-8863279098A1}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Gradu Doorinen" ID="{79641C2F-3790-4E64-BFEC-901553DBCF37}" ShortID="494090783">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="17889.9166666667"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Gradu Doorinen" ID="{DD95DA6E-8156-41ED-8108-9F03DF440DF9}" ShortID="328603034">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{02B50650-1B58-4AF0-B46D-F94A6597CBD1}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu Doorinen" ID="{3449B577-6E5C-4C71-B98D-6A508582AE41}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu Doorinen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="76466153"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{E1750348-9E07-4581-A013-13C3609D1540}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Gradu Doorinen" ID="{E448BC91-7F62-4179-AB73-1318DD45DD50}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="8807.33944954129"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Doorinen" ID="{3449B577-6E5C-4C71-B98D-6A508582AE41}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{1C5D59AF-DFC5-4AF8-BA8A-249E90D039AD}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{2CACB8AC-3BA7-49DB-ADC3-2B4EE5175F2F}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{98515128-29BC-4141-9861-0F10689A9CC5}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{0FDE7200-5181-43D3-B55C-CAD3B4F5C100}"/>
+													<MusicCue Name="Exit Cue" ID="{3B50F633-BE08-4813-A5EF-8BC509D63FCF}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="8807.33944954128"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Ionian" ID="{87BBD29A-DBAB-42EC-B3D4-1E318885B708}" ShortID="349765594">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="109"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{25B2E8ED-89CC-47CC-86FD-AAE1BBA5E37E}" ShortID="660504582">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{E87BEB6D-67F4-42A8-B75A-DA945EE9DCE9}" ShortID="866845941">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Gradu Jooninen" ID="{B4F22A1E-5057-42C7-B848-4A62AF73F9FA}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{4A993D1D-DA3F-4EE2-815B-9493BE189666}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{289F4B6A-45B4-42F8-9D4D-72AB03103515}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Gradu Jooninen" ID="{B4F22A1E-5057-42C7-B848-4A62AF73F9FA}" ShortID="830401978">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="8807.35416666667"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Gradu Jooninen" ID="{0E138C5A-B9C0-4C3E-BE0D-DDBD9E786CE2}" ShortID="198669316">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{357225AB-95A6-4B4E-AF2D-B74BADF480AC}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu Jooninen" ID="{69975CE6-AF34-4262-B544-5AC059BC52EB}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu Jooninen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="442829054"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{B315C945-3F5D-4D9A-ADDE-16222DCC3D1E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Gradu Jooninen" ID="{A8EF727E-545A-4884-A948-0EE6D11EA475}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="8807.35416666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Jooninen" ID="{69975CE6-AF34-4262-B544-5AC059BC52EB}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{519E839E-5E48-4BD8-BCCE-4C269F9EF150}"/>
+													<MusicCue Name="Exit Cue" ID="{E3838CFC-4B99-46C0-A9FC-CC443CAF9D62}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="8807.35416666667"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Locrian" ID="{3A65673D-DBCE-4AC6-AA32-A0418D3A2DDA}" ShortID="563209426">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="109"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{3088143C-92B1-449A-8280-77BF8B849C54}" ShortID="990285580">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{89CD5096-DDDF-453D-B763-696F483A9F64}" ShortID="49085972">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Gradu Lokrinen" ID="{BF901B83-C279-4131-AE30-567761C98DAF}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{ABD2292C-0E2B-4313-9994-BEC13D66495B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{035F9609-0809-4E5C-936A-76487532E047}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Gradu Lokrinen" ID="{BF901B83-C279-4131-AE30-567761C98DAF}" ShortID="58545821">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="17614.6666666667"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Gradu Lokrinen" ID="{09BF4C63-596E-42CB-8E4C-71320D0FFA9B}" ShortID="320935248">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{B1537679-928C-45D4-8DDF-26202325747B}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu Lokrinen" ID="{4B92FA02-6A5D-4D11-A342-D21B045C2A20}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu Lokrinen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="428171784"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{5750AABD-B096-48A6-B84E-AC944DC7ED6D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Gradu Lokrinen" ID="{80D40539-D383-493C-84D1-91A4A18E6145}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6666666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Lokrinen" ID="{4B92FA02-6A5D-4D11-A342-D21B045C2A20}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{8C537447-933F-4A54-813C-E640175B67BC}"/>
+													<MusicCue Name="Exit Cue" ID="{9AC53F01-554E-4D29-8BB2-99597D965CFC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="17614.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Lydian" ID="{FA87512F-DBEC-44B4-9C10-E4BE5495BD69}" ShortID="834716310">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="109"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{9251B3B8-0396-4A57-BE4E-1C00CA354CC1}" ShortID="278514705">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{A26319BA-3A37-41C3-A5B1-586921F40852}" ShortID="610556640">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Gradu Lyydinen" ID="{5FC8B366-B70E-4B77-AF73-3A598FEC8C18}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{B2A15739-61A0-4C75-B834-15BB88E72571}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{D9DA7D09-EDB5-4D45-AC3E-CB8A19B5925F}">
+															<PropertyList>
+																<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+																<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Gradu Lyydinen" ID="{5FC8B366-B70E-4B77-AF73-3A598FEC8C18}" ShortID="889786635">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="13486.2385321101"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Gradu Lyydinen" ID="{909E9511-9E45-490B-87AA-3EB7C03FEB92}" ShortID="2593732">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{7493F99F-28EE-4FA4-AB78-699DFDB27604}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu Lyydinen" ID="{66AEEFBC-AC81-478B-BA57-1A3288668457}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu Lyydinen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="187528473"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{C926B5A7-40B0-4133-A0E7-5E13FDB8992B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Gradu Lyydinen" ID="{0AF6DF31-D696-4EC4-8475-1BFAB8B6E19B}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="550.458715596331"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="8807.33944954128"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="11.2052582602464"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="550.45871559633"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Lyydinen" ID="{66AEEFBC-AC81-478B-BA57-1A3288668457}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{4FCEE141-4DC4-4FE6-B2FB-9DC7AE4C4959}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0.55046</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{2DE5103A-D5C9-4825-93D4-3E05404EF127}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0.55046</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{B6E8597F-ABC0-4975-A292-15B8B305B85F}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0.55046</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																		<MusicClip Name="Gradu Lyydinen" ID="{F1EAF873-A76E-44B9-9A9F-1D2AF8811002}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="8807.33944954128"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="9357.79816513762"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="11.2052582602464"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="-8256.88073394495"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Lyydinen" ID="{66AEEFBC-AC81-478B-BA57-1A3288668457}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{0C511C7C-7826-4CE1-BBF4-65393CA73157}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>9.3578</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{C0237A57-C26F-407A-907C-B0CC89A24370}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>9.3578</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{1A4FFEFB-C7F2-4119-A31C-72B5D3006F22}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>8.80734</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>9.3578</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{E594EC97-0FD2-403D-93F7-A76F00C9F74C}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="550.45871559633"/>
+														</PropertyList>
+													</MusicCue>
+													<MusicCue Name="Exit Cue" ID="{679D0CD2-E2CC-4735-B5C9-EBC9E40AD81B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="9357.79816513762"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Mixolydian" ID="{0922BC89-B74B-42EB-BE46-FB2475D1D58B}" ShortID="765119078">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="109"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{F65B61A6-4139-4B2F-83FF-9EEC64D3E66C}" ShortID="585150194">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{774932C4-2398-4D00-95C2-AE9D7A4374FE}" ShortID="907150076">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Gradu Mixolyydinen" ID="{06EC1BD0-6567-4096-A628-7A82E6CFC59A}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{91D76642-91A1-43F7-9DB7-203B9AC90C7D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{471E92BB-9D09-4CF3-A9E8-B90908397A0E}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Gradu Mixolyydinen" ID="{06EC1BD0-6567-4096-A628-7A82E6CFC59A}" ShortID="1016945759">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Gradu Mixolyydinen" ID="{AC1EBE87-3DF4-46EE-9720-64512E893283}" ShortID="618798515">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{3AAA3915-C261-4CB6-A916-446ADF1718FC}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu Mixolyydinen" ID="{D1E3D04C-B42F-4DDB-8F79-279176A2F45F}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu Mixolyydinen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="974254734"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{9C93AF11-8164-4926-AA4F-C077BA45BA80}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Gradu Mixolyydinen" ID="{F6F87E99-5804-4370-BD7A-EFC01E0F9F09}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Mixolyydinen" ID="{D1E3D04C-B42F-4DDB-8F79-279176A2F45F}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{D8420226-9616-4213-95AA-FB1688FE6FD2}"/>
+													<MusicCue Name="Exit Cue" ID="{54B59C31-A8AE-402E-99FC-B6561C1C1D89}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+								<MusicPlaylistContainer Name="Phrygian" ID="{380CFC10-F652-46C0-9465-B1745405B1B3}" ShortID="285599334">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="109"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="PlaylistRoot">
+											<Custom>
+												<MusicPlaylistItem Name="" ID="{7EB7EC32-50B0-44C1-A9A4-923CE3CF857C}" ShortID="193619845">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{7E157C42-E7A8-453F-B4CE-C504EEA22902}" ShortID="26992414">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="Gradu Fryyginen" ID="{B084ED70-3639-42A3-AFF7-0F9A0ACCCBB4}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</Custom>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{56553773-04F7-49E8-B5F3-961C5B729655}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{4B2E2B35-4CB0-4808-8937-1905ABCF91C4}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="Gradu Fryyginen" ID="{B084ED70-3639-42A3-AFF7-0F9A0ACCCBB4}" ShortID="316935667">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="18466.2881421193"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="Gradu Fryyginen" ID="{91C83A48-D244-4A0A-AF06-03677A830E57}" ShortID="938970248">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+														<Reference Name="TransitionRoot">
+															<Custom>
+																<MusicTransition Name="Root" ID="{EEFF6490-19BD-4878-9863-78FF0E86F84E}">
+																	<PropertyList>
+																		<Property Name="IsFolder" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<TransitionInfo/>
+																</MusicTransition>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu Fryyginen" ID="{4C396AE3-7F18-4FF9-91F0-48B561BA19BE}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu Fryyginen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="883258574"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<MusicTrackSequence Name="" ID="{005C8DC9-2F15-4B35-A298-FFF888255FC0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<MusicClip Name="Gradu Fryyginen" ID="{B8DE1F28-F264-48F2-B8A8-20D00EDA36B9}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="17339.4495412844"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="275.229357798165"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Fryyginen" ID="{4C396AE3-7F18-4FF9-91F0-48B561BA19BE}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{8CC4204F-8780-49D0-A214-BCA9501ED5DA}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>17.33945</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{6641E2A4-E134-469F-A5EA-F3E5719B2130}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>17.33945</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{EA815108-9E9E-44A4-9CD1-78461E32D395}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>17.33945</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																		<MusicClip Name="Gradu Fryyginen" ID="{4004CE69-8258-4737-B6B6-78AC771F132C}">
+																			<PropertyList>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="17339.4495412844"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="-17339.4495412844"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Gradu Fryyginen" ID="{4C396AE3-7F18-4FF9-91F0-48B561BA19BE}"/>
+																		</MusicClip>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<MusicCue Name="Entry Cue" ID="{5FAE95C2-291E-4621-A919-94A06E196336}"/>
+													<MusicCue Name="Exit Cue" ID="{B0D3FE64-B6D8-43D4-856B-511B90EDAAD3}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
+														</PropertyList>
+													</MusicCue>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+								</MusicPlaylistContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Arguments">
+									<PluginInnerObject Name="" ID="{9AB66ED6-68CE-4B25-84C1-7C87F6F6B83F}" PluginName="MusicArgumentsSlot" CompanyID="0" PluginID="89">
+										<ReferenceList>
+											<Reference Name="Argument">
+												<ObjectRef Name="ScaleSwitch" ID="{D494047B-FA0B-4155-98E4-BB927BD535D7}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+								</ObjectList>
+								<ObjectList Name="Entries">
+									<MultiSwitchEntry Name="" ID="{89736668-24CE-4C68-B559-42978C51AB65}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Aeolian" ID="{9C30EAD6-D100-45D6-8D9D-21FF96748053}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{FAF0A87C-0B32-4B6E-9588-7CCB7EF7FE6F}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="Aeolian" ID="{906637CC-E85F-4E85-A2C3-F6AEC5517DDB}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{78F3F4A1-F07E-4B31-B62A-ADD742987AD3}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Dorian" ID="{2BEFD895-95B3-4931-B320-D965E13E4B7D}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{1D681960-60C4-4129-B269-A3E9B5F59348}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="Dorian" ID="{F66111AB-E1A4-494A-ABC2-6F0D1B5C569C}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{7D39574B-0661-4D33-879B-5D85F5DFBC8F}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Ionian" ID="{87BBD29A-DBAB-42EC-B3D4-1E318885B708}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{C0F7B4F3-DFAA-4F2A-87BF-58214F44197A}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="Ionian" ID="{2E986AAA-19EB-43EC-AE11-A70754E900EC}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{319F31AD-EB63-4F31-AC7C-EB16D20A6B41}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Locrian" ID="{3A65673D-DBCE-4AC6-AA32-A0418D3A2DDA}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{02F65CF1-51FE-4850-97AE-56A82CC0BE76}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="Locrian" ID="{1D3BF287-FAAA-4D03-B245-F7C1E1C2E892}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{4813D566-89AA-4763-9930-6B6968625584}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Lydian" ID="{FA87512F-DBEC-44B4-9C10-E4BE5495BD69}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{722F329B-88BF-45A5-BAEE-769B0DE946D2}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="Lydian" ID="{1324D3DD-55A8-4543-92E9-DA87B63C2708}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{EB48D931-092C-4E0C-B1CF-4DDFF997C044}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Mixolydian" ID="{0922BC89-B74B-42EB-BE46-FB2475D1D58B}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{7823D67C-24A5-4E08-818D-C02B7D68A0F8}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="Mixolydian" ID="{4DEE75F2-4C3A-494C-AEF4-191F12CD721B}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+									<MultiSwitchEntry Name="" ID="{A08DC16E-D519-4481-B41F-C8AF668E57A6}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Phrygian" ID="{380CFC10-F652-46C0-9465-B1745405B1B3}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<PluginInnerObject Name="" ID="{79A218A4-0413-4200-A53A-5D1A4B2B5FEE}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
+													<ReferenceList>
+														<Reference Name="EntryPathObject">
+															<ObjectRef Name="Phrygian" ID="{9D0DE504-78D1-4DE5-899E-CE54FDB2A8BC}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+														</Reference>
+													</ReferenceList>
+												</PluginInnerObject>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="ChillPianoSongs" ID="{C4052314-CAEE-4876-991B-3B4F125D7D2B}" ShortID="995886426">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{1C90DBD9-C444-4C7A-9B05-F972496032C6}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{F883CDF8-8E08-48D5-A0E2-82E675C9EC7E}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</MusicSwitchContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Arguments">
+							<PluginInnerObject Name="" ID="{D28A47AA-50D5-4095-B541-C2B818B06A65}" PluginName="MusicArgumentsSlot" CompanyID="0" PluginID="89">
+								<ReferenceList>
+									<Reference Name="Argument">
+										<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+									</Reference>
+								</ReferenceList>
+							</PluginInnerObject>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

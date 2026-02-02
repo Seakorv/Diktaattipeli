@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CDE9AC3D-2B42-1217-02C1-D64576EB9AF6}",
+    "Hash": "{27945006-3481-E6BB-D85A-504784C7A8DD}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,9 +41,115 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "92342489",
+      "Name": "ScaleGenres",
+      "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres",
+      "GUID": "{34119791-BC83-4C9E-ABD2-39739870E6C0}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\None",
+        "GUID": "{E221B796-6943-41E2-BF23-E0718CD665DE}"
+       },
+       {
+        "Id": "926145703",
+        "Name": "EasySynth",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\EasySynth",
+        "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
+       },
+       {
+        "Id": "1090423996",
+        "Name": "ChillPiano",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\ChillPiano",
+        "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "748887965",
+      "Name": "BaseNotes",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes",
+      "GUID": "{7145B5BF-CC01-4F79-ACE0-4AF333EFC696}",
+      "Switches": [
+       {
+        "Id": "84696443",
+        "Name": "D",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\D",
+        "GUID": "{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"
+       },
+       {
+        "Id": "84696445",
+        "Name": "B",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\B",
+        "GUID": "{71B2BC0E-0621-40EA-9606-5873E82721C6}"
+       },
+       {
+        "Id": "1117237268",
+        "Name": "Cis",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\Cis",
+        "GUID": "{6297F96C-C875-4809-BE62-DD1F0FA0F08E}"
+       }
+      ]
+     },
+     {
+      "Id": "1454150757",
+      "Name": "ScaleSwitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch",
+      "GUID": "{D494047B-FA0B-4155-98E4-BB927BD535D7}",
+      "Switches": [
+       {
+        "Id": "40732931",
+        "Name": "Locrian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Locrian",
+        "GUID": "{1D3BF287-FAAA-4D03-B245-F7C1E1C2E892}"
+       },
+       {
+        "Id": "610372824",
+        "Name": "Dorian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Dorian",
+        "GUID": "{F66111AB-E1A4-494A-ABC2-6F0D1B5C569C}"
+       },
+       {
+        "Id": "927541631",
+        "Name": "Phrygian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Phrygian",
+        "GUID": "{9D0DE504-78D1-4DE5-899E-CE54FDB2A8BC}"
+       },
+       {
+        "Id": "1524650939",
+        "Name": "Ionian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Ionian",
+        "GUID": "{2E986AAA-19EB-43EC-AE11-A70754E900EC}"
+       },
+       {
+        "Id": "2758142541",
+        "Name": "Mixolydian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Mixolydian",
+        "GUID": "{4DEE75F2-4C3A-494C-AEF4-191F12CD721B}"
+       },
+       {
+        "Id": "3294824594",
+        "Name": "Aeolian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Aeolian",
+        "GUID": "{906637CC-E85F-4E85-A2C3-F6AEC5517DDB}"
+       },
+       {
+        "Id": "3817576676",
+        "Name": "Lydian",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ScaleSwitch\\Lydian",
+        "GUID": "{1324D3DD-55A8-4543-92E9-DA87B63C2708}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{AB0AD524-EE0C-FD26-963F-E59EDDF7A0E9}"
+  "FileHash": "{B8B0329E-BABF-5BFF-37C8-2F30272D7862}"
  }
 }

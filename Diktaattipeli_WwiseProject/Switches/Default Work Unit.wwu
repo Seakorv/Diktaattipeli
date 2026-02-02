@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ADDA4927-664F-44EC-82FC-B640C3509E02}" SchemaVersion="133">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{ADDA4927-664F-44EC-82FC-B640C3509E02}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{ADDA4927-664F-44EC-82FC-B640C3509E02}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="ScaleSwitch" ID="{D494047B-FA0B-4155-98E4-BB927BD535D7}">
+					<ChildrenList>
+						<Switch Name="Ionian" ID="{2E986AAA-19EB-43EC-AE11-A70754E900EC}"/>
+						<Switch Name="Lydian" ID="{1324D3DD-55A8-4543-92E9-DA87B63C2708}"/>
+						<Switch Name="Mixolydian" ID="{4DEE75F2-4C3A-494C-AEF4-191F12CD721B}"/>
+						<Switch Name="Dorian" ID="{F66111AB-E1A4-494A-ABC2-6F0D1B5C569C}"/>
+						<Switch Name="Aeolian" ID="{906637CC-E85F-4E85-A2C3-F6AEC5517DDB}"/>
+						<Switch Name="Phrygian" ID="{9D0DE504-78D1-4DE5-899E-CE54FDB2A8BC}"/>
+						<Switch Name="Locrian" ID="{1D3BF287-FAAA-4D03-B245-F7C1E1C2E892}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="BaseNotes" ID="{7145B5BF-CC01-4F79-ACE0-4AF333EFC696}">
+					<ChildrenList>
+						<Switch Name="D" ID="{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"/>
+						<Switch Name="B" ID="{71B2BC0E-0621-40EA-9606-5873E82721C6}"/>
+						<Switch Name="Cis" ID="{6297F96C-C875-4809-BE62-DD1F0FA0F08E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

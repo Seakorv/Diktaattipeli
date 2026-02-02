@@ -4,6 +4,7 @@ public class ButtonsScript : MonoBehaviour
 {
     public const int ButtonsLength = 4;
     [SerializeField] private AnswerButton[] answerButtons = new AnswerButton[ButtonsLength];
+    [SerializeField] private KeynoteButtonScript keynoteButton;
     public static ButtonsScript buttonsInstance;
 
     void Awake()

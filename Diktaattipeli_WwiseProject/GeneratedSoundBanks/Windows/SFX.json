@@ -10,12 +10,76 @@
     "Type": "User",
     "GUID": "{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}",
     "Language": "SFX",
-    "Hash": "{5C283833-6D04-84F1-E57D-0AB1E1D83FEC}",
+    "Hash": "{C911F6EE-82EC-9DF5-A3C6-D90095889C18}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
-    "Path": "SFX.bnk"
+    "Path": "SFX.bnk",
+    "Media": [
+     {
+      "Id": "1060215097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "D.wav",
+      "CachePath": "CB/{CB33347A-6CAF-AE8D-5DB0-466DD3586FD7}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3188720456",
+      "Name": "Play_BaseNotes",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BaseNotes",
+      "GUID": "{CF279CE2-A790-4465-88EC-0AFC495FF4C6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.52823573",
+      "DurationMax": "0.52823573",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "748887965",
+         "Id": "84696443",
+         "GUID": "{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1060215097"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "748887965",
+      "Name": "BaseNotes",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes",
+      "GUID": "{7145B5BF-CC01-4F79-ACE0-4AF333EFC696}",
+      "Switches": [
+       {
+        "Id": "84696443",
+        "Name": "D",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\D",
+        "GUID": "{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"
+       },
+       {
+        "Id": "84696445",
+        "Name": "B",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\B",
+        "GUID": "{71B2BC0E-0621-40EA-9606-5873E82721C6}"
+       },
+       {
+        "Id": "1117237268",
+        "Name": "Cis",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\Cis",
+        "GUID": "{6297F96C-C875-4809-BE62-DD1F0FA0F08E}"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{04963A38-DECD-0878-AA2C-83C8F24D3007}"
+  "FileHash": "{AD88D949-E767-9E6A-FD8A-676AEC59248C}"
  }
 }
