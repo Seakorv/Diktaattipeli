@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
@@ -17,13 +18,14 @@ public class GameOver : MonoBehaviour
     private void OnStartButtonClick()
     {
         GameModeOne.gameModeOneInstance.StartGame();
-        GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
+        GameModeOne.gameModeOneInstance.SetFirstScaleState();
+        //GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
         this.gameObject.SetActive(false);  
     }
 
     private void OnMainMenuClick()
     {
-        Debug.Log("Pitäisi sulkea peli ja mennä main menuun");
+        SceneManager.LoadSceneAsync(0);
     }
 
     public void SetPoints(int points)

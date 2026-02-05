@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID PLAY_BASENOTES = 3188720456U;
         static const AkUniqueID PLAY_SCALESONGS = 817798694U;
+        static const AkUniqueID PLAY_SYNTHERROR = 239735946U;
+        static const AkUniqueID PLAY_SYNTHSUCCES = 816675422U;
     } // namespace EVENTS
 
     namespace STATES

@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}",
     "Language": "SFX",
-    "Hash": "{C75B405B-E795-ABA2-51AB-A089836168B7}",
+    "Hash": "{8489C9D3-9825-17A2-AB71-3DCBD0AD2349}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "Media": [
+     {
+      "Id": "140832148",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "erhe synth.wav",
+      "CachePath": "4B/{4B503719-4D53-EF85-F1E7-5990560600BB}.wem"
+     },
+     {
+      "Id": "726889516",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Succes synth.wav",
+      "CachePath": "45/{4585B729-19DF-49AC-4AE6-D775A02828D0}.wem"
+     },
      {
       "Id": "1060215097",
       "Language": "SFX",
@@ -46,6 +62,34 @@
           "Id": "1060215097"
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "239735946",
+      "Name": "Play_SynthError",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SynthError",
+      "GUID": "{09B58D9C-1D3F-4D6C-A513-2763F059D082}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7717499",
+      "DurationMax": "0.7717499",
+      "MediaRefs": [
+       {
+        "Id": "140832148"
+       }
+      ]
+     },
+     {
+      "Id": "816675422",
+      "Name": "Play_SynthSucces",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SynthSucces",
+      "GUID": "{96A95D0B-E332-4AE0-A864-06EC8CA6A2CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1009166",
+      "DurationMax": "1.1009166",
+      "MediaRefs": [
+       {
+        "Id": "726889516"
        }
       ]
      }
@@ -80,6 +124,6 @@
     ]
    }
   ],
-  "FileHash": "{81CC8D76-4931-2183-4CEE-5A091559407C}"
+  "FileHash": "{2163792E-55AB-C072-45C9-955F40CE51A1}"
  }
 }

@@ -72,6 +72,103 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<SwitchContainer Name="ErrorSFX" ID="{551B1684-EA0F-4C30-80E3-452348AC6377}" ShortID="458875569">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SynthError" ID="{A7E314CF-7574-4F76-9280-4A87E3BA20E1}" ShortID="90182588">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="erhe synth" ID="{86E433D7-A610-4DCA-A517-DE3E4F26F1EA}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.230546418758551"/>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.771749905647043"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>erhe synth.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="140832148"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Marker Name="" ID="{6DB0BEF1-4A50-4698-972C-A7C25FAD8FB4}">
+																<PropertyList>
+																	<Property Name="Label" Type="string" Value="Tempo: 109.0"/>
+																</PropertyList>
+															</Marker>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="erhe synth" ID="{86E433D7-A610-4DCA-A517-DE3E4F26F1EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="SynthError" ID="{A7E314CF-7574-4F76-9280-4A87E3BA20E1}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="SuccesSFX" ID="{AEF1BC38-EF70-4C48-8426-0E0C97CA4C83}" ShortID="695371886">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SynthSucces" ID="{DE0C7DB7-E169-42AF-AB40-69947E2F4078}" ShortID="23036805">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Succes synth" ID="{B96D08E7-2E67-4A94-BBB2-64228ADBAFDF}">
+													<Language>SFX</Language>
+													<AudioFile>Succes synth.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="726889516"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Succes synth" ID="{B96D08E7-2E67-4A94-BBB2-64228ADBAFDF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="SynthSucces" ID="{DE0C7DB7-E169-42AF-AB40-69947E2F4078}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 						</PropertyContainer>
 					</ChildrenList>

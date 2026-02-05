@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StartGame : MonoBehaviour
@@ -22,13 +23,14 @@ public class StartGame : MonoBehaviour
     private void OnStartButtonClick()
     {
         //GameModeOne.gameModeOneInstance.StartGame();
-        GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
+        //GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
+        GameModeOne.gameModeOneInstance.SetFirstScaleState();
         this.gameObject.SetActive(false);
     }
 
     private void OnMainMenuClick()
     {
-        Debug.Log("Pitäisi sulkea peli ja mennä main menuun");
+        SceneManager.LoadSceneAsync(0);
     }
 
     public void SetPopUpGameName(string game)

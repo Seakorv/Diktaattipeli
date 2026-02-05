@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	239735946	Play_SynthError			\Default Work Unit\Play_SynthError	
+	816675422	Play_SynthSucces			\Default Work Unit\Play_SynthSucces	
 	3188720456	Play_BaseNotes			\Default Work Unit\Play_BaseNotes	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -10,5 +12,7 @@ Switch	ID	Name	Switch Group			Notes
 	1117237268	Cis	BaseNotes			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	140832148	SynthError	.cache\4B\{4B503719-4D53-EF85-F1E7-5990560600BB}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\SynthError		148336
+	726889516	SynthSucces	.cache\45\{4585B729-19DF-49AC-4AE6-D775A02828D0}.wem		\Containers\Default Work Unit\SFX\GameSFX\SuccesSFX\SynthSucces		211536
 	1060215097	BaseNoteD	.cache\D0\{D0F188ED-5401-BEA4-7724-563C5FDFA720}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteD		101580
 

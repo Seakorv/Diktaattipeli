@@ -65,9 +65,11 @@ public class GameModeOne : MonoBehaviour
     public AK.Wwise.Switch aeolianSwitch; 
     public AK.Wwise.Switch phrygianSwitch;
     public AK.Wwise.Switch locrianSwitch;
-    public AK.Wwise.Switch GameOverSwitch;
+    public AK.Wwise.Switch gameOverSwitch;
 
-    //Backgroud music events
+    //SFX
+    [SerializeField] private AK.Wwise.Event succesSFX;
+    [SerializeField] private AK.Wwise.Event errorSFX;
 
 
 
@@ -98,7 +100,7 @@ public class GameModeOne : MonoBehaviour
         timerBar.maxValue = MAX_TIMER;
         timerBar.minValue = 0;
         //timerBar.value = timerBar.maxValue;
-        UpdateGenreState(CurrentGenreState.None);
+        UpdateGenreState(CurrentGenreState.EasySynth); //Tämä pitäsi arpoutua kun main menusta mennään peliin tulevaisudessa
         StartGame();
     }
 
@@ -205,28 +207,36 @@ public class GameModeOne : MonoBehaviour
             case CurrentScaleState.None:
                 break;
             case CurrentScaleState.Ionian:
-                ionianSwitch.SetValue(gameObject);    
+                ionianSwitch.SetValue(gameObject);
+                Debug.Log("Joonisessa");
                 break;
             case CurrentScaleState.Dorian:
                 dorianSwitch.SetValue(gameObject);
+                Debug.Log("Doorisessa");
                 break;
             case CurrentScaleState.Phrygian:
                 phrygianSwitch.SetValue(gameObject);
+                Debug.Log("Fryygisessä");
                 break;
             case CurrentScaleState.Lydian:
                 lydianSwitch.SetValue(gameObject);
+                Debug.Log("Lyydisessä");
                 break;
             case CurrentScaleState.Mixolydian:
                 mixolydianSwitch.SetValue(gameObject);
+                Debug.Log("Mixolyydiessä");
                 break;
             case CurrentScaleState.Aeolian:
                 aeolianSwitch.SetValue(gameObject);
+                Debug.Log("Aiolisessa");
                 break;
             case CurrentScaleState.Locrian:
                 locrianSwitch.SetValue(gameObject);
+                Debug.Log("Lokrisessa");
                 break;
             case CurrentScaleState.GameOver:
-                GameOverSwitch.SetValue(gameObject);
+                gameOverSwitch.SetValue(gameObject);
+                Debug.Log("Gameover");
                 break;
         }
         currentScaleIndex += 1;
@@ -238,8 +248,18 @@ public class GameModeOne : MonoBehaviour
         return AllScalesRandomOrder[currentScaleIndex].ScaleName;
     }
 
+    /// <summary>
+    /// Checks and sets the currentscaleindex withing AmountOfScales range
+    /// </summary>
+    public void CheckIfCurrentScaleIsWithingRange()
+    {
+        if (currentScaleIndex < 0 ) { currentScaleIndex = 0; }
+        if (currentScaleIndex >= AmountOfScales) { currentScaleIndex = AmountOfScales - 1; }
+    }
+
     public void SetButtonScales()
     {
+        CheckIfCurrentScaleIsWithingRange();
         int buttonsLength = ButtonsScript.buttonsInstance.GetButtonsLength();
 
         int correctButton = rng.Next(0, buttonsLength);
@@ -320,6 +340,7 @@ public class GameModeOne : MonoBehaviour
     /// </summary>
     public void PressedCorrect()
     {
+        
         // If every scale has been gone through, restart and re-randomize the list
         if (currentScaleIndex == AmountOfScales)
         {
@@ -352,11 +373,13 @@ public class GameModeOne : MonoBehaviour
     {
         if (correct)
         {
+            //succesSFX.Post(gameObject);
             timerBar.value += correctAnswerTimerIncrease;
             CorrectCounter += 1;
         }
         else
         {
+            errorSFX.Post(gameObject);
             timerBar.value -= wrongAnswerTimerDecrease;
             WrongCounter += 1;
         }
@@ -376,7 +399,8 @@ public class GameModeOne : MonoBehaviour
         {
             currentScaleIndex = AmountOfScales - 1;
         }
-        UpdateGenreState(CurrentGenreState.None);
+        //UpdateGenreState(CurrentGenreState.None);
+        UpdateCurrentScale(CurrentScaleState.GameOver);
         gameOverPopUp.SetActive(true);
         gameOverPopUp.GetComponent<GameOver>().SetPoints(CorrectCounter);
     }
@@ -389,12 +413,20 @@ public class GameModeOne : MonoBehaviour
         // Testings
         UpdateKierrosLaskuri();
         //Always starting at the beginning of the list
-        UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
+        
         //UpdateGenreState(CurrentGenreState.EasySynth); //TODO: jotain randomisaatiota tms. kun on enemmän genrejä
         ResetCounters();
         timerBar.value = timerBar.maxValue;
         isGameOver = false;
+        UpdateCurrentScale(CurrentScaleState.GameOver);
+        
         //Debug.Log(currentScaleIndex + " Current scale index");
+    }
+
+    public void SetFirstScaleState()
+    {
+        CheckIfCurrentScaleIsWithingRange();
+        UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
     }
     
     private void ResetCounters()

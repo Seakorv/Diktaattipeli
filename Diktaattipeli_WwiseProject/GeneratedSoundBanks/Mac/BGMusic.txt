@@ -37,5 +37,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	907658114	1Lyydinen2	.cache\81\{81FFF8A7-631E-8E8E-D8D4-B2F025F2B858}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Lydian\1Lyydinen2\1Lyydinen2		3382176
 	942348202	1Lyydinen1	.cache\FF\{FFD53F4A-C971-7BE9-502B-C4C19194DA50}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Lydian\1Lyydinen1\1Lyydinen1		3382176
 	993384483	1Lokrinen2	.cache\FA\{FADA2F44-055F-A8A2-4B6D-856DF5708931}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Locrian\1Lokrinen2\1Lokrinen2		3382180
+	993802850	Start-game beat	.cache\06\{064502EB-8526-3410-31F6-F4330FFC6910}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\GameOverBeat\Start-game beat\Start-game beat		3382180
 	1058383054	1Fryyginen2	.cache\E8\{E8034175-B9A8-BCED-8A0D-C94985D6256A}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Phrygian\1Fryyginen2\1Fryyginen2		3382176
 

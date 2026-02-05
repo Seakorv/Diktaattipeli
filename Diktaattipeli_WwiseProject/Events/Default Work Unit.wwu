@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SynthError" ID="{09B58D9C-1D3F-4D6C-A513-2763F059D082}">
+					<ChildrenList>
+						<Action Name="" ID="{A982282F-2B93-419D-B678-8178D39A5133}" ShortID="854645147">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SynthError" ID="{A7E314CF-7574-4F76-9280-4A87E3BA20E1}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SynthSucces" ID="{96A95D0B-E332-4AE0-A864-06EC8CA6A2CD}">
+					<ChildrenList>
+						<Action Name="" ID="{88B7D861-D6E7-479A-906C-97B5C68CE616}" ShortID="11266401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SynthSucces" ID="{DE0C7DB7-E169-42AF-AB40-69947E2F4078}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

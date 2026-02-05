@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3}",
     "Language": "SFX",
-    "Hash": "{59B59315-D6C6-AD5E-8880-58C767CBDCE8}",
+    "Hash": "{98343A7A-56DC-8DCE-CD5A-448D437ECA08}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BGMusic",
     "ShortName": "BGMusic",
     "Path": "BGMusic.bnk",
@@ -118,6 +118,14 @@
       "Location": "Memory",
       "ShortName": "1Lokrinen2.wav",
       "CachePath": "FA/{FADA2F44-055F-A8A2-4B6D-856DF5708931}.wem"
+     },
+     {
+      "Id": "993802850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Start-game beat.wav",
+      "CachePath": "06/{064502EB-8526-3410-31F6-F4330FFC6910}.wem"
      },
      {
       "Id": "1058383054",
@@ -255,6 +263,19 @@
             "Id": "1058383054"
            }
           ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1454150757",
+           "Id": "4158285989",
+           "GUID": "{8EE19AC0-5B0E-4C15-8A29-32D17A6C3E34}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "993802850"
+           }
+          ]
          }
         ]
        }
@@ -355,6 +376,6 @@
     ]
    }
   ],
-  "FileHash": "{32CE0C1B-7EF4-8D4A-6174-A8E77C06CC57}"
+  "FileHash": "{C6780067-68C5-2A8E-8502-00FADDE0DC2E}"
  }
 }
