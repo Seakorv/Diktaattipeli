@@ -1302,7 +1302,7 @@ MonoBehaviour:
   currentScale: 0
   currentGenreState: 0
   timerBar: {fileID: 299231133}
-  timerDecreaseSpeed: 2
+  timerDecreaseSpeed: 0.5
   wrongAnswerTimerDecrease: 100
   correctAnswerTimerIncrease: 100
   correctCounterText: {fileID: 383794573}

@@ -10,66 +10,122 @@
     "Type": "User",
     "GUID": "{15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3}",
     "Language": "SFX",
-    "Hash": "{D42F53A3-1CBA-B0CD-1A15-579EEBB4074B}",
+    "Hash": "{59B59315-D6C6-AD5E-8880-58C767CBDCE8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BGMusic",
     "ShortName": "BGMusic",
     "Path": "BGMusic.bnk",
     "Media": [
      {
-      "Id": "76466153",
+      "Id": "25245656",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Gradu Doorinen.wav",
-      "CachePath": "15/{159CB794-1A15-D7FA-E072-95A445DF7799}.wem"
+      "ShortName": "1Doorinen2.wav",
+      "CachePath": "90/{90428982-8EC7-AE37-49CC-64F52703F95D}.wem"
      },
      {
-      "Id": "187528473",
+      "Id": "214298703",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Gradu Lyydinen.wav",
-      "CachePath": "F8/{F8AC45F9-977A-2E10-AA5E-225835E33B3E}.wem"
+      "ShortName": "1Lokrinen1.wav",
+      "CachePath": "C2/{C299687B-DEC1-ED98-9A8E-E94E5CD5C252}.wem"
      },
      {
-      "Id": "428171784",
+      "Id": "470555307",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Gradu Lokrinen.wav",
-      "CachePath": "84/{84CAF019-67E8-0D9D-D941-303A6645DE69}.wem"
+      "ShortName": "1Aiolinen2.wav",
+      "CachePath": "46/{4692C5DC-F354-74A8-1145-50766251B271}.wem"
      },
      {
-      "Id": "442829054",
+      "Id": "481439612",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Gradu Jooninen.wav",
-      "CachePath": "3D/{3DB0DCED-FE06-ECFD-555D-C05A786B9EAF}.wem"
+      "ShortName": "1Jooninen1.wav",
+      "CachePath": "D0/{D0F0EE7B-C362-614C-907E-36CD77B7615B}.wem"
      },
      {
-      "Id": "597716061",
+      "Id": "481627953",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Gradu Aiolinen.wav",
-      "CachePath": "66/{664CADDE-F1E5-4D31-6C5B-F4F154BE3E35}.wem"
+      "ShortName": "1Fryyginen1.wav",
+      "CachePath": "A7/{A7D5BC97-50C3-58EF-3E64-869C1F984E0A}.wem"
      },
      {
-      "Id": "883258574",
+      "Id": "622319988",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Gradu Fryyginen.wav",
-      "CachePath": "DA/{DA5C32FC-9BF5-07C0-A617-DD9F95888CAD}.wem"
+      "ShortName": "1Doorinen1.wav",
+      "CachePath": "FB/{FB919936-34B8-BC08-084B-A9F1BB2DCB9D}.wem"
      },
      {
-      "Id": "974254734",
+      "Id": "644424108",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Gradu Mixolyydinen.wav",
-      "CachePath": "7F/{7FFDED90-0D92-2F82-16D4-C2D195F9E45B}.wem"
+      "ShortName": "1Mikso1.wav",
+      "CachePath": "63/{638B64B1-B08A-2D0D-0C55-D7B9A93EAA5E}.wem"
+     },
+     {
+      "Id": "773599123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Jooninen2.wav",
+      "CachePath": "E5/{E545F153-DB79-5B5A-FF8E-ACDDE9B72E56}.wem"
+     },
+     {
+      "Id": "853551647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Aiolinen1.wav",
+      "CachePath": "25/{25B587B9-022F-A3C8-AC1F-62B0C18048DF}.wem"
+     },
+     {
+      "Id": "879455520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Mikso2.wav",
+      "CachePath": "FE/{FE0714ED-59F2-04A3-2A7D-34F3F9B172D1}.wem"
+     },
+     {
+      "Id": "907658114",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Lyydinen2.wav",
+      "CachePath": "81/{81FFF8A7-631E-8E8E-D8D4-B2F025F2B858}.wem"
+     },
+     {
+      "Id": "942348202",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Lyydinen1.wav",
+      "CachePath": "FF/{FFD53F4A-C971-7BE9-502B-C4C19194DA50}.wem"
+     },
+     {
+      "Id": "993384483",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Lokrinen2.wav",
+      "CachePath": "FA/{FADA2F44-055F-A8A2-4B6D-856DF5708931}.wem"
+     },
+     {
+      "Id": "1058383054",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1Fryyginen2.wav",
+      "CachePath": "E8/{E8034175-B9A8-BCED-8A0D-C94985D6256A}.wem"
      }
     ],
     "Events": [
@@ -97,7 +153,10 @@
           },
           "MediaRefs": [
            {
-            "Id": "597716061"
+            "Id": "470555307"
+           },
+           {
+            "Id": "853551647"
            }
           ]
          },
@@ -110,7 +169,10 @@
           },
           "MediaRefs": [
            {
-            "Id": "76466153"
+            "Id": "25245656"
+           },
+           {
+            "Id": "622319988"
            }
           ]
          },
@@ -123,7 +185,10 @@
           },
           "MediaRefs": [
            {
-            "Id": "442829054"
+            "Id": "481439612"
+           },
+           {
+            "Id": "773599123"
            }
           ]
          },
@@ -136,7 +201,10 @@
           },
           "MediaRefs": [
            {
-            "Id": "428171784"
+            "Id": "214298703"
+           },
+           {
+            "Id": "993384483"
            }
           ]
          },
@@ -149,7 +217,10 @@
           },
           "MediaRefs": [
            {
-            "Id": "187528473"
+            "Id": "907658114"
+           },
+           {
+            "Id": "942348202"
            }
           ]
          },
@@ -162,7 +233,10 @@
           },
           "MediaRefs": [
            {
-            "Id": "974254734"
+            "Id": "644424108"
+           },
+           {
+            "Id": "879455520"
            }
           ]
          },
@@ -175,7 +249,10 @@
           },
           "MediaRefs": [
            {
-            "Id": "883258574"
+            "Id": "481627953"
+           },
+           {
+            "Id": "1058383054"
            }
           ]
          }
@@ -278,6 +355,6 @@
     ]
    }
   ],
-  "FileHash": "{BEBB9616-D6BA-EB1A-40B3-5E7C1BD2B7EA}"
+  "FileHash": "{924A6EBF-4B16-8D80-00F4-2A9ED517728E}"
  }
 }

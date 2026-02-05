@@ -24,11 +24,18 @@ State	ID	Name	State Group			Notes
 	3604647259	MainMenu	ScaleGenres			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	76466153	Gradu Doorinen	.cache\15\{159CB794-1A15-D7FA-E072-95A445DF7799}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Dorian\Gradu Doorinen\Gradu Doorinen		3435024
-	187528473	Gradu Lyydinen	.cache\F8\{F8AC45F9-977A-2E10-AA5E-225835E33B3E}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Lydian\Gradu Lyydinen\Gradu Lyydinen		3382176
-	428171784	Gradu Lokrinen	.cache\84\{84CAF019-67E8-0D9D-D941-303A6645DE69}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Locrian\Gradu Lokrinen\Gradu Lokrinen		3382176
-	442829054	Gradu Jooninen	.cache\3D\{3DB0DCED-FE06-ECFD-555D-C05A786B9EAF}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Ionian\Gradu Jooninen\Gradu Jooninen		1691172
-	597716061	Gradu Aiolinen	.cache\66\{664CADDE-F1E5-4D31-6C5B-F4F154BE3E35}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Aeolian\Gradu Aiolinen\Gradu Aiolinen		3382176
-	883258574	Gradu Fryyginen	.cache\DA\{DA5C32FC-9BF5-07C0-A617-DD9F95888CAD}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Phrygian\Gradu Fryyginen\Gradu Fryyginen		3382180
-	974254734	Gradu Mixolyydinen	.cache\7F\{7FFDED90-0D92-2F82-16D4-C2D195F9E45B}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Mixolydian\Gradu Mixolyydinen\Gradu Mixolyydinen		3382180
+	25245656	1Doorinen2	.cache\90\{90428982-8EC7-AE37-49CC-64F52703F95D}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Dorian\1Doorinen2\1Doorinen2		3382180
+	214298703	1Lokrinen1	.cache\C2\{C299687B-DEC1-ED98-9A8E-E94E5CD5C252}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Locrian\1Lokrinen1\1Lokrinen1		3382176
+	470555307	1Aiolinen2	.cache\46\{4692C5DC-F354-74A8-1145-50766251B271}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Aeolian\1Aiolinen2\1Aiolinen2		3382180
+	481439612	1Jooninen1	.cache\D0\{D0F0EE7B-C362-614C-907E-36CD77B7615B}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Ionian\1Jooninen1\1Jooninen1		3382180
+	481627953	1Fryyginen1	.cache\A7\{A7D5BC97-50C3-58EF-3E64-869C1F984E0A}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Phrygian\1Fryyginen1\1Fryyginen1		3382180
+	622319988	1Doorinen1	.cache\FB\{FB919936-34B8-BC08-084B-A9F1BB2DCB9D}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Dorian\1Doorinen1\1Doorinen1		3382180
+	644424108	1Mikso1	.cache\63\{638B64B1-B08A-2D0D-0C55-D7B9A93EAA5E}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Mixolydian\1Mikso1\1Mikso1		3382180
+	773599123	1Jooninen2	.cache\E5\{E545F153-DB79-5B5A-FF8E-ACDDE9B72E56}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Ionian\1Jooninen2\1Jooninen2		3382180
+	853551647	1Aiolinen1	.cache\25\{25B587B9-022F-A3C8-AC1F-62B0C18048DF}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Aeolian\1Aiolinen1\1Aiolinen1		3382176
+	879455520	1Mikso2	.cache\FE\{FE0714ED-59F2-04A3-2A7D-34F3F9B172D1}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Mixolydian\1Mikso2\1Mikso2		3382180
+	907658114	1Lyydinen2	.cache\81\{81FFF8A7-631E-8E8E-D8D4-B2F025F2B858}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Lydian\1Lyydinen2\1Lyydinen2		3382176
+	942348202	1Lyydinen1	.cache\FF\{FFD53F4A-C971-7BE9-502B-C4C19194DA50}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Lydian\1Lyydinen1\1Lyydinen1		3382176
+	993384483	1Lokrinen2	.cache\FA\{FADA2F44-055F-A8A2-4B6D-856DF5708931}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Locrian\1Lokrinen2\1Lokrinen2		3382180
+	1058383054	1Fryyginen2	.cache\E8\{E8034175-B9A8-BCED-8A0D-C94985D6256A}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Phrygian\1Fryyginen2\1Fryyginen2		3382176
 
