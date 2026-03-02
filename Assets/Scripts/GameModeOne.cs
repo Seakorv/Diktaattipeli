@@ -80,6 +80,11 @@ public class GameModeOne : MonoBehaviour
     private int kierrokset = -1;
     private string kierrosText = "";
 
+    // Data saving things
+    public List<DataSaveCorrect> SaveCorrectAnswers = new List<DataSaveCorrect>();
+    public List<DataSaveIncorrect> SaveIncorrectAnswers = new List<DataSaveIncorrect>();
+    private float timeForAnswer = 0f;
+    private bool correctPress = false;
 
     
 
@@ -119,6 +124,14 @@ public class GameModeOne : MonoBehaviour
 
     void FixedUpdate()
     {
+        timeForAnswer += Time.deltaTime;
+        if (correctPress)
+        {
+            Debug.Log("Vastausaika: " + timeForAnswer);
+            timeForAnswer = 0f;
+            correctPress = false;
+        }
+
         if (!startGamePopUp.activeSelf)
         {
             timerBar.value -= timerDecreaseSpeed;
@@ -340,7 +353,7 @@ public class GameModeOne : MonoBehaviour
     /// </summary>
     public void PressedCorrect()
     {
-        
+        correctPress = true;
         // If every scale has been gone through, restart and re-randomize the list
         if (currentScaleIndex == AmountOfScales)
         {
@@ -435,6 +448,29 @@ public class GameModeOne : MonoBehaviour
         WrongCounter = 0;
         SetCounterTexts();
         ResetKierrosLaskuri();
+    }
+
+    public void CorrectSaving(Scale current, float answerTime)
+    {
+        DataSaveCorrect saveCorrect = new DataSaveCorrect
+        {
+            MyCurrent = current,
+            AnswerTime = answerTime
+        };
+
+        SaveCorrectAnswers.Add(saveCorrect);
+    }
+
+    public void IncorrectSaving(Scale current, Scale wrongScale, int currentScore)
+    {
+        DataSaveIncorrect saveIncorrect = new DataSaveIncorrect
+        {
+            MyCurrent = current,
+            WrongScale = wrongScale,
+            CurrentScore = currentScore
+        };
+
+        SaveIncorrectAnswers.Add(saveIncorrect);
     }
 }
 
