@@ -142,6 +142,11 @@ public class GameModeOne : MonoBehaviour
         }
     }
 
+    public void ResetAnswerTimer()
+    {
+        timeForAnswer = 0f;
+    }
+
     public void SetEveryScale()
     {
         AllScales = new List<Scale>();
@@ -386,9 +391,11 @@ public class GameModeOne : MonoBehaviour
     {
         if (correct)
         {
+            
             //succesSFX.Post(gameObject);
             timerBar.value += correctAnswerTimerIncrease;
             CorrectCounter += 1;
+            
         }
         else
         {

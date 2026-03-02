@@ -25,6 +25,7 @@ public class StartGame : MonoBehaviour
         //GameModeOne.gameModeOneInstance.StartGame();
         //GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
         GameModeOne.gameModeOneInstance.SetFirstScaleState();
+        GameModeOne.gameModeOneInstance.ResetAnswerTimer();
         this.gameObject.SetActive(false);
     }
 

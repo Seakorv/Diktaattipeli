@@ -19,6 +19,7 @@ public class GameOver : MonoBehaviour
     {
         GameModeOne.gameModeOneInstance.StartGame();
         GameModeOne.gameModeOneInstance.SetFirstScaleState();
+        GameModeOne.gameModeOneInstance.ResetAnswerTimer();
         //GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
         this.gameObject.SetActive(false);  
     }
