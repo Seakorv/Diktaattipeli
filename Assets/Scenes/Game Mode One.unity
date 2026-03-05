@@ -1160,7 +1160,7 @@ PrefabInstance:
     - target: {fileID: 6436849980621868813, guid: 86d9b96847b0346ac9b6061f64d42d85, type: 3}
       propertyPath: keynoteSFX.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: acc2196c52314442d81c056c685cf216, type: 2}
+      objectReference: {fileID: 11400000, guid: 71f2845315d75411d83a033cb4d4c984, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1315,12 +1315,18 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1e1194a44e9164436970125af6c4606c, type: 2}
-  easySynthMusicState:
+  synthFunkState:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: db52475a4bced48b1b4a60567e7c52ef, type: 2}
+  metalState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 89d16d421f77f4f578063904ae7e289a, type: 2}
   ionianSwitch:
     idInternal: 0
     valueGuidInternal: 
@@ -1372,13 +1378,15 @@ MonoBehaviour:
   succesSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 13a13b47b05804286a4f607d4bdc5d0e, type: 2}
+    WwiseObjectReference: {fileID: 0}
   errorSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 06b023c974d6b4f42b870abd49214252, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: dfc6a3419135c41f1bfad7f6a4bb74b1, type: 2}
   kierroslaskuri: {fileID: 1379410221}
   currentScaletext: {fileID: 1328108113}
+  SaveCorrectAnswers: []
+  SaveIncorrectAnswers: []
 --- !u!4 &898296555
 Transform:
   m_ObjectHideFlags: 0

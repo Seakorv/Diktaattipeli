@@ -14,9 +14,8 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BASENOTES = 3188720456U;
+        static const AkUniqueID PLAY_ERRORSFX = 1921777701U;
         static const AkUniqueID PLAY_SCALESONGS = 817798694U;
-        static const AkUniqueID PLAY_SYNTHERROR = 239735946U;
-        static const AkUniqueID PLAY_SYNTHSUCCES = 816675422U;
     } // namespace EVENTS
 
     namespace STATES
@@ -30,6 +29,7 @@ namespace AK
                 static const AkUniqueID CHILLPIANO = 1090423996U;
                 static const AkUniqueID EASYSYNTH = 926145703U;
                 static const AkUniqueID MAINMENU = 3604647259U;
+                static const AkUniqueID METAL = 2473969246U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace SCALEGENRES

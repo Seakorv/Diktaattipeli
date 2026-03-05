@@ -68,6 +68,12 @@
         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
        },
        {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\Metal",
+        "GUID": "{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\MainMenu",
@@ -162,6 +168,6 @@
     ]
    }
   ],
-  "FileHash": "{C12E92B2-3B55-559E-98F9-609BEDF03070}"
+  "FileHash": "{A00DF3F3-66EB-BB3D-5A55-69C795DD3A92}"
  }
 }

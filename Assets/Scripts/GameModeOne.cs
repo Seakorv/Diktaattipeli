@@ -55,7 +55,8 @@ public class GameModeOne : MonoBehaviour
     [Header("Wwise things")]
     // States, chances the genres of music
     public AK.Wwise.State mainMenuMusic;
-    public AK.Wwise.State easySynthMusicState;
+    public AK.Wwise.State synthFunkState;
+    public AK.Wwise.State metalState;
     
     // Switches, changes the background songs of each scale
     public AK.Wwise.Switch ionianSwitch;
@@ -105,7 +106,9 @@ public class GameModeOne : MonoBehaviour
         timerBar.maxValue = MAX_TIMER;
         timerBar.minValue = 0;
         //timerBar.value = timerBar.maxValue;
-        UpdateGenreState(CurrentGenreState.EasySynth); //Tämä pitäsi arpoutua kun main menusta mennään peliin tulevaisudessa
+
+        
+        //UpdateGenreState(RandomizeGenre()); 
         StartGame();
     }
 
@@ -145,6 +148,17 @@ public class GameModeOne : MonoBehaviour
     public void ResetAnswerTimer()
     {
         timeForAnswer = 0f;
+    }
+
+    /// <summary>
+    /// Will give a random genre's enum. Will not give None
+    /// </summary>
+    /// <returns>A genre state enum except None</returns>
+    public CurrentGenreState RandomizeGenre()
+    {
+        Random rnd = new Random();
+
+        return (CurrentGenreState)rnd.Next((int)CurrentGenreState.None);
     }
 
     public void SetEveryScale()
@@ -196,8 +210,11 @@ public class GameModeOne : MonoBehaviour
             case CurrentGenreState.None:
                 mainMenuMusic.SetValue(); 
                 break;
-            case CurrentGenreState.EasySynth:
-                easySynthMusicState.SetValue();
+            case CurrentGenreState.SynthFunk:
+                synthFunkState.SetValue();
+                break;
+            case CurrentGenreState.Metal:
+                metalState.SetValue();
                 break;
         }
 
@@ -434,7 +451,7 @@ public class GameModeOne : MonoBehaviour
         UpdateKierrosLaskuri();
         //Always starting at the beginning of the list
         
-        //UpdateGenreState(CurrentGenreState.EasySynth); //TODO: jotain randomisaatiota tms. kun on enemmän genrejä
+        UpdateGenreState(RandomizeGenre()); //TODO: jotain randomisaatiota tms. kun on enemmän genrejä
         ResetCounters();
         timerBar.value = timerBar.maxValue;
         isGameOver = false;
@@ -494,8 +511,12 @@ public enum CurrentScaleState
     GameOver,
 }
 
+/// <summary>
+/// Enums for genres. Last element is None, others should be genres
+/// </summary>
 public enum CurrentGenreState
 {
+    SynthFunk,
+    Metal,
     None,
-    EasySynth,
 }

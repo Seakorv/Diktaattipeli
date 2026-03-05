@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}",
     "Language": "SFX",
-    "Hash": "{8489C9D3-9825-17A2-AB71-3DCBD0AD2349}",
+    "Hash": "{BE0F9831-3D7F-B9CB-EE43-347997ECA640}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -21,15 +21,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "erhe synth.wav",
-      "CachePath": "4B/{4B503719-4D53-EF85-F1E7-5990560600BB}.wem"
+      "CachePath": "74/{74405A48-95B9-8FE1-473F-D2F3058DD58F}.wem"
      },
      {
-      "Id": "726889516",
+      "Id": "297863056",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Succes synth.wav",
-      "CachePath": "45/{4585B729-19DF-49AC-4AE6-D775A02828D0}.wem"
+      "ShortName": "Erhe metal.wav",
+      "CachePath": "47/{47A4E1F7-5ABB-A180-CA24-8E3BD4E352FB}.wem"
+     },
+     {
+      "Id": "946831152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "C#Metal.wav",
+      "CachePath": "2B/{2B4F23E8-0B68-3A2F-1CB1-C0D27C7A88A1}.wem"
      },
      {
       "Id": "1060215097",
@@ -45,17 +53,30 @@
       "Id": "3188720456",
       "Name": "Play_BaseNotes",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_BaseNotes",
-      "GUID": "{CF279CE2-A790-4465-88EC-0AFC495FF4C6}",
+      "GUID": "{68C0AF51-5DA7-4EF6-A1AB-2AF17DF74BEA}",
       "DurationType": "OneShot",
       "DurationMin": "0.52823573",
-      "DurationMax": "0.52823573",
+      "DurationMax": "0.6666667",
       "SwitchContainers": [
        {
         "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "748887965",
-         "Id": "84696443",
-         "GUID": "{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "2473969246",
+         "GUID": "{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "946831152"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "926145703",
+         "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
         "MediaRefs": [
          {
@@ -66,64 +87,85 @@
       ]
      },
      {
-      "Id": "239735946",
-      "Name": "Play_SynthError",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SynthError",
-      "GUID": "{09B58D9C-1D3F-4D6C-A513-2763F059D082}",
+      "Id": "1921777701",
+      "Name": "Play_ErrorSFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ErrorSFX",
+      "GUID": "{72698361-D76E-4A81-912C-31289D54847D}",
       "DurationType": "OneShot",
-      "DurationMin": "0.7717499",
+      "DurationMin": "0.6666667",
       "DurationMax": "0.7717499",
-      "MediaRefs": [
+      "SwitchContainers": [
        {
-        "Id": "140832148"
-       }
-      ]
-     },
-     {
-      "Id": "816675422",
-      "Name": "Play_SynthSucces",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SynthSucces",
-      "GUID": "{96A95D0B-E332-4AE0-A864-06EC8CA6A2CD}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.1009166",
-      "DurationMax": "1.1009166",
-      "MediaRefs": [
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "2473969246",
+         "GUID": "{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "297863056"
+         }
+        ]
+       },
        {
-        "Id": "726889516"
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "926145703",
+         "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "140832148"
+         }
+        ]
        }
       ]
      }
     ],
-    "SwitchGroups": [
+    "StateGroups": [
      {
-      "Id": "748887965",
-      "Name": "BaseNotes",
-      "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes",
-      "GUID": "{7145B5BF-CC01-4F79-ACE0-4AF333EFC696}",
-      "Switches": [
+      "Id": "92342489",
+      "Name": "ScaleGenres",
+      "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres",
+      "GUID": "{34119791-BC83-4C9E-ABD2-39739870E6C0}",
+      "States": [
        {
-        "Id": "84696443",
-        "Name": "D",
-        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\D",
-        "GUID": "{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\None",
+        "GUID": "{E221B796-6943-41E2-BF23-E0718CD665DE}"
        },
        {
-        "Id": "84696445",
-        "Name": "B",
-        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\B",
-        "GUID": "{71B2BC0E-0621-40EA-9606-5873E82721C6}"
+        "Id": "926145703",
+        "Name": "EasySynth",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\EasySynth",
+        "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
        },
        {
-        "Id": "1117237268",
-        "Name": "Cis",
-        "ObjectPath": "\\Switches\\Default Work Unit\\BaseNotes\\Cis",
-        "GUID": "{6297F96C-C875-4809-BE62-DD1F0FA0F08E}"
+        "Id": "1090423996",
+        "Name": "ChillPiano",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\ChillPiano",
+        "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\Metal",
+        "GUID": "{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\MainMenu",
+        "GUID": "{E5822606-7595-4C38-927F-E02B9E5302A0}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{2163792E-55AB-C072-45C9-955F40CE51A1}"
+  "FileHash": "{5147025A-DDD4-094B-E124-5B34DEB32CB8}"
  }
 }

@@ -21,22 +21,38 @@ State	ID	Name	State Group			Notes
 	748895195	None	ScaleGenres			
 	926145703	EasySynth	ScaleGenres			
 	1090423996	ChillPiano	ScaleGenres			
+	2473969246	Metal	ScaleGenres			
 	3604647259	MainMenu	ScaleGenres			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	25245656	1Doorinen2	.cache\90\{90428982-8EC7-AE37-49CC-64F52703F95D}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Dorian\1Doorinen2\1Doorinen2		3382180
+	138108671	Start-game beat metal	.cache\84\{84035755-5789-94A9-FB7F-4227787FBE77}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\GameOverBeat\Start-game beat metal\Start-game beat metal		2048160
+	195779139	2Lyydinen2	.cache\94\{94AD51BC-5D9E-97BA-6A2E-295E5D4A9154}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Lydian\2Lyydinen2\2Lyydinen2		2048160
 	214298703	1Lokrinen1	.cache\C2\{C299687B-DEC1-ED98-9A8E-E94E5CD5C252}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Locrian\1Lokrinen1\1Lokrinen1		3382176
+	314315504	2Lokrinen2	.cache\74\{74AF5566-26C5-57DE-C548-867AF3771C97}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Lockrian\2Lokrinen2\2Lokrinen2		2048160
 	470555307	1Aiolinen2	.cache\46\{4692C5DC-F354-74A8-1145-50766251B271}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Aeolian\1Aiolinen2\1Aiolinen2		3382180
 	481439612	1Jooninen1	.cache\D0\{D0F0EE7B-C362-614C-907E-36CD77B7615B}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Ionian\1Jooninen1\1Jooninen1		3382180
 	481627953	1Fryyginen1	.cache\A7\{A7D5BC97-50C3-58EF-3E64-869C1F984E0A}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Phrygian\1Fryyginen1\1Fryyginen1		3382180
+	524569720	2Doorinen1	.cache\FE\{FE38EE6F-F378-6FBC-2039-4919AED9E63A}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Dorian\2Doorinen1\2Doorinen1		2048160
+	530000113	2Aiolinen1	.cache\E5\{E555F9C3-4EF8-2FF4-76DC-FE01BBFEA973}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Aeolian\2Aiolinen1\2Aiolinen1		2048160
 	622319988	1Doorinen1	.cache\FB\{FB919936-34B8-BC08-084B-A9F1BB2DCB9D}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Dorian\1Doorinen1\1Doorinen1		3382180
+	639135712	2Jooninen2	.cache\87\{87940308-2A2A-8455-33DE-7A7968B88A71}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Ionian\2Jooninen2\2Jooninen2		2048160
 	644424108	1Mikso1	.cache\63\{638B64B1-B08A-2D0D-0C55-D7B9A93EAA5E}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Mixolydian\1Mikso1\1Mikso1		3382180
+	649480519	2Fryyginen2	.cache\A1\{A116D0E2-D7F7-3A84-2DC1-06186E194EBA}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Phrygian\2Fryyginen2\2Fryyginen2		2048160
+	759778502	2Lokrinen1	.cache\63\{637C5A08-9BDF-3EB5-AB0B-DCDC6878B881}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Lockrian\2Lokrinen1\2Lokrinen1		2048160
 	773599123	1Jooninen2	.cache\E5\{E545F153-DB79-5B5A-FF8E-ACDDE9B72E56}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Ionian\1Jooninen2\1Jooninen2		3382180
+	790909197	2Aiolinen2	.cache\44\{44D9527B-2D95-3352-82C2-BE94EB9DEC30}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Aeolian\2Aiolinen2\2Aiolinen2		2048160
+	794234790	2Lyydinen1	.cache\B6\{B6A367B7-30B9-5F4A-2A56-26B976609369}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Lydian\2Lyydinen1\2Lyydinen1		2048160
+	808744212	2Miksolyydinen2	.cache\E7\{E7EDB3D8-14A2-3BE2-C8F0-C406373A3734}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Mixolydian\2Miksolyydinen2\2Miksolyydinen2		2048160
 	853551647	1Aiolinen1	.cache\25\{25B587B9-022F-A3C8-AC1F-62B0C18048DF}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Aeolian\1Aiolinen1\1Aiolinen1		3382176
 	879455520	1Mikso2	.cache\FE\{FE0714ED-59F2-04A3-2A7D-34F3F9B172D1}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Mixolydian\1Mikso2\1Mikso2		3382180
+	901587535	2Fryyginen1	.cache\5B\{5BCA50A1-5CB8-7DA1-AA98-39556B60C1CC}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Phrygian\2Fryyginen1\2Fryyginen1		2048160
 	907658114	1Lyydinen2	.cache\81\{81FFF8A7-631E-8E8E-D8D4-B2F025F2B858}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Lydian\1Lyydinen2\1Lyydinen2		3382176
 	942348202	1Lyydinen1	.cache\FF\{FFD53F4A-C971-7BE9-502B-C4C19194DA50}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Lydian\1Lyydinen1\1Lyydinen1		3382176
+	990490753	2Jooninen1	.cache\32\{324B91CC-3F35-5AE1-8D50-3EA4DB14C0A6}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Ionian\2Jooninen1\2Jooninen1		2048160
 	993384483	1Lokrinen2	.cache\FA\{FADA2F44-055F-A8A2-4B6D-856DF5708931}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Locrian\1Lokrinen2\1Lokrinen2		3382180
 	993802850	Start-game beat	.cache\06\{064502EB-8526-3410-31F6-F4330FFC6910}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\GameOverBeat\Start-game beat\Start-game beat		3382180
+	1022580904	2Miksolyydinen1	.cache\CB\{CB8C7C0A-DF6B-BC12-97A8-C29C481A696A}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Mixolydian\2Miksolyydinen1\2Miksolyydinen1		2048160
+	1027879014	2Doorinen2	.cache\F8\{F80381A6-CAEA-0236-2A16-4FC8865B1A04}.wem		\Containers\ScaleSongs\ScaleSongs\MetalSongs\Dorian\2Doorinen2\2Doorinen2		2048160
 	1058383054	1Fryyginen2	.cache\E8\{E8034175-B9A8-BCED-8A0D-C94985D6256A}.wem		\Containers\ScaleSongs\ScaleSongs\EasySongs\Phrygian\1Fryyginen2\1Fryyginen2		3382176
 

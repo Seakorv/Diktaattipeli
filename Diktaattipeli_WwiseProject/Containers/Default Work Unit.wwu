@@ -20,11 +20,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 										</Reference>
 										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="BaseNotes" ID="{7145B5BF-CC01-4F79-ACE0-4AF333EFC696}" WorkUnitID="{ADDA4927-664F-44EC-82FC-B640C3509E02}"/>
+											<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -55,16 +58,77 @@
 												<ActiveSource Name="D" ID="{5AFF7740-22E1-47A9-981B-210AFE9BD3F6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="BaseNoteCis" ID="{DB06A031-420C-4378-AB83-A7D604AF58B1}" ShortID="448534867">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="C#Metal" ID="{FF0E627B-B3E6-4236-A7F2-161058EB0941}">
+													<Language>SFX</Language>
+													<AudioFile>C#Metal.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="946831152"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="C#Metal" ID="{FF0E627B-B3E6-4236-A7F2-161058EB0941}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}"/>
+												<StateGroupInfo Name="" ID="{B2FB272B-BACE-4FA9-B405-5CE9CA03961E}" ShortID="369172762"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="ChillPiano" ID="{B244221A-5FCA-4053-A711-28F9A8F4A953}"/>
+												<CustomState Name="" ID="{AFBD6278-534D-4C31-95FC-1BF2DB8652E9}" ShortID="741109326"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}"/>
+												<CustomState Name="" ID="{F3107883-D26F-4306-AD07-1D9F74B9B98B}" ShortID="768308144"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+												<CustomState Name="" ID="{06C3D9D0-2C78-4420-86F7-3EB1C13026E0}" ShortID="603837014"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{E5822606-7595-4C38-927F-E02B9E5302A0}"/>
+												<CustomState Name="" ID="{7634CCD7-166A-4AC6-B69A-E5000E5852FE}" ShortID="308617908"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+												<CustomState Name="" ID="{B5DAF816-5E65-47AA-9FD4-057C10085E4D}" ShortID="1060562435"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="BaseNoteCis" ID="{DB06A031-420C-4378-AB83-A7D604AF58B1}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="BaseNoteD" ID="{2C300EAA-659B-4DDA-83A1-B036A2A6C973}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
-												<SwitchRef Name="D" ID="{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"/>
+												<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+												<ItemList>
+													<ItemRef Name="BaseNoteCis" ID="{DB06A031-420C-4378-AB83-A7D604AF58B1}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
 												<ItemList>
 													<ItemRef Name="BaseNoteD" ID="{2C300EAA-659B-4DDA-83A1-B036A2A6C973}"/>
 												</ItemList>
@@ -77,8 +141,14 @@
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -119,13 +189,52 @@
 												<ActiveSource Name="erhe synth" ID="{86E433D7-A610-4DCA-A517-DE3E4F26F1EA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="MetalError" ID="{86332EFF-DD4E-4F6F-A0E4-02AFBF186ACA}" ShortID="986603988">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Erhe metal" ID="{EF992B9D-496F-4CCB-8E80-6AF87AC4136F}">
+													<Language>SFX</Language>
+													<AudioFile>Erhe metal.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="297863056"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Erhe metal" ID="{EF992B9D-496F-4CCB-8E80-6AF87AC4136F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="SynthError" ID="{A7E314CF-7574-4F76-9280-4A87E3BA20E1}"/>
 											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="MetalError" ID="{86332EFF-DD4E-4F6F-A0E4-02AFBF186ACA}"/>
+											</GroupingBehavior>
 										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+												<ItemList>
+													<ItemRef Name="MetalError" ID="{86332EFF-DD4E-4F6F-A0E4-02AFBF186ACA}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+												<ItemList>
+													<ItemRef Name="SynthError" ID="{A7E314CF-7574-4F76-9280-4A87E3BA20E1}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="SuccesSFX" ID="{AEF1BC38-EF70-4C48-8426-0E0C97CA4C83}" ShortID="695371886">

@@ -1,18 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
-	239735946	Play_SynthError			\Default Work Unit\Play_SynthError	
-	816675422	Play_SynthSucces			\Default Work Unit\Play_SynthSucces	
+	1921777701	Play_ErrorSFX			\Default Work Unit\Play_ErrorSFX	
 	3188720456	Play_BaseNotes			\Default Work Unit\Play_BaseNotes	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	748887965	BaseNotes			\Default Work Unit\BaseNotes	
+State Group	ID	Name			Wwise Object Path	Notes
+	92342489	ScaleGenres			\Default Work Unit\ScaleGenres	
 
-Switch	ID	Name	Switch Group			Notes
-	84696443	D	BaseNotes			
-	84696445	B	BaseNotes			
-	1117237268	Cis	BaseNotes			
+State	ID	Name	State Group			Notes
+	748895195	None	ScaleGenres			
+	926145703	EasySynth	ScaleGenres			
+	1090423996	ChillPiano	ScaleGenres			
+	2473969246	Metal	ScaleGenres			
+	3604647259	MainMenu	ScaleGenres			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	140832148	SynthError	.cache\4B\{4B503719-4D53-EF85-F1E7-5990560600BB}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\SynthError		148336
-	726889516	SynthSucces	.cache\45\{4585B729-19DF-49AC-4AE6-D775A02828D0}.wem		\Containers\Default Work Unit\SFX\GameSFX\SuccesSFX\SynthSucces		211536
+	140832148	SynthError	.cache\74\{74405A48-95B9-8FE1-473F-D2F3058DD58F}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\SynthError		148336
+	297863056	MetalError	.cache\47\{47A4E1F7-5ABB-A180-CA24-8E3BD4E352FB}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\MetalError		128160
+	946831152	BaseNoteCis	.cache\2B\{2B4F23E8-0B68-3A2F-1CB1-C0D27C7A88A1}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteCis		128160
 	1060215097	BaseNoteD	.cache\D0\{D0F188ED-5401-BEA4-7724-563C5FDFA720}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteD		101580
 
