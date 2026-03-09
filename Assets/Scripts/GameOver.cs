@@ -17,9 +17,9 @@ public class GameOver : MonoBehaviour
 
     private void OnStartButtonClick()
     {
-        GameModeOne.gameModeOneInstance.StartGame();
-        GameModeOne.gameModeOneInstance.SetFirstScaleState();
-        GameModeOne.gameModeOneInstance.ResetAnswerTimer();
+        GameManager.gameManagerInstance.StartGameOne();
+        GameManager.gameManagerInstance.SetFirstScaleState();
+        GameManager.gameManagerInstance.ResetAnswerTimer();
         //GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
         this.gameObject.SetActive(false);  
     }

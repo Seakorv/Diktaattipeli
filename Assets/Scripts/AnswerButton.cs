@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = System.Random;
+using UnityEngine.InputSystem;
 
 public class AnswerButton : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class AnswerButton : MonoBehaviour
     [SerializeField] private string myName;
     [SerializeField] private Button myButton;
     [SerializeField] private TextMeshProUGUI myText;
+
+    [Header("Input Action things")]
+
 
     //[SerializeField] private  myScaleName;
     public bool IsCorrect { get; set; } = false;
@@ -37,13 +41,13 @@ public class AnswerButton : MonoBehaviour
         if (!IsCorrect)
         {
             Debug.Log("Väärin!");
-            GameModeOne.gameModeOneInstance.UpdatePointCounters(false);
+            GameManager.gameManagerInstance.UpdatePointCounters(false);
         }
         else
         {
             Debug.Log("Oikein!");
-            GameModeOne.gameModeOneInstance.UpdatePointCounters(true);
-            GameModeOne.gameModeOneInstance.PressedCorrect();
+            GameManager.gameManagerInstance.UpdatePointCounters(true);
+            GameManager.gameManagerInstance.AnsweredCorrect();
         }
     }
 

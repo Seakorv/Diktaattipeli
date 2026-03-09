@@ -11,7 +11,7 @@ using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Random = System.Random;
 
-public class GameModeOne : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     // Scale things
     public const int AmountOfScales = 7;
@@ -28,7 +28,7 @@ public class GameModeOne : MonoBehaviour
     private int currentScaleIndex = 0;
 
     // Script's instance
-    public static GameModeOne gameModeOneInstance;
+    public static GameManager gameManagerInstance;
     public static event Action<CurrentScaleState> OnScaleStateChanged;
     
     // Timer things
@@ -96,7 +96,7 @@ public class GameModeOne : MonoBehaviour
 
     void Awake()
     {
-        gameModeOneInstance = this;
+        gameManagerInstance = this;
         SetEveryScale();
         /*for (int i = 0; i < AllScales.Count; i++)
         {
@@ -113,8 +113,8 @@ public class GameModeOne : MonoBehaviour
         //timerBar.value = timerBar.maxValue;
 
         
-        //UpdateGenreState(RandomizeGenre()); 
-        StartGame();
+        //UpdateGenreState(RandomizeGenre());
+        //StartGameOne();
     }
 
 
@@ -385,11 +385,11 @@ public class GameModeOne : MonoBehaviour
 
 
     /// <summary>
-    /// Will be called in the buttonscript when the correct button is pressed.
+    /// Will be called in the buttonscript when the correct answer is given.
     /// Calls the scalestate to be updated to next scale and randomizing buttons again.
     /// Re-ranomizes the scales and resets current scale index if every scale has been went through
     /// </summary>
-    public void PressedCorrect()
+    public void AnsweredCorrect()
     {
         correctPress = true;
         // If every scale has been gone through, restart and re-randomize the list
@@ -469,7 +469,7 @@ public class GameModeOne : MonoBehaviour
         gameOverPopUp.GetComponent<GameOver>().SetPoints(CorrectCounter);
     }
 
-    public void StartGame()
+    public void StartGameOne()
     {
         RandomizeScaleList();
         SetCounterTexts();
