@@ -15,6 +15,11 @@ public class GameModeOne : MonoBehaviour
 {
     // Scale things
     public const int AmountOfScales = 7;
+    /// <summary>
+    /// Defines how many correct answers it will take to change the genre. 
+    /// If this number is 10, it will change the genre after 10 points.
+    /// </summary>
+    public const int GenreChangeChecker = 10;
     public List<Scale> AllScales { get; private set; }
     public List<Scale> AllScalesRandomOrder { get; private set; }
     public CurrentScaleState currentScale;
@@ -159,6 +164,17 @@ public class GameModeOne : MonoBehaviour
         Random rnd = new Random();
 
         return (CurrentGenreState)rnd.Next((int)CurrentGenreState.None);
+    }
+
+    public CurrentGenreState NextGenre()
+    {
+        int nextGenre = (int)currentGenreState + 1;
+        if (nextGenre == (int)CurrentGenreState.None)
+        {
+            nextGenre = 0;
+        }
+
+        return (CurrentGenreState)nextGenre;
     }
 
     public void SetEveryScale()
@@ -412,7 +428,7 @@ public class GameModeOne : MonoBehaviour
             //succesSFX.Post(gameObject);
             timerBar.value += correctAnswerTimerIncrease;
             CorrectCounter += 1;
-            
+            ChangeGenre();
         }
         else
         {
@@ -421,6 +437,17 @@ public class GameModeOne : MonoBehaviour
             WrongCounter += 1;
         }
         SetCounterTexts();
+    }
+
+    /// <summary>
+    /// Will change the genre after certain amount of correct answers defined by the GenreChangeChecker
+    /// </summary>
+    public void ChangeGenre()
+    {
+        if (CorrectCounter % GenreChangeChecker == 0)
+        {
+            UpdateGenreState(NextGenre());
+        }
     }
 
     private void SetCounterTexts()
@@ -451,7 +478,7 @@ public class GameModeOne : MonoBehaviour
         UpdateKierrosLaskuri();
         //Always starting at the beginning of the list
         
-        UpdateGenreState(RandomizeGenre()); //TODO: jotain randomisaatiota tms. kun on enemmän genrejä
+        UpdateGenreState((CurrentGenreState)0); //TODO: jotain randomisaatiota tms. kun on enemmän genrejä
         ResetCounters();
         timerBar.value = timerBar.maxValue;
         isGameOver = false;
