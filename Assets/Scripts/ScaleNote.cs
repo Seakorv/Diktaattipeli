@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScaleNote : MonoBehaviour
 {
@@ -11,16 +12,54 @@ public class ScaleNote : MonoBehaviour
     /// </summary>
     public int MyAugmentNumber { get; private set; }
 
+    //Buttons
+    [SerializeField] private Button noteButton;
+    [SerializeField] private Button sharpButton;
+    [SerializeField] private Button flatButton;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
     {
-        
+        MyAugmentNumber = 0;
+        noteButton.onClick.AddListener(OnNoteClick);
+        sharpButton.onClick.AddListener(OnSharpClick);
+        flatButton.onClick.AddListener(OnFlatClick);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnNoteClick()
     {
-        
+        //Soita ääniefekti
+    }
+
+    public void OnFlatClick()
+    {
+        Debug.Log("Flatten " + myScaleNumber + " to " + MyAugmentNumber);
+        if (MyAugmentNumber == -1)
+        {
+            //Soita ääni joka ei ole muuttunut
+            return;
+        }
+        else
+        {
+            MyAugmentNumber--;
+        }
+        //Soita ääni
+    }
+
+    public void OnSharpClick()
+    {
+        Debug.Log("Sharpen " + myScaleNumber + " to " + MyAugmentNumber);
+        if (MyAugmentNumber == 1)
+        {
+            //Soita ääni joka ei ole muuttunut
+            return;
+        }
+        else
+        {
+            MyAugmentNumber++;
+        }
+        //Soita ääni
     }
 }

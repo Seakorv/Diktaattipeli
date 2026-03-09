@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = System.Random;
-using UnityEngine.InputSystem;
 
 public class AnswerButton : MonoBehaviour
 {
@@ -13,8 +12,6 @@ public class AnswerButton : MonoBehaviour
     [SerializeField] private string myName;
     [SerializeField] private Button myButton;
     [SerializeField] private TextMeshProUGUI myText;
-
-    [Header("Input Action things")]
 
 
     //[SerializeField] private  myScaleName;

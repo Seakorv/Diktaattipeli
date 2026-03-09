@@ -272,6 +272,7 @@ MonoBehaviour:
   myName: Testi
   myButton: {fileID: 5357609027828592242}
   myText: {fileID: 0}
+  click: {fileID: -7813522778466136694, guid: f0ace58f455bd4d86938de768bbb82c9, type: 3}
 --- !u!1 &7751358130332467066
 GameObject:
   m_ObjectHideFlags: 0

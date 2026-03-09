@@ -13,6 +13,9 @@ using Random = System.Random;
 
 public class GameManager : MonoBehaviour
 {
+    //Game mode things
+    [SerializeField] private int myGameModeNumber;
+
     // Scale things
     public const int AmountOfScales = 7;
     /// <summary>
@@ -92,7 +95,7 @@ public class GameManager : MonoBehaviour
     private float timeForAnswer = 0f;
     private bool correctPress = false;
 
-    
+
 
     void Awake()
     {
@@ -114,7 +117,7 @@ public class GameManager : MonoBehaviour
 
         
         //UpdateGenreState(RandomizeGenre());
-        //StartGameOne();
+        StartGame();
     }
 
 
@@ -240,14 +243,13 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Setting the state to the current scale which is playing. 
     /// The state includes the background music, setting up the button scales.
-    /// TODO: When time runs out, it will
-    /// set up the state "Game Over" and the game will end then.
     /// </summary>
     /// <param name="newScaleState">The current scale state</param>
     public void UpdateCurrentScale(CurrentScaleState newScaleState)
     {
         currentScale = newScaleState;
-        SetButtonScales();
+        if (myGameModeNumber == 1) { SetGameModeOneButtonScales(); }
+        
         if (newScaleState != CurrentScaleState.None || newScaleState != CurrentScaleState.GameOver)
         {
             currentScaletext.text = GetScaletextFromRandomList();
@@ -308,7 +310,7 @@ public class GameManager : MonoBehaviour
         if (currentScaleIndex >= AmountOfScales) { currentScaleIndex = AmountOfScales - 1; }
     }
 
-    public void SetButtonScales()
+    public void SetGameModeOneButtonScales()
     {
         CheckIfCurrentScaleIsWithingRange();
         int buttonsLength = ButtonsScript.buttonsInstance.GetButtonsLength();
@@ -469,7 +471,7 @@ public class GameManager : MonoBehaviour
         gameOverPopUp.GetComponent<GameOver>().SetPoints(CorrectCounter);
     }
 
-    public void StartGameOne()
+    public void StartGame()
     {
         RandomizeScaleList();
         SetCounterTexts();

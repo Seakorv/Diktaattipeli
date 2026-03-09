@@ -1278,7 +1278,6 @@ GameObject:
   m_Component:
   - component: {fileID: 898296555}
   - component: {fileID: 898296554}
-  - component: {fileID: 898296559}
   - component: {fileID: 898296557}
   - component: {fileID: 898296558}
   m_Layer: 0
@@ -1300,6 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d2e101b20894bbbb347f36b7b31df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scales
+  myGameModeNumber: 1
   currentScale: 0
   currentGenreState: 0
   timerBar: {fileID: 299231133}
@@ -1461,18 +1461,6 @@ MonoBehaviour:
   attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
   LargeModePositions: []
   multiPositionArray: []
---- !u!114 &898296559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898296553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 544180809593e47dc950b03e75807c1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SetUpOne
 --- !u!1 &1009199055
 GameObject:
   m_ObjectHideFlags: 0
