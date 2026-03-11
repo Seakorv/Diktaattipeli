@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ScaleNote : MonoBehaviour
 {
@@ -16,7 +17,8 @@ public class ScaleNote : MonoBehaviour
     [SerializeField] private Button noteButton;
     [SerializeField] private Button sharpButton;
     [SerializeField] private Button flatButton;
-    //[SerializeField] private TextMeshProUGUI myText;
+    [SerializeField] private TextMeshProUGUI myText;
+    
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -27,12 +29,41 @@ public class ScaleNote : MonoBehaviour
         noteButton.onClick.AddListener(OnNoteClick);
         sharpButton.onClick.AddListener(OnSharpClick);
         flatButton.onClick.AddListener(OnFlatClick);
+        SetMyText();
     }
 
     public void OnNoteClick()
     {
         //Soita ääniefekti
     }
+
+    public void SetMyAugment(int augmentNumber)
+    {
+        MyAugmentNumber = augmentNumber;
+    }
+
+    public void SetMyText()
+    {
+        myText.text = myScaleNumber.ToString();
+    }
+
+    public void SetMyAugText()
+    {
+        switch (MyAugmentNumber)
+        {
+            case 0:
+                myText.text = myScaleNumber.ToString();
+                break;
+            case 1:
+                myText.text = "#" + myScaleNumber.ToString();
+                break;
+            case -1:
+                myText.text = "b" + myScaleNumber.ToString();
+                break;
+        }
+    }
+
+
 
     public void OnFlatClick()
     {
@@ -47,6 +78,7 @@ public class ScaleNote : MonoBehaviour
             MyAugmentNumber--;
         }
         //Soita ääni
+        SetMyAugText();
     }
 
     public void OnSharpClick()
@@ -62,6 +94,7 @@ public class ScaleNote : MonoBehaviour
             MyAugmentNumber++;
         }
         //Soita ääni
+        SetMyAugText();
     }
 
     public void Sharpen()

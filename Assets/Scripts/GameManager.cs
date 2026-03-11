@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     public List<Scale> AllScalesRandomOrder { get; private set; }
     public CurrentScaleState currentScale;
     public CurrentGenreState currentGenreState;
-    private Scale testiScale;
+    public Scale CurrentScaleObject;
     private int currentScaleIndex = 0;
 
     // Script's instance
@@ -107,6 +107,7 @@ public class GameManager : MonoBehaviour
     {
         gameManagerInstance = this;
         SetEveryScale();
+        CurrentScaleObject = new Scale();
         /*for (int i = 0; i < AllScales.Count; i++)
         {
             Debug.Log(AllScales[i].ScaleName);
@@ -211,7 +212,17 @@ public class GameManager : MonoBehaviour
         //AllScales[7].SetIDNameAndEnum(7, "Game Over", CurrentScaleState.GameOver);
     }
 
-
+    public void SetCurrentScaleObject()
+    {
+        for (int i = 0; i < AllScales.Count; i++)
+        {
+            if (currentScale == AllScales[i].MyScaleEnum)
+            {
+                CurrentScaleObject = AllScales[i];
+                break;
+            }
+        }
+    }
 
     /// <summary>
     /// Randomize all scale list
@@ -263,8 +274,9 @@ public class GameManager : MonoBehaviour
     public void UpdateCurrentScale(CurrentScaleState newScaleState)
     {
         currentScale = newScaleState;
+        SetCurrentScaleObject();
         if (myGameModeNumber == 1) { SetGameModeOneButtonScales(); }
-        if (myGameModeNumber == 2 && !gamemodeTwoSetUp) { SetGameModeTwoButtons(); }
+        //if (myGameModeNumber == 2 && !gamemodeTwoSetUp) { SetGameModeTwoButtons(); }
         
         if (newScaleState != CurrentScaleState.None || newScaleState != CurrentScaleState.GameOver)
         {
@@ -305,7 +317,7 @@ public class GameManager : MonoBehaviour
                 break;
             case CurrentScaleState.GameOver:
                 gameOverSwitch.SetValue(gameObject);
-                Debug.Log("Gameover");
+                Debug.Log("Gameoverissa");
                 break;
         }
         currentScaleIndex += 1;
@@ -380,7 +392,7 @@ public class GameManager : MonoBehaviour
     {
         gamemodeTwoSetUp = true;
         CheckIfCurrentScaleIsWithingRange();
-        int scaleNotesLength = ScaleNotes.scaleNotesInstance.GetScaleNotesLength();
+        //int scaleNotesLength = ScaleNotes.scaleNotesInstance.GetScaleNotesLength();
 
     }
 

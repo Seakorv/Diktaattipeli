@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScaleNotes : MonoBehaviour
 {
@@ -7,7 +8,8 @@ public class ScaleNotes : MonoBehaviour
     /// </summary>
     public const int ScaleLength = 8;
     [SerializeField] private ScaleNote[] scalenotes = new ScaleNote[ScaleLength];
-
+    [SerializeField] private Button submitAnswerButton;
+    [SerializeField] private Button playScaleButton;
     public static ScaleNotes scaleNotesInstance;
 
     void Awake()
@@ -15,8 +17,27 @@ public class ScaleNotes : MonoBehaviour
         scaleNotesInstance = this;
     }
 
-    public int GetScaleNotesLength()
+    void Start()
     {
-        return ScaleLength;
+        submitAnswerButton.onClick.AddListener(OnSubmitClick);
+        playScaleButton.onClick.AddListener(OnPlayClick);
+    }
+
+    public void SetScaleNoteAugments(int[] augments)
+    {
+        for (int i = 0; i < scalenotes.Length; i++)
+        {
+            scalenotes[i].SetMyAugment(augments[i]);
+        }
+    }
+
+    public void OnSubmitClick()
+    {
+        Debug.Log("Vastaus annettu");
+    }
+
+    public void OnPlayClick()
+    {
+        Debug.Log("Coroutinella soitetaan scale, Scaledokusta mallia");
     }
 }

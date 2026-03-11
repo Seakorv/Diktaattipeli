@@ -17,6 +17,7 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         gameModeOneButton.onClick.AddListener(OpenGameModeOne);
+        gameModeTwoButton.onClick.AddListener(OpenGameModeTwo);
         exitButton.onClick.AddListener(QuitGame);
     }
 
@@ -34,5 +35,10 @@ public class MainMenu : MonoBehaviour
     public void OpenGameModeOne()
     {
         SceneManager.LoadSceneAsync(1);
+    }
+
+    public void OpenGameModeTwo()
+    {
+        SceneManager.LoadSceneAsync(2);
     }
 }

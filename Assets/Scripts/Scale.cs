@@ -55,7 +55,7 @@ public class Scale : MonoBehaviour
     void Start()
     {
         thisScale = this;
-        myAugments = new int[ScaleNotes.scaleNotesInstance.GetScaleNotesLength()];
+        myAugments = new int[8]; // Should get this from ScaleNotes, will change later
     }
 
     // Update is called once per frame
