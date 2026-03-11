@@ -8,8 +8,6 @@ public class Scale : MonoBehaviour
 {
     public string ScaleName { get; set; } = "";
     public int ID { get; set; } = 0;
-    public Scale[] CloseScales { get; } = new Scale[4];
-    private Scale thisScale;
 
     private int[] myAugments;
 
@@ -21,14 +19,6 @@ public class Scale : MonoBehaviour
         ScaleName = scaleName;
         MyScaleEnum = scaleState;
     }
-    
-    public void SetCloseScales(Scale closeOne, Scale closeTwo, Scale closeThree, Scale closeFour)
-    {
-        CloseScales[0] = closeOne;
-        CloseScales[1] = closeTwo;
-        CloseScales[2] = closeThree;
-        CloseScales[3] = closeFour;
-    }
 
     /// <summary>
     /// Set the scale's augments for second game mode. Augments like is it a b2, #4 etc. -1 is b, 1 is #.
@@ -38,6 +28,7 @@ public class Scale : MonoBehaviour
     /// </summary>
     public void SetAugments(int [] augments)
     {
+        myAugments = new int[8];
         //Making the unison and octave 0. 
         augments[0] = 0;
         augments[augments.Length - 1] = 0;
@@ -45,17 +36,24 @@ public class Scale : MonoBehaviour
         //Checking if the table elements are within range.
         for (int i = 1; i < augments.Length -1; i++)
         {
-            if (-1 > augments[i] || augments[i] > 1) augments[i] = 0;
+            if (-1 > augments[i] || augments[i] > 1)
+            {
+                augments[i] = 0;
+            }
         }
 
         myAugments = augments;
+    }
+
+    public int[] GetAugments()
+    {
+        return myAugments;
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        thisScale = this;
-        myAugments = new int[8]; // Should get this from ScaleNotes, will change later
+        
     }
 
     // Update is called once per frame

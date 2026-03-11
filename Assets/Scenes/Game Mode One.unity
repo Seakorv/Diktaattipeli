@@ -1280,7 +1280,7 @@ GameObject:
   - component: {fileID: 898296557}
   - component: {fileID: 898296558}
   m_Layer: 0
-  m_Name: SceneScirptThings
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1301,6 +1301,7 @@ MonoBehaviour:
   myGameModeNumber: 1
   currentScale: 0
   currentGenreState: 0
+  CurrentScaleObject: {fileID: 0}
   timerBar: {fileID: 299231133}
   timerDecreaseSpeed: 0.5
   wrongAnswerTimerDecrease: 100

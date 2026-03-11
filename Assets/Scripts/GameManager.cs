@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
     /// Game mode two needs only one set up because buttons will not change their information 
     /// between answers.
     /// </summary>
-    private bool gamemodeTwoSetUp = false;
 
     // Scale things
     public const int AmountOfScales = 7;
@@ -107,7 +106,7 @@ public class GameManager : MonoBehaviour
     {
         gameManagerInstance = this;
         SetEveryScale();
-        CurrentScaleObject = new Scale();
+        CurrentScaleObject = gameObject.AddComponent<Scale>();
         /*for (int i = 0; i < AllScales.Count; i++)
         {
             Debug.Log(AllScales[i].ScaleName);
@@ -212,6 +211,23 @@ public class GameManager : MonoBehaviour
         //AllScales[7].SetIDNameAndEnum(7, "Game Over", CurrentScaleState.GameOver);
     }
 
+    public void PrintCurrentScaleAugments()
+    {
+        int[] currentAugs = CurrentScaleObject.GetAugments();
+        Debug.Log("Current ScaleObject name: " + CurrentScaleObject.ScaleName);
+        for(int i = 0; i < currentAugs.Length; i++)
+        {
+            Debug.Log(i + " aug: " + currentAugs[i]);
+        }
+
+        Debug.Log("Printing Mixolydian for test " + AllScales[4].ScaleName);
+        int[] testMixoAugs = AllScales[4].GetAugments();
+        for(int i = 0; i < testMixoAugs.Length; i++)
+        {
+            Debug.Log(i + " aug: " + testMixoAugs[i]);
+        }
+    }
+
     public void SetCurrentScaleObject()
     {
         for (int i = 0; i < AllScales.Count; i++)
@@ -222,6 +238,7 @@ public class GameManager : MonoBehaviour
                 break;
             }
         }
+        Debug.Log("Current scale object: " + CurrentScaleObject.ScaleName);
     }
 
     /// <summary>
@@ -390,7 +407,7 @@ public class GameManager : MonoBehaviour
 
     public void SetGameModeTwoButtons()
     {
-        gamemodeTwoSetUp = true;
+        //gamemodeTwoSetUp = true;
         CheckIfCurrentScaleIsWithingRange();
         //int scaleNotesLength = ScaleNotes.scaleNotesInstance.GetScaleNotesLength();
 

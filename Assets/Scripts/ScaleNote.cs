@@ -40,6 +40,7 @@ public class ScaleNote : MonoBehaviour
     public void SetMyAugment(int augmentNumber)
     {
         MyAugmentNumber = augmentNumber;
+        SetMyAugText();
     }
 
     public void SetMyText()
@@ -66,8 +67,7 @@ public class ScaleNote : MonoBehaviour
 
 
     public void OnFlatClick()
-    {
-        Debug.Log("Flatten " + myScaleNumber + " to " + MyAugmentNumber);
+    { 
         if (MyAugmentNumber == -1)
         {
             //Soita ääni joka ei ole muuttunut
@@ -76,6 +76,7 @@ public class ScaleNote : MonoBehaviour
         else
         {
             MyAugmentNumber--;
+            Debug.Log("Flatten " + myScaleNumber + " to " + MyAugmentNumber);
         }
         //Soita ääni
         SetMyAugText();
@@ -83,7 +84,6 @@ public class ScaleNote : MonoBehaviour
 
     public void OnSharpClick()
     {
-        Debug.Log("Sharpen " + myScaleNumber + " to " + MyAugmentNumber);
         if (MyAugmentNumber == 1)
         {
             //Soita ääni joka ei ole muuttunut
@@ -92,6 +92,7 @@ public class ScaleNote : MonoBehaviour
         else
         {
             MyAugmentNumber++;
+            Debug.Log("Sharpen " + myScaleNumber + " to " + MyAugmentNumber);
         }
         //Soita ääni
         SetMyAugText();

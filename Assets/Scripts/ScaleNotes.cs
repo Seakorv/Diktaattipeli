@@ -33,11 +33,27 @@ public class ScaleNotes : MonoBehaviour
 
     public void OnSubmitClick()
     {
-        Debug.Log("Vastaus annettu");
+        int[] currentAugments = GameManager.gameManagerInstance.CurrentScaleObject.GetAugments();
+
+        for (int i = 0; i < scalenotes.Length; i++)
+        {
+            if (scalenotes[i].MyAugmentNumber != currentAugments[i]) //Vertaa scaleen
+            {
+                
+                Debug.Log("VÄÄRIN");
+                GameManager.gameManagerInstance.UpdatePointCounters(false);
+                //Tööt efekti
+                return;
+            }
+        }
+        Debug.Log("Oikein!");
+        GameManager.gameManagerInstance.AnsweredCorrect();
+        GameManager.gameManagerInstance.UpdatePointCounters(true);
     }
 
     public void OnPlayClick()
     {
         Debug.Log("Coroutinella soitetaan scale, Scaledokusta mallia");
+        GameManager.gameManagerInstance.PrintCurrentScaleAugments();
     }
 }
