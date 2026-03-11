@@ -16,11 +16,12 @@ public class ScaleNote : MonoBehaviour
     [SerializeField] private Button noteButton;
     [SerializeField] private Button sharpButton;
     [SerializeField] private Button flatButton;
+    //[SerializeField] private TextMeshProUGUI myText;
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
-    void Awake()
+    void Start()
     {
         MyAugmentNumber = 0;
         noteButton.onClick.AddListener(OnNoteClick);
@@ -61,5 +62,15 @@ public class ScaleNote : MonoBehaviour
             MyAugmentNumber++;
         }
         //Soita ääni
+    }
+
+    public void Sharpen()
+    {
+        MyAugmentNumber++;
+    }
+
+    public void Flatten()
+    {
+        MyAugmentNumber--;
     }
 }

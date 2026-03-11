@@ -22,6 +22,7 @@ public class StartGame : MonoBehaviour
 
     private void OnStartButtonClick()
     {
+        Debug.Log("Start klikattu");
         //GameModeOne.gameModeOneInstance.StartGame();
         //GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
         GameManager.gameManagerInstance.SetFirstScaleState();

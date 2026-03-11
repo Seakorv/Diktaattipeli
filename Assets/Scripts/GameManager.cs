@@ -16,6 +16,12 @@ public class GameManager : MonoBehaviour
     //Game mode things
     [SerializeField] private int myGameModeNumber;
 
+    /// <summary>
+    /// Game mode two needs only one set up because buttons will not change their information 
+    /// between answers.
+    /// </summary>
+    private bool gamemodeTwoSetUp = false;
+
     // Scale things
     public const int AmountOfScales = 7;
     /// <summary>
@@ -189,14 +195,23 @@ public class GameManager : MonoBehaviour
         }
         // Setting scales manually because every scale has different name. First are normal 'church' modes.
         AllScales[0].SetIDNameAndEnum(0, "Ionian", CurrentScaleState.Ionian);
+        AllScales[0].SetAugments(new int[8]);
         AllScales[1].SetIDNameAndEnum(1, "Dorian", CurrentScaleState.Dorian);
+        AllScales[1].SetAugments(new int[] { 0, 0, -1, 0, 0, 0, -1, 0});
         AllScales[2].SetIDNameAndEnum(2, "Phrygian", CurrentScaleState.Phrygian);
+        AllScales[2].SetAugments(new int[] { 0, -1, -1, 0, 0, -1, -1, 0});
         AllScales[3].SetIDNameAndEnum(3, "Lydian", CurrentScaleState.Lydian);
+        AllScales[3].SetAugments(new int[] { 0, 0, 0, 1, 0, 0, 0, 0});
         AllScales[4].SetIDNameAndEnum(4, "Mixolydian", CurrentScaleState.Mixolydian);
+        AllScales[4].SetAugments(new int[] { 0, 0, 0, 0, 0, 0, -1, 0});
         AllScales[5].SetIDNameAndEnum(5, "Aiolian", CurrentScaleState.Aeolian);
+        AllScales[5].SetAugments(new int[] { 0, 0, -1, 0, 0, -1, -1, 0});
         AllScales[6].SetIDNameAndEnum(6, "Locrian", CurrentScaleState.Locrian);
+        AllScales[6].SetAugments(new int[] { 0, -1, -1, 0, -1, -1, -1, 0});
         //AllScales[7].SetIDNameAndEnum(7, "Game Over", CurrentScaleState.GameOver);
     }
+
+
 
     /// <summary>
     /// Randomize all scale list
@@ -249,6 +264,7 @@ public class GameManager : MonoBehaviour
     {
         currentScale = newScaleState;
         if (myGameModeNumber == 1) { SetGameModeOneButtonScales(); }
+        if (myGameModeNumber == 2 && !gamemodeTwoSetUp) { SetGameModeTwoButtons(); }
         
         if (newScaleState != CurrentScaleState.None || newScaleState != CurrentScaleState.GameOver)
         {
@@ -302,7 +318,7 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Checks and sets the currentscaleindex withing AmountOfScales range
+    /// Checks and sets the currentscaleindex within AmountOfScales range
     /// </summary>
     public void CheckIfCurrentScaleIsWithingRange()
     {
@@ -358,6 +374,14 @@ public class GameManager : MonoBehaviour
                 usedIndex[i] = randomScaleIndex;
             }
         }
+    }
+
+    public void SetGameModeTwoButtons()
+    {
+        gamemodeTwoSetUp = true;
+        CheckIfCurrentScaleIsWithingRange();
+        int scaleNotesLength = ScaleNotes.scaleNotesInstance.GetScaleNotesLength();
+
     }
 
     /// <summary>
@@ -485,7 +509,6 @@ public class GameManager : MonoBehaviour
         timerBar.value = timerBar.maxValue;
         isGameOver = false;
         UpdateCurrentScale(CurrentScaleState.GameOver);
-        
         //Debug.Log(currentScaleIndex + " Current scale index");
     }
 

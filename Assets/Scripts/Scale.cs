@@ -11,21 +11,9 @@ public class Scale : MonoBehaviour
     public Scale[] CloseScales { get; } = new Scale[4];
     private Scale thisScale;
 
+    private int[] myAugments;
+
     public CurrentScaleState MyScaleEnum { get; set; }
-
-    /*public Scale()
-    {
-        ID = 0;
-        CloseScales = new Scale[4];
-        ScaleName = "Testi";
-    }
-
-    public Scale(int id, String scaleName)
-    {
-        ID = id;
-        ScaleName = scaleName;
-        CloseScales = new Scale[4];
-    }*/
 
     public void SetIDNameAndEnum(int id, String scaleName, CurrentScaleState scaleState)
     {
@@ -41,11 +29,33 @@ public class Scale : MonoBehaviour
         CloseScales[2] = closeThree;
         CloseScales[3] = closeFour;
     }
+
+    /// <summary>
+    /// Set the scale's augments for second game mode. Augments like is it a b2, #4 etc. -1 is b, 1 is #.
+    /// All zeros (0) will make the scale basic major (ionian). Every scale references to ionian. 
+    /// For example [0 -1 -1 0 0 -1 -1 0] will be Phrygian. First and last will always be zero.
+    /// Giving numbers outside of -1, 0, 1 will default to 0.
+    /// </summary>
+    public void SetAugments(int [] augments)
+    {
+        //Making the unison and octave 0. 
+        augments[0] = 0;
+        augments[augments.Length - 1] = 0;
+
+        //Checking if the table elements are within range.
+        for (int i = 1; i < augments.Length -1; i++)
+        {
+            if (-1 > augments[i] || augments[i] > 1) augments[i] = 0;
+        }
+
+        myAugments = augments;
+    }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         thisScale = this;
+        myAugments = new int[ScaleNotes.scaleNotesInstance.GetScaleNotesLength()];
     }
 
     // Update is called once per frame
