@@ -86,7 +86,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AK.Wwise.Event errorSFX;
 
 
-
     // Things for testing
     [Header("Things for testing")]
     [SerializeField] private TextMeshProUGUI kierroslaskuri;
@@ -528,7 +527,6 @@ public class GameManager : MonoBehaviour
     {
         RandomizeScaleList();
         SetCounterTexts();
-
         // Testings
         UpdateKierrosLaskuri();
         //Always starting at the beginning of the list
