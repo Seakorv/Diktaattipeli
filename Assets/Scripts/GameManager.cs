@@ -154,8 +154,6 @@ public class GameManager : MonoBehaviour
         }
         if (timerBar.value == 0 && !isGameOver)
         {
-            //DataSaving.dataSavingInstance.PrintCorrectSavings();
-            //DataSaving.dataSavingInstance.PrintIncorrectSavings();
             saveAnswersToJSON.SaveData();
             GameOver();
         }

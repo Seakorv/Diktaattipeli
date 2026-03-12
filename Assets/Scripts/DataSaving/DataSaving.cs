@@ -22,7 +22,7 @@ public class DataSaving : MonoBehaviour
             AnswerTime = answerTime,
             MyGameMode = GameManager.gameManagerInstance.GetMyGameModeNumber()
         };
-
+        
         saveCorrectAnswers.Add(saveCorrect);
     }
 

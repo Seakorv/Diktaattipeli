@@ -8,6 +8,7 @@ public class SaveData
 {
     public List<DataSaveCorrect> correctAnswers;
     public List<DataSaveIncorrect> incorrectAnswers;
+    public int correctScore;
 }
 
 public class DataSaveJSON : MonoBehaviour
@@ -23,7 +24,7 @@ public class DataSaveJSON : MonoBehaviour
 
     public void SaveData()
     {
-        string path = Application.persistentDataPath + "SaveData.json";
+        string path = Application.persistentDataPath + "/SaveData.json";
 
         SaveData data;
 
@@ -41,6 +42,12 @@ public class DataSaveJSON : MonoBehaviour
 
         data.correctAnswers.AddRange(answerDataCorrect);
         data.incorrectAnswers.AddRange(answerDataIncorrect);
+
+        //Saving only the highest score
+        if (data.correctScore < GameManager.gameManagerInstance.CorrectCounter)
+        {
+            data.correctScore = GameManager.gameManagerInstance.CorrectCounter;
+        }
 
         string newJson = JsonUtility.ToJson(data, true);
 
