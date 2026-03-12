@@ -239,7 +239,7 @@ public class GameManager : MonoBehaviour
         AllScales[3].SetAugments(new int[] { 0, 0, 0, 1, 0, 0, 0, 0});
         AllScales[4].SetIDNameAndEnum(4, "Mixolydian", CurrentScaleState.Mixolydian);
         AllScales[4].SetAugments(new int[] { 0, 0, 0, 0, 0, 0, -1, 0});
-        AllScales[5].SetIDNameAndEnum(5, "Aiolian", CurrentScaleState.Aeolian);
+        AllScales[5].SetIDNameAndEnum(5, "Aeolian", CurrentScaleState.Aeolian);
         AllScales[5].SetAugments(new int[] { 0, 0, -1, 0, 0, -1, -1, 0});
         AllScales[6].SetIDNameAndEnum(6, "Locrian", CurrentScaleState.Locrian);
         AllScales[6].SetAugments(new int[] { 0, -1, -1, 0, -1, -1, -1, 0});

@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 24745
+  controlID: 27204
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.GameView
   m_SerializedViewValues:
-  - /Users/arttujuntunen/Unity/Diktaattipeli/Library/PlayModeViewStates/cc66b29b24203486e9b199c294e526e0
+  - /Users/arttujuntunen/Unity/Diktaattipeli/Library/PlayModeViewStates/7a8991cabb9d04b458e0d482d17fcf5d
   m_PlayModeViewName: Device Simulator
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 24716
+  controlID: 27205
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24711
+  controlID: 27206
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -167,8 +167,8 @@ MonoBehaviour:
     y: 0
     width: 648
     height: 747
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -215,7 +215,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c446feff884afeffaa4cfeff72b5feff96cbfeffc0fffeff7043ffff9e45ffff4c54ffff8e54ffffd054ffff9a55ffffdc55ffff1e56ffff6056ffffa256ffffa456ffff525cffff6860ffffb460ffff8c62ffffc46affffd084ffffd284ffff8485ffff5c89ffff588affffeeaeffff08b6ffffacc1ffff42e5ffff02fbffff22c80000b4d9000066da0000cade0000f8de00000adf000062df00007cdf0000a6f1000022f20000caf30000e8f3000006f400000ef400003ef4000082f400004e030100e40601001e070100b2070100c8090100d60e0100880f0100920f010086180100dc1801002019010078190100a6190100b81901002a1a0100902c0100ac2c01005e2d010014530100c6530100
+      m_ExpandedIDs: aa8cfdff080bfeffc446feff884afeffaa4cfeff72b5feff96cbfeffc0fffeff7043ffff9e45ffff4c54ffff8e54ffffd054ffff9a55ffffdc55ffff1e56ffff6056ffffa256ffffa456ffff525cffff6860ffffb460ffff8c62ffffc46affffd084ffffd284ffff8485ffff5c89ffff588affffeeaeffff08b6ffffacc1ffff42e5ffff02fbffff22c80000b4d9000066da0000cade0000f8de00000adf000062df00007cdf0000a6f1000022f20000caf30000e8f3000006f400000ef400003ef4000082f400004e030100e40601001e070100b2070100c8090100d60e0100880f0100920f010086180100dc1801002019010078190100a6190100b81901002a1a0100902c0100ac2c01005e2d010014530100c653010078860100ca9b0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -1091,16 +1091,16 @@ MonoBehaviour:
     y: 747
     width: 1363
     height: 339
-  m_MinSize: {x: 101, y: 126}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1148,7 +1148,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/DataSaving
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1158,16 +1158,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/DataSaving
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/arttujuntunen/Unity/Diktaattipeli
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 65.89371}
-    m_SelectedIDs: d2e00000
-    m_LastClickedID: 57554
-    m_ExpandedIDs: 0000000006bf0000a4c7000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 11.000061}
+    m_SelectedIDs: a2c70000
+    m_LastClickedID: 51106
+    m_ExpandedIDs: 0000000006bf000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1222,9 +1222,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: ecc70000
+    m_LastClickedInstanceID: 51180
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300009869000032660000e497000000000000f07400003cbb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1328,7 +1328,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 88092
+  m_LastSelectedObjectID: 105360
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1384,8 +1384,8 @@ MonoBehaviour:
     y: 0
     width: 557
     height: 1086
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -1433,7 +1433,7 @@ MonoBehaviour:
     m_CachedPref: 151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 51180
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

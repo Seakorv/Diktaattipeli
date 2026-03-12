@@ -23,29 +23,28 @@ public class DataSaveJSON : MonoBehaviour
 
     public void SaveData()
     {
-        string jsonCorrect = JsonUtility.ToJson(answerDataCorrect);
-        string jsonIncorrect = JsonUtility.ToJson(answerDataIncorrect);
+        string path = Application.persistentDataPath + "SaveData.json";
 
-        SaveData data = new SaveData();
-        data.correctAnswers = answerDataCorrect;
-        data.incorrectAnswers = answerDataIncorrect;
+        SaveData data;
 
-        string json = JsonUtility.ToJson(data, true);
-        
-        for (int i = 0; i < answerDataCorrect.Count; i++)
+        if (File.Exists(path))
         {
-            Debug.Log(JsonUtility.ToJson(answerDataCorrect[i]));
+            string json = File.ReadAllText(path);
+            data = JsonUtility.FromJson<SaveData>(json);
+        }
+        else
+        {
+            data = new SaveData();
+            data.correctAnswers = new List<DataSaveCorrect>();
+            data.incorrectAnswers = new List<DataSaveIncorrect>();
         }
 
-        for (int i = 0; i < answerDataIncorrect.Count; i++)
-        {
-            Debug.Log(JsonUtility.ToJson(answerDataIncorrect[i]));
-        }
+        data.correctAnswers.AddRange(answerDataCorrect);
+        data.incorrectAnswers.AddRange(answerDataIncorrect);
 
-        using(StreamWriter writer = new StreamWriter(Application.dataPath + Path.AltDirectorySeparatorChar + "SaveData.json"))
-        {
-            writer.Write(json);
-        }
+        string newJson = JsonUtility.ToJson(data, true);
+
+        File.WriteAllText(path, newJson);
     }
 
     public void LoadData()
