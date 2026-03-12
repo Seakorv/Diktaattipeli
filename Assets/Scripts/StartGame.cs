@@ -32,6 +32,7 @@ public class StartGame : MonoBehaviour
 
     private void OnMainMenuClick()
     {
+        AkUnitySoundEngine.StopAll();
         SceneManager.LoadSceneAsync(0);
     }
 

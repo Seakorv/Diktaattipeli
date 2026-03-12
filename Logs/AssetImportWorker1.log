@@ -372,3 +372,6 @@ Received Import Request.
 Start importing Assets/Prefabs/ScaleNote.prefab using Guid(47c59390d16fe4faf947ff68e64fd146) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae24b31c2f53802e426a7894773f1e53') in 0.051342541 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

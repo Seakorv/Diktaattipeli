@@ -32,6 +32,17 @@ public class GameManager : MonoBehaviour
     public List<Scale> AllScalesRandomOrder { get; private set; }
     public CurrentScaleState currentScale;
     public CurrentGenreState currentGenreState;
+
+    [Header("Tempo things")]
+    private float currentTempo = 0f;
+    [SerializeField] private float synthFunkTempo = 109f;
+    [SerializeField] private float metalTempo = 90f;
+    [SerializeField] private float pianoTempo = 0f;
+    //note tempos are propably just needed in ScaleNotes script 
+    private float quarterNote;
+    private float eightNote;
+
+    //Scale object
     public Scale CurrentScaleObject;
     private int currentScaleIndex = 0;
 
@@ -94,8 +105,7 @@ public class GameManager : MonoBehaviour
     private string kierrosText = "";
 
     // Data saving things
-    public List<DataSaveCorrect> SaveCorrectAnswers = new List<DataSaveCorrect>();
-    public List<DataSaveIncorrect> SaveIncorrectAnswers = new List<DataSaveIncorrect>();
+    private DataSaveJSON saveAnswersToJSON;
     private float timeForAnswer = 0f;
     private bool correctPress = false;
 
@@ -103,33 +113,22 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        //Setting tempo
+
         gameManagerInstance = this;
         SetEveryScale();
         CurrentScaleObject = gameObject.AddComponent<Scale>();
-        /*for (int i = 0; i < AllScales.Count; i++)
-        {
-            Debug.Log(AllScales[i].ScaleName);
-        }*/
-        /*RandomizeScaleList();
-        SetCounterTexts();
-
-        // Testings
-        UpdateKierrosLaskuri();*/
 
         timerBar.maxValue = MAX_TIMER;
         timerBar.minValue = 0;
-        //timerBar.value = timerBar.maxValue;
 
-        
-        //UpdateGenreState(RandomizeGenre());
         StartGame();
     }
 
 
     void Start()
     {
-        //Always starting at the beginning of the list
-        //UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
+        saveAnswersToJSON = gameObject.AddComponent<DataSaveJSON>();
     }
 
     // Update is called once per frame
@@ -144,6 +143,7 @@ public class GameManager : MonoBehaviour
         if (correctPress)
         {
             Debug.Log("Vastausaika: " + timeForAnswer);
+            DataSaving.dataSavingInstance.CorrectSaving(CurrentScaleObject, timeForAnswer);
             timeForAnswer = 0f;
             correctPress = false;
         }
@@ -154,6 +154,9 @@ public class GameManager : MonoBehaviour
         }
         if (timerBar.value == 0 && !isGameOver)
         {
+            //DataSaving.dataSavingInstance.PrintCorrectSavings();
+            //DataSaving.dataSavingInstance.PrintIncorrectSavings();
+            saveAnswersToJSON.SaveData();
             GameOver();
         }
     }
@@ -185,6 +188,39 @@ public class GameManager : MonoBehaviour
         return (CurrentGenreState)nextGenre;
     }
 
+    public void SetTempo(CurrentGenreState genre)
+    {
+        switch (genre)
+        {
+            case CurrentGenreState.None:
+                //Lets just set for a default 120
+                quarterNote = 60f / 120f;
+                eightNote = quarterNote / 2f;
+                currentTempo = 120f;
+                break;
+            case CurrentGenreState.SynthFunk:
+                quarterNote = 60f / synthFunkTempo;
+                eightNote = quarterNote / 2f;
+                currentTempo = synthFunkTempo;
+                break;
+            case CurrentGenreState.Metal:
+                quarterNote = 60f / metalTempo;
+                eightNote = quarterNote / 2f;
+                currentTempo = metalTempo;
+                break;
+        }
+    }
+
+    public float GetTempo()
+    {
+        return currentTempo;
+    }
+
+    public int GetMyGameModeNumber()
+    {
+        return myGameModeNumber;
+    }
+
     public void SetEveryScale()
     {
         AllScales = new List<Scale>();
@@ -208,23 +244,6 @@ public class GameManager : MonoBehaviour
         AllScales[6].SetIDNameAndEnum(6, "Locrian", CurrentScaleState.Locrian);
         AllScales[6].SetAugments(new int[] { 0, -1, -1, 0, -1, -1, -1, 0});
         //AllScales[7].SetIDNameAndEnum(7, "Game Over", CurrentScaleState.GameOver);
-    }
-
-    public void PrintCurrentScaleAugments()
-    {
-        int[] currentAugs = CurrentScaleObject.GetAugments();
-        Debug.Log("Current ScaleObject name: " + CurrentScaleObject.ScaleName);
-        for(int i = 0; i < currentAugs.Length; i++)
-        {
-            Debug.Log(i + " aug: " + currentAugs[i]);
-        }
-
-        Debug.Log("Printing Mixolydian for test " + AllScales[4].ScaleName);
-        int[] testMixoAugs = AllScales[4].GetAugments();
-        for(int i = 0; i < testMixoAugs.Length; i++)
-        {
-            Debug.Log(i + " aug: " + testMixoAugs[i]);
-        }
     }
 
     public void SetCurrentScaleObject()
@@ -265,6 +284,7 @@ public class GameManager : MonoBehaviour
     public void UpdateGenreState(CurrentGenreState newGenre)
     {
         currentGenreState = newGenre;
+        SetTempo(currentGenreState);
 
         switch (newGenre)
         {
@@ -386,8 +406,7 @@ public class GameManager : MonoBehaviour
             randomScaleIndex = GetRandomScaleIndex();
             if (i == correctButton)
             {
-                ButtonsScript.buttonsInstance.SetButtonInfo(correctButton, AllScalesRandomOrder[currentScaleIndex].ScaleName, true);
-                ButtonsScript.buttonsInstance.SetButtonScaleState(correctButton, AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
+                ButtonsScript.buttonsInstance.SetButtonInfo(correctButton, AllScalesRandomOrder[currentScaleIndex], true);
             }
             else //Aluksi voi olla samoja
             {
@@ -398,8 +417,7 @@ public class GameManager : MonoBehaviour
                         randomScaleIndex = GetRandomScaleIndex(randomScaleIndex);
                     }
                 }
-                ButtonsScript.buttonsInstance.SetButtonInfo(i, AllScalesRandomOrder[randomScaleIndex].ScaleName, false);
-                ButtonsScript.buttonsInstance.SetButtonScaleState(i, AllScalesRandomOrder[randomScaleIndex].MyScaleEnum);
+                ButtonsScript.buttonsInstance.SetButtonInfo(i, AllScalesRandomOrder[randomScaleIndex], false);
                 usedIndex[i] = randomScaleIndex;
             }
         }
@@ -447,6 +465,7 @@ public class GameManager : MonoBehaviour
     public void AnsweredCorrect()
     {
         correctPress = true;
+
         // If every scale has been gone through, restart and re-randomize the list
         if (currentScaleIndex == AmountOfScales)
         {
@@ -487,6 +506,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            //
             errorSFX.Post(gameObject);
             timerBar.value -= wrongAnswerTimerDecrease;
             WrongCounter += 1;
@@ -554,27 +574,9 @@ public class GameManager : MonoBehaviour
         ResetKierrosLaskuri();
     }
 
-    public void CorrectSaving(Scale current, float answerTime)
+    public void FromIncorrectButton(Scale incorrect)
     {
-        DataSaveCorrect saveCorrect = new DataSaveCorrect
-        {
-            MyCurrent = current,
-            AnswerTime = answerTime
-        };
-
-        SaveCorrectAnswers.Add(saveCorrect);
-    }
-
-    public void IncorrectSaving(Scale current, Scale wrongScale, int currentScore)
-    {
-        DataSaveIncorrect saveIncorrect = new DataSaveIncorrect
-        {
-            MyCurrent = current,
-            WrongScale = wrongScale,
-            CurrentScore = currentScore
-        };
-
-        SaveIncorrectAnswers.Add(saveIncorrect);
+        DataSaving.dataSavingInstance.IncorrectSaving(CurrentScaleObject, incorrect, CorrectCounter);
     }
 }
 

@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 125, y: 50}
+  m_SizeDelta: {x: 125, y: 70}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &2120066596576516566
 CanvasRenderer:
@@ -272,7 +272,6 @@ MonoBehaviour:
   myName: Testi
   myButton: {fileID: 5357609027828592242}
   myText: {fileID: 0}
-  click: {fileID: -7813522778466136694, guid: f0ace58f455bd4d86938de768bbb82c9, type: 3}
 --- !u!1 &7751358130332467066
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,13 +364,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

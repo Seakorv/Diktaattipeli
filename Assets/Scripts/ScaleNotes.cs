@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -54,6 +55,19 @@ public class ScaleNotes : MonoBehaviour
     public void OnPlayClick()
     {
         Debug.Log("Coroutinella soitetaan scale, Scaledokusta mallia");
-        GameManager.gameManagerInstance.PrintCurrentScaleAugments();
+        StartCoroutine(PlayScale());
+    }
+
+    public IEnumerator PlayScale()
+    {
+        float quarterNote = 60f / GameManager.gameManagerInstance.GetTempo();
+        float eightNote = quarterNote / 2f;
+        for (int i = 0; i < scalenotes.Length; i++)
+        {
+            scalenotes[i].PlayMyNote();
+            scalenotes[i].Highlight(true);
+            yield return new WaitForSeconds(eightNote);
+            scalenotes[i].Highlight(false);
+        }
     }
 }

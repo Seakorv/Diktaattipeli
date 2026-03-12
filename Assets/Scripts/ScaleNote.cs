@@ -12,6 +12,8 @@ public class ScaleNote : MonoBehaviour
     /// This note's augment, is it sharp, flat or normal. Sharp is 1, flat is -1, normal is 0
     /// </summary>
     public int MyAugmentNumber { get; private set; }
+    [SerializeField] private Color myColor;
+    [SerializeField] private Color highlightColor;
 
     //Buttons
     [SerializeField] private Button noteButton;
@@ -34,7 +36,7 @@ public class ScaleNote : MonoBehaviour
 
     public void OnNoteClick()
     {
-        //Soita ääniefekti
+        PlayMyNote();
     }
 
     public void SetMyAugment(int augmentNumber)
@@ -64,13 +66,33 @@ public class ScaleNote : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Highlighting or taking the highlight off
+    /// </summary>
+    /// <param name="onOff">True if want to highlight, false if wanting to take it off</param>
+    public void Highlight(bool onOff)
+    {
+        ColorBlock highlight = noteButton.colors;        
 
+        if (onOff)
+        {
+            Debug.Log("Highlight");
+            highlight.normalColor = highlightColor;
+            noteButton.colors = highlight;
+        }
+        if (!onOff)
+        {
+            Debug.Log("Highligt off");
+            highlight.normalColor = myColor;
+            noteButton.colors = highlight;
+        }
+    }
 
     public void OnFlatClick()
     { 
         if (MyAugmentNumber == -1)
         {
-            //Soita ääni joka ei ole muuttunut
+            PlayMyNote();
             return;
         }
         else
@@ -78,7 +100,7 @@ public class ScaleNote : MonoBehaviour
             MyAugmentNumber--;
             Debug.Log("Flatten " + myScaleNumber + " to " + MyAugmentNumber);
         }
-        //Soita ääni
+        PlayMyNote();
         SetMyAugText();
     }
 
@@ -86,7 +108,7 @@ public class ScaleNote : MonoBehaviour
     {
         if (MyAugmentNumber == 1)
         {
-            //Soita ääni joka ei ole muuttunut
+            PlayMyNote();
             return;
         }
         else
@@ -94,17 +116,24 @@ public class ScaleNote : MonoBehaviour
             MyAugmentNumber++;
             Debug.Log("Sharpen " + myScaleNumber + " to " + MyAugmentNumber);
         }
-        //Soita ääni
+        PlayMyNote();
         SetMyAugText();
     }
 
-    public void Sharpen()
+    public void PlayMyNote()
     {
-        MyAugmentNumber++;
-    }
-
-    public void Flatten()
-    {
-        MyAugmentNumber--;
+        Debug.Log("Nuotti soi");
+        switch (MyAugmentNumber)
+        {
+            case 0: 
+                //Soita +0
+                break;
+            case 1:
+                //Soita +1
+                break;
+            case -1:
+                //soita -1
+                break;
+        }
     }
 }

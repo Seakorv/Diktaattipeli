@@ -22,14 +22,9 @@ public class ButtonsScript : MonoBehaviour
         return ButtonsLength;
     }
 
-    public void SetButtonInfo(int buttonIndex, string scaleName, bool correct)
+    public void SetButtonInfo(int buttonIndex, Scale scale, bool correct)
     {
-        answerButtons[buttonIndex].SetButtonNameAndText(scaleName);
+        answerButtons[buttonIndex].SetAnswerButtonInfo(scale);
         answerButtons[buttonIndex].IsCorrect = correct;
-    }
-
-    public void SetButtonScaleState(int buttonIndex, CurrentScaleState buttonScaleState)
-    {
-        answerButtons[buttonIndex].ButtonScaleState = buttonScaleState;
     }
 }

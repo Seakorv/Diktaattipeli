@@ -576,7 +576,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &1386980032977094963
 MonoBehaviour:
@@ -921,6 +921,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScaleNote
   myScaleNumber: 0
+  myColor: {r: 0, g: 1, b: 0.45882353, a: 1}
+  highlightColor: {r: 0.8230769, g: 1, b: 0.5707547, a: 1}
   noteButton: {fileID: 6823206717316259081}
   sharpButton: {fileID: 4169040187082573482}
   flatButton: {fileID: 2721975391627382483}

@@ -17,6 +17,7 @@ public class AnswerButton : MonoBehaviour
     //[SerializeField] private  myScaleName;
     public bool IsCorrect { get; set; } = false;
     public CurrentScaleState ButtonScaleState { get; set; }
+    private Scale myScaleObject;
 
     void Start()
     {
@@ -39,6 +40,7 @@ public class AnswerButton : MonoBehaviour
         {
             Debug.Log("Väärin!");
             GameManager.gameManagerInstance.UpdatePointCounters(false);
+            GameManager.gameManagerInstance.FromIncorrectButton(myScaleObject);
         }
         else
         {
@@ -48,10 +50,11 @@ public class AnswerButton : MonoBehaviour
         }
     }
 
-    public void SetButtonNameAndText(string name)
+    public void SetAnswerButtonInfo(Scale scale)
     {
-        myName = name;
-        myButton.name = myName;
-        myText.text = myName;
+        myScaleObject = scale;
+        myName = scale.ScaleName;
+        myText.text = scale.ScaleName;
+        ButtonScaleState = scale.MyScaleEnum;
     }
 }
