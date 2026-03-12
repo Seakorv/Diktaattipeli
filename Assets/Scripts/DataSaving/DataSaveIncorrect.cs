@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class DataSaveIncorrect : MonoBehaviour
+[System.Serializable]
+public class DataSaveIncorrect
 {
-    public Scale MyCurrent;
-    public Scale WrongScale;
+    public string CorrectScale;
+    public string WrongScale;
     public int CurrentScore;
 }

@@ -1,7 +1,9 @@
 using UnityEngine;
 
-public class DataSaveCorrect : MonoBehaviour
+[System.Serializable]
+public class DataSaveCorrect
 {
-    public Scale MyCurrent;
+    public string CorrectScale;
     public float AnswerTime;
+    public int MyGameMode;
 }

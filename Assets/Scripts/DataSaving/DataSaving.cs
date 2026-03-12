@@ -6,8 +6,8 @@ using UnityEngine;
 public class DataSaving : MonoBehaviour
 {
     public static DataSaving dataSavingInstance;
-    private List<DataSaveIncorrect> saveIncorrectAnswers = new List<DataSaveIncorrect>();
-    private List<DataSaveCorrect> saveCorrectAnswers = new List<DataSaveCorrect>();
+    public List<DataSaveIncorrect> saveIncorrectAnswers = new List<DataSaveIncorrect>();
+    public List<DataSaveCorrect> saveCorrectAnswers = new List<DataSaveCorrect>();
 
     void Awake()
     {
@@ -16,20 +16,24 @@ public class DataSaving : MonoBehaviour
 
     public void CorrectSaving(Scale current, float answerTime)
     {
-        DataSaveCorrect saveCorrect = gameObject.AddComponent<DataSaveCorrect>();
-
-        saveCorrect.MyCurrent = current;
-        saveCorrect.AnswerTime = answerTime;
+        DataSaveCorrect saveCorrect = new()
+        {
+            CorrectScale = current.ScaleName,
+            AnswerTime = answerTime,
+            MyGameMode = GameManager.gameManagerInstance.GetMyGameModeNumber()
+        };
 
         saveCorrectAnswers.Add(saveCorrect);
     }
 
     public void IncorrectSaving(Scale current, Scale wrongScale, int currentScore)
     {
-        DataSaveIncorrect saveIncorrect = gameObject.AddComponent<DataSaveIncorrect>();
-        saveIncorrect.MyCurrent = current;
-        saveIncorrect.WrongScale = wrongScale;
-        saveIncorrect.CurrentScore = currentScore;
+        DataSaveIncorrect saveIncorrect = new()
+        {
+            CorrectScale = current.ScaleName,
+            WrongScale = wrongScale.ScaleName,
+            CurrentScore = currentScore
+        };
 
         saveIncorrectAnswers.Add(saveIncorrect);
     }
@@ -39,7 +43,7 @@ public class DataSaving : MonoBehaviour
         Debug.Log("Gamemode: " + GameManager.gameManagerInstance.GetMyGameModeNumber());
         for (int i = 0; i < saveCorrectAnswers.Count; i++)
         {
-            Debug.Log("Current scale: " + saveCorrectAnswers[i].MyCurrent.ScaleName + 
+            Debug.Log("Current scale: " + saveCorrectAnswers[i].CorrectScale + 
                     "\n Answer Time: " + saveCorrectAnswers[i].AnswerTime);
         }
     }
@@ -48,8 +52,8 @@ public class DataSaving : MonoBehaviour
     {
         for (int i = 0; i < saveIncorrectAnswers.Count; i++)
         {
-            Debug.Log("Current scale: " + saveIncorrectAnswers[i].MyCurrent.ScaleName + 
-                    "\n Wrong answer: " + saveIncorrectAnswers[i].WrongScale.ScaleName + 
+            Debug.Log("Current scale: " + saveIncorrectAnswers[i].CorrectScale + 
+                    "\n Wrong answer: " + saveIncorrectAnswers[i].WrongScale + 
                     "\n Current Score: " + saveIncorrectAnswers[i].CurrentScore);
         }
     }

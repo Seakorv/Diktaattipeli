@@ -1,1 +1,96 @@
-{"SaveIncorrectAnswers":[{"instanceID":-130176},{"instanceID":-130178},{"instanceID":-130180},{"instanceID":-130182},{"instanceID":-130184},{"instanceID":-130186},{"instanceID":-130188},{"instanceID":-130190},{"instanceID":-130192}],"SaveCorrectAnswers":[{"instanceID":-130172},{"instanceID":-130174}]}
+{
+    "correctAnswers": [
+        {
+            "CorrectScale": "Ionian",
+            "AnswerTime": 2.1199982166290285,
+            "MyGameMode": 1
+        },
+        {
+            "CorrectScale": "Aiolian",
+            "AnswerTime": 1.8199985027313233,
+            "MyGameMode": 1
+        },
+        {
+            "CorrectScale": "Locrian",
+            "AnswerTime": 0.8799993395805359,
+            "MyGameMode": 1
+        },
+        {
+            "CorrectScale": "Mixolydian",
+            "AnswerTime": 0.15999995172023774,
+            "MyGameMode": 1
+        },
+        {
+            "CorrectScale": "Lydian",
+            "AnswerTime": 2.079998254776001,
+            "MyGameMode": 1
+        },
+        {
+            "CorrectScale": "Dorian",
+            "AnswerTime": 2.8999974727630617,
+            "MyGameMode": 1
+        },
+        {
+            "CorrectScale": "Mixolydian",
+            "AnswerTime": 2.379997968673706,
+            "MyGameMode": 1
+        }
+    ],
+    "incorrectAnswers": [
+        {
+            "CorrectScale": "Mixolydian",
+            "WrongScale": "Locrian",
+            "CurrentScore": 4
+        },
+        {
+            "CorrectScale": "Mixolydian",
+            "WrongScale": "Locrian",
+            "CurrentScore": 4
+        },
+        {
+            "CorrectScale": "Mixolydian",
+            "WrongScale": "Locrian",
+            "CurrentScore": 4
+        },
+        {
+            "CorrectScale": "Mixolydian",
+            "WrongScale": "Locrian",
+            "CurrentScore": 4
+        },
+        {
+            "CorrectScale": "Mixolydian",
+            "WrongScale": "Locrian",
+            "CurrentScore": 4
+        },
+        {
+            "CorrectScale": "Lydian",
+            "WrongScale": "Dorian",
+            "CurrentScore": 5
+        },
+        {
+            "CorrectScale": "Lydian",
+            "WrongScale": "Dorian",
+            "CurrentScore": 5
+        },
+        {
+            "CorrectScale": "Lydian",
+            "WrongScale": "Dorian",
+            "CurrentScore": 5
+        },
+        {
+            "CorrectScale": "Dorian",
+            "WrongScale": "Lydian",
+            "CurrentScore": 6
+        },
+        {
+            "CorrectScale": "Mixolydian",
+            "WrongScale": "Ionian",
+            "CurrentScore": 7
+        },
+        {
+            "CorrectScale": "Mixolydian",
+            "WrongScale": "Ionian",
+            "CurrentScore": 7
+        }
+    ]
+}
