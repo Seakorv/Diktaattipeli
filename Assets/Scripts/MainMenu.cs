@@ -34,11 +34,13 @@ public class MainMenu : MonoBehaviour
 
     public void OpenGameModeOne()
     {
+        AkSoundEngine.StopAll();
         SceneManager.LoadSceneAsync(1);
     }
 
     public void OpenGameModeTwo()
     {
+        AkSoundEngine.StopAll();
         SceneManager.LoadSceneAsync(2);
     }
 }

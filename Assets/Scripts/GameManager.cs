@@ -342,13 +342,14 @@ public class GameManager : MonoBehaviour
 
     public string GetScaletextFromRandomList()
     {
+        CheckIfCurrentScaleIsWithinRange();
         return AllScalesRandomOrder[currentScaleIndex].ScaleName;
     }
 
     /// <summary>
     /// Checks and sets the currentscaleindex within AmountOfScales range
     /// </summary>
-    public void CheckIfCurrentScaleIsWithingRange()
+    public void CheckIfCurrentScaleIsWithinRange()
     {
         if (currentScaleIndex < 0 ) { currentScaleIndex = 0; }
         if (currentScaleIndex >= AmountOfScales) { currentScaleIndex = AmountOfScales - 1; }
@@ -356,7 +357,7 @@ public class GameManager : MonoBehaviour
 
     public void SetGameModeOneButtonScales()
     {
-        CheckIfCurrentScaleIsWithingRange();
+        CheckIfCurrentScaleIsWithinRange();
         int buttonsLength = ButtonsScript.buttonsInstance.GetButtonsLength();
 
         int correctButton = rng.Next(0, buttonsLength);
@@ -407,7 +408,7 @@ public class GameManager : MonoBehaviour
     public void SetGameModeTwoButtons()
     {
         //gamemodeTwoSetUp = true;
-        CheckIfCurrentScaleIsWithingRange();
+        CheckIfCurrentScaleIsWithinRange();
         //int scaleNotesLength = ScaleNotes.scaleNotesInstance.GetScaleNotesLength();
 
     }
@@ -541,7 +542,7 @@ public class GameManager : MonoBehaviour
 
     public void SetFirstScaleState()
     {
-        CheckIfCurrentScaleIsWithingRange();
+        CheckIfCurrentScaleIsWithinRange();
         UpdateCurrentScale(AllScalesRandomOrder[currentScaleIndex].MyScaleEnum);
     }
     
