@@ -20,6 +20,14 @@ public class ScaleNote : MonoBehaviour
     [SerializeField] private Button sharpButton;
     [SerializeField] private Button flatButton;
     [SerializeField] private TextMeshProUGUI myText;
+
+    [Header("Wwise SFX")]
+    [SerializeField] private AK.Wwise.Event mySound;
+    [SerializeField] private AK.Wwise.Event mySoundFlat;
+    [SerializeField] private AK.Wwise.Event mySoundSharp;
+
+    //[Header("SFX")]
+    
     
 
     /// <summary>
@@ -126,13 +134,13 @@ public class ScaleNote : MonoBehaviour
         switch (MyAugmentNumber)
         {
             case 0: 
-                //Soita +0
+                mySound.Post(gameObject);
                 break;
             case 1:
-                //Soita +1
+                mySoundSharp.Post(gameObject);
                 break;
             case -1:
-                //soita -1
+                mySoundFlat.Post(gameObject);
                 break;
         }
     }

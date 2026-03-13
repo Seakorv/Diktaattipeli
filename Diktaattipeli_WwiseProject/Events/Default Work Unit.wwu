@@ -25,6 +25,149 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_EightSFX" ID="{B3D7968F-91FF-409E-8ECA-186C3517351F}">
+					<ChildrenList>
+						<Action Name="" ID="{0C0BC5B0-DC9E-4585-9093-82C1C95CDD1E}" ShortID="622081948">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EightSFX" ID="{FD07D0F7-1F42-4F68-9D7E-55CC36C09F3B}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ElevenSFX" ID="{D284E182-1C35-4D46-9002-B5C33118A8D9}">
+					<ChildrenList>
+						<Action Name="" ID="{91751111-0FC2-4D16-8F35-7FC13BE24CA3}" ShortID="127777171">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ElevenSFX" ID="{179D557A-3E97-494E-B1B4-BF7AC7CB68F6}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FiveSFX" ID="{71E91059-03D2-4E94-B1F6-5E2285E2C593}">
+					<ChildrenList>
+						<Action Name="" ID="{B8C42047-996B-4794-9EF8-A4DB362E548B}" ShortID="868370693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FiveSFX" ID="{D50E4EB0-801F-4587-86CF-BFAF15F16E71}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FourSFX" ID="{BF65097A-F504-45A2-BBA4-59C6B3497153}">
+					<ChildrenList>
+						<Action Name="" ID="{26B79658-3642-48D2-860D-2A33D16A347E}" ShortID="894822197">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FourSFX" ID="{5C26C140-8E63-4E20-96D1-5187928640AC}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_NineSFX" ID="{F78203EB-3E5C-4CC7-A3CF-78824E501A5E}">
+					<ChildrenList>
+						<Action Name="" ID="{6133343D-EA8B-4D71-926F-A49B8586C72F}" ShortID="90432828">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NineSFX" ID="{1249EF6A-0E48-4401-9CE3-B68693E9CD6C}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OneSFX" ID="{ABA39A9E-5111-4537-875F-3AA089195784}">
+					<ChildrenList>
+						<Action Name="" ID="{4FFD4E93-75F8-43A9-B572-495673233089}" ShortID="968112617">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OneSFX" ID="{91CA5A96-9925-470A-87C7-4227F609BDE6}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SevenSFX" ID="{8E986303-6A62-4E8B-92C6-CE6489F45CA5}">
+					<ChildrenList>
+						<Action Name="" ID="{5CF1F9B8-E4EE-43DB-8EDE-83E38D9B8B88}" ShortID="306308214">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SevenSFX" ID="{0211D95B-954B-471C-8E81-6FE3065C2902}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SixSFX" ID="{21434977-CB87-4A67-9C90-BC0FE069FE5A}">
+					<ChildrenList>
+						<Action Name="" ID="{1EACDE9E-9CA5-4EF0-BB95-3AE3F52918B2}" ShortID="595443298">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SixSFX" ID="{F7265194-BCAD-4DE1-A82F-DE4EF4F036AE}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TenSFX" ID="{0A157E1B-E9FF-436F-886A-6317295371F9}">
+					<ChildrenList>
+						<Action Name="" ID="{9B8A5337-8CF4-45DF-8EAD-37AE3455CBC3}" ShortID="254598119">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TenSFX" ID="{60F2F9EA-D024-4EFA-B2B5-C52A571684EF}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ThreeSFX" ID="{B1B25B9D-935D-4BFF-9DE2-1B890FCD9765}">
+					<ChildrenList>
+						<Action Name="" ID="{EE892956-4E0E-4C2B-A0E7-A76ACAEB3DD3}" ShortID="65705410">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ThreeSFX" ID="{31574223-05B3-4B8C-9A56-BCA9A873B5C9}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ThriteenSFX" ID="{9B4FEDCC-0F78-40FD-85CB-C9C2148ACC34}">
+					<ChildrenList>
+						<Action Name="" ID="{DCB01B13-6831-4E9F-B6C7-EF998C6CDC83}" ShortID="447149213">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ThriteenSFX" ID="{A5E8C4BD-ACD6-4377-9914-C0EEF62AF5D5}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwelveSFX" ID="{CE79D099-FB75-474C-857B-C8B8A0F75331}">
+					<ChildrenList>
+						<Action Name="" ID="{0F283D1A-2E50-4260-9D94-8F82B7F5F8FE}" ShortID="1065886545">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwelveSFX" ID="{69433A7B-3CD3-49F5-83F9-D245388E817E}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TwoSFX" ID="{71D9B768-645D-48D5-975C-7BA3D9D8DA85}">
+					<ChildrenList>
+						<Action Name="" ID="{91DD09AD-F656-4ADD-8AAE-359B712AA976}" ShortID="77254886">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TwoSFX" ID="{54865C9F-FBB0-4085-8789-7FB83CB6B184}" WorkUnitID="{E3992C86-C2E8-4EBB-88A2-C0F6E6F946DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -323,7 +323,6 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: dfc6a3419135c41f1bfad7f6a4bb74b1, type: 2}
   kierroslaskuri: {fileID: 1065169462}
   currentScaletext: {fileID: 385028550}
-  SaveCorrectAnswers: []
 --- !u!4 &238792872
 Transform:
   m_ObjectHideFlags: 0
@@ -476,7 +475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63921b1a8d0f04daf9d47e2d400565a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DataSaving
-  SaveIncorrectAnswers: []
+  saveIncorrectAnswers: []
+  saveCorrectAnswers: []
 --- !u!4 &267848094
 Transform:
   m_ObjectHideFlags: 0
@@ -612,6 +612,10 @@ PrefabInstance:
       propertyPath: myScaleNumber
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d07e1ca8dc72a45ea8e523e31d3a0cc9, type: 2}
     - target: {fileID: 7936510106862061642, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
       propertyPath: m_Name
       value: ScaleNote 1
@@ -1493,6 +1497,18 @@ PrefabInstance:
       propertyPath: myScaleNumber
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 68ce65fdfb0fb429480b89ccd8932a74, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundFlat.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 054326fcedf134534a0bec905942d4fe, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundSharp.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 89f99788a541b4e139961ae3e898bce8, type: 2}
     - target: {fileID: 7936510106862061642, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
       propertyPath: m_Name
       value: ScaleNote 6
@@ -1957,6 +1973,10 @@ PrefabInstance:
       propertyPath: myScaleNumber
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 88e83ff09b7894173a6dfba1c32cfb6a, type: 2}
     - target: {fileID: 7936510106862061642, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
       propertyPath: m_Name
       value: ScaleNote 8
@@ -2670,6 +2690,18 @@ PrefabInstance:
       propertyPath: myScaleNumber
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6dfa379832c374b9faaedee25f43675f, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundFlat.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 72b6ec3eb75ae441b9d20d293e93c7de, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundSharp.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d1d1a9277d02f44e483e9c15af6a4901, type: 2}
     - target: {fileID: 7936510106862061642, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
       propertyPath: m_Name
       value: ScaleNote 4
@@ -2875,6 +2907,18 @@ PrefabInstance:
       propertyPath: myScaleNumber
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 72b6ec3eb75ae441b9d20d293e93c7de, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundFlat.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 06cc41b7c07e546dd9c90337d633bfad, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundSharp.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6dfa379832c374b9faaedee25f43675f, type: 2}
     - target: {fileID: 7936510106862061642, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
       propertyPath: m_Name
       value: ScaleNote 3
@@ -3696,6 +3740,18 @@ PrefabInstance:
       propertyPath: myScaleNumber
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: fba882ee22d714d19a1d3216fdc4a33e, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundFlat.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 89f99788a541b4e139961ae3e898bce8, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundSharp.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 88e83ff09b7894173a6dfba1c32cfb6a, type: 2}
     - target: {fileID: 7936510106862061642, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
       propertyPath: m_Name
       value: ScaleNote 7
@@ -3973,6 +4029,18 @@ PrefabInstance:
       propertyPath: myScaleNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 23277a8f72f0b426883a456007c0e0a5, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundFlat.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f43f214ebcd364959ac97202f51f4750, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundSharp.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 06cc41b7c07e546dd9c90337d633bfad, type: 2}
     - target: {fileID: 7936510106862061642, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
       propertyPath: m_Name
       value: ScaleNote 2
@@ -4228,6 +4296,18 @@ PrefabInstance:
       propertyPath: myScaleNumber
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b6bbf001f1c5744028380e52284c1e7e, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundFlat.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d1d1a9277d02f44e483e9c15af6a4901, type: 2}
+    - target: {fileID: 6746186172825662479, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
+      propertyPath: mySoundSharp.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 054326fcedf134534a0bec905942d4fe, type: 2}
     - target: {fileID: 7936510106862061642, guid: 47c59390d16fe4faf947ff68e64fd146, type: 3}
       propertyPath: m_Name
       value: ScaleNote 5

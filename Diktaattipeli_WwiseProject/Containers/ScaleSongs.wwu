@@ -132,25 +132,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{791CCED0-C5DC-451A-812B-6FF85E972338}" ShortID="593237998">
+														<MusicPlaylistItem Name="" ID="{13074285-C15D-4329-B51F-DF31339171E1}" ShortID="1021227671">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Aiolinen1" ID="{8AF6F07E-FCD4-4934-9D82-12214EBF15BD}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Aiolinen1" ID="{8B31538E-FB0E-458C-B9C6-FEEE5656E7AB}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{F3D0B225-8B84-4A18-8F96-EEF59156BAE3}" ShortID="768557711">
+														<MusicPlaylistItem Name="" ID="{079997B9-B413-4A6A-9CDD-F811D5B200EB}" ShortID="904653442">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Aiolinen2" ID="{77804540-E69F-4EE1-898E-23B3FF61DB9E}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Aiolinen2" ID="{FB4B728C-09BB-477C-8960-045062497706}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -175,7 +175,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="1Aiolinen1" ID="{8AF6F07E-FCD4-4934-9D82-12214EBF15BD}" ShortID="692440576">
+										<MusicSegment Name="1Aiolinen1" ID="{8B31538E-FB0E-458C-B9C6-FEEE5656E7AB}" ShortID="3255481">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6666666667"/>
 											</PropertyList>
@@ -188,14 +188,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Aiolinen1" ID="{7DD27076-2857-47D8-8BB8-E1A0EB0290A2}" ShortID="452698552">
+												<MusicTrack Name="1Aiolinen1" ID="{CDD644B5-540D-4592-AFFA-800EC5A2B2E9}" ShortID="312821519">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{53F57FD8-6551-42DB-9464-037CBA853707}">
+																<MusicTransition Name="Root" ID="{197EB837-FA48-45E0-A7AB-C9A9F64DB16B}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -205,7 +205,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Aiolinen1" ID="{5AE34A12-3079-4207-9AB0-70B4D17D80D6}">
+														<AudioFileSource Name="1Aiolinen1" ID="{F5582298-35C2-45F0-991C-FEE8B636A2A4}">
 															<Language>SFX</Language>
 															<AudioFile>1Aiolinen1.wav</AudioFile>
 															<MediaIDList>
@@ -215,16 +215,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{77C254C7-CC9A-441C-A8DF-66B91FA62B3A}">
+															<MusicTrackSequence Name="" ID="{BE3945B7-CC98-43F0-BF4C-264B4E9A18BB}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Aiolinen1" ID="{3F07B0C4-3504-432C-8394-AF6503FEC08B}">
+																		<MusicClip Name="1Aiolinen1" ID="{D4527163-3DFC-4C45-9107-2B73A80CBB79}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Aiolinen1" ID="{5AE34A12-3079-4207-9AB0-70B4D17D80D6}"/>
+																			<AudioSourceRef Name="1Aiolinen1" ID="{F5582298-35C2-45F0-991C-FEE8B636A2A4}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -235,8 +235,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{307070C3-FAC9-40B9-ABC4-25DF85D50AC0}"/>
-													<MusicCue Name="Exit Cue" ID="{1668B430-A207-4E35-A128-0EB1D2AC403B}">
+													<MusicCue Name="Entry Cue" ID="{A77AA3A6-AE89-4F56-B55B-D1995359CF5B}"/>
+													<MusicCue Name="Exit Cue" ID="{8A79B87C-5F21-4742-8825-C56D96968578}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6666666667"/>
@@ -245,7 +245,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="1Aiolinen2" ID="{77804540-E69F-4EE1-898E-23B3FF61DB9E}" ShortID="616721580">
+										<MusicSegment Name="1Aiolinen2" ID="{FB4B728C-09BB-477C-8960-045062497706}" ShortID="809737720">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -258,14 +258,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Aiolinen2" ID="{723567F2-108C-4414-AD6A-03FAD8CD37A1}" ShortID="13304950">
+												<MusicTrack Name="1Aiolinen2" ID="{6B43E525-2A6C-46DF-BBF4-BD808E8F2C39}" ShortID="63739426">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{17E4423C-D7A7-45F8-83D7-00EFCCD1EC0F}">
+																<MusicTransition Name="Root" ID="{97272BF5-A953-4203-B6EA-AD07F8581996}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -275,7 +275,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Aiolinen2" ID="{ACD9A851-5257-4E69-AE20-6E6669848671}">
+														<AudioFileSource Name="1Aiolinen2" ID="{7C70D9DB-D739-4E96-BD80-86772AD7935D}">
 															<Language>SFX</Language>
 															<AudioFile>1Aiolinen2.wav</AudioFile>
 															<MediaIDList>
@@ -285,16 +285,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{1D743DA3-CD53-4041-8918-A7A7DC3B7D4E}">
+															<MusicTrackSequence Name="" ID="{568BAFB2-953D-447A-9ACE-563E012AE04E}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Aiolinen2" ID="{688F8C92-3855-4A00-9C7C-F8CF43A924A4}">
+																		<MusicClip Name="1Aiolinen2" ID="{C2505906-CDF4-4CD1-A2DF-22A09AD796CB}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Aiolinen2" ID="{ACD9A851-5257-4E69-AE20-6E6669848671}"/>
+																			<AudioSourceRef Name="1Aiolinen2" ID="{7C70D9DB-D739-4E96-BD80-86772AD7935D}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -305,8 +305,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{7E129733-410B-49D5-82AE-42F8F651D572}"/>
-													<MusicCue Name="Exit Cue" ID="{935DD614-70E0-467B-9A80-E50204083268}">
+													<MusicCue Name="Entry Cue" ID="{CB17EE85-0C3B-419F-AE06-54D8EFA3A068}"/>
+													<MusicCue Name="Exit Cue" ID="{0E4563CE-4C6D-4476-8720-3A5E26D103D0}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -336,25 +336,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{A717231B-905A-45A9-BE9C-BA0947640BE7}" ShortID="1029348208">
+														<MusicPlaylistItem Name="" ID="{4B8066CB-FE2E-4850-AAA4-3D12F2FFAE19}" ShortID="918178740">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Doorinen1" ID="{39BE13A4-2DF5-4CC0-BE55-566CE50FA5C9}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Doorinen1" ID="{97DB4C80-494A-4BAE-BD6F-745AF78F5443}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{91673AB9-A16A-4AF5-8FB5-B7B6813CC70F}" ShortID="74229298">
+														<MusicPlaylistItem Name="" ID="{0453BDD0-FB59-4481-ABBC-E35335F43E32}" ShortID="741956177">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Doorinen2" ID="{3E0542E9-4F57-4B4A-9D60-7E0EAAF29DC9}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Doorinen2" ID="{70DEE11A-94A4-4396-B5CF-980E62E5F868}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -379,7 +379,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="1Doorinen1" ID="{39BE13A4-2DF5-4CC0-BE55-566CE50FA5C9}" ShortID="325652363">
+										<MusicSegment Name="1Doorinen1" ID="{97DB4C80-494A-4BAE-BD6F-745AF78F5443}" ShortID="566577679">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -392,14 +392,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Doorinen1" ID="{0D876274-BD41-42A9-9D9E-409B7780C0D8}" ShortID="427960590">
+												<MusicTrack Name="1Doorinen1" ID="{A6FBEFB4-AF59-41ED-9F0F-7E4EFDC2217C}" ShortID="557020100">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{A920D1C7-380C-4098-9FF8-4AFC1DDA2CDE}">
+																<MusicTransition Name="Root" ID="{17BE3FAD-4E2D-4339-B531-DBA0F63CA32A}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -409,7 +409,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Doorinen1" ID="{2999E0DE-AA8D-4ADF-ACD2-4DDEA3C7E242}">
+														<AudioFileSource Name="1Doorinen1" ID="{95C1B4A5-3BA0-4396-8FA7-39297479CEEC}">
 															<Language>SFX</Language>
 															<AudioFile>1Doorinen1.wav</AudioFile>
 															<MediaIDList>
@@ -419,16 +419,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{881F9F91-06E7-4D77-A933-A6236E9712F4}">
+															<MusicTrackSequence Name="" ID="{CD1DC70D-5E73-4480-BE63-19826AA87606}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Doorinen1" ID="{4E4B053A-BA37-4F8E-94C6-5351ECEA8923}">
+																		<MusicClip Name="1Doorinen1" ID="{29A86751-4DE7-4DD5-A08F-12D49C8E2E36}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Doorinen1" ID="{2999E0DE-AA8D-4ADF-ACD2-4DDEA3C7E242}"/>
+																			<AudioSourceRef Name="1Doorinen1" ID="{95C1B4A5-3BA0-4396-8FA7-39297479CEEC}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -439,8 +439,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{1D37E3D5-3B5E-4D2A-82A1-8CF1247FCD66}"/>
-													<MusicCue Name="Exit Cue" ID="{562CE877-C22A-41C7-8DD6-519A818B1484}">
+													<MusicCue Name="Entry Cue" ID="{2608AF36-C8EE-41B0-A32F-76F1340DD44F}"/>
+													<MusicCue Name="Exit Cue" ID="{29BC230E-9C0C-4D4F-89C5-56A454BA9F31}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -449,7 +449,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="1Doorinen2" ID="{3E0542E9-4F57-4B4A-9D60-7E0EAAF29DC9}" ShortID="190406291">
+										<MusicSegment Name="1Doorinen2" ID="{70DEE11A-94A4-4396-B5CF-980E62E5F868}" ShortID="431517219">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -462,14 +462,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Doorinen2" ID="{0A78D0BB-D343-4117-A161-A2D2B472A33D}" ShortID="434168587">
+												<MusicTrack Name="1Doorinen2" ID="{527B6A35-5004-4C0B-92E7-67453352C915}" ShortID="687141975">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{CC0727D9-CAF8-40DA-BBAA-F795BB031F04}">
+																<MusicTransition Name="Root" ID="{A8C30F1A-BB64-415F-9513-BF0DA80C1759}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -479,7 +479,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Doorinen2" ID="{70005682-A664-4D0A-A1DD-C86EA8800D82}">
+														<AudioFileSource Name="1Doorinen2" ID="{04A2318B-0980-4C33-ABF1-C1401570F5A9}">
 															<Language>SFX</Language>
 															<AudioFile>1Doorinen2.wav</AudioFile>
 															<MediaIDList>
@@ -489,16 +489,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{1766A008-24D3-45D1-9F83-6F3FF7971864}">
+															<MusicTrackSequence Name="" ID="{64661307-FC3C-4656-8587-C1084C37776D}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Doorinen2" ID="{E2631EC2-C972-43C0-9EDF-A2DDE6CA3872}">
+																		<MusicClip Name="1Doorinen2" ID="{9F511F62-F2CC-4829-A6E3-61767A35E044}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Doorinen2" ID="{70005682-A664-4D0A-A1DD-C86EA8800D82}"/>
+																			<AudioSourceRef Name="1Doorinen2" ID="{04A2318B-0980-4C33-ABF1-C1401570F5A9}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -509,8 +509,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{CC21F680-19BA-4E15-AFC9-77053F5852D6}"/>
-													<MusicCue Name="Exit Cue" ID="{62729A7B-C9C2-435B-B75C-D3C59AA65568}">
+													<MusicCue Name="Entry Cue" ID="{CBB8837E-A332-4FED-A1C4-70E91C1C3AD8}"/>
+													<MusicCue Name="Exit Cue" ID="{05CCCD7C-F139-4143-982B-FCB214338066}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -540,25 +540,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{EA68A1EC-16B3-42F9-B4AB-407130D98B32}" ShortID="662366509">
+														<MusicPlaylistItem Name="" ID="{CD49A9E1-C24B-48D2-8C79-7561FD546A65}" ShortID="4975366">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Jooninen1" ID="{86E7A9B2-F1E8-4528-AF8E-8B1EC4FE877C}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Jooninen1" ID="{86673980-4BC3-426B-A80F-68B560C0311D}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{4C5B69FC-E9F0-4A21-9267-9F625A8E9E90}" ShortID="806806556">
+														<MusicPlaylistItem Name="" ID="{4BB576B6-CE59-4B22-867C-C036E577AD15}" ShortID="96823182">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Jooninen2" ID="{57A4A69D-A5AF-44DF-82D4-41AB7CB44986}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Jooninen2" ID="{EC60DA6E-8D95-4EB0-B96A-AC23BA9867D7}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -583,7 +583,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="1Jooninen1" ID="{86E7A9B2-F1E8-4528-AF8E-8B1EC4FE877C}" ShortID="816836161">
+										<MusicSegment Name="1Jooninen1" ID="{86673980-4BC3-426B-A80F-68B560C0311D}" ShortID="707123950">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -596,14 +596,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Jooninen1" ID="{4836D510-E81B-4CAA-8000-EC2B47B9B5D7}" ShortID="692573154">
+												<MusicTrack Name="1Jooninen1" ID="{0BC28E64-C9D4-44EA-9994-9A185E8AD2BF}" ShortID="220799816">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{FBAFB3F8-6EE8-41FD-97FB-32565EACB567}">
+																<MusicTransition Name="Root" ID="{688BE8DD-49F5-4B71-BE7E-0F4C78F545F1}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -613,7 +613,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Jooninen1" ID="{20AE2853-EEA2-4BBA-A190-D781A88565AE}">
+														<AudioFileSource Name="1Jooninen1" ID="{47B592CF-F42C-4964-9846-30FFD3EAC266}">
 															<Language>SFX</Language>
 															<AudioFile>1Jooninen1.wav</AudioFile>
 															<MediaIDList>
@@ -623,16 +623,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{238AC636-AA7E-43AF-A9B1-BEE685E8E8AB}">
+															<MusicTrackSequence Name="" ID="{3BD18BC6-4FE7-4A4D-99FD-B9E1D08738FF}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Jooninen1" ID="{E24E030A-5393-4A19-A5A0-0058A7A2EC48}">
+																		<MusicClip Name="1Jooninen1" ID="{6663F741-4877-44F4-A577-5C0D323FCCC6}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Jooninen1" ID="{20AE2853-EEA2-4BBA-A190-D781A88565AE}"/>
+																			<AudioSourceRef Name="1Jooninen1" ID="{47B592CF-F42C-4964-9846-30FFD3EAC266}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -643,8 +643,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{FCBA4B55-CDA6-469A-AA61-3880CA4FE071}"/>
-													<MusicCue Name="Exit Cue" ID="{607A2687-0CB6-49E2-9C85-86F2C1DADEA2}">
+													<MusicCue Name="Entry Cue" ID="{EC94BAE4-E435-484C-B114-A6BF8F2337A3}"/>
+													<MusicCue Name="Exit Cue" ID="{275BAEF3-E7F7-4283-9BB4-6827F1083668}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -653,7 +653,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="1Jooninen2" ID="{57A4A69D-A5AF-44DF-82D4-41AB7CB44986}" ShortID="993837260">
+										<MusicSegment Name="1Jooninen2" ID="{EC60DA6E-8D95-4EB0-B96A-AC23BA9867D7}" ShortID="251348447">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -666,14 +666,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Jooninen2" ID="{97CE3285-9E8F-497E-ABD3-E496DC2F0CEE}" ShortID="13857288">
+												<MusicTrack Name="1Jooninen2" ID="{F3B99BCD-DBF5-4FB4-AD8E-5A4DF45B8233}" ShortID="766263207">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{5F07A5A2-5476-4F86-8BBF-1E855CC347A5}">
+																<MusicTransition Name="Root" ID="{DBFFED8E-FC98-4C1C-A1B0-FB3E0949253B}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -683,7 +683,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Jooninen2" ID="{5488FF1D-AFF7-4E73-9338-9993D8237819}">
+														<AudioFileSource Name="1Jooninen2" ID="{161CA16F-BA16-47B2-9D65-779A651C7F8C}">
 															<Language>SFX</Language>
 															<AudioFile>1Jooninen2.wav</AudioFile>
 															<MediaIDList>
@@ -693,16 +693,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{BA6460FC-68C6-49B2-88EC-76858592181D}">
+															<MusicTrackSequence Name="" ID="{38498AB1-55D1-4DD0-BD5B-1FE9EF60EBC9}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Jooninen2" ID="{F4C9109A-DF37-4D1D-A978-0D52833F06CA}">
+																		<MusicClip Name="1Jooninen2" ID="{19BE3406-E72D-4AF2-8F75-FE3AE9302307}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Jooninen2" ID="{5488FF1D-AFF7-4E73-9338-9993D8237819}"/>
+																			<AudioSourceRef Name="1Jooninen2" ID="{161CA16F-BA16-47B2-9D65-779A651C7F8C}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -713,8 +713,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{58857875-832C-4CC6-A33C-A55016C7D33E}"/>
-													<MusicCue Name="Exit Cue" ID="{34AAC37C-0D8A-4180-9E46-7DE42B0BCD0C}">
+													<MusicCue Name="Entry Cue" ID="{30F33230-85E1-4275-B04B-1368DC1D9B6E}"/>
+													<MusicCue Name="Exit Cue" ID="{7A7F5877-0237-44CE-962E-DB623E8EAC3E}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -744,25 +744,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{C6C403E7-9A25-4089-B0CC-6CEF1AA5E508}" ShortID="745848883">
+														<MusicPlaylistItem Name="" ID="{CBC4CA70-725F-42FC-900E-C9385F7520B3}" ShortID="138787917">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Lokrinen1" ID="{64FCC05C-124B-471B-990C-AEFDBE0A216C}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Lokrinen1" ID="{9686846B-4345-4BD0-B25E-84E4CC463060}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{E7D9B986-A730-4F30-86A8-5A1D3F502762}" ShortID="1005891521">
+														<MusicPlaylistItem Name="" ID="{A255F475-4F78-4CE7-99D3-A35D374EC1D1}" ShortID="526236113">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Lokrinen2" ID="{9E14B9C4-800A-482C-82A1-49CE3DC93D72}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Lokrinen2" ID="{55757360-A967-491B-B909-29CA13BE357E}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -787,7 +787,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="1Lokrinen1" ID="{64FCC05C-124B-471B-990C-AEFDBE0A216C}" ShortID="323084355">
+										<MusicSegment Name="1Lokrinen1" ID="{9686846B-4345-4BD0-B25E-84E4CC463060}" ShortID="1070788132">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6666666667"/>
 											</PropertyList>
@@ -800,14 +800,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Lokrinen1" ID="{3873E5D3-204D-4C2A-942E-C2E848144C55}" ShortID="414180597">
+												<MusicTrack Name="1Lokrinen1" ID="{D29A0316-7F50-4689-B6BA-045861343148}" ShortID="314834684">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{28D89977-B84C-4336-91DF-AA818C4F4206}">
+																<MusicTransition Name="Root" ID="{4FB55214-279C-4938-98AF-F05883A34CA3}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -817,7 +817,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Lokrinen1" ID="{951436D0-5202-44AB-BC42-D2FD46EBEEC5}">
+														<AudioFileSource Name="1Lokrinen1" ID="{70848597-C30E-4EBD-9EF1-E985FC4F2DF1}">
 															<Language>SFX</Language>
 															<AudioFile>1Lokrinen1.wav</AudioFile>
 															<MediaIDList>
@@ -827,16 +827,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{CF3E121C-F56C-4BE3-A6D1-542C27B14B07}">
+															<MusicTrackSequence Name="" ID="{DA852ABE-1325-4CC8-915B-BADB07BDF3DB}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Lokrinen1" ID="{D7A6D208-A353-4835-8E10-306E7C9165D1}">
+																		<MusicClip Name="1Lokrinen1" ID="{13568F32-ABE2-4E87-9B49-71614EFE4090}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Lokrinen1" ID="{951436D0-5202-44AB-BC42-D2FD46EBEEC5}"/>
+																			<AudioSourceRef Name="1Lokrinen1" ID="{70848597-C30E-4EBD-9EF1-E985FC4F2DF1}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -847,8 +847,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{C6B3EE79-D882-4F81-8561-A251A7C23442}"/>
-													<MusicCue Name="Exit Cue" ID="{2DA2B49F-B5B7-48A3-9ACE-FAE47F943F9E}">
+													<MusicCue Name="Entry Cue" ID="{2ACBF6C1-9A71-4A2A-A7DA-F6E76D96F098}"/>
+													<MusicCue Name="Exit Cue" ID="{48D3CF5A-A851-4D27-88F5-4D0061D024DA}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6666666667"/>
@@ -857,7 +857,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="1Lokrinen2" ID="{9E14B9C4-800A-482C-82A1-49CE3DC93D72}" ShortID="868871556">
+										<MusicSegment Name="1Lokrinen2" ID="{55757360-A967-491B-B909-29CA13BE357E}" ShortID="906518899">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -870,14 +870,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Lokrinen2" ID="{ACACD559-D343-4695-A8BB-94E0A7386E51}" ShortID="178436202">
+												<MusicTrack Name="1Lokrinen2" ID="{FA340E9C-1D6D-46E6-9F02-59660867DD2F}" ShortID="96432561">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{027D5C0C-384E-4C3F-83D0-7CF2833DC80E}">
+																<MusicTransition Name="Root" ID="{1E1A4830-9C55-4B86-82BA-7EF2417C69AB}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -887,7 +887,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Lokrinen2" ID="{1EBD8F34-16DF-4B03-AB1C-6B2DDA4395E5}">
+														<AudioFileSource Name="1Lokrinen2" ID="{E35243A2-2D00-45DA-96D7-1AECCDDA83A0}">
 															<Language>SFX</Language>
 															<AudioFile>1Lokrinen2.wav</AudioFile>
 															<MediaIDList>
@@ -897,16 +897,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{C9A73E31-EAA1-46D7-B57F-C1A0EFDF9C50}">
+															<MusicTrackSequence Name="" ID="{70865210-56C4-4C98-8ED7-62E927C0127A}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Lokrinen2" ID="{A8FE0770-ABA5-4E52-8895-6F7A8D73CA3B}">
+																		<MusicClip Name="1Lokrinen2" ID="{781FEE35-BA46-40F9-82B3-881E7ED4A7F4}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Lokrinen2" ID="{1EBD8F34-16DF-4B03-AB1C-6B2DDA4395E5}"/>
+																			<AudioSourceRef Name="1Lokrinen2" ID="{E35243A2-2D00-45DA-96D7-1AECCDDA83A0}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -917,8 +917,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{55F8089C-85A8-4DCD-91F8-51F1DE0AA00C}"/>
-													<MusicCue Name="Exit Cue" ID="{389C8518-41FB-4A50-B22E-6A335B1EFE26}">
+													<MusicCue Name="Entry Cue" ID="{52807C06-B8AB-49EB-B244-549D91260C57}"/>
+													<MusicCue Name="Exit Cue" ID="{E3D4803B-EA53-493D-8E0B-C32DB88BA3C1}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -948,25 +948,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{50ED9BF8-1FBB-483D-A90B-41BC835AF8A2}" ShortID="146298869">
+														<MusicPlaylistItem Name="" ID="{AC8CD92E-4325-43AA-B42B-5777872A1B45}" ShortID="247355788">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Lyydinen1" ID="{B7CBA6B3-0C47-4CB8-A000-94997F3B147F}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Lyydinen1" ID="{EF57D51B-FEA2-4B38-9B42-F5664ECFAC54}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{B2D17A3E-80B6-4F6D-BCC0-29BE9DD836D6}" ShortID="1054892549">
+														<MusicPlaylistItem Name="" ID="{44EABD90-8F97-4A0A-B471-19DAD7710914}" ShortID="510165010">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Lyydinen2" ID="{7EBE9F4C-C1E8-4F49-81A0-D5A1CE9D8D24}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Lyydinen2" ID="{210021C0-20FE-438A-A28E-015C64CF58CD}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -995,7 +995,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="1Lyydinen1" ID="{B7CBA6B3-0C47-4CB8-A000-94997F3B147F}" ShortID="348062398">
+										<MusicSegment Name="1Lyydinen1" ID="{EF57D51B-FEA2-4B38-9B42-F5664ECFAC54}" ShortID="182367064">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6666666667"/>
 											</PropertyList>
@@ -1008,14 +1008,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Lyydinen1" ID="{CE1AD1BA-AAD8-4E7A-B7EA-985F54DDB848}" ShortID="422217788">
+												<MusicTrack Name="1Lyydinen1" ID="{91ED60BD-AE8B-427C-87F9-A990994DF15C}" ShortID="63520226">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{35158875-A96F-4F7F-AA89-87690BC0D13D}">
+																<MusicTransition Name="Root" ID="{742F0E8A-8482-4CB3-91C7-7FF87451DEC0}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -1025,7 +1025,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Lyydinen1" ID="{DCF867FB-5C28-45E9-8207-41F3C1889BAE}">
+														<AudioFileSource Name="1Lyydinen1" ID="{EE954C04-97CC-4C42-B273-8FE82AE90321}">
 															<Language>SFX</Language>
 															<AudioFile>1Lyydinen1.wav</AudioFile>
 															<MediaIDList>
@@ -1035,16 +1035,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{578DBF2B-D62E-4273-836E-C0335257F3E8}">
+															<MusicTrackSequence Name="" ID="{096E8A48-BD59-4C3A-995B-04D688D76302}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Lyydinen1" ID="{6B8891C7-08DB-42BC-B9BB-CC7A6B9DA027}">
+																		<MusicClip Name="1Lyydinen1" ID="{CE38D8CD-19BE-4F09-BC93-92DF86FFF1C2}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Lyydinen1" ID="{DCF867FB-5C28-45E9-8207-41F3C1889BAE}"/>
+																			<AudioSourceRef Name="1Lyydinen1" ID="{EE954C04-97CC-4C42-B273-8FE82AE90321}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -1055,8 +1055,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{3C0F07F0-085A-49FD-9C9C-B945D6DE9836}"/>
-													<MusicCue Name="Exit Cue" ID="{D91BDD03-6A71-49E2-BDDA-CA8267E098C8}">
+													<MusicCue Name="Entry Cue" ID="{2F306813-5E10-4A92-9E3C-E2C23FA94C6C}"/>
+													<MusicCue Name="Exit Cue" ID="{B267459E-65B1-4913-BC1D-769623C56360}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6666666667"/>
@@ -1065,7 +1065,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="1Lyydinen2" ID="{7EBE9F4C-C1E8-4F49-81A0-D5A1CE9D8D24}" ShortID="501795290">
+										<MusicSegment Name="1Lyydinen2" ID="{210021C0-20FE-438A-A28E-015C64CF58CD}" ShortID="605208886">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6666666667"/>
 											</PropertyList>
@@ -1078,14 +1078,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Lyydinen2" ID="{DEF5673A-B5A2-44EF-9EF7-B2B5C3C9406C}" ShortID="714434092">
+												<MusicTrack Name="1Lyydinen2" ID="{08DBD2F1-35C6-452F-9535-C1CDFBC55FF0}" ShortID="210538102">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{CC4EC514-61AF-4840-9A25-98FECC4B1788}">
+																<MusicTransition Name="Root" ID="{CF07BA57-7586-49BD-8225-F0B6C28454E4}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -1095,7 +1095,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Lyydinen2" ID="{12421DD1-C549-4136-8408-FA5BCD1A40EA}">
+														<AudioFileSource Name="1Lyydinen2" ID="{B9B91502-CA36-4DCF-BCE6-287C87BA0FFA}">
 															<Language>SFX</Language>
 															<AudioFile>1Lyydinen2.wav</AudioFile>
 															<MediaIDList>
@@ -1105,16 +1105,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{ADB54660-5285-460D-9BF4-A2CB6A407DB3}">
+															<MusicTrackSequence Name="" ID="{197A809A-DE88-4A88-AD19-5E692683EFB2}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Lyydinen2" ID="{1DB92A37-DE46-4F94-B0DC-12D073AF7760}">
+																		<MusicClip Name="1Lyydinen2" ID="{FC171199-793E-4CF3-8C2C-92092D183E36}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Lyydinen2" ID="{12421DD1-C549-4136-8408-FA5BCD1A40EA}"/>
+																			<AudioSourceRef Name="1Lyydinen2" ID="{B9B91502-CA36-4DCF-BCE6-287C87BA0FFA}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -1125,8 +1125,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{D7D78C51-6231-40F6-8EDB-D0CE8567792B}"/>
-													<MusicCue Name="Exit Cue" ID="{E0ABA675-7496-4F81-A592-30FA53ED7A78}">
+													<MusicCue Name="Entry Cue" ID="{673825B1-BD76-49B2-AE9B-192BEF7623CF}"/>
+													<MusicCue Name="Exit Cue" ID="{13B4B80C-0D1C-41DD-B4ED-A07C860C0F0E}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6666666667"/>
@@ -1156,25 +1156,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{47687960-F260-46B8-BCC1-A384F397AE2E}" ShortID="685598864">
+														<MusicPlaylistItem Name="" ID="{ED0E97DF-52D5-4A3B-91BE-B1B8BE22DDD1}" ShortID="1012063031">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Mikso1" ID="{D445E0BB-88B4-4B63-AB51-B271F94ED0E0}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Mikso1" ID="{C6FCB74E-F7DA-42C9-B703-512E49FB457C}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{DEAABEC6-7A9A-4B31-BFB0-61561E54E068}" ShortID="745339228">
+														<MusicPlaylistItem Name="" ID="{948529B7-3646-42B2-A100-3B890FD08E80}" ShortID="219223261">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Mikso2" ID="{349A01AA-8B3D-4B42-AE09-C4655BA40306}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Mikso2" ID="{67F8E606-A440-41ED-8116-102D2B215CC7}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -1199,7 +1199,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="1Mikso1" ID="{D445E0BB-88B4-4B63-AB51-B271F94ED0E0}" ShortID="156472119">
+										<MusicSegment Name="1Mikso1" ID="{C6FCB74E-F7DA-42C9-B703-512E49FB457C}" ShortID="836652777">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -1212,14 +1212,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Mikso1" ID="{771E4F65-5BF0-4026-BDFA-A9627E41631D}" ShortID="190357537">
+												<MusicTrack Name="1Mikso1" ID="{E47A9FA9-1B38-4099-8E54-6BDAFD7FDCCA}" ShortID="647051898">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{B3048D4F-031A-4186-A21E-096CE0FB58F8}">
+																<MusicTransition Name="Root" ID="{D79E1B3B-2ADF-40DC-9D46-8E7F0DD92927}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -1229,7 +1229,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Mikso1" ID="{75678FEC-6BB2-481E-9705-27AAD25B30D5}">
+														<AudioFileSource Name="1Mikso1" ID="{5111CB56-E802-4D5C-9346-1324CF1F5CA1}">
 															<Language>SFX</Language>
 															<AudioFile>1Mikso1.wav</AudioFile>
 															<MediaIDList>
@@ -1239,16 +1239,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{52E1641B-E1C5-4BA9-B79B-F4FD84E70544}">
+															<MusicTrackSequence Name="" ID="{1128A869-41E5-4CBB-AC54-8E7FC77D0B4D}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Mikso1" ID="{0D7C950A-B58B-4044-8FFB-D96047E0AAF9}">
+																		<MusicClip Name="1Mikso1" ID="{9ADA8DBE-3F55-4665-B6C7-CF4AEB011738}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Mikso1" ID="{75678FEC-6BB2-481E-9705-27AAD25B30D5}"/>
+																			<AudioSourceRef Name="1Mikso1" ID="{5111CB56-E802-4D5C-9346-1324CF1F5CA1}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -1259,8 +1259,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{1B2A62AA-761A-4384-AAAA-7FF0B6DEF73B}"/>
-													<MusicCue Name="Exit Cue" ID="{11508726-F062-4497-A37F-F9DE20BD9F54}">
+													<MusicCue Name="Entry Cue" ID="{8E757066-E5D2-44C4-884A-BADA5A5B38B6}"/>
+													<MusicCue Name="Exit Cue" ID="{6AD36B6D-3873-41A5-98F5-DEFD9ABFE316}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -1269,7 +1269,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="1Mikso2" ID="{349A01AA-8B3D-4B42-AE09-C4655BA40306}" ShortID="972933616">
+										<MusicSegment Name="1Mikso2" ID="{67F8E606-A440-41ED-8116-102D2B215CC7}" ShortID="467322103">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -1282,14 +1282,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Mikso2" ID="{A7DDF1D1-F09E-4D9B-A9E7-56CCC18017B3}" ShortID="820873717">
+												<MusicTrack Name="1Mikso2" ID="{A95C5613-79A0-4607-9364-C4F266538812}" ShortID="837390882">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{06AC86BD-1AA4-4FF0-A972-41F255A73CEA}">
+																<MusicTransition Name="Root" ID="{C41ED1EB-16C4-4831-BDC4-B664332E7746}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -1299,7 +1299,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Mikso2" ID="{6DDFEC8D-5176-47B8-A806-BCAC3FB9AE39}">
+														<AudioFileSource Name="1Mikso2" ID="{33E885C0-C034-419B-BC2D-513790D4AF36}">
 															<Language>SFX</Language>
 															<AudioFile>1Mikso2.wav</AudioFile>
 															<MediaIDList>
@@ -1309,16 +1309,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{0119A6E1-A10B-47BC-A6FD-86FB64D08A39}">
+															<MusicTrackSequence Name="" ID="{7AB9ADD6-4362-4B8C-910E-52377CAC3D4D}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Mikso2" ID="{CB1CC8C0-F4BA-4801-B2EC-DD62B90068FA}">
+																		<MusicClip Name="1Mikso2" ID="{2E7A9B14-D8EA-4261-B38A-D4C5A4FBEC2A}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Mikso2" ID="{6DDFEC8D-5176-47B8-A806-BCAC3FB9AE39}"/>
+																			<AudioSourceRef Name="1Mikso2" ID="{33E885C0-C034-419B-BC2D-513790D4AF36}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -1329,8 +1329,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{486B0CB1-D48A-41A9-B181-0F5373EA9B1B}"/>
-													<MusicCue Name="Exit Cue" ID="{015010CF-EA8F-43F2-8CAA-5BB8E22E8A32}">
+													<MusicCue Name="Entry Cue" ID="{97DB912E-FD06-41A9-B9DB-01EE527FC852}"/>
+													<MusicCue Name="Exit Cue" ID="{2F8CEDE5-7C1D-41D0-A102-EB8792DAD321}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -1360,25 +1360,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{4C8ECD10-0987-4500-847E-2E5824641654}" ShortID="799803964">
+														<MusicPlaylistItem Name="" ID="{CE540676-97BD-465E-94B5-439BC6F77ECA}" ShortID="1046929257">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Fryyginen1" ID="{F14A54AE-8C07-471A-9107-E58F81BEC9E7}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Fryyginen1" ID="{406A49D2-0CEE-4354-91D7-9E07C8CF027F}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{96C536C8-9590-4C7C-BD49-4AF44162E72F}" ShortID="2140048">
+														<MusicPlaylistItem Name="" ID="{287168CC-E3AB-40D1-A88E-C873E8E01E7B}" ShortID="1004166493">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="1Fryyginen2" ID="{09B85F35-18A3-44AE-A468-C53BCEF5ABA9}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="1Fryyginen2" ID="{09C15EA6-8D29-4D2A-8AEA-2D6F622D5DD0}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -1403,7 +1403,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="1Fryyginen1" ID="{F14A54AE-8C07-471A-9107-E58F81BEC9E7}" ShortID="551110056">
+										<MusicSegment Name="1Fryyginen1" ID="{406A49D2-0CEE-4354-91D7-9E07C8CF027F}" ShortID="838415753">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6875"/>
 											</PropertyList>
@@ -1416,14 +1416,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Fryyginen1" ID="{4A36128B-E648-4A80-B0F9-463FA687CCE6}" ShortID="701501342">
+												<MusicTrack Name="1Fryyginen1" ID="{9531D074-A709-43CD-8D85-34557F9AC514}" ShortID="931146229">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{0C9BF492-607D-40B5-B4B5-E1295EA3F47E}">
+																<MusicTransition Name="Root" ID="{C9F90EE1-69B1-4A25-9CB8-D6C07879CF88}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -1433,7 +1433,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Fryyginen1" ID="{BA8888F1-67D8-4FD0-8790-E6AEF490617D}">
+														<AudioFileSource Name="1Fryyginen1" ID="{3B2A00DD-5041-42B1-AB20-A5F406A0BA24}">
 															<Language>SFX</Language>
 															<AudioFile>1Fryyginen1.wav</AudioFile>
 															<MediaIDList>
@@ -1443,16 +1443,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{13C0870D-57D8-463B-9331-55A4982A1603}">
+															<MusicTrackSequence Name="" ID="{B8AD2EC8-3D68-405C-9BB2-5E0FB467BAC8}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Fryyginen1" ID="{B41BBBC7-AC15-403C-9694-6C81DB462F87}">
+																		<MusicClip Name="1Fryyginen1" ID="{A6494425-045F-44B7-9C60-C75615982A7E}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6875"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Fryyginen1" ID="{BA8888F1-67D8-4FD0-8790-E6AEF490617D}"/>
+																			<AudioSourceRef Name="1Fryyginen1" ID="{3B2A00DD-5041-42B1-AB20-A5F406A0BA24}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -1463,8 +1463,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{C7DB71E7-E812-460D-999D-0A6AFDBC148B}"/>
-													<MusicCue Name="Exit Cue" ID="{9EBD4FB0-9D53-49CD-807B-0B01F9598AE4}">
+													<MusicCue Name="Entry Cue" ID="{F6732B9F-BC8D-4AF7-9D32-7B78A77C7378}"/>
+													<MusicCue Name="Exit Cue" ID="{5025F906-BFA9-4973-8630-5DD36FB277D4}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6875"/>
@@ -1473,7 +1473,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="1Fryyginen2" ID="{09B85F35-18A3-44AE-A468-C53BCEF5ABA9}" ShortID="604005745">
+										<MusicSegment Name="1Fryyginen2" ID="{09C15EA6-8D29-4D2A-8AEA-2D6F622D5DD0}" ShortID="102723305">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="17614.6666666667"/>
 											</PropertyList>
@@ -1486,14 +1486,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="1Fryyginen2" ID="{671633B6-7DD5-47D4-A698-F97031C2D4EB}" ShortID="400165286">
+												<MusicTrack Name="1Fryyginen2" ID="{A4DDBB91-BD8B-42A7-AA7C-62DBF72A14D6}" ShortID="139566352">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{1F63432C-5287-468B-8257-75678B352381}">
+																<MusicTransition Name="Root" ID="{B180B9C6-A63C-4EDA-8C95-DCAB31FECB2C}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -1503,7 +1503,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="1Fryyginen2" ID="{39E9547E-ADCC-43DD-B930-33753B5B1A72}">
+														<AudioFileSource Name="1Fryyginen2" ID="{D0849213-8635-4723-A339-07FBFAEE21CA}">
 															<Language>SFX</Language>
 															<AudioFile>1Fryyginen2.wav</AudioFile>
 															<MediaIDList>
@@ -1513,16 +1513,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{259DE400-D1B2-4C19-AA80-28F3244D7093}">
+															<MusicTrackSequence Name="" ID="{C20694FB-7F10-4307-BE53-57C577CD9012}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="1Fryyginen2" ID="{B3506C41-01E5-4E50-87B8-F60B91926F6C}">
+																		<MusicClip Name="1Fryyginen2" ID="{08BC251D-13AC-46A2-A3AB-9B1D3EA14E17}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="17614.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="1Fryyginen2" ID="{39E9547E-ADCC-43DD-B930-33753B5B1A72}"/>
+																			<AudioSourceRef Name="1Fryyginen2" ID="{D0849213-8635-4723-A339-07FBFAEE21CA}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -1533,8 +1533,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{3E83878F-D8E9-4C6C-A5B9-F874A61CA86D}"/>
-													<MusicCue Name="Exit Cue" ID="{76423522-A3AA-4967-9191-37577E94443E}">
+													<MusicCue Name="Entry Cue" ID="{92787454-8DA9-4B1E-9680-1B6456F9100C}"/>
+													<MusicCue Name="Exit Cue" ID="{398B7AEC-1DB5-48A8-BA45-D79770F574AC}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="17614.6666666667"/>
@@ -2050,25 +2050,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{272E047E-67E0-45F4-A619-AAA1E1E007F8}" ShortID="1037354691">
+														<MusicPlaylistItem Name="" ID="{7173856F-09AF-45AB-AB8B-E0E3FF04B66B}" ShortID="440269011">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Jooninen1" ID="{0BAF5290-0011-427E-A896-A08A461EC04A}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Jooninen1" ID="{B8FA8F18-5B16-4D8D-9D8E-C88357C5D5FD}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{737B03AB-E95E-4859-B160-8A1FC1400334}" ShortID="965931392">
+														<MusicPlaylistItem Name="" ID="{D9D21910-5F80-499C-B6B8-F6B0E26BE392}" ShortID="456568817">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Jooninen2" ID="{B85DC7EB-B8C5-4478-8F34-34EB39AAC9B2}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Jooninen2" ID="{9799BD7B-5362-4404-A358-FD5180E97639}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -2093,7 +2093,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="2Jooninen1" ID="{0BAF5290-0011-427E-A896-A08A461EC04A}" ShortID="136240690">
+										<MusicSegment Name="2Jooninen1" ID="{B8FA8F18-5B16-4D8D-9D8E-C88357C5D5FD}" ShortID="699163831">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2106,14 +2106,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Jooninen1" ID="{41DACCCB-C507-4501-8399-26C1ACE68F06}" ShortID="1071027395">
+												<MusicTrack Name="2Jooninen1" ID="{7996F514-5421-4CA6-A204-9D8C69E47967}" ShortID="771329636">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{3952D4A2-E808-40FB-A0D5-3D8ED8725B23}">
+																<MusicTransition Name="Root" ID="{67150B31-1C60-458D-9CB6-902D7FEF2931}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2123,7 +2123,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Jooninen1" ID="{D72D30EE-841B-4E37-8160-D2460AB00176}">
+														<AudioFileSource Name="2Jooninen1" ID="{C2D94722-5094-4C5B-9E6C-54EF2BC1EA80}">
 															<Language>SFX</Language>
 															<AudioFile>2Jooninen1.wav</AudioFile>
 															<MediaIDList>
@@ -2133,16 +2133,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{EC23B1E4-A7E6-439E-9302-D199AB5E5C50}">
+															<MusicTrackSequence Name="" ID="{F7830101-B77A-4948-A37A-25B1C79C3B5B}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Jooninen1" ID="{983E25FC-9F04-4957-AD9D-E3482ED1F4A9}">
+																		<MusicClip Name="2Jooninen1" ID="{F77EBABF-184E-4425-BC56-492A229DA511}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Jooninen1" ID="{D72D30EE-841B-4E37-8160-D2460AB00176}"/>
+																			<AudioSourceRef Name="2Jooninen1" ID="{C2D94722-5094-4C5B-9E6C-54EF2BC1EA80}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2153,8 +2153,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{4301A408-AAFA-4CBF-BC3B-92FEB4EE0F8C}"/>
-													<MusicCue Name="Exit Cue" ID="{4181C105-5B45-491A-974E-DD08F7AC66A8}">
+													<MusicCue Name="Entry Cue" ID="{89409BC7-A2A8-4961-9035-C7723F8178FA}"/>
+													<MusicCue Name="Exit Cue" ID="{E1455D25-DFD0-4C3C-9033-F9E77FCCB14E}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2163,7 +2163,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="2Jooninen2" ID="{B85DC7EB-B8C5-4478-8F34-34EB39AAC9B2}" ShortID="610194154">
+										<MusicSegment Name="2Jooninen2" ID="{9799BD7B-5362-4404-A358-FD5180E97639}" ShortID="88920544">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2176,14 +2176,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Jooninen2" ID="{A037352D-323F-412E-BB87-51C24BF090A9}" ShortID="680383359">
+												<MusicTrack Name="2Jooninen2" ID="{E4DAD549-FCEA-4675-B0B0-8409DADF11DD}" ShortID="96760949">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{DDCC4F30-F62E-4697-A820-7F32A15E988F}">
+																<MusicTransition Name="Root" ID="{3BB1B596-9F61-4FB5-8A30-6214C572F1A8}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2193,7 +2193,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Jooninen2" ID="{743F8948-262C-4CFE-B1CA-B39CC0B9956A}">
+														<AudioFileSource Name="2Jooninen2" ID="{D63A68F1-69C2-4222-B181-4C827FDF6C0B}">
 															<Language>SFX</Language>
 															<AudioFile>2Jooninen2.wav</AudioFile>
 															<MediaIDList>
@@ -2203,16 +2203,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{F0280A0A-C2F1-419C-B591-895CB402E429}">
+															<MusicTrackSequence Name="" ID="{AB36186B-D691-4C2C-93FC-6B7236482A7B}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Jooninen2" ID="{9231AFC2-95BA-4121-928C-DE60A28C6CAF}">
+																		<MusicClip Name="2Jooninen2" ID="{E9269933-F68E-43CD-BE7C-D94AF114F76C}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Jooninen2" ID="{743F8948-262C-4CFE-B1CA-B39CC0B9956A}"/>
+																			<AudioSourceRef Name="2Jooninen2" ID="{D63A68F1-69C2-4222-B181-4C827FDF6C0B}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2223,8 +2223,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{D8579EFD-E1DB-4EC5-8350-E3125F1CAC83}"/>
-													<MusicCue Name="Exit Cue" ID="{C8CFD64E-76EE-4C31-A08C-D7C1386ED5DA}">
+													<MusicCue Name="Entry Cue" ID="{E64951E5-44D7-47A4-9200-32E705347A72}"/>
+													<MusicCue Name="Exit Cue" ID="{62F0A47B-DB47-46E2-BC04-DD257F136197}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2251,25 +2251,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{FA2CED8D-C0CF-4B5C-9D36-1C7D87497BAD}" ShortID="212472375">
+														<MusicPlaylistItem Name="" ID="{B5ACC312-4C65-4CD9-8F25-111BBC387321}" ShortID="859800361">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Lyydinen1" ID="{63B92B92-4999-4DFD-BF49-CECC6CAA9BAB}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Lyydinen1" ID="{E5CDE14B-3A8E-4325-A62E-DE3F829D6305}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{DD7CCE39-984D-482D-8C06-811AAAF0188A}" ShortID="735086026">
+														<MusicPlaylistItem Name="" ID="{F11C7FA8-1AA9-4737-8DDA-A93A3EF06238}" ShortID="1051721325">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Lyydinen2" ID="{96462EE8-268C-4BC3-9328-FC1D0850198B}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Lyydinen2" ID="{1F6EE126-6AC9-4B23-A4EA-245E910F82D8}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -2294,7 +2294,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="2Lyydinen1" ID="{63B92B92-4999-4DFD-BF49-CECC6CAA9BAB}" ShortID="310890644">
+										<MusicSegment Name="2Lyydinen1" ID="{E5CDE14B-3A8E-4325-A62E-DE3F829D6305}" ShortID="605787116">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2307,14 +2307,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Lyydinen1" ID="{52EA2B07-BDAF-4EDF-BD53-71C21CA39FA4}" ShortID="978142053">
+												<MusicTrack Name="2Lyydinen1" ID="{FCF8275F-1136-4F30-B320-6C4A05C09C62}" ShortID="589622211">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{B672A9E2-D040-4848-84E2-53BF8919B553}">
+																<MusicTransition Name="Root" ID="{B7D649DD-EBFF-4D3B-BDEE-54EBECC42206}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2324,7 +2324,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Lyydinen1" ID="{270915A0-327B-43B2-B96B-D4C5412FC8BB}">
+														<AudioFileSource Name="2Lyydinen1" ID="{0529F747-615B-46B6-854B-0D0D95562D38}">
 															<Language>SFX</Language>
 															<AudioFile>2Lyydinen1.wav</AudioFile>
 															<MediaIDList>
@@ -2334,16 +2334,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{D0BE6180-22F8-4732-B416-F2C832D415C8}">
+															<MusicTrackSequence Name="" ID="{29468F09-5593-4C49-AD34-B70E186EF486}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Lyydinen1" ID="{8B3E7B1E-20A5-433C-A1B4-8C3C84879D7D}">
+																		<MusicClip Name="2Lyydinen1" ID="{472F47FB-138A-4B17-A7BC-7D6900D73D29}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Lyydinen1" ID="{270915A0-327B-43B2-B96B-D4C5412FC8BB}"/>
+																			<AudioSourceRef Name="2Lyydinen1" ID="{0529F747-615B-46B6-854B-0D0D95562D38}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2354,8 +2354,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{48B31E7C-B39C-4C46-A5EC-0B39B1E2BC94}"/>
-													<MusicCue Name="Exit Cue" ID="{5F19EFB8-8029-40A3-B8CA-78A63B2D1B0B}">
+													<MusicCue Name="Entry Cue" ID="{0765DBC0-E11B-4794-B956-61A249189EFF}"/>
+													<MusicCue Name="Exit Cue" ID="{D82C62C0-7370-4C71-9986-D243F2BFC2D0}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2364,7 +2364,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="2Lyydinen2" ID="{96462EE8-268C-4BC3-9328-FC1D0850198B}" ShortID="446824861">
+										<MusicSegment Name="2Lyydinen2" ID="{1F6EE126-6AC9-4B23-A4EA-245E910F82D8}" ShortID="79382807">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2377,14 +2377,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Lyydinen2" ID="{A6383DDD-4992-4E81-948C-5321AD260466}" ShortID="252344945">
+												<MusicTrack Name="2Lyydinen2" ID="{80656B09-1F31-4AC7-BDED-1D5FFB1F6870}" ShortID="1001726172">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{C4C73D86-6669-4995-8E46-7B4FD7570D7A}">
+																<MusicTransition Name="Root" ID="{93598C2C-EE4F-4011-90BB-8B7FD7A5FA88}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2394,7 +2394,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Lyydinen2" ID="{D56D6EC2-14EB-40FC-9B55-D355C05C7E17}">
+														<AudioFileSource Name="2Lyydinen2" ID="{831BB248-C2BC-49DF-8DFD-368C053BB478}">
 															<Language>SFX</Language>
 															<AudioFile>2Lyydinen2.wav</AudioFile>
 															<MediaIDList>
@@ -2404,16 +2404,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{DF46C52C-536B-40B6-A742-55D4AA561FC5}">
+															<MusicTrackSequence Name="" ID="{093E0395-D4AD-40A6-85FE-A1A907350AD2}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Lyydinen2" ID="{3C6DBD35-A1C1-4C13-8077-82B4F2C3EDC9}">
+																		<MusicClip Name="2Lyydinen2" ID="{FDA47FE9-D7C1-4D84-958F-9F7FFF5C5770}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Lyydinen2" ID="{D56D6EC2-14EB-40FC-9B55-D355C05C7E17}"/>
+																			<AudioSourceRef Name="2Lyydinen2" ID="{831BB248-C2BC-49DF-8DFD-368C053BB478}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2424,8 +2424,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{4130E54A-EEF5-4A3F-B169-4F0162728AD8}"/>
-													<MusicCue Name="Exit Cue" ID="{078E01CC-5B3A-4FB2-B429-4A6F9408E96B}">
+													<MusicCue Name="Entry Cue" ID="{313A21B5-C860-4E23-8CF0-8406754F8B57}"/>
+													<MusicCue Name="Exit Cue" ID="{A23E97B6-3921-4936-ADA4-78BFC42B1550}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2452,25 +2452,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{5B1F1143-CFEF-4603-ABC6-0B4BF35D13C2}" ShortID="851166111">
+														<MusicPlaylistItem Name="" ID="{2D287F49-7F53-4ADD-9EBD-864EE99863B7}" ShortID="307305203">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Miksolyydinen1" ID="{ABAEDF37-9891-43A3-8375-3C3BD86DD099}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Miksolyydinen1" ID="{53E93E52-8D27-4FDA-B1AF-DAF080D2B4BF}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{08F48310-3265-46A7-A2A9-28EF3C515C28}" ShortID="599473806">
+														<MusicPlaylistItem Name="" ID="{71C3E434-00BD-4A47-88ED-608EFEB04FBD}" ShortID="993802230">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Miksolyydinen2" ID="{37391F9C-7CA5-438F-AC4D-2985790808AA}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Miksolyydinen2" ID="{6C388301-B61A-4838-947A-7976CC45AD2E}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -2495,7 +2495,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="2Miksolyydinen1" ID="{ABAEDF37-9891-43A3-8375-3C3BD86DD099}" ShortID="933590886">
+										<MusicSegment Name="2Miksolyydinen1" ID="{53E93E52-8D27-4FDA-B1AF-DAF080D2B4BF}" ShortID="938062938">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2508,14 +2508,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Miksolyydinen1" ID="{669431F3-EC15-49FD-8AD6-BF432FF72A75}" ShortID="594112242">
+												<MusicTrack Name="2Miksolyydinen1" ID="{C6A054B7-E35A-44EF-A9AD-D4B76A6FFF5F}" ShortID="782624499">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{D8346120-C5EC-463E-8706-392ABC7D11FD}">
+																<MusicTransition Name="Root" ID="{EB9C5492-2075-4B02-AC01-F93FD67DB161}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2525,7 +2525,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Miksolyydinen1" ID="{BD00265B-2003-4710-8402-F3046C4141F5}">
+														<AudioFileSource Name="2Miksolyydinen1" ID="{07CFE8B4-011E-4E7F-B073-92544E18C133}">
 															<Language>SFX</Language>
 															<AudioFile>2Miksolyydinen1.wav</AudioFile>
 															<MediaIDList>
@@ -2535,16 +2535,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{0CFF93F3-886A-44EE-9FFC-5FCDD3E0C2DB}">
+															<MusicTrackSequence Name="" ID="{3D74511E-78F0-4A70-BE7F-BD7B2837FB76}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Miksolyydinen1" ID="{3830DBA2-3872-4B2D-A249-6670CF8DC0E5}">
+																		<MusicClip Name="2Miksolyydinen1" ID="{E1368D18-4F56-4D33-BF07-1F23C6BBABB2}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Miksolyydinen1" ID="{BD00265B-2003-4710-8402-F3046C4141F5}"/>
+																			<AudioSourceRef Name="2Miksolyydinen1" ID="{07CFE8B4-011E-4E7F-B073-92544E18C133}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2555,8 +2555,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{FB6527C0-AA99-47F7-B597-B9FB5DB260D8}"/>
-													<MusicCue Name="Exit Cue" ID="{FD1A5BF0-02D5-4607-8024-6CA210B62DD0}">
+													<MusicCue Name="Entry Cue" ID="{6800DAD8-93BE-4528-998D-9E08D88E0844}"/>
+													<MusicCue Name="Exit Cue" ID="{8173C65B-DD61-45DF-9073-ACB53FB021BA}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2565,7 +2565,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="2Miksolyydinen2" ID="{37391F9C-7CA5-438F-AC4D-2985790808AA}" ShortID="235709687">
+										<MusicSegment Name="2Miksolyydinen2" ID="{6C388301-B61A-4838-947A-7976CC45AD2E}" ShortID="1059412211">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2578,14 +2578,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Miksolyydinen2" ID="{0D6BEFA8-AC61-4C30-A44E-A324EC9CE153}" ShortID="934544600">
+												<MusicTrack Name="2Miksolyydinen2" ID="{F720BEFC-D8A6-4B75-8EBC-5A01921DB9D8}" ShortID="32760959">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{3400EB3F-A773-4986-805A-2E1D7CA6E882}">
+																<MusicTransition Name="Root" ID="{CF924021-62B4-47B0-8D7E-4F86C397D716}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2595,7 +2595,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Miksolyydinen2" ID="{08627E0B-2ECF-4DC5-9BBE-B5E74E13F711}">
+														<AudioFileSource Name="2Miksolyydinen2" ID="{F7447EA5-2922-4D8B-B844-E6F6AE8370B7}">
 															<Language>SFX</Language>
 															<AudioFile>2Miksolyydinen2.wav</AudioFile>
 															<MediaIDList>
@@ -2605,16 +2605,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{35C1ECC9-8527-4E4E-ADEC-8390DEA83A60}">
+															<MusicTrackSequence Name="" ID="{B12BEBD9-F090-4F64-9299-FA1002232CFD}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Miksolyydinen2" ID="{A6911F12-C95B-4BF8-BFDD-13273FB9F33D}">
+																		<MusicClip Name="2Miksolyydinen2" ID="{311E72CD-AF18-4D51-ADFB-71EBC7AE792E}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Miksolyydinen2" ID="{08627E0B-2ECF-4DC5-9BBE-B5E74E13F711}"/>
+																			<AudioSourceRef Name="2Miksolyydinen2" ID="{F7447EA5-2922-4D8B-B844-E6F6AE8370B7}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2625,8 +2625,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{2831EAA3-037F-4D92-81FD-477D53997412}"/>
-													<MusicCue Name="Exit Cue" ID="{E8211D64-BB07-4F2D-9263-8DF733CB8BEA}">
+													<MusicCue Name="Entry Cue" ID="{17526C1E-D21B-4B97-B951-CA3B38207E01}"/>
+													<MusicCue Name="Exit Cue" ID="{6CDE27E0-A5AD-456B-AE92-3DA68AB8D73A}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2653,25 +2653,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{3854512A-D350-47B0-A09E-0C38007B57AD}" ShortID="614355210">
+														<MusicPlaylistItem Name="" ID="{E7C5D89F-1EE3-4AE2-B26D-5972F032CD86}" ShortID="1058714154">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Doorinen1" ID="{E5DC8758-BD54-4568-A5D9-D61431E05EBE}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Doorinen1" ID="{E06B2620-CF28-430C-93D8-17B95A059BF7}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{F46960E7-909F-4C8E-A32B-D3F1DC470C27}" ShortID="815327852">
+														<MusicPlaylistItem Name="" ID="{5AF14532-BD54-417B-AB4B-AF1E3651EB90}" ShortID="797423785">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Doorinen2" ID="{BDFD2C04-7F1D-458F-A436-3A4512459145}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Doorinen2" ID="{5F72EA71-7BC8-402F-B5A0-C92FF19FF35D}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -2696,7 +2696,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="2Doorinen1" ID="{E5DC8758-BD54-4568-A5D9-D61431E05EBE}" ShortID="1069240726">
+										<MusicSegment Name="2Doorinen1" ID="{E06B2620-CF28-430C-93D8-17B95A059BF7}" ShortID="852042675">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2709,14 +2709,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Doorinen1" ID="{FFB06D76-9443-4DBA-A462-5BC9C5D5893C}" ShortID="1002865768">
+												<MusicTrack Name="2Doorinen1" ID="{1705B55D-744A-419E-9116-CE13B8401CAE}" ShortID="631765604">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{C382E0E9-2195-4F59-AAD7-E1933C06BC21}">
+																<MusicTransition Name="Root" ID="{7CE5C50A-25D1-44AA-97FE-86383EB3C21E}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2726,7 +2726,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Doorinen1" ID="{DD2D5101-F7C3-40E7-A8A7-DD664F9F3A8B}">
+														<AudioFileSource Name="2Doorinen1" ID="{7FD6FFC7-E33A-43E7-8636-7A58B0CF6CE4}">
 															<Language>SFX</Language>
 															<AudioFile>2Doorinen1.wav</AudioFile>
 															<MediaIDList>
@@ -2736,16 +2736,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{6778CA36-CFE9-4A74-B70D-D56EAC1E52DD}">
+															<MusicTrackSequence Name="" ID="{65601875-39B4-4AB6-828B-8EFABBB08D7B}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Doorinen1" ID="{31748230-E257-4339-B63C-509321046585}">
+																		<MusicClip Name="2Doorinen1" ID="{C0DAA0CC-5FD2-4B70-8412-74ADCBBF826C}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Doorinen1" ID="{DD2D5101-F7C3-40E7-A8A7-DD664F9F3A8B}"/>
+																			<AudioSourceRef Name="2Doorinen1" ID="{7FD6FFC7-E33A-43E7-8636-7A58B0CF6CE4}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2756,8 +2756,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{84D1867A-1368-412B-AEA7-881B6619079A}"/>
-													<MusicCue Name="Exit Cue" ID="{F7582520-4001-41D8-B6A7-54F2245DD5FE}">
+													<MusicCue Name="Entry Cue" ID="{E24F685B-777F-4336-B9CE-F9FCA28F2BDA}"/>
+													<MusicCue Name="Exit Cue" ID="{10787135-8E53-4118-947C-5E3A4D2B4F7E}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2766,7 +2766,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="2Doorinen2" ID="{BDFD2C04-7F1D-458F-A436-3A4512459145}" ShortID="508965059">
+										<MusicSegment Name="2Doorinen2" ID="{5F72EA71-7BC8-402F-B5A0-C92FF19FF35D}" ShortID="127064658">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2779,14 +2779,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Doorinen2" ID="{32BF2A9B-3559-4232-A82C-7FD9DCF79F4C}" ShortID="86894971">
+												<MusicTrack Name="2Doorinen2" ID="{0AC18F33-D117-4ED0-AD89-8DD19E0EF4BB}" ShortID="356345402">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{A79E0044-5C93-4E40-8D07-5E8DC6D028D0}">
+																<MusicTransition Name="Root" ID="{892888E1-79CE-4B39-B431-2C4A0DB24BAD}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2796,7 +2796,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Doorinen2" ID="{FB3E92F9-ABCB-4267-BC5D-4573FFEA92FE}">
+														<AudioFileSource Name="2Doorinen2" ID="{2D9405C3-184B-47B8-A4CE-BC7E858C4073}">
 															<Language>SFX</Language>
 															<AudioFile>2Doorinen2.wav</AudioFile>
 															<MediaIDList>
@@ -2806,16 +2806,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{83CA9BDE-E44A-4015-8BCC-D6E9051BF4D0}">
+															<MusicTrackSequence Name="" ID="{870CCC29-2A33-4355-B5FD-6D3EAD97610B}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Doorinen2" ID="{836B217D-68FB-4944-AF53-88652653A6F8}">
+																		<MusicClip Name="2Doorinen2" ID="{5A8F5D86-7491-4280-850D-09A0B36D4D7B}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Doorinen2" ID="{FB3E92F9-ABCB-4267-BC5D-4573FFEA92FE}"/>
+																			<AudioSourceRef Name="2Doorinen2" ID="{2D9405C3-184B-47B8-A4CE-BC7E858C4073}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2826,8 +2826,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{6011F51D-1895-4255-9618-7F382AD51F9E}"/>
-													<MusicCue Name="Exit Cue" ID="{F51EB735-23D5-4EDD-B258-D09561F99290}">
+													<MusicCue Name="Entry Cue" ID="{31BC4824-361B-4729-9B09-FB784806867C}"/>
+													<MusicCue Name="Exit Cue" ID="{AAAC6983-370B-48C2-863D-BAB14EA9A16C}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2854,25 +2854,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{53D6BEEB-A1C8-42EB-8001-635046592B4B}" ShortID="524346237">
+														<MusicPlaylistItem Name="" ID="{07B6BF42-456E-4B3C-B031-BD933D3982C8}" ShortID="61451693">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Aiolinen1" ID="{5A2822E0-75C8-489E-B041-3842074FDBF2}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Aiolinen1" ID="{D5B28829-14A9-4559-8683-423E4264C19F}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{FAEDC0B5-6608-41ED-AD25-39FE10046511}" ShortID="1017904626">
+														<MusicPlaylistItem Name="" ID="{F2A3E802-06E0-468D-9B6E-83F6482BD068}" ShortID="291209684">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Aiolinen2" ID="{36D8F6C0-630F-48A1-9643-B50A1EA6C20A}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Aiolinen2" ID="{DFCC3007-C4FA-48E6-97D7-D8674AAA0A56}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -2897,7 +2897,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="2Aiolinen1" ID="{5A2822E0-75C8-489E-B041-3842074FDBF2}" ShortID="675866295">
+										<MusicSegment Name="2Aiolinen1" ID="{D5B28829-14A9-4559-8683-423E4264C19F}" ShortID="976518381">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2910,14 +2910,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Aiolinen1" ID="{03E9DA82-1663-4FE5-9169-165F60B423D2}" ShortID="530292228">
+												<MusicTrack Name="2Aiolinen1" ID="{3F7485F6-FD53-455D-8383-D392AAD13171}" ShortID="9848699">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{160F0458-F3B0-4AD6-82C2-0C6994D82426}">
+																<MusicTransition Name="Root" ID="{3685789C-8077-4966-A1A4-F952278A35A0}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2927,7 +2927,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Aiolinen1" ID="{8EF8F8FD-DE10-4C55-A380-E3D7B93D1A08}">
+														<AudioFileSource Name="2Aiolinen1" ID="{DA837577-118F-44CE-A130-0055501DB3B0}">
 															<Language>SFX</Language>
 															<AudioFile>2Aiolinen1.wav</AudioFile>
 															<MediaIDList>
@@ -2937,16 +2937,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{82E8485D-540C-4E12-96F1-6BD09C6D4EF8}">
+															<MusicTrackSequence Name="" ID="{C825E784-C70C-45AB-A01A-E22B3B3C9233}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Aiolinen1" ID="{098C84D5-8865-47D8-B07C-8250459E6A60}">
+																		<MusicClip Name="2Aiolinen1" ID="{92FFA195-6E30-4D43-A973-75D3E35655C9}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Aiolinen1" ID="{8EF8F8FD-DE10-4C55-A380-E3D7B93D1A08}"/>
+																			<AudioSourceRef Name="2Aiolinen1" ID="{DA837577-118F-44CE-A130-0055501DB3B0}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -2957,8 +2957,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{D349AF09-915F-4667-8376-5F77DC5B2AAD}"/>
-													<MusicCue Name="Exit Cue" ID="{2E4D6FBD-136E-4687-AFA5-D9292ED53A42}">
+													<MusicCue Name="Entry Cue" ID="{84805E90-9C30-4E42-9842-99D9D037D2CF}"/>
+													<MusicCue Name="Exit Cue" ID="{8B54ECB2-D17E-4E50-86A9-DFA629975826}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -2967,7 +2967,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="2Aiolinen2" ID="{36D8F6C0-630F-48A1-9643-B50A1EA6C20A}" ShortID="111443883">
+										<MusicSegment Name="2Aiolinen2" ID="{DFCC3007-C4FA-48E6-97D7-D8674AAA0A56}" ShortID="135098678">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -2980,14 +2980,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Aiolinen2" ID="{15E9F4BA-0449-40E7-97D1-D30AB3DCF560}" ShortID="1021058773">
+												<MusicTrack Name="2Aiolinen2" ID="{9CA12CFE-3026-4780-8259-5140DEF8FE2F}" ShortID="530861438">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{1AAEE963-7245-4446-84CD-73B9C57DFCBE}">
+																<MusicTransition Name="Root" ID="{2633B86E-466F-407E-B6D7-1CB1E989B7F0}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -2997,7 +2997,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Aiolinen2" ID="{94D1AEB1-CC7B-4296-8C64-F5942F3F9051}">
+														<AudioFileSource Name="2Aiolinen2" ID="{1EBA30A7-2FA3-4C56-AB40-44614B83F077}">
 															<Language>SFX</Language>
 															<AudioFile>2Aiolinen2.wav</AudioFile>
 															<MediaIDList>
@@ -3007,16 +3007,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{CBE214BC-DD02-4293-86D4-DB632E3ABA15}">
+															<MusicTrackSequence Name="" ID="{EADB3A0B-E96C-4F8C-9E32-6337563ED898}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Aiolinen2" ID="{49C7C294-32ED-42F8-865E-E2F4AC4B7C09}">
+																		<MusicClip Name="2Aiolinen2" ID="{5CABC4FA-1365-49BB-9E4D-C1B9B73BC388}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Aiolinen2" ID="{94D1AEB1-CC7B-4296-8C64-F5942F3F9051}"/>
+																			<AudioSourceRef Name="2Aiolinen2" ID="{1EBA30A7-2FA3-4C56-AB40-44614B83F077}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -3027,8 +3027,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{C175D509-C2CE-4D4C-88FB-6E7D25CDC851}"/>
-													<MusicCue Name="Exit Cue" ID="{D8709031-2578-4074-BF8B-50EB20110E7A}">
+													<MusicCue Name="Entry Cue" ID="{0DD8080B-AAA6-4CB4-8A4C-8CC2EEA3FAA0}"/>
+													<MusicCue Name="Exit Cue" ID="{ECE8BCDE-CC49-4696-8F97-2A1F00A82AF4}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -3055,25 +3055,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{E6485825-E706-4C1E-9DBE-52FFB432E072}" ShortID="758387056">
+														<MusicPlaylistItem Name="" ID="{9C4998F6-A2DA-4963-B016-9EB5C1440DC8}" ShortID="1026328464">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Fryyginen1" ID="{02DD6623-7B26-493D-9AAA-7FC3035A5923}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Fryyginen1" ID="{04A8829A-4FE2-4DEA-8D9A-D2B644ADB47F}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{C1508CCA-7B94-4121-9165-8BD7AC3DA061}" ShortID="709289115">
+														<MusicPlaylistItem Name="" ID="{33F03ED5-D566-4F5F-BD54-12F4D7A5D642}" ShortID="553479689">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Fryyginen2" ID="{1D8014F5-0961-4109-A51D-B080E17C42BD}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Fryyginen2" ID="{9AF69059-A7BB-4AF1-84C7-8783F3910F22}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -3098,7 +3098,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="2Fryyginen1" ID="{02DD6623-7B26-493D-9AAA-7FC3035A5923}" ShortID="220178805">
+										<MusicSegment Name="2Fryyginen1" ID="{04A8829A-4FE2-4DEA-8D9A-D2B644ADB47F}" ShortID="389651507">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -3111,14 +3111,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Fryyginen1" ID="{5B5DB240-640A-4977-8CAD-C8340E9FBC70}" ShortID="844507228">
+												<MusicTrack Name="2Fryyginen1" ID="{B2C5C8C0-BC20-4B96-9A39-3C986673A216}" ShortID="237408131">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{FB33B026-67BC-4D28-8ECD-5399369DD0D3}">
+																<MusicTransition Name="Root" ID="{DAC82399-5A86-45AC-AA1C-6D4C09B800AB}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -3128,7 +3128,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Fryyginen1" ID="{5B473757-E58C-423B-A5D2-694C1E3ACE4F}">
+														<AudioFileSource Name="2Fryyginen1" ID="{4135159E-9D22-4D3B-83B6-28724D7FFA86}">
 															<Language>SFX</Language>
 															<AudioFile>2Fryyginen1.wav</AudioFile>
 															<MediaIDList>
@@ -3138,16 +3138,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{F685AFEA-3355-4CCD-8138-21106B2191C0}">
+															<MusicTrackSequence Name="" ID="{ACBE478B-263A-4E4A-8422-0347D0A7637C}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Fryyginen1" ID="{3076C599-EA4E-49E9-976B-FFC4ED7F4AE1}">
+																		<MusicClip Name="2Fryyginen1" ID="{E1A5A51A-A54D-4C7F-AAC2-212D60D7E959}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Fryyginen1" ID="{5B473757-E58C-423B-A5D2-694C1E3ACE4F}"/>
+																			<AudioSourceRef Name="2Fryyginen1" ID="{4135159E-9D22-4D3B-83B6-28724D7FFA86}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -3158,8 +3158,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{E298E735-4EB2-4CC8-98E7-C64D30013854}"/>
-													<MusicCue Name="Exit Cue" ID="{C7D67741-1471-4F38-8FC6-8B93A05A3241}">
+													<MusicCue Name="Entry Cue" ID="{C8CBB29F-A3E3-4858-AD67-2CA0FDAB040D}"/>
+													<MusicCue Name="Exit Cue" ID="{0F40B765-707A-47F0-B04B-E36D5A9FF6C9}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -3168,7 +3168,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="2Fryyginen2" ID="{1D8014F5-0961-4109-A51D-B080E17C42BD}" ShortID="408441546">
+										<MusicSegment Name="2Fryyginen2" ID="{9AF69059-A7BB-4AF1-84C7-8783F3910F22}" ShortID="415487319">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -3181,14 +3181,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Fryyginen2" ID="{C138023F-6915-4DD2-B409-F51CBDD52ED7}" ShortID="603400235">
+												<MusicTrack Name="2Fryyginen2" ID="{CD5E383F-5F4A-4D32-BEA9-A3FFB59235AD}" ShortID="601283711">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{367EB694-CBF6-4293-B6CA-5773C077804A}">
+																<MusicTransition Name="Root" ID="{72237C54-D8B3-479B-A2A1-136DAD273D71}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -3198,7 +3198,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Fryyginen2" ID="{A5A025ED-82E9-427E-98FA-A9B8A0B49C97}">
+														<AudioFileSource Name="2Fryyginen2" ID="{C037FBF6-A828-42B1-95B1-B6835EE84107}">
 															<Language>SFX</Language>
 															<AudioFile>2Fryyginen2.wav</AudioFile>
 															<MediaIDList>
@@ -3208,16 +3208,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{3473339F-0A81-490B-B914-ADABA42DE911}">
+															<MusicTrackSequence Name="" ID="{B542FC97-1098-4A78-8B66-B50A5554D8B0}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Fryyginen2" ID="{AB21362A-6C7C-4740-8FEF-DF63FF242654}">
+																		<MusicClip Name="2Fryyginen2" ID="{1477DD21-428F-4B5C-A898-F56A770B8B18}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Fryyginen2" ID="{A5A025ED-82E9-427E-98FA-A9B8A0B49C97}"/>
+																			<AudioSourceRef Name="2Fryyginen2" ID="{C037FBF6-A828-42B1-95B1-B6835EE84107}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -3228,8 +3228,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{F931FF0C-C694-4360-9699-694326FBF817}"/>
-													<MusicCue Name="Exit Cue" ID="{6EB126B4-543F-45E8-9EBA-E093143A45CA}">
+													<MusicCue Name="Entry Cue" ID="{27B0B427-1C05-4C21-9432-03C2E93E1DAE}"/>
+													<MusicCue Name="Exit Cue" ID="{F0211D62-AF80-41AD-8112-E39D1141F147}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -3256,25 +3256,25 @@
 														<Property Name="PlayMode" Type="int16" Value="2"/>
 													</PropertyList>
 													<ChildrenList>
-														<MusicPlaylistItem Name="" ID="{CBD21C04-2B50-496A-AC20-4AECD28704F5}" ShortID="621982192">
+														<MusicPlaylistItem Name="" ID="{BD0EB60E-9A59-4443-904F-49FC00E4BF8B}" ShortID="962351208">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Lokrinen1" ID="{B4DFDD67-686A-4C3B-A93B-984DD854EDBA}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Lokrinen1" ID="{10DFC0FB-D800-4CED-91D5-04D007F05AEB}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
-														<MusicPlaylistItem Name="" ID="{3DF52935-8B3B-4255-9D33-5187B582EA6C}" ShortID="794661444">
+														<MusicPlaylistItem Name="" ID="{596FA9BD-719A-4119-93CF-D4660BD271CB}" ShortID="41161966">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
 																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Segment">
-																	<ObjectRef Name="2Lokrinen2" ID="{B1C2ABAD-8E1A-40E3-81C9-1995C2D093DD}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+																	<ObjectRef Name="2Lokrinen2" ID="{1A5D8E17-2AE1-4B87-AEB3-5C62EFF365C9}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
 																</Reference>
 															</ReferenceList>
 														</MusicPlaylistItem>
@@ -3299,7 +3299,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicSegment Name="2Lokrinen1" ID="{B4DFDD67-686A-4C3B-A93B-984DD854EDBA}" ShortID="159538225">
+										<MusicSegment Name="2Lokrinen1" ID="{10DFC0FB-D800-4CED-91D5-04D007F05AEB}" ShortID="338294278">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -3312,14 +3312,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Lokrinen1" ID="{F571607F-8A45-4308-8E92-677E412610F1}" ShortID="605627419">
+												<MusicTrack Name="2Lokrinen1" ID="{9D271699-360F-4CCD-B619-4EFEBE5280EF}" ShortID="932574958">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{6578649B-0004-4B2C-BA44-6E458E188039}">
+																<MusicTransition Name="Root" ID="{BFD58ECC-A791-44A8-A215-ABA11E6CBB11}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -3329,7 +3329,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Lokrinen1" ID="{99A89F23-6CEF-4177-B597-C3160C38C453}">
+														<AudioFileSource Name="2Lokrinen1" ID="{1C292237-02BA-4796-A911-DBDDA6147A9F}">
 															<Language>SFX</Language>
 															<AudioFile>2Lokrinen1.wav</AudioFile>
 															<MediaIDList>
@@ -3339,16 +3339,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{138795F2-FC84-45F4-ADFF-DADF45010B5A}">
+															<MusicTrackSequence Name="" ID="{5A2DB336-8B18-4706-9539-20393112BB4D}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Lokrinen1" ID="{E734199E-4482-4D13-B3CA-8DAC6223E37F}">
+																		<MusicClip Name="2Lokrinen1" ID="{561F8A2C-7F56-4764-8941-1B0172648A45}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Lokrinen1" ID="{99A89F23-6CEF-4177-B597-C3160C38C453}"/>
+																			<AudioSourceRef Name="2Lokrinen1" ID="{1C292237-02BA-4796-A911-DBDDA6147A9F}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -3359,8 +3359,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{90E51FF1-C045-462F-94BE-F6DEFCB9EDE0}"/>
-													<MusicCue Name="Exit Cue" ID="{F9C97A33-AD97-4E12-92C1-262CC4D66001}">
+													<MusicCue Name="Entry Cue" ID="{EB07E2F1-1FF2-4A1A-ABE7-4E9D00051CF9}"/>
+													<MusicCue Name="Exit Cue" ID="{C01F6263-1704-4ECF-9D4E-B544AF007ACB}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
@@ -3369,7 +3369,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicSegment>
-										<MusicSegment Name="2Lokrinen2" ID="{B1C2ABAD-8E1A-40E3-81C9-1995C2D093DD}" ShortID="918085582">
+										<MusicSegment Name="2Lokrinen2" ID="{1A5D8E17-2AE1-4B87-AEB3-5C62EFF365C9}" ShortID="565783728">
 											<PropertyList>
 												<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
 											</PropertyList>
@@ -3382,14 +3382,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<MusicTrack Name="2Lokrinen2" ID="{F2DCA35E-7C0F-4A8E-8B86-77ACC41CDB22}" ShortID="520596469">
+												<MusicTrack Name="2Lokrinen2" ID="{B8229818-FCC7-4893-ADD5-BE86D31F2FF7}" ShortID="713837934">
 													<ReferenceList>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
 														</Reference>
 														<Reference Name="TransitionRoot">
 															<Custom>
-																<MusicTransition Name="Root" ID="{F5D0EABF-3DC6-4A92-B5B6-50F243394679}">
+																<MusicTransition Name="Root" ID="{C848A18D-1ED4-47D5-89B3-2D19A2B53F6A}">
 																	<PropertyList>
 																		<Property Name="IsFolder" Type="bool" Value="True"/>
 																	</PropertyList>
@@ -3399,7 +3399,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="2Lokrinen2" ID="{B8819F98-7A20-4FA0-BA3C-B4A903FFB3B7}">
+														<AudioFileSource Name="2Lokrinen2" ID="{AE064ED0-3B11-4AAD-A9EC-3992A33D5CB6}">
 															<Language>SFX</Language>
 															<AudioFile>2Lokrinen2.wav</AudioFile>
 															<MediaIDList>
@@ -3409,16 +3409,16 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Sequences">
-															<MusicTrackSequence Name="" ID="{57AE5E56-4C25-4558-9199-488E03DC2C31}">
+															<MusicTrackSequence Name="" ID="{E110657F-0D2D-4A5A-B186-189FAAC8124F}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
-																		<MusicClip Name="2Lokrinen2" ID="{CE72797D-7802-4388-888B-2DFC906E3086}">
+																		<MusicClip Name="2Lokrinen2" ID="{A0024E34-8EA4-4690-84D9-85613DD7CE4C}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="2Lokrinen2" ID="{B8819F98-7A20-4FA0-BA3C-B4A903FFB3B7}"/>
+																			<AudioSourceRef Name="2Lokrinen2" ID="{AE064ED0-3B11-4AAD-A9EC-3992A33D5CB6}"/>
 																		</MusicClip>
 																	</ObjectList>
 																</ObjectLists>
@@ -3429,8 +3429,8 @@
 											</ChildrenList>
 											<ObjectLists>
 												<ObjectList Name="Cues">
-													<MusicCue Name="Entry Cue" ID="{FA9F9546-8FB3-400E-9465-3C09ED69B2A9}"/>
-													<MusicCue Name="Exit Cue" ID="{F99C9334-4533-409A-92C5-F7E69C17A0FB}">
+													<MusicCue Name="Entry Cue" ID="{BB7AEE18-7ABF-4A8B-A53E-7F038FD5F333}"/>
+													<MusicCue Name="Exit Cue" ID="{28528204-BA38-45CC-AA19-2116A99AF807}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>

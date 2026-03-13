@@ -14,8 +14,21 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BASENOTES = 3188720456U;
+        static const AkUniqueID PLAY_EIGHTSFX = 3793089264U;
+        static const AkUniqueID PLAY_ELEVENSFX = 2284647426U;
         static const AkUniqueID PLAY_ERRORSFX = 1921777701U;
+        static const AkUniqueID PLAY_FIVESFX = 2937730755U;
+        static const AkUniqueID PLAY_FOURSFX = 2774229803U;
+        static const AkUniqueID PLAY_NINESFX = 1729980979U;
+        static const AkUniqueID PLAY_ONESFX = 368130171U;
         static const AkUniqueID PLAY_SCALESONGS = 817798694U;
+        static const AkUniqueID PLAY_SEVENSFX = 4189279106U;
+        static const AkUniqueID PLAY_SIXSFX = 4000393611U;
+        static const AkUniqueID PLAY_TENSFX = 3375850052U;
+        static const AkUniqueID PLAY_THREESFX = 1692476195U;
+        static const AkUniqueID PLAY_THRITEENSFX = 3384797370U;
+        static const AkUniqueID PLAY_TWELVESFX = 1252036970U;
+        static const AkUniqueID PLAY_TWOSFX = 1434809009U;
     } // namespace EVENTS
 
     namespace STATES

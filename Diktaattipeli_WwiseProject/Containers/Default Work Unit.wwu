@@ -189,7 +189,7 @@
 												<ActiveSource Name="erhe synth" ID="{86E433D7-A610-4DCA-A517-DE3E4F26F1EA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="MetalError" ID="{86332EFF-DD4E-4F6F-A0E4-02AFBF186ACA}" ShortID="986603988">
+										<Sound Name="MetalError" ID="{53493A42-629D-4520-86D0-04E4FAE412EF}" ShortID="88360987">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -199,33 +199,38 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Erhe metal" ID="{EF992B9D-496F-4CCB-8E80-6AF87AC4136F}">
+												<AudioFileSource Name="erhe metal" ID="{215527A2-8249-4CF0-8B99-5D9C523B8159}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.312725736959639"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.684087509862779"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Erhe metal.wav</AudioFile>
+													<AudioFile>erhe metal.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="297863056"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Erhe metal" ID="{EF992B9D-496F-4CCB-8E80-6AF87AC4136F}" Platform="Linked"/>
+												<ActiveSource Name="erhe metal" ID="{215527A2-8249-4CF0-8B99-5D9C523B8159}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="SynthError" ID="{A7E314CF-7574-4F76-9280-4A87E3BA20E1}"/>
+												<ItemRef Name="MetalError" ID="{53493A42-629D-4520-86D0-04E4FAE412EF}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="MetalError" ID="{86332EFF-DD4E-4F6F-A0E4-02AFBF186ACA}"/>
+												<ItemRef Name="SynthError" ID="{A7E314CF-7574-4F76-9280-4A87E3BA20E1}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
 											<Grouping>
 												<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 												<ItemList>
-													<ItemRef Name="MetalError" ID="{86332EFF-DD4E-4F6F-A0E4-02AFBF186ACA}"/>
+													<ItemRef Name="MetalError" ID="{53493A42-629D-4520-86D0-04E4FAE412EF}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -278,6 +283,1226 @@
 										</GroupingBehaviorList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<Folder Name="PlayScale" ID="{4A6110C6-0464-4E58-91E9-1113CD99C8F2}" ShortID="492627768">
+									<ChildrenList>
+										<SwitchContainer Name="OneSFX" ID="{91CA5A96-9925-470A-87C7-4227F609BDE6}" ShortID="712749483">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 1" ID="{E67AEF93-9D62-4CC8-B0F0-A00FE9381146}" ShortID="718581692">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 1" ID="{B894FCAC-8083-4F8F-BC56-EF683011EB99}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="550033654"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 1" ID="{B894FCAC-8083-4F8F-BC56-EF683011EB99}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 1" ID="{2245DACD-5ADA-4D6D-8ABD-289D9924C128}" ShortID="433904930">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 1" ID="{F45022FB-C121-4A1E-AA8F-A23B8A31B204}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="562936772"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 1" ID="{F45022FB-C121-4A1E-AA8F-A23B8A31B204}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 1" ID="{E67AEF93-9D62-4CC8-B0F0-A00FE9381146}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 1" ID="{2245DACD-5ADA-4D6D-8ABD-289D9924C128}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 1" ID="{E67AEF93-9D62-4CC8-B0F0-A00FE9381146}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 1" ID="{2245DACD-5ADA-4D6D-8ABD-289D9924C128}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="TwoSFX" ID="{54865C9F-FBB0-4085-8789-7FB83CB6B184}" ShortID="559318793">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 2" ID="{DA634420-7D79-4A07-B442-764F9ACA279A}" ShortID="1023681009">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 2" ID="{172EC8EB-4A36-43D8-98E6-FAF3394A7781}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="101856125"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 2" ID="{172EC8EB-4A36-43D8-98E6-FAF3394A7781}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 2" ID="{A596D1D8-EF34-457D-81D9-512C521926E3}" ShortID="650026891">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 2" ID="{703EC132-A52A-4426-9BC0-A2B9AF05A104}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="591089466"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 2" ID="{703EC132-A52A-4426-9BC0-A2B9AF05A104}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 2" ID="{DA634420-7D79-4A07-B442-764F9ACA279A}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 2" ID="{A596D1D8-EF34-457D-81D9-512C521926E3}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 2" ID="{DA634420-7D79-4A07-B442-764F9ACA279A}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 2" ID="{A596D1D8-EF34-457D-81D9-512C521926E3}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="ThreeSFX" ID="{31574223-05B3-4B8C-9A56-BCA9A873B5C9}" ShortID="76169655">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 3" ID="{0F389395-2922-4273-B693-33F621340F15}" ShortID="115841693">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 3" ID="{B0785916-DEC5-4E23-9F48-21DC4D820732}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="785881601"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 3" ID="{B0785916-DEC5-4E23-9F48-21DC4D820732}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 3" ID="{4BC56879-0726-48B1-BEFC-2A502502015B}" ShortID="340220181">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 3" ID="{29BBAC0A-3082-4CE5-8BB8-CBC261B448C6}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="598179866"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 3" ID="{29BBAC0A-3082-4CE5-8BB8-CBC261B448C6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 3" ID="{4BC56879-0726-48B1-BEFC-2A502502015B}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 3" ID="{0F389395-2922-4273-B693-33F621340F15}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 3" ID="{0F389395-2922-4273-B693-33F621340F15}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 3" ID="{4BC56879-0726-48B1-BEFC-2A502502015B}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="FourSFX" ID="{5C26C140-8E63-4E20-96D1-5187928640AC}" ShortID="831230288">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 4" ID="{3788BC3B-6903-4FED-995F-83E9140E9E0F}" ShortID="309369248">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 4" ID="{0C72DA8C-717D-455E-B8DD-F7D8D8574435}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="435482048"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 4" ID="{0C72DA8C-717D-455E-B8DD-F7D8D8574435}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 4" ID="{0298D95F-B892-404D-A189-E51E871663F6}" ShortID="38123295">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 4" ID="{C3200E4E-397E-4540-A45A-6392715FD841}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="680413131"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 4" ID="{C3200E4E-397E-4540-A45A-6392715FD841}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 4" ID="{3788BC3B-6903-4FED-995F-83E9140E9E0F}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 4" ID="{0298D95F-B892-404D-A189-E51E871663F6}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 4" ID="{3788BC3B-6903-4FED-995F-83E9140E9E0F}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 4" ID="{0298D95F-B892-404D-A189-E51E871663F6}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="FiveSFX" ID="{D50E4EB0-801F-4587-86CF-BFAF15F16E71}" ShortID="945828694">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 5" ID="{FE0C7258-A04F-4625-B308-BC02DAF36B77}" ShortID="802458282">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 5" ID="{6C3B7BA4-4AEA-40E2-8C29-BB0591B20A97}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="872487916"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 5" ID="{6C3B7BA4-4AEA-40E2-8C29-BB0591B20A97}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 5" ID="{3FB91D31-1B35-4996-860D-99646E74ADC0}" ShortID="82989838">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 5" ID="{28AA53F2-1A6F-4C0C-8628-A626C8A63CC4}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="376297985"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 5" ID="{28AA53F2-1A6F-4C0C-8628-A626C8A63CC4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 5" ID="{3FB91D31-1B35-4996-860D-99646E74ADC0}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 5" ID="{FE0C7258-A04F-4625-B308-BC02DAF36B77}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 5" ID="{FE0C7258-A04F-4625-B308-BC02DAF36B77}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 5" ID="{3FB91D31-1B35-4996-860D-99646E74ADC0}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="SixSFX" ID="{F7265194-BCAD-4DE1-A82F-DE4EF4F036AE}" ShortID="254064266">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 6" ID="{69F6F1D8-2DFE-40E8-8C6F-BDBF1468DB87}" ShortID="733039203">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 6" ID="{5C68C246-3262-4A6B-898A-C68F3A62E8E9}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="256302799"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 6" ID="{5C68C246-3262-4A6B-898A-C68F3A62E8E9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 6" ID="{F3D24F80-DEB8-4C60-A750-9807804F7313}" ShortID="618352825">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 6" ID="{0A789EC3-4B99-48C8-AFEC-9A88A945D179}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="917405352"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 6" ID="{0A789EC3-4B99-48C8-AFEC-9A88A945D179}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 6" ID="{F3D24F80-DEB8-4C60-A750-9807804F7313}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 6" ID="{69F6F1D8-2DFE-40E8-8C6F-BDBF1468DB87}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 6" ID="{69F6F1D8-2DFE-40E8-8C6F-BDBF1468DB87}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 6" ID="{F3D24F80-DEB8-4C60-A750-9807804F7313}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="SevenSFX" ID="{0211D95B-954B-471C-8E81-6FE3065C2902}" ShortID="1022519641">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 7" ID="{65987230-BEB5-45BA-A314-FD2CDFA324DC}" ShortID="382088313">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 7" ID="{F780F9E3-EF90-4D07-9B15-E2E80F0735DD}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="97259081"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 7" ID="{F780F9E3-EF90-4D07-9B15-E2E80F0735DD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 7" ID="{516D92BB-1FF2-4751-A2BF-3F322D6CB2F4}" ShortID="223062212">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 7" ID="{D5C9E49E-CA16-41E7-B955-47311321BA7B}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="255375077"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 7" ID="{D5C9E49E-CA16-41E7-B955-47311321BA7B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 7" ID="{65987230-BEB5-45BA-A314-FD2CDFA324DC}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 7" ID="{516D92BB-1FF2-4751-A2BF-3F322D6CB2F4}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 7" ID="{65987230-BEB5-45BA-A314-FD2CDFA324DC}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 7" ID="{516D92BB-1FF2-4751-A2BF-3F322D6CB2F4}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="EightSFX" ID="{FD07D0F7-1F42-4F68-9D7E-55CC36C09F3B}" ShortID="876040251">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 8" ID="{F6415B3E-BA0B-4B69-AA8C-5560EAEC3B4C}" ShortID="112659463">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 8" ID="{3782B29B-868D-460E-9586-08FE0F120BF5}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="688208975"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 8" ID="{3782B29B-868D-460E-9586-08FE0F120BF5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 8" ID="{950703E2-152C-453C-8C63-E219BE72CD3A}" ShortID="733871606">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 8" ID="{C772DDAA-744E-418A-96A8-BF937068E805}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="103324352"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 8" ID="{C772DDAA-744E-418A-96A8-BF937068E805}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 8" ID="{F6415B3E-BA0B-4B69-AA8C-5560EAEC3B4C}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 8" ID="{950703E2-152C-453C-8C63-E219BE72CD3A}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 8" ID="{F6415B3E-BA0B-4B69-AA8C-5560EAEC3B4C}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 8" ID="{950703E2-152C-453C-8C63-E219BE72CD3A}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="NineSFX" ID="{1249EF6A-0E48-4401-9CE3-B68693E9CD6C}" ShortID="353902634">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 9" ID="{37523EB1-73C7-44DE-922B-FA04F1F54BBD}" ShortID="558677134">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 9" ID="{544DF0EA-5940-4167-B4DA-FF7E08D29FE1}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="280573994"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 9" ID="{544DF0EA-5940-4167-B4DA-FF7E08D29FE1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 9" ID="{29ED61C6-D694-4D1E-A289-6705AD120F5C}" ShortID="1033625604">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 9" ID="{E7646AD2-FD2C-4557-B81E-25272995E8E5}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="238150404"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 9" ID="{E7646AD2-FD2C-4557-B81E-25272995E8E5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 9" ID="{37523EB1-73C7-44DE-922B-FA04F1F54BBD}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 9" ID="{29ED61C6-D694-4D1E-A289-6705AD120F5C}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 9" ID="{37523EB1-73C7-44DE-922B-FA04F1F54BBD}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 9" ID="{29ED61C6-D694-4D1E-A289-6705AD120F5C}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="TenSFX" ID="{60F2F9EA-D024-4EFA-B2B5-C52A571684EF}" ShortID="4616813">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 10" ID="{CC52B905-6BA5-4A8B-B04D-C60721CA3726}" ShortID="121776879">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 10" ID="{2ED15D68-2CCD-4A13-BB6D-FF1DFA2FE383}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="819429724"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 10" ID="{2ED15D68-2CCD-4A13-BB6D-FF1DFA2FE383}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 10" ID="{E5E9369E-DA51-4076-81E4-629BE397601E}" ShortID="1049987028">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 10" ID="{4388C5B6-C3AB-4764-B81A-3272872E93DF}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="792136571"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 10" ID="{4388C5B6-C3AB-4764-B81A-3272872E93DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 10" ID="{CC52B905-6BA5-4A8B-B04D-C60721CA3726}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 10" ID="{E5E9369E-DA51-4076-81E4-629BE397601E}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 10" ID="{CC52B905-6BA5-4A8B-B04D-C60721CA3726}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 10" ID="{E5E9369E-DA51-4076-81E4-629BE397601E}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="ElevenSFX" ID="{179D557A-3E97-494E-B1B4-BF7AC7CB68F6}" ShortID="15045364">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 11" ID="{3E88E24C-EAD2-4CCE-8AD3-FE23E0ECA622}" ShortID="393893221">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 11" ID="{076475C0-671E-48C8-84D5-95CBA5BE8B42}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="268716891"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 11" ID="{076475C0-671E-48C8-84D5-95CBA5BE8B42}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 11" ID="{7D99EBE5-3E77-4349-9AFC-48E5C2F82F0F}" ShortID="155574694">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 11" ID="{483F6652-C7D6-49CA-BE93-E43695E19247}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="288982015"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 11" ID="{483F6652-C7D6-49CA-BE93-E43695E19247}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 11" ID="{3E88E24C-EAD2-4CCE-8AD3-FE23E0ECA622}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 11" ID="{7D99EBE5-3E77-4349-9AFC-48E5C2F82F0F}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 11" ID="{3E88E24C-EAD2-4CCE-8AD3-FE23E0ECA622}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 11" ID="{7D99EBE5-3E77-4349-9AFC-48E5C2F82F0F}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="TwelveSFX" ID="{69433A7B-3CD3-49F5-83F9-D245388E817E}" ShortID="703830226">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 12" ID="{B7AA2FF6-16B8-403B-BCFC-3C7AED187780}" ShortID="546928111">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>60</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 11" ID="{90C18E75-BACC-463D-B500-7CC9D25620D0}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="268716891"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 11" ID="{90C18E75-BACC-463D-B500-7CC9D25620D0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 12" ID="{CA6E6C36-5C43-41B0-9374-808DEEFDF9A9}" ShortID="593294791">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 12" ID="{DC7FAE58-548F-4398-ABFC-875EAD4F85BA}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="992427979"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 12" ID="{DC7FAE58-548F-4398-ABFC-875EAD4F85BA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 12" ID="{CA6E6C36-5C43-41B0-9374-808DEEFDF9A9}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 12" ID="{B7AA2FF6-16B8-403B-BCFC-3C7AED187780}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 12" ID="{B7AA2FF6-16B8-403B-BCFC-3C7AED187780}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 12" ID="{CA6E6C36-5C43-41B0-9374-808DEEFDF9A9}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+										<SwitchContainer Name="ThriteenSFX" ID="{A5E8C4BD-ACD6-4377-9914-C0EEF62AF5D5}" ShortID="8779599">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="None" ID="{E221B796-6943-41E2-BF23-E0718CD665DE}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="ScaleGenres" ID="{34119791-BC83-4C9E-ABD2-39739870E6C0}" WorkUnitID="{6D7D1DCF-6625-41C1-8DFC-12193B79C1A0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gradu metal 13" ID="{5492FEC5-A54C-45EB-9B66-9C11467610FA}" ShortID="879378900">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gradu metal 12" ID="{9409DEC0-24F2-476A-B413-AD841A758302}">
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="37747879"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gradu metal 12" ID="{9409DEC0-24F2-476A-B413-AD841A758302}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Synthfunk 13" ID="{20556BB5-369C-4367-B6DC-F6F82128F256}" ShortID="730255548">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Synthfunk 13" ID="{9972E521-0F38-4EEF-AD5D-D67555D13034}">
+															<Language>SFX</Language>
+															<AudioFile>Synthfunk 13.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="223573031"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Synthfunk 13" ID="{9972E521-0F38-4EEF-AD5D-D67555D13034}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Synthfunk 13" ID="{20556BB5-369C-4367-B6DC-F6F82128F256}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 13" ID="{5492FEC5-A54C-45EB-9B66-9C11467610FA}"/>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+														<ItemList>
+															<ItemRef Name="Gradu metal 13" ID="{5492FEC5-A54C-45EB-9B66-9C11467610FA}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="EasySynth" ID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+														<ItemList>
+															<ItemRef Name="Synthfunk 13" ID="{20556BB5-369C-4367-B6DC-F6F82128F256}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</PropertyContainer>
 					</ChildrenList>
