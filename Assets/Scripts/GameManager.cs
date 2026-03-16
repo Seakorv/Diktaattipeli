@@ -23,6 +23,15 @@ public class GameManager : MonoBehaviour
 
     // Scale things
     public const int AmountOfScales = 7;
+
+    //Making the scale names constant here so i can use them without typing many times.
+    public const string Ionian = "Ionian";
+    public const string Lydian = "Lydian";
+    public const string Mixolydian = "Mixolydian";
+    public const string Dorian = "Dorian";
+    public const string Aeolian = "Aeolian";
+    public const string Phrygian = "Phrygian";
+    public const string Locrian = "Locrian";
     /// <summary>
     /// Defines how many correct answers it will take to change the genre. 
     /// If this number is 10, it will change the genre after 10 points.
@@ -215,19 +224,19 @@ public class GameManager : MonoBehaviour
             AllScales.Add(gameObject.AddComponent<Scale>());
         }
         // Setting scales manually because every scale has different name. First are normal 'church' modes.
-        AllScales[0].SetIDNameAndEnum(0, "Ionian", CurrentScaleState.Ionian);
+        AllScales[0].SetIDNameAndEnum(0, Ionian, CurrentScaleState.Ionian);
         AllScales[0].SetAugments(new int[8]);
-        AllScales[1].SetIDNameAndEnum(1, "Dorian", CurrentScaleState.Dorian);
+        AllScales[1].SetIDNameAndEnum(1, Dorian, CurrentScaleState.Dorian);
         AllScales[1].SetAugments(new int[] { 0, 0, -1, 0, 0, 0, -1, 0});
-        AllScales[2].SetIDNameAndEnum(2, "Phrygian", CurrentScaleState.Phrygian);
+        AllScales[2].SetIDNameAndEnum(2, Phrygian, CurrentScaleState.Phrygian);
         AllScales[2].SetAugments(new int[] { 0, -1, -1, 0, 0, -1, -1, 0});
-        AllScales[3].SetIDNameAndEnum(3, "Lydian", CurrentScaleState.Lydian);
+        AllScales[3].SetIDNameAndEnum(3, Lydian, CurrentScaleState.Lydian);
         AllScales[3].SetAugments(new int[] { 0, 0, 0, 1, 0, 0, 0, 0});
-        AllScales[4].SetIDNameAndEnum(4, "Mixolydian", CurrentScaleState.Mixolydian);
+        AllScales[4].SetIDNameAndEnum(4, Mixolydian, CurrentScaleState.Mixolydian);
         AllScales[4].SetAugments(new int[] { 0, 0, 0, 0, 0, 0, -1, 0});
-        AllScales[5].SetIDNameAndEnum(5, "Aeolian", CurrentScaleState.Aeolian);
+        AllScales[5].SetIDNameAndEnum(5, Aeolian, CurrentScaleState.Aeolian);
         AllScales[5].SetAugments(new int[] { 0, 0, -1, 0, 0, -1, -1, 0});
-        AllScales[6].SetIDNameAndEnum(6, "Locrian", CurrentScaleState.Locrian);
+        AllScales[6].SetIDNameAndEnum(6, Locrian, CurrentScaleState.Locrian);
         AllScales[6].SetAugments(new int[] { 0, -1, -1, 0, -1, -1, -1, 0});
         //AllScales[7].SetIDNameAndEnum(7, "Game Over", CurrentScaleState.GameOver);
     }

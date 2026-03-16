@@ -35,11 +35,6 @@ public static class DataSaveSystem
         data.CorrectAnswers.AddRange(DataSaving.dataSavingInstance.saveCorrectAnswers);
         data.IncorrectAnswers.AddRange(DataSaving.dataSavingInstance.saveIncorrectAnswers);
 
-        //Saving only the highest score
-        /*if (data.CorrectScore < GameManager.gameManagerInstance.CorrectCounter)
-        {
-            data.CorrectScore = GameManager.gameManagerInstance.CorrectCounter;
-        }*/
         int currentGameMode = DataSaving.dataSavingInstance.saveHighScore.CurrentGameMode;
         int score = DataSaving.dataSavingInstance.saveHighScore.SaveScore;
 

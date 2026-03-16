@@ -24,8 +24,25 @@ public class StatisticsScript : MonoBehaviour
         this.gameObject.SetActive(false);
     }
     
-    public void SetStatistics(int highscoreOne, int highscoreTwo, string mostCorrect, string mostWrong, string fastOne, string fastTwo, string slowOne, string slowTwo)
+    /// <summary>
+    /// Setting the highscore information for the statistics popup window
+    /// </summary>
+    /// <param name="scoreOne">Game mode one's highscore</param>
+    /// <param name="scoreTwo">Game mode two's highscore</param>
+    public void SetStatisticsScore(int scoreOne, int scoreTwo)
     {
-        
+        highScoreOne.text = scoreOne.ToString();
+        highScoreTwo.text = scoreTwo.ToString();
+    }
+
+    /// <summary>
+    /// Setting the most correct and most wrong answered scales information
+    /// </summary>
+    /// <param name="correct">Most correct answered scale</param>
+    /// <param name="wrong">Most wrong answered scale</param>
+    public void SetStatisticsMostCorrectWrong(string correct, string wrong)
+    {
+        mostCorrect.text = correct;
+        mostWrong.text = wrong;
     }
 }

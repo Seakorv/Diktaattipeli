@@ -1814,8 +1814,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b921e4f0c7604e8b814a70e92e35b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StatisticsScript
-  highScoreOne: {fileID: 0}
-  highScoreTwo: {fileID: 0}
+  highScoreOne: {fileID: 757981924021981204}
+  highScoreTwo: {fileID: 2968309404246149382}
   mostCorrect: {fileID: 893028026902537495}
   mostWrong: {fileID: 7670699583068822206}
   fastestScaleGmOne: {fileID: 1835434043948058266}
