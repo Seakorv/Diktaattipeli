@@ -105,7 +105,7 @@ public class GameManager : MonoBehaviour
     private string kierrosText = "";
 
     // Data saving things
-    private DataSaveJSON saveAnswersToJSON;
+    //private DataSaveJSON saveAnswersToJSON;
     private float timeForAnswer = 0f;
     private bool correctPress = false;
 
@@ -128,7 +128,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        saveAnswersToJSON = gameObject.AddComponent<DataSaveJSON>();
+        //saveAnswersToJSON = gameObject.AddComponent<DataSaveJSON>();
     }
 
     // Update is called once per frame
@@ -154,7 +154,8 @@ public class GameManager : MonoBehaviour
         }
         if (timerBar.value == 0 && !isGameOver)
         {
-            saveAnswersToJSON.SaveData();
+            //saveAnswersToJSON.SaveData();
+            DataSaveSystem.SaveData();
             GameOver();
         }
     }

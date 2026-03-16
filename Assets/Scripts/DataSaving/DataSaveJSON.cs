@@ -1,14 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-[System.Serializable]
+[Serializable]
 public class SaveData
 {
-    public List<DataSaveCorrect> correctAnswers;
-    public List<DataSaveIncorrect> incorrectAnswers;
-    public int correctScore;
+    public List<DataSaveCorrect> CorrectAnswers;
+    public List<DataSaveIncorrect> IncorrectAnswers;
+    public int CorrectScore;
 }
 
 public class DataSaveJSON : MonoBehaviour
@@ -36,17 +37,17 @@ public class DataSaveJSON : MonoBehaviour
         else
         {
             data = new SaveData();
-            data.correctAnswers = new List<DataSaveCorrect>();
-            data.incorrectAnswers = new List<DataSaveIncorrect>();
+            data.CorrectAnswers = new List<DataSaveCorrect>();
+            data.IncorrectAnswers = new List<DataSaveIncorrect>();
         }
 
-        data.correctAnswers.AddRange(answerDataCorrect);
-        data.incorrectAnswers.AddRange(answerDataIncorrect);
+        data.CorrectAnswers.AddRange(answerDataCorrect);
+        data.IncorrectAnswers.AddRange(answerDataIncorrect);
 
         //Saving only the highest score
-        if (data.correctScore < GameManager.gameManagerInstance.CorrectCounter)
+        if (data.CorrectScore < GameManager.gameManagerInstance.CorrectCounter)
         {
-            data.correctScore = GameManager.gameManagerInstance.CorrectCounter;
+            data.CorrectScore = GameManager.gameManagerInstance.CorrectCounter;
         }
 
         string newJson = JsonUtility.ToJson(data, true);

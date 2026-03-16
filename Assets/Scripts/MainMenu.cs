@@ -2,6 +2,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*[Serializable]
+public class correctAnswers
+{
+    
+}*/
+
 public class MainMenu : MonoBehaviour
 {
 

@@ -7,8 +7,10 @@ public class StatisticsScript : MonoBehaviour
     [SerializeField] private TextMeshProUGUI highScore;
     [SerializeField] private TextMeshProUGUI mostCorrect;
     [SerializeField] private TextMeshProUGUI mostWrong;
-    [SerializeField] private TextMeshProUGUI fastestScale;
-    [SerializeField] private TextMeshProUGUI slowestScale;
+    [SerializeField] private TextMeshProUGUI fastestScaleGmOne;
+    [SerializeField] private TextMeshProUGUI fastestScaleGmTwo;
+    [SerializeField] private TextMeshProUGUI slowestScaleGmOne;
+    [SerializeField] private TextMeshProUGUI slowestScaleGmTwo;
     [SerializeField] private Button closeButton;
 
     void Start()
