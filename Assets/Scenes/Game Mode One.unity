@@ -2357,8 +2357,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63921b1a8d0f04daf9d47e2d400565a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DataSaving
-  SaveIncorrectAnswers: []
-  SaveCorrectAnswers: []
+  saveIncorrectAnswers: []
+  saveCorrectAnswers: []
+  saveHighScore:
+    SaveScore: 0
+    CurrentGameMode: 0
 --- !u!4 &1335444041
 Transform:
   m_ObjectHideFlags: 0

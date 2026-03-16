@@ -477,6 +477,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DataSaving
   saveIncorrectAnswers: []
   saveCorrectAnswers: []
+  saveHighScore:
+    SaveScore: 0
+    CurrentGameMode: 0
 --- !u!4 &267848094
 Transform:
   m_ObjectHideFlags: 0
