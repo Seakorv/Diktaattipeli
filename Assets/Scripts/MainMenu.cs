@@ -67,6 +67,7 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("High score gm one: " + statisticsInformation.HighScore[0].SaveScore);
         SetMostCorrectWrong();
+        SetAverages();
         statisticsPopUp.GetComponent<StatisticsScript>().SetStatisticsScore(statisticsInformation.HighScore[0].SaveScore, statisticsInformation.HighScore[1].SaveScore);
     }
     
@@ -77,11 +78,79 @@ public class MainMenu : MonoBehaviour
     /// <returns>The name of the most correct answered scale</returns>
     private void SetMostCorrectWrong()
     {
-        //Grouping by scale and getting the amounts of the scales.
-        var scaleCounts = statisticsInformation.CorrectAnswers
-            .GroupBy(cor => cor.CorrectScale)
-            .ToDictionary(scale => scale.Key, scale => scale.Count());
+        //First grouping the list by the correct scale names
+        //then ordering them high to low where first element is the most amount of
+        //correct answers.
+        //Then getting the key = scale name for te var mostCorrect from the first element
+        var mostCorrect= statisticsInformation.CorrectAnswers
+            .GroupBy(correct => correct.CorrectScale)
+            .OrderByDescending(scale => scale.Count())
+            .First().Key;
 
-        statisticsPopUp.GetComponent<StatisticsScript>().SetStatisticsMostCorrectWrong(scaleCounts.Keys.Max(), scaleCounts.Keys.Min());
+        //First doing the same thing as above expect
+        //we want to know the correct answer when player answered wrong, thats why wrong.CorrectScale
+        //Then doing the same thing as above again
+        var mostWrong = statisticsInformation.IncorrectAnswers
+            .GroupBy(wrong => wrong.CorrectScale)
+            .OrderByDescending(scale => scale.Count())
+            .First().Key;
+
+        statisticsPopUp.GetComponent<StatisticsScript>().SetStatisticsMostCorrectWrong(mostCorrect, mostWrong);
+    }
+
+    /// <summary>
+    /// Setting the fastest and the slowest scale. The function gets the scale as a key and makes the 
+    /// answer values to a list. Then it takes the average speed of each key and sets the fastest and slowest
+    /// for the statistics popup
+    /// </summary>
+    private void SetAverages()
+    {
+        //Filtering only game mode ones
+        //Then grouping by scale name
+        //then making them into a dictionary where:
+        //Key is scale name, other element is a list of the answer speeds
+        var scaleSpeedsGmOne = statisticsInformation.CorrectAnswers
+            .Where(correct => correct.MyGameMode == 1)
+            .GroupBy(correct => correct.CorrectScale)
+            .ToDictionary(
+                scale => scale.Key,
+                scale => scale.Average(correct => correct.AnswerTime)
+            );
+        
+        //Ordering them again. Last is the fastest value, first is the slowest
+        var fastestScaleGmOne = scaleSpeedsGmOne
+            .OrderByDescending(scale => scale.Value)
+            .Last();
+        
+        var slowestScaleGmOne = scaleSpeedsGmOne
+            .OrderByDescending(scale => scale.Value)
+            .First();
+        
+        foreach (var scale in scaleSpeedsGmOne)
+        {
+            Debug.Log(scale.Key + " Average: " + scale.Value);
+        }
+        Debug.Log("Fastest scale gm one: " + fastestScaleGmOne);
+
+
+        //Exactly the same things but for game mode two ones
+        var scaleSpeedsGmTwo = statisticsInformation.CorrectAnswers
+            .Where(correct => correct.MyGameMode == 2)
+            .GroupBy(correct => correct.CorrectScale)
+            .ToDictionary(
+                scale => scale.Key,
+                scale => scale.Average(correct => correct.AnswerTime)
+            );
+        
+        var fastestScaleGmTwo = scaleSpeedsGmTwo
+            .OrderByDescending(scale => scale.Value)
+            .Last();
+        
+        var slowestScaleGmTwo = scaleSpeedsGmTwo
+            .OrderByDescending(scale => scale.Value)
+            .First();
+        
+        statisticsPopUp.GetComponent<StatisticsScript>().SetSpeedStatisticsGmOne(fastestScaleGmOne.Key, slowestScaleGmOne.Key);
+        statisticsPopUp.GetComponent<StatisticsScript>().SetSpeedStatisticsGmTwo(fastestScaleGmTwo.Key, slowestScaleGmTwo.Key);
     }
 }

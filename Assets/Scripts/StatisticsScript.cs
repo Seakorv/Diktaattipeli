@@ -45,4 +45,16 @@ public class StatisticsScript : MonoBehaviour
         mostCorrect.text = correct;
         mostWrong.text = wrong;
     }
+
+    public void SetSpeedStatisticsGmOne(string fast, string slow)
+    {
+        fastestScaleGmOne.text = fast;
+        slowestScaleGmOne.text = slow;
+    }
+
+    public void SetSpeedStatisticsGmTwo(string fast, string slow)
+    {
+        fastestScaleGmTwo.text = fast;
+        slowestScaleGmTwo.text = slow;
+    }
 }
