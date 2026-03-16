@@ -4,7 +4,8 @@ using TMPro;
 
 public class StatisticsScript : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI highScore;
+    [SerializeField] private TextMeshProUGUI highScoreOne;
+    [SerializeField] private TextMeshProUGUI highScoreTwo;
     [SerializeField] private TextMeshProUGUI mostCorrect;
     [SerializeField] private TextMeshProUGUI mostWrong;
     [SerializeField] private TextMeshProUGUI fastestScaleGmOne;
@@ -21,5 +22,10 @@ public class StatisticsScript : MonoBehaviour
     public void CloseStatistics()
     {
         this.gameObject.SetActive(false);
+    }
+    
+    public void SetStatistics(int highscoreOne, int highscoreTwo, string mostCorrect, string mostWrong, string fastOne, string fastTwo, string slowOne, string slowTwo)
+    {
+        
     }
 }

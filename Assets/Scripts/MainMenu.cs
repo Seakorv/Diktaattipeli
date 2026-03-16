@@ -19,6 +19,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private Button exitButton;
     [SerializeField] private GameObject statisticsPopUp;
 
+    private SaveGameData statisticsInformation;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -54,6 +56,7 @@ public class MainMenu : MonoBehaviour
     
     public void OpenStatistics()
     {
+        statisticsInformation = DataSaveSystem.LoadData();
         statisticsPopUp.SetActive(true);
     }
 }

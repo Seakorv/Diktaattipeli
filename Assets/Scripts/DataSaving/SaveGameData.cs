@@ -9,7 +9,7 @@ public class SaveGameData
 {
     public List<DataSaveCorrect> CorrectAnswers = new List<DataSaveCorrect>();
     public List<DataSaveIncorrect> IncorrectAnswers = new List<DataSaveIncorrect>();
-    public int CorrectScore;
+    public DataSaveHighScore[] HighScore = new DataSaveHighScore[2];
 }
 
 public static class DataSaveSystem
@@ -36,9 +36,27 @@ public static class DataSaveSystem
         data.IncorrectAnswers.AddRange(DataSaving.dataSavingInstance.saveIncorrectAnswers);
 
         //Saving only the highest score
-        if (data.CorrectScore < GameManager.gameManagerInstance.CorrectCounter)
+        /*if (data.CorrectScore < GameManager.gameManagerInstance.CorrectCounter)
         {
             data.CorrectScore = GameManager.gameManagerInstance.CorrectCounter;
+        }*/
+        int currentGameMode = DataSaving.dataSavingInstance.saveHighScore.CurrentGameMode;
+        int score = DataSaving.dataSavingInstance.saveHighScore.SaveScore;
+
+        switch (currentGameMode)
+        {
+            case 1:
+                if (data.HighScore[0] == null || data.HighScore[0].SaveScore < score )
+                {
+                    data.HighScore[0] = DataSaving.dataSavingInstance.saveHighScore;
+                }
+                break;
+            case 2:
+                if (data.HighScore[1] == null || data.HighScore[1].SaveScore < score )
+                {
+                    data.HighScore[1] = DataSaving.dataSavingInstance.saveHighScore;
+                }
+                break;
         }
 
         string newJson = JsonUtility.ToJson(data, true);

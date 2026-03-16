@@ -8,6 +8,7 @@ public class DataSaving : MonoBehaviour
     public static DataSaving dataSavingInstance;
     public List<DataSaveIncorrect> saveIncorrectAnswers = new List<DataSaveIncorrect>();
     public List<DataSaveCorrect> saveCorrectAnswers = new List<DataSaveCorrect>();
+    public DataSaveHighScore saveHighScore = new DataSaveHighScore();
 
     void Awake()
     {
@@ -36,6 +37,17 @@ public class DataSaving : MonoBehaviour
         };
 
         saveIncorrectAnswers.Add(saveIncorrect);
+    }
+
+    public void SaveHighScore(int gamemode, int score)
+    {
+        DataSaveHighScore saveScore = new()
+        {
+            SaveScore = score,
+            CurrentGameMode = gamemode
+        };
+
+        saveHighScore = saveScore;
     }
 
     public void PrintCorrectSavings()
