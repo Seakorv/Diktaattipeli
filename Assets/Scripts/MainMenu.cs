@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private Button statisticsButton;
     [SerializeField] private Button optionsButton;
     [SerializeField] private Button exitButton;
+    [SerializeField] private GameObject statisticsPopUp;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,6 +20,7 @@ public class MainMenu : MonoBehaviour
         gameModeOneButton.onClick.AddListener(OpenGameModeOne);
         gameModeTwoButton.onClick.AddListener(OpenGameModeTwo);
         exitButton.onClick.AddListener(QuitGame);
+        statisticsButton.onClick.AddListener(OpenStatistics);
     }
 
     // Update is called once per frame
@@ -42,5 +44,10 @@ public class MainMenu : MonoBehaviour
     {
         AkUnitySoundEngine.StopAll();
         SceneManager.LoadSceneAsync(2);
+    }
+    
+    public void OpenStatistics()
+    {
+        statisticsPopUp.SetActive(true);
     }
 }
