@@ -87,6 +87,7 @@ public class GameManager : MonoBehaviour
     // Wwise
     [Header("Wwise things")]
     // States, chances the genres of music
+    public AK.Wwise.Event bgMusic;
     public AK.Wwise.State mainMenuMusic;
     public AK.Wwise.State synthFunkState;
     public AK.Wwise.State metalState;
@@ -140,6 +141,11 @@ public class GameManager : MonoBehaviour
         timerBar.minValue = 0;
 
         StartGame();
+    }
+
+    void Start()
+    {
+        bgMusic.Post(gameObject);
     }
 
     void FixedUpdate()

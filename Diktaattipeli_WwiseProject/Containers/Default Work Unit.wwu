@@ -341,6 +341,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 1" ID="{F45022FB-C121-4A1E-AA8F-A23B8A31B204}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 1.wav</AudioFile>
 															<MediaIDList>
@@ -434,6 +441,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 2" ID="{703EC132-A52A-4426-9BC0-A2B9AF05A104}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 2.wav</AudioFile>
 															<MediaIDList>
@@ -527,6 +541,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 3" ID="{29BBAC0A-3082-4CE5-8BB8-CBC261B448C6}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 3.wav</AudioFile>
 															<MediaIDList>
@@ -620,6 +641,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 4" ID="{C3200E4E-397E-4540-A45A-6392715FD841}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 4.wav</AudioFile>
 															<MediaIDList>
@@ -713,6 +741,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 5" ID="{28AA53F2-1A6F-4C0C-8628-A626C8A63CC4}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 5.wav</AudioFile>
 															<MediaIDList>
@@ -806,6 +841,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 6" ID="{0A789EC3-4B99-48C8-AFEC-9A88A945D179}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 6.wav</AudioFile>
 															<MediaIDList>
@@ -899,6 +941,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 7" ID="{D5C9E49E-CA16-41E7-B955-47311321BA7B}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 7.wav</AudioFile>
 															<MediaIDList>
@@ -1092,6 +1141,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 9" ID="{E7646AD2-FD2C-4557-B81E-25272995E8E5}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 9.wav</AudioFile>
 															<MediaIDList>
@@ -1185,6 +1241,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 10" ID="{4388C5B6-C3AB-4764-B81A-3272872E93DF}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 10.wav</AudioFile>
 															<MediaIDList>
@@ -1385,6 +1448,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 12" ID="{DC7FAE58-548F-4398-ABFC-875EAD4F85BA}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 12.wav</AudioFile>
 															<MediaIDList>
@@ -1478,6 +1548,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Synthfunk 13" ID="{9972E521-0F38-4EEF-AD5D-D67555D13034}">
+															<PropertyList>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>7</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Synthfunk 13.wav</AudioFile>
 															<MediaIDList>

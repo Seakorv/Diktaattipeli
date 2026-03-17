@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "Diktaattipeli.sln"
+    "dotnet.defaultSolution": "Diktaattipeli.slnx"
 }
