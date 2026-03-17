@@ -27,6 +27,7 @@ public class StartGame : MonoBehaviour
         //GameModeOne.gameModeOneInstance.UpdateGenreState(CurrentGenreState.EasySynth);
         GameManager.gameManagerInstance.SetFirstScaleState();
         GameManager.gameManagerInstance.ResetAnswerTimer();
+        GameManager.gameManagerInstance.SetButtonsActive(true);
         this.gameObject.SetActive(false);
     }
 

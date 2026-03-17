@@ -8,7 +8,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 using Random = System.Random;
 
 public class GameManager : MonoBehaviour
@@ -106,8 +106,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AK.Wwise.Event errorSFX;
 
 
-    // Things for testing
-    [Header("Things for testing")]
+    // Other things
+    [Header("Other")]
     [SerializeField] private TextMeshProUGUI kierroslaskuri;
     [SerializeField] private TextMeshProUGUI currentScaletext;
     private int kierrokset = -1;
@@ -117,11 +117,17 @@ public class GameManager : MonoBehaviour
     private float timeForAnswer = 0f;
     private bool correctPress = false;
 
+    // Exit button
+    [SerializeField] private Button exit;
+
+    // Buttons object
+    [SerializeField] private GameObject buttonsObject;
+
 
 
     void Awake()
     {
-        //Setting tempo
+        exit.onClick.AddListener(OnExit);
 
         gameManagerInstance = this;
         SetEveryScale();
@@ -535,6 +541,7 @@ public class GameManager : MonoBehaviour
         }
         //UpdateGenreState(CurrentGenreState.None);
         UpdateCurrentScale(CurrentScaleState.GameOver);
+        SetButtonsActive(false);
         gameOverPopUp.SetActive(true);
         gameOverPopUp.GetComponent<GameOver>().SetPoints(CorrectCounter);
     }
@@ -572,6 +579,23 @@ public class GameManager : MonoBehaviour
     public void FromIncorrectButton(Scale incorrect)
     {
         DataSaving.dataSavingInstance.IncorrectSaving(CurrentScaleObject, incorrect, CorrectCounter);
+    }
+
+
+    public void SetButtonsActive(bool active)
+    {
+        if (GetMyGameModeNumber() != 1)
+        {
+            buttonsObject.SetActive(active);
+        }
+    }
+
+    public void OnExit()
+    {
+        DataSaving.dataSavingInstance.SaveHighScore(GetMyGameModeNumber(), CorrectCounter);
+        DataSaveSystem.SaveData();
+        AkUnitySoundEngine.StopAll();
+        SceneManager.LoadSceneAsync(0);
     }
 }
 
