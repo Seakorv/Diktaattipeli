@@ -40,8 +40,11 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Highlight
-    uniqueID: 3584587789
+  - name: PopUp
+    uniqueID: 71562767
+    locked: 0
+  - name: UI
+    uniqueID: 979522037
     locked: 0
   - name: Default
     uniqueID: 0
