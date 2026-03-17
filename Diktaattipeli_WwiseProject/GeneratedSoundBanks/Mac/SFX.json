@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}",
     "Language": "SFX",
-    "Hash": "{AB694A7F-796C-C8F9-BB42-E04D99A3D3A8}",
+    "Hash": "{08179AC9-BC5E-E708-7127-204646F716ED}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "erhe metal.wav",
-      "CachePath": "DB/{DBC0FF40-B06A-29D0-5FE6-B4BCF7F833B8}.wem"
+      "CachePath": "13/{13AAFA49-92A3-1915-B0F7-789C97157D59}.wem"
      },
      {
       "Id": "376297985",
@@ -847,6 +847,6 @@
     ]
    }
   ],
-  "FileHash": "{7082A78A-0889-4C2D-8462-E286AAC476AA}"
+  "FileHash": "{23E45B83-8489-7254-5BDB-CA6ED9A19CC0}"
  }
 }

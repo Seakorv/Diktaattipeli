@@ -21,6 +21,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private Button optionsButton;
     [SerializeField] private Button exitButton;
     [SerializeField] private GameObject statisticsPopUp;
+    [SerializeField] private GameObject optionsPopUp;
 
     private SaveGameData statisticsInformation;
 
@@ -31,6 +32,7 @@ public class MainMenu : MonoBehaviour
         gameModeTwoButton.onClick.AddListener(OpenGameModeTwo);
         exitButton.onClick.AddListener(QuitGame);
         statisticsButton.onClick.AddListener(OpenStatistics);
+        optionsButton.onClick.AddListener(OpenOptions);
     }
 
     // Update is called once per frame
@@ -54,6 +56,11 @@ public class MainMenu : MonoBehaviour
     {
         AkUnitySoundEngine.StopAll();
         SceneManager.LoadSceneAsync(2);
+    }
+
+    public void OpenOptions()
+    {
+        optionsPopUp.SetActive(true);
     }
     
     public void OpenStatistics()

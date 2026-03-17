@@ -119,15 +119,18 @@ public class GameManager : MonoBehaviour
 
     // Exit button
     [SerializeField] private Button exit;
+    [SerializeField] private Button options;
 
     // Buttons object
     [SerializeField] private GameObject buttonsObject;
+    [SerializeField] private GameObject optionsPopUp;
 
 
 
     void Awake()
     {
         exit.onClick.AddListener(OnExit);
+        options.onClick.AddListener(OnOptions);
 
         gameManagerInstance = this;
         SetEveryScale();
@@ -588,6 +591,11 @@ public class GameManager : MonoBehaviour
         {
             buttonsObject.SetActive(active);
         }
+    }
+
+    public void OnOptions()
+    {
+        optionsPopUp.SetActive(true);
     }
 
     public void OnExit()

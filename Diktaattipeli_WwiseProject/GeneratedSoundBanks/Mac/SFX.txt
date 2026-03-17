@@ -38,7 +38,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	268716891	Gradu metal 12	.cache\A1\{A1649A2A-D377-F53F-AAD1-8ED25F85FD66}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwelveSFX\Gradu metal 12		128160
 	280573994	Gradu metal 9	.cache\D1\{D11D0E95-ADE4-7A0A-50DD-BC9C97327328}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\NineSFX\Gradu metal 9		128160
 	288982015	Synthfunk 11	.cache\8B\{8BFA97F7-A07C-ED2B-8C5E-5C595AADA9E1}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ElevenSFX\Synthfunk 11		105848
-	297863056	MetalError	.cache\DB\{DBC0FF40-B06A-29D0-5FE6-B4BCF7F833B8}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\MetalError		131504
+	297863056	MetalError	.cache\13\{13AAFA49-92A3-1915-B0F7-789C97157D59}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\MetalError		131504
 	376297985	Synthfunk 5	.cache\35\{35A3ED06-DF91-B5D9-21FF-FC0ABC9B72EA}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FiveSFX\Synthfunk 5		105848
 	435482048	Gradu metal 4	.cache\10\{1077E3C7-BD99-F067-15FE-4222D8A73738}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FourSFX\Gradu metal 4		128160
 	550033654	Gradu metal 1	.cache\1B\{1BAF3DFD-141C-079C-B760-AEABA9E76AAA}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\OneSFX\Gradu metal 1		128160
