@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-03-19T00:14:05Z
+Date:                    2026-03-19T11:17:58Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-19T00:14:05.324745Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-19T11:17:58.629645Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64864
+57058
 -licensingIpc
 LicenseClient-arttujuntunen
 -job-worker-count
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/arttujuntunen/Unity/Diktaattipeli
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8594141440]  Target information:
 
-Player connection [8594141440]  * "[IP] 192.168.50.29 [Port] 0 [Flags] 2 [Guid] 2384504089 [EditorId] 2384504089 [Version] 1048832 [Id] OSXEditor(0,Arttus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8594141440]  * "[IP] 192.168.50.29 [Port] 0 [Flags] 2 [Guid] 2832504737 [EditorId] 2832504737 [Version] 1048832 [Id] OSXEditor(0,Arttus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8594141440] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8594141440] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.98 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 21.04 ms, found 14 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,7 +108,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -120,17 +120,17 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/Pla
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-arttujuntunen"
 [Licensing::IpcConnector] LicenseClient-arttujuntunen channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-6000.3.11" at "2026-03-19T00:14:06.158772Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-6000.3.11" at "2026-03-19T11:17:59.472536Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.0+23225a6
-  Session Id:              6ada17124f694f90be833a368cbe6165
-  Correlation Id:          d28b9ca1d15888acb48ae2146409ecf5
-  External correlation Id: 6474823924447407805
+  Session Id:              5c23f52d8f2b458c990d8e76b04426c7
+  Correlation Id:          642f8b0914a07a24bbfc7cf4e643364f
+  External correlation Id: 6028728721928842083
   Machine Id:              D0ssRK69MwrgWmWGKHtRBTEIAgI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-6000.3.11-notifications" at "2026-03-19T00:14:06.187075Z"
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-6000.3.11-notifications" at "2026-03-19T11:17:59.484891Z"
 [Licensing::Module] Licensing Background thread has ended after 0.86s
-[Licensing::Module] Licensing is initialized (took 0.31s).
+[Licensing::Module] Licensing is initialized (took 0.28s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 5773502310178-UnityPersXXXX
@@ -140,8 +140,8 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.309976 seconds.
-- Loaded All Assemblies, in  0.577 seconds
+Registered in 0.278188 seconds.
+- Loaded All Assemblies, in  0.583 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -156,35 +156,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.315 seconds
-Domain Reload Profiling: 892ms
-	BeginReloadAssembly (72ms)
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 866ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (337ms)
-	LoadAllAssembliesAndSetupDomain (131ms)
-		LoadAssemblies (72ms)
+	initialDomainReloadingComplete (307ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (114ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (315ms)
+	FinalizeReload (283ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (278ms)
+		SetupLoadedEditorAssemblies (248ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (99ms)
+			InitializePlatformSupportModulesInManaged (77ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (74ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -195,8 +195,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.532 seconds
-Refreshing native plugins compatible for Editor in 2.17 ms, found 14 plugins.
+- Loaded All Assemblies, in  0.510 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 14 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -205,41 +205,41 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.88 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 2.34 ms, found 14 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.609 seconds
-Domain Reload Profiling: 1141ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1127ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (248ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (220ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (115ms)
-			BuildScriptInfoCaches (39ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (123ms)
+			BuildScriptInfoCaches (41ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (610ms)
+	FinalizeReload (618ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (533ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (323ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (320ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -252,948 +252,19 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 2.60 ms, found 14 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 7276 unused Assets / (4.5 MB). Loaded Objects now: 8065.
-Memory consumption went from 152.0 MB to 147.4 MB.
-Total: 7.895125 ms (FindLiveObjects: 0.890833 ms CreateObjectMapping: 0.272417 ms MarkObjects: 5.001333 ms  DeleteObjects: 1.730292 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 190849.526476 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96923d484a6dfcf20058e06744979ade') in 0.063023833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/SFX.txt
-  artifactKey: Guid(3304b5537fbcd40a594022312fed0652) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/SFX.txt using Guid(3304b5537fbcd40a594022312fed0652) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e9738cdd63ddb321fd7cec5ab7e573a') in 0.001563916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Scripts/ScaleNote.cs
-  artifactKey: Guid(22dd680ebbff748eba36e409496f5838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/ScaleNote.cs using Guid(22dd680ebbff748eba36e409496f5838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5ab6a9b3f374f249166f368dc22665b') in 0.007009292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkPlaylistItem.cs
-  artifactKey: Guid(294280630b3a24759b526939d4f965c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkPlaylistItem.cs using Guid(294280630b3a24759b526939d4f965c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f14205fc63e0b532e9958f92c281a022') in 0.001599625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkDynamicSequenceOp.cs
-  artifactKey: Guid(231c7ded695104133978a6557fbf206d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkDynamicSequenceOp.cs using Guid(231c7ded695104133978a6557fbf206d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '038ba70e2ec5ab9f407edd5a5b747ad7') in 0.00148775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkRoomDistanceBehavior.cs
-  artifactKey: Guid(90db50fa7beb647b5a1f46d25b8f98f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkRoomDistanceBehavior.cs using Guid(90db50fa7beb647b5a1f46d25b8f98f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28aa20c98af1e0b8ecb792099c0435a0') in 0.001576833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkPanningRule.cs
-  artifactKey: Guid(35c237a9f7d0f4e15884e0862f8d01f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkPanningRule.cs using Guid(35c237a9f7d0f4e15884e0862f8d01f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4f8e3e51d87b89aec723a2664946481') in 0.001384708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/71D9B768-645D-48D5-975C-7BA3D9D8DA85.asset
-  artifactKey: Guid(f43f214ebcd364959ac97202f51f4750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/71D9B768-645D-48D5-975C-7BA3D9D8DA85.asset using Guid(f43f214ebcd364959ac97202f51f4750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01144e287eead1f93cd7bea34adffd5a') in 0.013073333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkGlobalCallbackLocation.cs
-  artifactKey: Guid(a49c506c6588a44f38b4ca680b924c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkGlobalCallbackLocation.cs using Guid(a49c506c6588a44f38b4ca680b924c4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fc7e15c264bee23cc3cde865fcc2478') in 0.001396834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkDeviceSettings.cs
-  artifactKey: Guid(88f49d3a4ee69423699c5f36a3b0ed1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkDeviceSettings.cs using Guid(88f49d3a4ee69423699c5f36a3b0ed1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cdce0b2720cf439fbd75d3c2b2a5865') in 0.001808916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMonitorErrorLevel.cs
-  artifactKey: Guid(592534bd5271f42c296c77256b847219) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMonitorErrorLevel.cs using Guid(592534bd5271f42c296c77256b847219) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cae3b929052141a3b107eceb0156d594') in 0.001500167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDINote.cs
-  artifactKey: Guid(4058c4023eb61469696c6434b130919d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDINote.cs using Guid(4058c4023eb61469696c6434b130919d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2d587038d0a64b608be00eddf2f52c3') in 0.00168175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkSpatialAudioInitSettings.cs
-  artifactKey: Guid(7692d5cc5082f4e36b716351a62366e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkSpatialAudioInitSettings.cs using Guid(7692d5cc5082f4e36b716351a62366e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d62b8fcd1becab59fc991704fe2ac8f') in 0.001900166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMultiPositionType.cs
-  artifactKey: Guid(61c3442793b3c42249c0c15ddfe8a711) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMultiPositionType.cs using Guid(61c3442793b3c42249c0c15ddfe8a711) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc34d5707b4b9f5ed26f2d9ab66723a5') in 0.001594917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMeteringFlags.cs
-  artifactKey: Guid(f9682f73c683847639133123df46cbce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMeteringFlags.cs using Guid(f9682f73c683847639133123df46cbce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '239cae1c168502e613b3a9094650d13d') in 0.0014465 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Mac/AkUnitySoundEngine.cs
-  artifactKey: Guid(d1f341688aafc45e49f2b84ec58a904b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Mac/AkUnitySoundEngine.cs using Guid(d1f341688aafc45e49f2b84ec58a904b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5f5c1d6a8aafd422b3d4c5af416fa26') in 0.001715125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Mac/AkUnitySoundEnginePINVOKE_Mac.cs
-  artifactKey: Guid(021d884ccf8864148bf28ec28d6ece53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkUnitySoundEnginePINVOKE_Mac.cs using Guid(021d884ccf8864148bf28ec28d6ece53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '191de6928c1e20b80ab0e5e4bef6d32f') in 0.001600833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkSerializedCallbackHeader.cs
-  artifactKey: Guid(651e687b3d18e400ea143856abc9c813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkSerializedCallbackHeader.cs using Guid(651e687b3d18e400ea143856abc9c813) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '807a2cf1938cf2e42a86e3020e8e53e8') in 0.00156975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/Init.txt
-  artifactKey: Guid(64c17bcaf64494979909832e234e0d54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/Init.txt using Guid(64c17bcaf64494979909832e234e0d54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a053eb1c15c666370bf0ee6b30a177dc') in 0.00136725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkQueryRTPCValue.cs
-  artifactKey: Guid(24703ad9a62944b6da206c7b07b608ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkQueryRTPCValue.cs using Guid(24703ad9a62944b6da206c7b07b608ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4359278dfdfa9cce5288c072ce672f6') in 0.00159775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkCurveInterpolation.cs
-  artifactKey: Guid(5a08076a76c0c491c97ba35d7ab34137) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkCurveInterpolation.cs using Guid(5a08076a76c0c491c97ba35d7ab34137) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b0af394ee3a42a0ec15272e1e19cc4e') in 0.0016145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/WAAPI/AkWaapiUtilities.cs
-  artifactKey: Guid(f91bf683ec3234f5a83463866b4892c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/WAAPI/AkWaapiUtilities.cs using Guid(f91bf683ec3234f5a83463866b4892c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c1c708dfbe3e74d8aa07f6920507578') in 0.001558917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMusicPlaylistCallbackInfo.cs
-  artifactKey: Guid(91b62fe77bd08431e99998b70c9aad2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMusicPlaylistCallbackInfo.cs using Guid(91b62fe77bd08431e99998b70c9aad2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c869db4d3480a6e4c1b56a649cf3704') in 0.001643125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003386 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Mac/AkCommunicationSettings_Mac.cs
-  artifactKey: Guid(f4f87ad0948324f0aba5cfda838b88d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkCommunicationSettings_Mac.cs using Guid(f4f87ad0948324f0aba5cfda838b88d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55007e940c1b580065c0efa8719285c0') in 0.001719459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkChannelOrdering.cs
-  artifactKey: Guid(eeaffeca89f584878aa746e537251211) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkChannelOrdering.cs using Guid(eeaffeca89f584878aa746e537251211) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5d68f57329f0743fe6ba8a679581eb9') in 0.001438417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkChannelConfigType.cs
-  artifactKey: Guid(d690b0df282b949a4b443cd3eb865827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkChannelConfigType.cs using Guid(d690b0df282b949a4b443cd3eb865827) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6bef9dba2763a034f7d0639767bd2227') in 0.0014655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/SFX.bnk
-  artifactKey: Guid(46c92220e2e8a45ec892f8b29f71db05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/SFX.bnk using Guid(46c92220e2e8a45ec892f8b29f71db05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78c120f8fa4636040d12f62affcc7182') in 0.001185167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/WAAPI/Wamp.cs
-  artifactKey: Guid(c2881262811484fb2bf399f923be14ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/WAAPI/Wamp.cs using Guid(c2881262811484fb2bf399f923be14ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd720e5506afdb8ab9060b7b7f46284d6') in 0.001220209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDIEventTypes.cs
-  artifactKey: Guid(5b66a3054410b414283bf684c8284d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDIEventTypes.cs using Guid(5b66a3054410b414283bf684c8284d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c783bb26d867fb46188ce12037091d1a') in 0.001339375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkReflectionPathInfo.cs
-  artifactKey: Guid(ebf39586201544d9ba48b3ad13bde43b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkReflectionPathInfo.cs using Guid(ebf39586201544d9ba48b3ad13bde43b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f25b6ba945f583c1dedab4b27e81591b') in 0.0016505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Mac/AkAudioAPI_Mac.cs
-  artifactKey: Guid(f2d275fc4ce734a019a1b1aa9ace6d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkAudioAPI_Mac.cs using Guid(f2d275fc4ce734a019a1b1aa9ace6d29) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00ef4c7e13f369dc2bfe699056600b48') in 0.0015455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Mac/AkMacSettings.cs
-  artifactKey: Guid(9d3d3bf0b49c34a7998de089180bf2f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Mac/AkMacSettings.cs using Guid(9d3d3bf0b49c34a7998de089180bf2f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89327681d22266585a20fc0b954b5b66') in 0.002421333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkOutputSettings.cs
-  artifactKey: Guid(8802f5bd8a6bb41ba8dfb3804a8c1b55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkOutputSettings.cs using Guid(8802f5bd8a6bb41ba8dfb3804a8c1b55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18d1b1952dfcb65e6f403963e6292d03') in 0.001693083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(3da663995d0e74cfcaabab2564eb0f5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/MainMenu.cs using Guid(3da663995d0e74cfcaabab2564eb0f5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a21208a442bddf8da48cb6705729eb8') in 0.001335792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/AkCommonPlatformSettings.cs
-  artifactKey: Guid(15664bca2541545e1b3f53de7747303c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/AkCommonPlatformSettings.cs using Guid(15664bca2541545e1b3f53de7747303c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3133ad43731070bf7f316a2da6f1ce4') in 0.001628042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMonitorErrorCode.cs
-  artifactKey: Guid(05814e4d54ac74c27973fb6fc8d808f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMonitorErrorCode.cs using Guid(05814e4d54ac74c27973fb6fc8d808f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb1bc11da67cb9a53df9e5dc568bd568') in 0.001528916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDINoteAftertouch.cs
-  artifactKey: Guid(70ebe48d3f1164195bdd59106367a71b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDINoteAftertouch.cs using Guid(70ebe48d3f1164195bdd59106367a71b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0270810567bd551167369ba99fff51ae') in 0.001524375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/soundbank_nor.png
-  artifactKey: Guid(9614abe346657427b9c2b493d4bd3ea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/soundbank_nor.png using Guid(9614abe346657427b9c2b493d4bd3ea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '183c05755a06b8d2fee6759bbdf6fe3e') in 0.007528625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkWorldTransform.cs
-  artifactKey: Guid(88f995f09529344839787ce9b2d0a994) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkWorldTransform.cs using Guid(88f995f09529344839787ce9b2d0a994) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'caca5edc6005483fde397ec898172228') in 0.0013865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
-  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f50c1413c9d7ee6ebfbcde4004eb0c3a') in 0.001511583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkInitializer.cs
-  artifactKey: Guid(d4ca5124f659f498a92cae715e5ba8c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkInitializer.cs using Guid(d4ca5124f659f498a92cae715e5ba8c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c603f1d0239569a963ba87bbcbd0ffd3') in 0.001259583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkMeter.bundle
-  artifactKey: Guid(d2d57acb24af241408d9447f9523574a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkMeter.bundle using Guid(d2d57acb24af241408d9447f9523574a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0aecd37344aa34d5530189d5969b9704') in 0.002346584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSidechain.bundle
-  artifactKey: Guid(a7006927057ba44f5ae6e623c7479a8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSidechain.bundle using Guid(a7006927057ba44f5ae6e623c7479a8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67962efbde41a027ea723dc30e66fd2e') in 0.001293583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseGameParameterRefArray.cs
-  artifactKey: Guid(a0a1343e8862c422a8fd0dfa47a461a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseGameParameterRefArray.cs using Guid(a0a1343e8862c422a8fd0dfa47a461a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ff206273cb9b89753c3a22564b05f9d') in 0.001188667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseBank.cs
-  artifactKey: Guid(41b6a0b06f9344460865ebcdfeba3444) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseBank.cs using Guid(41b6a0b06f9344460865ebcdfeba3444) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f962e7cd59f25d21f347cb5e5fded60e') in 0.00112975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseGameParameterRef.cs
-  artifactKey: Guid(4770c9ece950549c3aa953331429e002) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseGameParameterRef.cs using Guid(4770c9ece950549c3aa953331429e002) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac98a23129b676b5ef7a225745006503') in 0.001300333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs
-  artifactKey: Guid(4d529974698964398a11ffc9065d9a97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs using Guid(4d529974698964398a11ffc9065d9a97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c90d49cb39bde3a47612a53dd943ed88') in 0.001246166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkDiffractionPathInfoArray.cs
-  artifactKey: Guid(887e54cb228f244a1b898f417a822935) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkDiffractionPathInfoArray.cs using Guid(887e54cb228f244a1b898f417a822935) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a91497427d6a7f724f9cef238bf0eb05') in 0.001390709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRefMediaArray.cs
-  artifactKey: Guid(07b97f62e5a834a76a3d21c4c749733b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRefMediaArray.cs using Guid(07b97f62e5a834a76a3d21c4c749733b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '747e088657b9baa5622a96f78ff4af44') in 0.002316625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkMIDIPostArray.cs
-  artifactKey: Guid(a5a80def5612f4e5abf3fc7f1abbd279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkMIDIPostArray.cs using Guid(a5a80def5612f4e5abf3fc7f1abbd279) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32ddfa4162b47c758d52e29da7bc9a96') in 0.001279791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkAuxSendArray.cs
-  artifactKey: Guid(6a08a6c83a682427c9a9b2c7aad0ee09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkAuxSendArray.cs using Guid(6a08a6c83a682427c9a9b2c7aad0ee09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '304a8d3ffa6b58b70234259ed9ffaa1b') in 0.0013005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseSoundBankRef.cs
-  artifactKey: Guid(2a1a24b62b3464b90a9b677a9c97035a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseSoundBankRef.cs using Guid(2a1a24b62b3464b90a9b677a9c97035a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '250adf40cb39996544e44f2e5a686912') in 0.001231958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRefArray.cs
-  artifactKey: Guid(2294337e70c914a858460b5d8f18cb6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRefArray.cs using Guid(2294337e70c914a858460b5d8f18cb6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7aac9b6803c9f76b11eb5b7a4f6b890b') in 0.001213042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseStateReference.cs
-  artifactKey: Guid(97ffb429bd27d4157b4c85a2799bf6b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseStateReference.cs using Guid(97ffb429bd27d4157b4c85a2799bf6b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c81f6b27f4cd2919c37f6c370b3006f') in 0.0012235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/72698361-D76E-4A81-912C-31289D54847D.asset
-  artifactKey: Guid(dfc6a3419135c41f1bfad7f6a4bb74b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/72698361-D76E-4A81-912C-31289D54847D.asset using Guid(dfc6a3419135c41f1bfad7f6a4bb74b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '540d1722c8986ebad756b46ca9e2fa79') in 0.001815791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseAcousticTexture.cs
-  artifactKey: Guid(dfac4e386349d4a71ad88ba6c995d668) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseAcousticTexture.cs using Guid(dfac4e386349d4a71ad88ba6c995d668) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a37bd3eb82bebb2a7af6584d0fe91bf') in 0.001307791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkAcousticSurfaceArray.cs
-  artifactKey: Guid(052c6c925e5f2459ea2eb8488092a1f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkAcousticSurfaceArray.cs using Guid(052c6c925e5f2459ea2eb8488092a1f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c6c2d3451c7dffc75a812297a6320f9') in 0.001236708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkObstructionOcclusionValuesArray.cs
-  artifactKey: Guid(cdfc367f0224f4a558a8fe781955e4b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkObstructionOcclusionValuesArray.cs using Guid(cdfc367f0224f4a558a8fe781955e4b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1220b9f0d22aa472c669894f587f705f') in 0.001322584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/BGMusic.json
-  artifactKey: Guid(d3af2e5f8437a427a8510a57ff57e70f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/BGMusic.json using Guid(d3af2e5f8437a427a8510a57ff57e70f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97da5fab5fd27dfa86502e3282b1aeeb') in 0.001107042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/AkVector64.cs
-  artifactKey: Guid(d1cda303e221c4eeaace48b458feb5d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/AkVector64.cs using Guid(d1cda303e221c4eeaace48b458feb5d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ea4a1807196f298e8e689226d4d14bc') in 0.001194583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkSourceSettingsArray.cs
-  artifactKey: Guid(db6ad24b1345347e0b0052405e6d4efb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/Arrays/AkSourceSettingsArray.cs using Guid(db6ad24b1345347e0b0052405e6d4efb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35bff2cc3cdf0969e2dd5662c80746ee') in 0.001328875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Scenes/Main Menu.unity
-  artifactKey: Guid(9e4a14e7ea9d540ecb59cbc7a3c2f749) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Main Menu.unity using Guid(9e4a14e7ea9d540ecb59cbc7a3c2f749) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10ed5dcd3bc23e78f4c6f747b2cb062e') in 0.002536208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkRoomParams.cs
-  artifactKey: Guid(d8c309cda15c14da9b797b3dd29467fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkRoomParams.cs using Guid(d8c309cda15c14da9b797b3dd29467fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd34cd315e7c984b6a630a6eeb88b7d74') in 0.0013375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkBehavioralPositioningData.cs
-  artifactKey: Guid(f0c0aa23c3ff94c2a9786629dba16dd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkBehavioralPositioningData.cs using Guid(f0c0aa23c3ff94c2a9786629dba16dd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89210342a95c4109ccf20d835181dfbd') in 0.001403459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkSpeakerPanningType.cs
-  artifactKey: Guid(217d804df053246fda3f41654f09dc36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkSpeakerPanningType.cs using Guid(217d804df053246fda3f41654f09dc36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06cf8118c369a03a7d218d7a2e58b185') in 0.001200417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/AkVector.cs
-  artifactKey: Guid(308abb043ebc8453faa990fe2477e3ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/AkVector.cs using Guid(308abb043ebc8453faa990fe2477e3ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '611b8908b0b9841d55af306029835891') in 0.001258625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRecorderADM.bundle
-  artifactKey: Guid(725f9b87c889148e8b73739ca6ce6ebd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRecorderADM.bundle using Guid(725f9b87c889148e8b73739ca6ce6ebd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37e9d943a17d05e353a020fd99cf460c') in 0.001630375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDIWwiseCmd.cs
-  artifactKey: Guid(eefd1181f93674a04a23287a7ad35b23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDIWwiseCmd.cs using Guid(eefd1181f93674a04a23287a7ad35b23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c6c94c7fcab910251f18be6911e948c') in 0.001472833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDICcTypes.cs
-  artifactKey: Guid(9c1c3d5c23ed34fc3af472b1bba228df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDICcTypes.cs using Guid(9c1c3d5c23ed34fc3af472b1bba228df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a425a75c4cbc107a737530bc3902b652') in 0.00115525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseCallbackFlags.cs
-  artifactKey: Guid(846f7af976a204544a23689f14bb159e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseCallbackFlags.cs using Guid(846f7af976a204544a23689f14bb159e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e3291586988828775073dc35dcb9e58') in 0.00129575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkUnitySoundEngine.bundle.dSYM/Contents/Info.plist
-  artifactKey: Guid(51d44fa14433d41c38c23205e46e105e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkUnitySoundEngine.bundle.dSYM/Contents/Info.plist using Guid(51d44fa14433d41c38c23205e46e105e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bbcfc9bb6a3f7d052c633e92bb3343a') in 0.0011505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMeter.pdb
-  artifactKey: Guid(a7e300c697ae343cbad5d17a6284af22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMeter.pdb using Guid(a7e300c697ae343cbad5d17a6284af22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12753b20b56d06ff3563a5d257a17ab0') in 0.00121525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Plugins/Mac/DSP/libWwiseProjectDatabase.dylib
-  artifactKey: Guid(a250465f272ed4138a08e5129354dce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Plugins/Mac/DSP/libWwiseProjectDatabase.dylib using Guid(a250465f272ed4138a08e5129354dce3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cba41096262cac739fb550be952588ac') in 0.001594875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle
-  artifactKey: Guid(d7d6db0b578174f399e066e7735753c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle using Guid(d7d6db0b578174f399e066e7735753c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a53e3aae6735a1403df2ccd081e19170') in 0.001695958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/Profile/AkUnitySoundEngine.dll
-  artifactKey: Guid(084c3ce516e7e448e9f64c37a2cb228d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Profile/AkUnitySoundEngine.dll using Guid(084c3ce516e7e448e9f64c37a2cb228d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9c4b5a9ad8cd2f87d79289209a5c210') in 0.001677959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkRecorderADM.dll
-  artifactKey: Guid(cfb5b59534564466683c93546867cda5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkRecorderADM.dll using Guid(cfb5b59534564466683c93546867cda5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e06357045ce1ac89009f8c1d1a2f42e') in 0.001587167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/Relocations/aarch64/AkUnitySoundEngine.yml
-  artifactKey: Guid(2f4f1bcd54dff472b9b05999082ed10c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkUnitySoundEngine.bundle.dSYM/Contents/Resources/Relocations/aarch64/AkUnitySoundEngine.yml using Guid(2f4f1bcd54dff472b9b05999082ed10c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d4b577e5353e699406194a0f56e9c44') in 0.00130275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkMeter.dll
-  artifactKey: Guid(d4095d6d6dcab4b358576b0daa2a6473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkMeter.dll using Guid(d4095d6d6dcab4b358576b0daa2a6473) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99049f58014bb7e6f5588e3cac742d44') in 0.001441709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/MasteringSuite.dll
-  artifactKey: Guid(333911899c590404c9744da3fded7f69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/MasteringSuite.dll using Guid(333911899c590404c9744da3fded7f69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f655bfac3b445fd48e4b9b3387fbc17c') in 0.001460709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedGrain.pdb
-  artifactKey: Guid(d5e9a9e6f81ac4882a6fed08193e1326) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSoundSeedGrain.pdb using Guid(d5e9a9e6f81ac4882a6fed08193e1326) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f82c4418c37620e5c259f1829f4f152f') in 0.001319458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Release/AkUnitySoundEngine.pdb
-  artifactKey: Guid(e4c91a7e723dc4267a152e2c8c33f8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Release/AkUnitySoundEngine.pdb using Guid(e4c91a7e723dc4267a152e2c8c33f8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46d2cab859044d1ac4c8267cea24477c') in 0.001261875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/Auro.dll
-  artifactKey: Guid(23ed8843ea12a48a4a04d26df7742880) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/Auro.dll using Guid(23ed8843ea12a48a4a04d26df7742880) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad04917e90de82317a783ba91ee2cb7b') in 0.002559875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/iZotope.dll
-  artifactKey: Guid(6a2f8f992556a4ce889bf3fa7e68df0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/iZotope.dll using Guid(6a2f8f992556a4ce889bf3fa7e68df0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf23e6a539f227cc0122a1151115a679') in 0.001634459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMeter.dll
-  artifactKey: Guid(75b34a387edc045d8b746eb328d3f53f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkMeter.dll using Guid(75b34a387edc045d8b746eb328d3f53f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d312bc4328f47d40043defa5703353e') in 0.00142575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/Profile/AkUnitySoundEngine.pdb
-  artifactKey: Guid(94cd539079d3542d391a12a493bb49aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Profile/AkUnitySoundEngine.pdb using Guid(94cd539079d3542d391a12a493bb49aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f009056e6fa5682883c6b1128888a9c0') in 0.001259208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkConvolutionReverb.pdb
-  artifactKey: Guid(3e1cbec013d1d49a7bb604e25c152a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkConvolutionReverb.pdb using Guid(3e1cbec013d1d49a7bb604e25c152a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23453a62381b61a098a8501975bfddf6') in 0.001202583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/MasteringSuite.dll
-  artifactKey: Guid(3437d590f38a947bd8a965dbb0fb20a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/MasteringSuite.dll using Guid(3437d590f38a947bd8a965dbb0fb20a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9305b5e8086c2d48f509d389bebc52b4') in 0.001487041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundEngineDLL.pdb
-  artifactKey: Guid(b63e931b31ec34f0f82feb4558e3ecf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundEngineDLL.pdb using Guid(b63e931b31ec34f0f82feb4558e3ecf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd857a730919cfa5920e47d86827c56c') in 0.001236916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSynthOne.dll
-  artifactKey: Guid(a279e76e3895049cf999cd262effc515) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSynthOne.dll using Guid(a279e76e3895049cf999cd262effc515) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebd89ec79365e55fd39551f9939b89c9') in 0.00170775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMcDSP.bundle
-  artifactKey: Guid(d080f9bbd125a411e8d373fcd6456708) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMcDSP.bundle using Guid(d080f9bbd125a411e8d373fcd6456708) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa569deea1577c1e0707e99f810c8e8e') in 0.001610125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseSwitchGroupReference.cs
-  artifactKey: Guid(1c9dd76d4693f4d889f8ccbae5070c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseSwitchGroupReference.cs using Guid(1c9dd76d4693f4d889f8ccbae5070c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45c74305f88c78c55fa5211051dd1869') in 0.00152175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Windows/AkPlatformInitSettings_Windows.cs
-  artifactKey: Guid(72cc5ac60f5e14c019937749e514e94d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Windows/AkPlatformInitSettings_Windows.cs using Guid(72cc5ac60f5e14c019937749e514e94d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf696ad234b83abbaa1f6075f8a3efac') in 0.001396542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkStdMovePolicy.cs
-  artifactKey: Guid(e0bd5146a4cc641ca936fddfc879dcf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkStdMovePolicy.cs using Guid(e0bd5146a4cc641ca936fddfc879dcf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07f4cc1d87721a769177f0e55d77a51a') in 0.001339542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Release/AkUnitySoundEngine.dll
-  artifactKey: Guid(09a6b2b44e94940b6b6f2265c027d913) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/Release/AkUnitySoundEngine.dll using Guid(09a6b2b44e94940b6b6f2265c027d913) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec4c1f6a3c2d889c270d41a08a58176a') in 0.001452375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRef.cs
-  artifactKey: Guid(01b0405ad75b14a2ba191e61cc191c9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseEventRef.cs using Guid(01b0405ad75b14a2ba191e61cc191c9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5eccbbd9e2610cfde53b7fed31df4f76') in 0.001555291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseAcousticTextureRef.cs
-  artifactKey: Guid(2199840af071d4d229f15ca859a3df6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseAcousticTextureRef.cs using Guid(2199840af071d4d229f15ca859a3df6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e3ad4b67fc58e40c443f4dde59656e0') in 0.001804583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSidechain.pdb
-  artifactKey: Guid(8baeca272bccb47e19d476903d9e88ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/DSP/AkSidechain.pdb using Guid(8baeca272bccb47e19d476903d9e88ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d221eeebbf038fd55070a0ce2248293') in 0.001347583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseStateGroupReference.cs
-  artifactKey: Guid(705c4dc1106b7479eb0dd58bc65161a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/WwiseTypes/WwiseObjects/WwiseStateGroupReference.cs using Guid(705c4dc1106b7479eb0dd58bc65161a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35bb8e60d704844ba3ee94f68f0d3118') in 0.001405875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/DefaultVolumeProfile.asset
-  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93fe275ddc694ace55956a7bf7ac4e1d') in 0.002052917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkUnitySoundEngine.bundle.dSYM/Contents/Info.plist
-  artifactKey: Guid(e4725cdfc4d0c4c79b018bec55d5b930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkUnitySoundEngine.bundle.dSYM/Contents/Info.plist using Guid(e4725cdfc4d0c4c79b018bec55d5b930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6cd11ce73de79eb372fa96bb9c6a96c3') in 0.001185125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libiZotope.bundle
-  artifactKey: Guid(7bf5392ceeff94893a0b595395517420) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libiZotope.bundle using Guid(7bf5392ceeff94893a0b595395517420) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '327b10550a0d79c341d0bd75a9f5ea57') in 0.001481375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86/Debug/AkUnitySoundEngine.pdb
-  artifactKey: Guid(797c6f90c59d0490eb7231a7705e6dca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86/Debug/AkUnitySoundEngine.pdb using Guid(797c6f90c59d0490eb7231a7705e6dca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16a142dfe94d7d3810bd9f7e683386a9') in 0.00148175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMIDIPitchbend.cs
-  artifactKey: Guid(4b02233bc07c243498a91e3d60c03c04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMIDIPitchbend.cs using Guid(4b02233bc07c243498a91e3d60c03c04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7347753e63156e4c25347c94d965a75a') in 0.001473625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/AkVertex.cs
-  artifactKey: Guid(eda9cf594df1c4fa7be28859b7596a85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/AkVertex.cs using Guid(eda9cf594df1c4fa7be28859b7596a85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0746f03c0c93d2f5b26ec91bd6fb91e') in 0.001431041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/bus_nor.png
-  artifactKey: Guid(9a423b769fc394c0e980dbf8226bc17a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/bus_nor.png using Guid(9a423b769fc394c0e980dbf8226bc17a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '299be1953ff06eb231a949f6c356036f') in 0.004387875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Mac/AkPlatformInitSettings_Mac.cs
-  artifactKey: Guid(b9c01ba0bbddd47bd980bcd886f6dc1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Mac/AkPlatformInitSettings_Mac.cs using Guid(b9c01ba0bbddd47bd980bcd886f6dc1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e00909ec21e49f7625b7fc400019845b') in 0.001498125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkMarkerCallbackInfo.cs
-  artifactKey: Guid(f9983007199b14fbd8a00144537af3a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkMarkerCallbackInfo.cs using Guid(f9983007199b14fbd8a00144537af3a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ab2be3f2ef550498178fd090288b9b2') in 0.001223041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseProjectDataBasePINVOKE.cs
-  artifactKey: Guid(7667f8e311ccc462bb5c6decdfb68e24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ProjectDatabase/Runtime/Handwritten/Common/WwiseProjectDataBasePINVOKE.cs using Guid(7667f8e311ccc462bb5c6decdfb68e24) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b95cbffe74ffb28e529f691d395e7830') in 0.001332458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/BGMusic.bnk
-  artifactKey: Guid(eb69df4a3405549c2bc12914b662af91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/BGMusic.bnk using Guid(eb69df4a3405549c2bc12914b662af91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '977eb3e6f52f6d3dcd9f32fdf02b89cc') in 0.003887417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkUnitySettingsParser.cs
-  artifactKey: Guid(1e96e0afaa935466e97744be3612c850) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkUnitySettingsParser.cs using Guid(1e96e0afaa935466e97744be3612c850) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d528f64c699290a4761e68385e7ff1e') in 0.001544292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/ScriptableObjects/Switch/1D3BF287-FAAA-4D03-B245-F7C1E1C2E892.asset
-  artifactKey: Guid(9ab3715c2ee7346fd9d85d2de485875e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Switch/1D3BF287-FAAA-4D03-B245-F7C1E1C2E892.asset using Guid(9ab3715c2ee7346fd9d85d2de485875e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4aa73252591697501e0e6c51c9a5d77f') in 0.002359709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
-  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53c0f8708db1f18e747dc00f91fe8889') in 0.001451125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Scripts/OptionsScript.cs
-  artifactKey: Guid(1151a45b374914ac99949fb7497a653d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/OptionsScript.cs using Guid(1151a45b374914ac99949fb7497a653d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77f88d2909a71a1d9a9bbda708efdd66') in 0.001420333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/API/Editor/AK.Wwise.Unity.API.Editor.asmdef
-  artifactKey: Guid(a789b329900044991b93e566a43b6050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/AK.Wwise.Unity.API.Editor.asmdef using Guid(a789b329900044991b93e566a43b6050) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '133bb4d46d3bb94c48c8cc1021c5efb0') in 0.001644625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/API/Runtime/Handwritten/Common/AkUnitySoundEngineInitialization.cs
-  artifactKey: Guid(f37f872fc3eed4a21a841e56e596e6cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Handwritten/Common/AkUnitySoundEngineInitialization.cs using Guid(f37f872fc3eed4a21a841e56e596e6cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e3bbd53803245596461ee76b5a4e20a') in 0.001509333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll
-  artifactKey: Guid(795d0605cb434437aba94860d81720b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkSoundSeedAir.dll using Guid(795d0605cb434437aba94860d81720b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80ef6c70565c5baf2b82247b7c513292') in 0.001645458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Memory consumption went from 151.7 MB to 147.2 MB.
+Total: 8.411417 ms (FindLiveObjects: 0.599583 ms CreateObjectMapping: 0.323625 ms MarkObjects: 5.560583 ms  DeleteObjects: 1.927250 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x17879b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.571 seconds
-Refreshing native plugins compatible for Editor in 2.42 ms, found 14 plugins.
+Thread 0x1781df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.487 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 14 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -1202,628 +273,44 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.00 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 14 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.550 seconds
-Domain Reload Profiling: 1125ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (244ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (118ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (551ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (292ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.13 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7275 unused Assets / (4.4 MB). Loaded Objects now: 8071.
-Memory consumption went from 165.3 MB to 160.9 MB.
-Total: 7.288750 ms (FindLiveObjects: 0.369791 ms CreateObjectMapping: 0.253167 ms MarkObjects: 5.118167 ms  DeleteObjects: 1.547583 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.464 seconds
-Refreshing native plugins compatible for Editor in 6.86 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.96 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.537 seconds
-Domain Reload Profiling: 1004ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (296ms)
-		LoadAssemblies (199ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (233ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (14ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (120ms)
+			BuildScriptInfoCaches (111ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (537ms)
+	FinalizeReload (571ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
+		SetupLoadedEditorAssemblies (468ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (284ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.05 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (4.0 MB). Loaded Objects now: 8074.
-Memory consumption went from 163.3 MB to 159.3 MB.
-Total: 7.304250 ms (FindLiveObjects: 0.421167 ms CreateObjectMapping: 0.246791 ms MarkObjects: 5.153292 ms  DeleteObjects: 1.482458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.432 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.83 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.533 seconds
-Domain Reload Profiling: 968ms
-	BeginReloadAssembly (105ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (13ms)
-	LoadAllAssembliesAndSetupDomain (284ms)
-		LoadAssemblies (178ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (117ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (533ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (433ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.30 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (4.0 MB). Loaded Objects now: 8077.
-Memory consumption went from 163.4 MB to 159.4 MB.
-Total: 7.862125 ms (FindLiveObjects: 0.421959 ms CreateObjectMapping: 0.268209 ms MarkObjects: 5.655958 ms  DeleteObjects: 1.515625 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.445 seconds
-Refreshing native plugins compatible for Editor in 1.81 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.00 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.573 seconds
-Domain Reload Profiling: 1022ms
-	BeginReloadAssembly (106ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (296ms)
-		LoadAssemblies (191ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (115ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (574ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (476ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.36 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (3.7 MB). Loaded Objects now: 8080.
-Memory consumption went from 163.4 MB to 159.7 MB.
-Total: 6.834416 ms (FindLiveObjects: 0.350542 ms CreateObjectMapping: 0.255750 ms MarkObjects: 4.939667 ms  DeleteObjects: 1.287958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.555 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.85 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.504 seconds
-Domain Reload Profiling: 1062ms
-	BeginReloadAssembly (169ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (334ms)
-		LoadAssemblies (246ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (134ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (110ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (504ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.21 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (3.6 MB). Loaded Objects now: 8083.
-Memory consumption went from 163.5 MB to 159.8 MB.
-Total: 8.860625 ms (FindLiveObjects: 0.403917 ms CreateObjectMapping: 0.258500 ms MarkObjects: 6.818166 ms  DeleteObjects: 1.379709 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.466 seconds
-Refreshing native plugins compatible for Editor in 5.45 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.50 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.529 seconds
-Domain Reload Profiling: 998ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (308ms)
-		LoadAssemblies (197ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (124ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (529ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (433ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.15 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (3.7 MB). Loaded Objects now: 8086.
-Memory consumption went from 163.5 MB to 159.8 MB.
-Total: 7.332292 ms (FindLiveObjects: 0.366584 ms CreateObjectMapping: 0.247500 ms MarkObjects: 5.438541 ms  DeleteObjects: 1.279459 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.554 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.03 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.524 seconds
-Domain Reload Profiling: 1080ms
-	BeginReloadAssembly (168ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (131ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (524ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (271ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (300ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.74 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (4.3 MB). Loaded Objects now: 8089.
-Memory consumption went from 163.6 MB to 159.2 MB.
-Total: 8.286500 ms (FindLiveObjects: 0.331458 ms CreateObjectMapping: 0.251500 ms MarkObjects: 5.878458 ms  DeleteObjects: 1.824916 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.38 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.8 MB). Loaded Objects now: 8089.
-Memory consumption went from 153.9 MB to 150.1 MB.
-Total: 7.611292 ms (FindLiveObjects: 0.425792 ms CreateObjectMapping: 0.269375 ms MarkObjects: 5.578166 ms  DeleteObjects: 1.337750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 3.19 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.9 MB). Loaded Objects now: 8089.
-Memory consumption went from 153.9 MB to 150.1 MB.
-Total: 6.865208 ms (FindLiveObjects: 0.366625 ms CreateObjectMapping: 0.248541 ms MarkObjects: 4.909167 ms  DeleteObjects: 1.340583 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.35 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.7 MB). Loaded Objects now: 8089.
-Memory consumption went from 153.9 MB to 150.2 MB.
-Total: 8.227417 ms (FindLiveObjects: 0.377416 ms CreateObjectMapping: 0.231542 ms MarkObjects: 6.347083 ms  DeleteObjects: 1.271292 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.82 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (2.0 MB). Loaded Objects now: 8089.
-Memory consumption went from 153.9 MB to 151.9 MB.
-Total: 9.594042 ms (FindLiveObjects: 0.437625 ms CreateObjectMapping: 0.242584 ms MarkObjects: 7.656833 ms  DeleteObjects: 1.256750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.82 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.8 MB). Loaded Objects now: 8089.
-Memory consumption went from 153.9 MB to 150.1 MB.
-Total: 7.035709 ms (FindLiveObjects: 0.393792 ms CreateObjectMapping: 0.251083 ms MarkObjects: 4.988167 ms  DeleteObjects: 1.402458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.49 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (2.4 MB). Loaded Objects now: 8089.
-Memory consumption went from 153.9 MB to 151.5 MB.
-Total: 9.622875 ms (FindLiveObjects: 0.431959 ms CreateObjectMapping: 0.311958 ms MarkObjects: 7.535375 ms  DeleteObjects: 1.343208 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 3.18 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (2.8 MB). Loaded Objects now: 8089.
-Memory consumption went from 153.9 MB to 151.1 MB.
-Total: 26.703917 ms (FindLiveObjects: 0.533042 ms CreateObjectMapping: 0.249541 ms MarkObjects: 24.495250 ms  DeleteObjects: 1.425708 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.576 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.24 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.551 seconds
-Domain Reload Profiling: 1131ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (377ms)
-		LoadAssemblies (275ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (127ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (551ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -1831,309 +318,14 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.73 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 1.91 ms, found 14 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (3.8 MB). Loaded Objects now: 8092.
-Memory consumption went from 163.6 MB to 159.8 MB.
-Total: 7.455958 ms (FindLiveObjects: 0.374334 ms CreateObjectMapping: 0.235250 ms MarkObjects: 5.481292 ms  DeleteObjects: 1.364792 ms)
+Unloading 7274 unused Assets / (3.9 MB). Loaded Objects now: 8069.
+Memory consumption went from 162.5 MB to 158.6 MB.
+Total: 7.007916 ms (FindLiveObjects: 0.367917 ms CreateObjectMapping: 0.248583 ms MarkObjects: 5.020000 ms  DeleteObjects: 1.370959 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.520 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.92 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.513 seconds
-Domain Reload Profiling: 1035ms
-	BeginReloadAssembly (125ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (343ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (141ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (120ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (513ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (424ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (274ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.61 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (3.9 MB). Loaded Objects now: 8095.
-Memory consumption went from 163.6 MB to 159.8 MB.
-Total: 7.979625 ms (FindLiveObjects: 0.438458 ms CreateObjectMapping: 0.310458 ms MarkObjects: 5.671917 ms  DeleteObjects: 1.558583 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16bb73000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.505 seconds
-Refreshing native plugins compatible for Editor in 1.90 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.81 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.530 seconds
-Domain Reload Profiling: 1039ms
-	BeginReloadAssembly (128ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (324ms)
-		LoadAssemblies (226ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (121ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (531ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (439ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (272ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 3.01 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (3.7 MB). Loaded Objects now: 8098.
-Memory consumption went from 163.7 MB to 160.0 MB.
-Total: 6.922208 ms (FindLiveObjects: 0.396416 ms CreateObjectMapping: 0.260083 ms MarkObjects: 4.931208 ms  DeleteObjects: 1.334167 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16bbff000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.460 seconds
-Refreshing native plugins compatible for Editor in 1.70 ms, found 14 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.12 ms, found 14 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.500 seconds
-Domain Reload Profiling: 963ms
-	BeginReloadAssembly (103ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (315ms)
-		LoadAssemblies (196ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (127ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (501ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (258ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 3.11 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7274 unused Assets / (3.7 MB). Loaded Objects now: 8101.
-Memory consumption went from 163.7 MB to 160.0 MB.
-Total: 7.340125 ms (FindLiveObjects: 0.472041 ms CreateObjectMapping: 0.303458 ms MarkObjects: 5.214750 ms  DeleteObjects: 1.349459 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.90 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.8 MB). Loaded Objects now: 8101.
-Memory consumption went from 154.1 MB to 150.4 MB.
-Total: 7.191209 ms (FindLiveObjects: 0.433417 ms CreateObjectMapping: 0.253708 ms MarkObjects: 5.205208 ms  DeleteObjects: 1.298792 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.19 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.4 MB). Loaded Objects now: 8101.
-Memory consumption went from 154.1 MB to 150.7 MB.
-Total: 7.641584 ms (FindLiveObjects: 0.438042 ms CreateObjectMapping: 0.316583 ms MarkObjects: 5.490542 ms  DeleteObjects: 1.396250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.36 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.5 MB). Loaded Objects now: 8101.
-Memory consumption went from 154.1 MB to 150.5 MB.
-Total: 6.717750 ms (FindLiveObjects: 0.364708 ms CreateObjectMapping: 0.233417 ms MarkObjects: 4.829208 ms  DeleteObjects: 1.290250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.51 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.9 MB). Loaded Objects now: 8101.
-Memory consumption went from 154.1 MB to 150.2 MB.
-Total: 8.377708 ms (FindLiveObjects: 0.438583 ms CreateObjectMapping: 0.271750 ms MarkObjects: 6.328667 ms  DeleteObjects: 1.338333 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.98 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.0 MB). Loaded Objects now: 8101.
-Memory consumption went from 154.1 MB to 151.1 MB.
-Total: 7.252625 ms (FindLiveObjects: 0.413042 ms CreateObjectMapping: 0.248041 ms MarkObjects: 5.318625 ms  DeleteObjects: 1.272709 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.65 ms, found 14 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7219 unused Assets / (3.8 MB). Loaded Objects now: 8101.
-Memory consumption went from 154.1 MB to 150.3 MB.
-Total: 7.172375 ms (FindLiveObjects: 0.433250 ms CreateObjectMapping: 0.253750 ms MarkObjects: 5.115000 ms  DeleteObjects: 1.369917 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
