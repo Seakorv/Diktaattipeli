@@ -94,12 +94,6 @@
         "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
        },
        {
-        "Id": "1090423996",
-        "Name": "ChillPiano",
-        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\ChillPiano",
-        "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
-       },
-       {
         "Id": "2473969246",
         "Name": "Metal",
         "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\Metal",
@@ -110,6 +104,12 @@
         "Name": "MainMenu",
         "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\MainMenu",
         "GUID": "{E5822606-7595-4C38-927F-E02B9E5302A0}"
+       },
+       {
+        "Id": "4294400669",
+        "Name": "Chill",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\Chill",
+        "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
        }
       ]
      }
@@ -200,6 +200,6 @@
     ]
    }
   ],
-  "FileHash": "{65610CA4-D035-4549-39FA-6DA66BE81A14}"
+  "FileHash": "{06AF27E8-1C00-38E0-F61B-8FC91D7D0B28}"
  }
 }

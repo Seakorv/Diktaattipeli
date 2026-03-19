@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
     private float currentTempo = 0f;
     [SerializeField] private float synthFunkTempo = 109f;
     [SerializeField] private float metalTempo = 90f;
-    [SerializeField] private float pianoTempo = 0f;
+    [SerializeField] private float chillTempo = 94f;
     //note tempos are propably just needed in ScaleNotes script 
     private float quarterNote;
     private float eightNote;
@@ -91,6 +91,7 @@ public class GameManager : MonoBehaviour
     public AK.Wwise.State mainMenuMusic;
     public AK.Wwise.State synthFunkState;
     public AK.Wwise.State metalState;
+    public AK.Wwise.State chillState;
     
     // Switches, changes the background songs of each scale
     public AK.Wwise.Switch ionianSwitch;
@@ -203,20 +204,16 @@ public class GameManager : MonoBehaviour
         switch (genre)
         {
             case CurrentGenreState.None:
-                //Lets just set for a default 120
-                quarterNote = 60f / 120f;
-                eightNote = quarterNote / 2f;
                 currentTempo = 120f;
                 break;
             case CurrentGenreState.SynthFunk:
-                quarterNote = 60f / synthFunkTempo;
-                eightNote = quarterNote / 2f;
                 currentTempo = synthFunkTempo;
                 break;
             case CurrentGenreState.Metal:
-                quarterNote = 60f / metalTempo;
-                eightNote = quarterNote / 2f;
                 currentTempo = metalTempo;
+                break;
+            case CurrentGenreState.Chill:
+                currentTempo = chillTempo;
                 break;
         }
     }
@@ -303,6 +300,9 @@ public class GameManager : MonoBehaviour
                 break;
             case CurrentGenreState.SynthFunk:
                 synthFunkState.SetValue();
+                break;
+            case CurrentGenreState.Chill:
+                chillState.SetValue();
                 break;
             case CurrentGenreState.Metal:
                 metalState.SetValue();
@@ -633,5 +633,6 @@ public enum CurrentGenreState
 {
     SynthFunk,
     Metal,
+    Chill,
     None,
 }

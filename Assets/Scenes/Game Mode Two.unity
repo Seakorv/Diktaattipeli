@@ -267,6 +267,12 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 89d16d421f77f4f578063904ae7e289a, type: 2}
+  chillState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8d56371cb484041778bdfb99d80a5918, type: 2}
   ionianSwitch:
     idInternal: 0
     valueGuidInternal: 

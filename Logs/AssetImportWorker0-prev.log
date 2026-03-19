@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-03-17T22:54:51Z
+Date:                    2026-03-17T23:17:51Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-17T22:54:51.631291Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-17T23:17:51.234833Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55233
+56869
 -licensingIpc
 LicenseClient-arttujuntunen
 -job-worker-count
@@ -72,7 +72,7 @@ Successfully changed project path to: /Users/arttujuntunen/Unity/Diktaattipeli
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8594141440]  Target information:
 
-Player connection [8594141440]  * "[IP] 192.168.50.29 [Port] 0 [Flags] 2 [Guid] 271659941 [EditorId] 271659941 [Version] 1048832 [Id] OSXEditor(0,Arttus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8594141440]  * "[IP] 192.168.50.29 [Port] 0 [Flags] 2 [Guid] 511289522 [EditorId] 511289522 [Version] 1048832 [Id] OSXEditor(0,Arttus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8594141440] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8594141440] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -87,7 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 21.27 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 8.62 ms, found 14 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -108,7 +108,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56117
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56582
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -120,17 +120,17 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/Pla
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-arttujuntunen"
 [Licensing::IpcConnector] LicenseClient-arttujuntunen channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-6000.3.11" at "2026-03-17T22:54:52.559658Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-6000.3.11" at "2026-03-17T23:17:52.042626Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.0+23225a6
-  Session Id:              39be5c6a3d454360be22bdfc57236d3d
-  Correlation Id:          b613cf166986338c5b0edf664944b6c8
-  External correlation Id: 1552397070310076108
+  Session Id:              e9f808f043e1434984d66d50d36030b0
+  Correlation Id:          88f198d5051d03378221fa84d34cd5ed
+  External correlation Id: 4660294492482320938
   Machine Id:              D0ssRK69MwrgWmWGKHtRBTEIAgI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-6000.3.11-notifications" at "2026-03-17T22:54:52.588375Z"
-[Licensing::Module] Licensing Background thread has ended after 0.96s
-[Licensing::Module] Licensing is initialized (took 0.26s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-6000.3.11-notifications" at "2026-03-17T23:17:52.066518Z"
+[Licensing::Module] Licensing Background thread has ended after 0.83s
+[Licensing::Module] Licensing is initialized (took 0.32s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 5773502310178-UnityPersXXXX
@@ -140,8 +140,8 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.260606 seconds.
-- Loaded All Assemblies, in  0.597 seconds
+Registered in 0.326046 seconds.
+- Loaded All Assemblies, in  0.574 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -156,35 +156,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.330 seconds
-Domain Reload Profiling: 927ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.306 seconds
+Domain Reload Profiling: 880ms
+	BeginReloadAssembly (59ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (288ms)
-	LoadAllAssembliesAndSetupDomain (143ms)
-		LoadAssemblies (127ms)
+	initialDomainReloadingComplete (352ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (59ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (125ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (113ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (331ms)
+	FinalizeReload (306ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (293ms)
+		SetupLoadedEditorAssemblies (271ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (103ms)
+			InitializePlatformSupportModulesInManaged (89ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (79ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -195,8 +195,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.591 seconds
-Refreshing native plugins compatible for Editor in 3.31 ms, found 14 plugins.
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 14 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -205,41 +205,41 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.62 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 1.77 ms, found 14 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.639 seconds
-Domain Reload Profiling: 1230ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1095ms
+	BeginReloadAssembly (83ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (442ms)
-		LoadAssemblies (291ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (212ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (127ms)
-			BuildScriptInfoCaches (43ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (124ms)
+			BuildScriptInfoCaches (42ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (639ms)
+	FinalizeReload (589ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
+		SetupLoadedEditorAssemblies (505ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (324ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -252,779 +252,19 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.11f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.91 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 2.35 ms, found 14 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7276 unused Assets / (4.8 MB). Loaded Objects now: 8065.
-Memory consumption went from 151.1 MB to 146.3 MB.
-Total: 10.052500 ms (FindLiveObjects: 1.774792 ms CreateObjectMapping: 0.287791 ms MarkObjects: 5.402667 ms  DeleteObjects: 2.586917 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 129322.829479 seconds.
-  path: Assets/Scripts/DataSaving/DataSaveHighScore.cs
-  artifactKey: Guid(78bcd6e9c4b4a409d8b2bf693dfbe572) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/DataSaving/DataSaveHighScore.cs using Guid(78bcd6e9c4b4a409d8b2bf693dfbe572) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8072f8b0fb5f026e9f0ed7a2b3374c7f') in 0.036614541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Wwise/API/CHANGELOG.md
-  artifactKey: Guid(6c47155e9ea3241e8a824307c291b216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/CHANGELOG.md using Guid(6c47155e9ea3241e8a824307c291b216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdf62417e97ef0201e3329da26e75bdc') in 0.002530334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scenes/Game Mode Two.unity
-  artifactKey: Guid(31b9028d0f30e4949a76a2f2e9d0ff59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/Game Mode Two.unity using Guid(31b9028d0f30e4949a76a2f2e9d0ff59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3183f9532abe11b054554c6e7e9d5a2') in 0.005434625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/API/package.json
-  artifactKey: Guid(13ebb4aa753cf456f8e26856bc04cfc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/package.json using Guid(13ebb4aa753cf456f8e26856bc04cfc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85067887e6a0005db97bab1cc364d30c') in 0.00179175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Wwise/MonoBehaviour/package.json
-  artifactKey: Guid(56393f08087f3469c88d3c385bc5b11d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/package.json using Guid(56393f08087f3469c88d3c385bc5b11d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b03ec044f9d05fd6ee2860f99e1f9420') in 0.0016325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/Resources/WwiseLoggerSettings.asset
-  artifactKey: Guid(5dc327d4ddba643a69ed492cfbb07555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Resources/WwiseLoggerSettings.asset using Guid(5dc327d4ddba643a69ed492cfbb07555) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cfaeb7842ccaca765774f4d2e8fc4b8') in 0.01305025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Wwise/Timeline/package.json
-  artifactKey: Guid(c06702dbea20d4d89a86f557460cacac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Timeline/package.json using Guid(c06702dbea20d4d89a86f557460cacac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4bad502bf474897947ae9da3d23c1e50') in 0.001740291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Scripts/ScaleNotes.cs
-  artifactKey: Guid(92f7d382759ad417281105a53c4b61d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/ScaleNotes.cs using Guid(92f7d382759ad417281105a53c4b61d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba45bd398d10dc9670e115f1c69c3982') in 0.00282275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
-  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a6fd43d4e15d820d47755ffd275b131') in 0.008319083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
-  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83d859d516be56def3ae9c600dd6b3b7') in 0.002022708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Scripts/DataSaving/DataSaving.cs
-  artifactKey: Guid(63921b1a8d0f04daf9d47e2d400565a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/DataSaving/DataSaving.cs using Guid(63921b1a8d0f04daf9d47e2d400565a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb4906a91abc7106b8caa41b698b8084') in 0.00159175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Settings/Renderer2D.asset
-  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d30546716e6b99a2df282da34bfd7c6') in 0.017303583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f8ec9f0aa115ab76a9e0b5291a2132e') in 0.002288875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(34d2e101b20894bbbb347f36b7b31df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/GameManager.cs using Guid(34d2e101b20894bbbb347f36b7b31df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd824e97244aa0789ca4d2ef420e0304b') in 0.001577292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Scripts/StatisticsScript.cs
-  artifactKey: Guid(3b921e4f0c7604e8b814a70e92e35b7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/StatisticsScript.cs using Guid(3b921e4f0c7604e8b814a70e92e35b7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6b06cebd7d7aa2e66945b0c9f0af42c') in 0.001564209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
-  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f08eecbc775cb27d47948ce72ec8693') in 0.001661292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/WwiseSettings.xml
-  artifactKey: Guid(1ea1384f573d24b938ebda91a5979a0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/WwiseSettings.xml using Guid(1ea1384f573d24b938ebda91a5979a0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89dd8f1ba3a426424b6d571223b1387d') in 0.001636083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Scripts/Scale.cs
-  artifactKey: Guid(a7f4e3e9894e9489994a858c7a73402b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Scale.cs using Guid(a7f4e3e9894e9489994a858c7a73402b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53546199706acd7ffe76b8fbd35e03e4') in 0.0016555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/_Recovery/0.unity
-  artifactKey: Guid(ada7d8a16ba0f4d099554c674a28125f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery/0.unity using Guid(ada7d8a16ba0f4d099554c674a28125f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1b9157ffeb2e1763310d18fd90ae464') in 0.00274875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b4b34790a2db1ee3a4bccaef4bc1307') in 0.033749416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefabs/Answerbutton.prefab
-  artifactKey: Guid(aba47a7683bd341c4990a1e2c7ea78e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/Answerbutton.prefab using Guid(aba47a7683bd341c4990a1e2c7ea78e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eef9cc379984862cd5cbf171561961cf') in 0.027461625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
-  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84eca77ca07db112948346284038c6eb') in 0.002157583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
-  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9fb6e6e95064d711dc1e739cec2df76') in 0.001688291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Wwise/API/LICENSE.md
-  artifactKey: Guid(3f801dea7d1534e0f9ce8330404b2a69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/LICENSE.md using Guid(3f801dea7d1534e0f9ce8330404b2a69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4eba82aa58221e8edb1589d00a4dc534') in 0.001822625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ef20bd2ec52bdb501ac8dd8a1cf2fb2') in 0.09023375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/AkRoomPortalInspector.cs
-  artifactKey: Guid(cd5a653441f014297b068142b3267ddc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/AkRoomPortalInspector.cs using Guid(cd5a653441f014297b068142b3267ddc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d50c7e59cfff050ac386d1b1c69d892') in 0.001564208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/AkStateInspector.cs
-  artifactKey: Guid(e7186b3e63a1445819efc4fd86f463bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/AkStateInspector.cs using Guid(e7186b3e63a1445819efc4fd86f463bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd525be9813fc9b1ce3ea3e7bcc585b74') in 0.001832083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkRoomPortalObstruction.cs
-  artifactKey: Guid(638e1a70fb8c748ee8cfb4bda940859c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkRoomPortalObstruction.cs using Guid(638e1a70fb8c748ee8cfb4bda940859c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29bc761deef4cfb4c7d771fb4f02d512') in 0.002002292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/AkUnityEventHandlerInspector.cs
-  artifactKey: Guid(0c2e62a1cc4134d89801dde08dae8f80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/AkUnityEventHandlerInspector.cs using Guid(0c2e62a1cc4134d89801dde08dae8f80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '486fb887e02494db059af28a366ed5ed') in 0.001428125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkEnvironmentPortal.cs
-  artifactKey: Guid(aa3b60c055d5e4d7599407e781d1e711) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkEnvironmentPortal.cs using Guid(aa3b60c055d5e4d7599407e781d1e711) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae62967197982a56bcc8fe6a57078619') in 0.001696541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/Logging/Runtime/AK.Wwise.Unity.Logging.asmdef
-  artifactKey: Guid(3c15a1c4672044a48aea19491d1e31f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Logging/Runtime/AK.Wwise.Unity.Logging.asmdef using Guid(3c15a1c4672044a48aea19491d1e31f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86ae61901fb89e8e3768cedec357b007') in 0.001987417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkReverbZone.cs
-  artifactKey: Guid(e5b13f9432cde4735be194b14005538d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkReverbZone.cs using Guid(e5b13f9432cde4735be194b14005538d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'efc0f88a97d65343493582cb65dbcba7') in 0.001616833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkRadialEmitter.cs
-  artifactKey: Guid(305234cce8d2f482994cd358b286b1d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkRadialEmitter.cs using Guid(305234cce8d2f482994cd358b286b1d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2f1ca6292feccf0d6572451e9eb7113') in 0.001703958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/AK.Wwise.Unity.MonoBehaviour.Editor.asmdef
-  artifactKey: Guid(96913848179724b879f10a76b75a82de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/AK.Wwise.Unity.MonoBehaviour.Editor.asmdef using Guid(96913848179724b879f10a76b75a82de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cd2be008a655ddf5130f9d8c62ef91b') in 0.00172325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkRoomAwareManager.cs
-  artifactKey: Guid(73b143a7d8527430aa67b49f50e64886) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkRoomAwareManager.cs using Guid(73b143a7d8527430aa67b49f50e64886) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77e6262459de2ac8a4d5a64cdd4f276d') in 0.003076333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/AkAmbientInspector.cs
-  artifactKey: Guid(0fe71cadbc5914cad8be7363cc15eede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/AkAmbientInspector.cs using Guid(0fe71cadbc5914cad8be7363cc15eede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2538f1f0905870ecae94d7836ad6b24e') in 0.001549041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/AkEventInspector.cs
-  artifactKey: Guid(5a78e74c7051143069da58d657e04e1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/AkEventInspector.cs using Guid(5a78e74c7051143069da58d657e04e1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1f70ece96b271ee889c40698a36d00f') in 0.001649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
-  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a11846781fe8674b303b6b37ba3e738d') in 0.002080167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/AkSpatialAudioListenerInspector.cs
-  artifactKey: Guid(08a787fafaa8846868ee6eb8bd95ebcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/AkSpatialAudioListenerInspector.cs using Guid(08a787fafaa8846868ee6eb8bd95ebcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2da90eb7da68edc7029a7d5e965f3b13') in 0.001675916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkTriggerDisable.cs
-  artifactKey: Guid(9116005def9ca418bb1c6f941159b84d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTriggerDisable.cs using Guid(9116005def9ca418bb1c6f941159b84d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd410e6516f49635f55e20bb84680befa') in 0.001578666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
-  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9182aac64b96b11f368acc20be5b14b3') in 0.002017208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Wwise/Timeline/CHANGELOG.md
-  artifactKey: Guid(201dd9fef45bb4a24a02153cb273da0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Timeline/CHANGELOG.md using Guid(201dd9fef45bb4a24a02153cb273da0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe5d952e5c061e0e7820581cfc8f5a40') in 0.001689875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/AkRadialEmitterInspector.cs
-  artifactKey: Guid(e3036ef2ed3c646b785cb8c2ca167f12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/AkRadialEmitterInspector.cs using Guid(e3036ef2ed3c646b785cb8c2ca167f12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2108da8c7309ef08febe3ec32a34afcc') in 0.001527334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkEvent.cs
-  artifactKey: Guid(5b319265e4b2d4f49adb3e85e05979f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkEvent.cs using Guid(5b319265e4b2d4f49adb3e85e05979f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8aa34d6ff447d2ce75aa4309a94991e') in 0.001577542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkAmbient.cs
-  artifactKey: Guid(a80853f6fdc324ce98e11e7393a7da53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkAmbient.cs using Guid(a80853f6fdc324ce98e11e7393a7da53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3690243933bec5ae90da951fbce515e') in 0.00156125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkSpatialAudioEmitter.cs
-  artifactKey: Guid(61fd35b4060d84af5b592072c34c4a5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkSpatialAudioEmitter.cs using Guid(61fd35b4060d84af5b592072c34c4a5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c2acafa0720644027e397ddbf29c2aa') in 0.001596666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1a863fdcdbd14e4f9a72875a3078f6f') in 0.002220917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Wwise/API/Runtime/AkUnitySoundEngine.extensions.cs
-  artifactKey: Guid(e45b7b13ddaa14ccc8f3ce00d4d6d8f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/AkUnitySoundEngine.extensions.cs using Guid(e45b7b13ddaa14ccc8f3ce00d4d6d8f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa1fef993541692076a7ccf95be87122') in 0.001522375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkRoom.cs
-  artifactKey: Guid(ad595326c969a4fc391edc4859d495ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkRoom.cs using Guid(ad595326c969a4fc391edc4859d495ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf741ba2a7a9e5d91466098e0ab8a9d3') in 0.001692834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27fbaa6f46104954266ad3bad4db7c9e') in 0.006076541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/API/Editor/WwiseTypes/EventDrawer.cs
-  artifactKey: Guid(048401f41ea5d4e4982c538ecac2650e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseTypes/EventDrawer.cs using Guid(048401f41ea5d4e4982c538ecac2650e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '724ea2d761d441eaf21f84356147783b') in 0.001571542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Wwise/ScriptableObjects/State/AE030C5F-7EED-4379-BE3B-1AC6C667A6F0.asset
-  artifactKey: Guid(db52475a4bced48b1b4a60567e7c52ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/State/AE030C5F-7EED-4379-BE3B-1AC6C667A6F0.asset using Guid(db52475a4bced48b1b4a60567e7c52ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c86b4e0a9f2642b00e013cc01dcf84c') in 0.004056667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Wwise/ScriptableObjects/Switch/906637CC-E85F-4E85-A2C3-F6AEC5517DDB.asset
-  artifactKey: Guid(ea9d100443a854e3798866e00d39398e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Switch/906637CC-E85F-4E85-A2C3-F6AEC5517DDB.asset using Guid(ea9d100443a854e3798866e00d39398e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6c5b310d6f17f9393d29f4207f4c383') in 0.002225333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/8E986303-6A62-4E8B-92C6-CE6489F45CA5.asset
-  artifactKey: Guid(d1d1a9277d02f44e483e9c15af6a4901) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/8E986303-6A62-4E8B-92C6-CE6489F45CA5.asset using Guid(d1d1a9277d02f44e483e9c15af6a4901) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e22c678d3f7ac55e8522c2b56df972d0') in 0.002272291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnable.cs
-  artifactKey: Guid(b3248a982076843de816262b6b4e8698) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnable.cs using Guid(b3248a982076843de816262b6b4e8698) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2bc329c3d0437469e9e64b1c6f579de') in 0.001242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs
-  artifactKey: Guid(5195b0519121e46388bea3887cdc7c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs using Guid(5195b0519121e46388bea3887cdc7c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1646eeb6d5f6d98f59fd430af4039a2b') in 0.001611292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/21434977-CB87-4A67-9C90-BC0FE069FE5A.asset
-  artifactKey: Guid(6dfa379832c374b9faaedee25f43675f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/21434977-CB87-4A67-9C90-BC0FE069FE5A.asset using Guid(6dfa379832c374b9faaedee25f43675f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31ee6e1b9069617f7d3ba47fef895cef') in 0.003291542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/D284E182-1C35-4D46-9002-B5C33118A8D9.asset
-  artifactKey: Guid(89f99788a541b4e139961ae3e898bce8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/D284E182-1C35-4D46-9002-B5C33118A8D9.asset using Guid(89f99788a541b4e139961ae3e898bce8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7a1c174a6ffcd28f809e559a1191787') in 0.002170958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/ABA39A9E-5111-4537-875F-3AA089195784.asset
-  artifactKey: Guid(d07e1ca8dc72a45ea8e523e31d3a0cc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/ABA39A9E-5111-4537-875F-3AA089195784.asset using Guid(d07e1ca8dc72a45ea8e523e31d3a0cc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61f3b2c68f0fc9b0f8bc60b1b8637f05') in 0.00230125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/API/Editor/WwiseTypes/BaseTypeDrawer.cs
-  artifactKey: Guid(05b4345e540954c0ea771b6d928656e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseTypes/BaseTypeDrawer.cs using Guid(05b4345e540954c0ea771b6d928656e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1568dda509858938e5b7e6f39006c4b') in 0.00271025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Wwise/ScriptableObjects/State/1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68.asset
-  artifactKey: Guid(89d16d421f77f4f578063904ae7e289a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/State/1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68.asset using Guid(89d16d421f77f4f578063904ae7e289a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e642d9dec44502dc3ab3aaeb32747954') in 0.00219475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Wwise/Timeline/Runtime/AkRTPCPlayable.cs
-  artifactKey: Guid(326dd640dad52420ea91507b063754bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Timeline/Runtime/AkRTPCPlayable.cs using Guid(326dd640dad52420ea91507b063754bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae3011cd2216d03e462b851ed5e6ff0f') in 0.001590958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Wwise/ScriptableObjects/Soundbank/15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3.asset
-  artifactKey: Guid(3886c4bb1d02847ea894d242ee7e960f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Soundbank/15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3.asset using Guid(3886c4bb1d02847ea894d242ee7e960f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6dabe3e8f73aa74f0aaa0645473336a') in 0.002606958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Wwise/Timeline/Editor/AK.Wwise.Unity.Timeline.Editor.asmdef
-  artifactKey: Guid(a2e26a32d0d35484dab2608b69acdf28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Timeline/Editor/AK.Wwise.Unity.Timeline.Editor.asmdef using Guid(a2e26a32d0d35484dab2608b69acdf28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b73c42952f02fe2e73789df151b9354c') in 0.001812 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/9B4FEDCC-0F78-40FD-85CB-C9C2148ACC34.asset
-  artifactKey: Guid(88e83ff09b7894173a6dfba1c32cfb6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/9B4FEDCC-0F78-40FD-85CB-C9C2148ACC34.asset using Guid(88e83ff09b7894173a6dfba1c32cfb6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eeef7e45aad1ebf9c7c01369ff85e45') in 0.002255167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Wwise/Timeline/Editor/AkEventPlayableInspector.cs
-  artifactKey: Guid(0e374f6a14c02413d97e3e5445baa1b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Timeline/Editor/AkEventPlayableInspector.cs using Guid(0e374f6a14c02413d97e3e5445baa1b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2593a8d32724978aab09d24f3a25c70') in 0.001733041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Wwise/Timeline/Editor/AkRTPCPlayableInspector.cs
-  artifactKey: Guid(cf878df7e53c84ae683eda36f4be7b0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Timeline/Editor/AkRTPCPlayableInspector.cs using Guid(cf878df7e53c84ae683eda36f4be7b0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05c66c17b4a54e0d1ac14ecbfed87ac6') in 0.001448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseBrowser.cs
-  artifactKey: Guid(63da7232280f5433dbfd0582f01344bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseBrowser.cs using Guid(63da7232280f5433dbfd0582f01344bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6841c2fea0df57a7991221cf2f65abfa') in 0.001740791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/09B58D9C-1D3F-4D6C-A513-2763F059D082.asset
-  artifactKey: Guid(06b023c974d6b4f42b870abd49214252) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/09B58D9C-1D3F-4D6C-A513-2763F059D082.asset using Guid(06b023c974d6b4f42b870abd49214252) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de4ac15e962271c28cc2b74cc00085a4') in 0.002272333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Wwise/API/Editor/WwiseTypes/RTPCDrawer.cs
-  artifactKey: Guid(721a6812c666c46fdab25aa0691452b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseTypes/RTPCDrawer.cs using Guid(721a6812c666c46fdab25aa0691452b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cda8a69e2937438db133717dacfb680a') in 0.001763667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Wwise/ScriptableObjects/Event/B1B25B9D-935D-4BFF-9DE2-1B890FCD9765.asset
-  artifactKey: Guid(23277a8f72f0b426883a456007c0e0a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Event/B1B25B9D-935D-4BFF-9DE2-1B890FCD9765.asset using Guid(23277a8f72f0b426883a456007c0e0a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f112ffe26a4355003c28bce271624c7f') in 0.002190708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Wwise/ScriptableObjects/GameParameter/F395BCE9-5985-4094-92EE-D9EF3AE976DC.asset
-  artifactKey: Guid(0a23a9768afd64f95bbfd2bc49b0641b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/GameParameter/F395BCE9-5985-4094-92EE-D9EF3AE976DC.asset using Guid(0a23a9768afd64f95bbfd2bc49b0641b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '827c3765801eb4ce2221a8fa826f03cd') in 0.002414541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Wwise/API/Editor/WwiseTypes/BankDrawer.cs
-  artifactKey: Guid(2f430f11c6e354e22930b4d733b4e46b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseTypes/BankDrawer.cs using Guid(2f430f11c6e354e22930b4d733b4e46b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8f9eafb4370592cc0d9621866b9aba2') in 0.001862417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Wwise/API/Editor/WwiseTypes/AuxBusDrawer.cs
-  artifactKey: Guid(07dadfabc38484c3983502cd48a23267) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseTypes/AuxBusDrawer.cs using Guid(07dadfabc38484c3983502cd48a23267) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03e073ec5e46240401887cafefbde3c6') in 0.001940333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Wwise/MonoBehaviour/Runtime/AkTerminator.cs
-  artifactKey: Guid(985d6b7d3fc6d4ced9e15d5d6377fbcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Runtime/AkTerminator.cs using Guid(985d6b7d3fc6d4ced9e15d5d6377fbcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa01c712dc5baa549d0c7f8a95789ea5') in 0.001604417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeView.cs
-  artifactKey: Guid(8becdf17116cd4db5afa60deb822e759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeView.cs using Guid(8becdf17116cd4db5afa60deb822e759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ead8a984c5326e880bfae32fffbf851') in 0.001522583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkBuildPreprocessor.cs
-  artifactKey: Guid(10529737c4e8444ef846b3c8496e272a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkBuildPreprocessor.cs using Guid(10529737c4e8444ef846b3c8496e272a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef4fcc70cc46494c00d827147f148fba') in 0.001491583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/switchgroup_nor.png
-  artifactKey: Guid(01c8b2723dee94e9d879b9daa4b80dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/switchgroup_nor.png using Guid(01c8b2723dee94e9d879b9daa4b80dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54c62ef952cec2ffe0e61e6ab80157e5') in 0.022471833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/BrowserIcons/GraphNode_ExpandAll.png
-  artifactKey: Guid(74d0d3982ccfc413480768a529a5fdec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/BrowserIcons/GraphNode_ExpandAll.png using Guid(74d0d3982ccfc413480768a529a5fdec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f01b9f93a9546e4a542c04598788da9') in 0.004411167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Wwise/Documentation/AppleCommon/en/WwiseUnityIntegrationHelp_Mac_en.chm
-  artifactKey: Guid(515568de853484287a85a9553f9b564a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Documentation/AppleCommon/en/WwiseUnityIntegrationHelp_Mac_en.chm using Guid(515568de853484287a85a9553f9b564a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0446e826c14f6942a0b221560b547203') in 0.001412458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/Documentation/AppleCommon/ko/WwiseUnityIntegrationHelp_Mac_ko.chm
-  artifactKey: Guid(8b4d6e66e6b894f68989bead49e10c8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Documentation/AppleCommon/ko/WwiseUnityIntegrationHelp_Mac_ko.chm using Guid(8b4d6e66e6b894f68989bead49e10c8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae38711e19f65bc1d8a54cb78e5c23cc') in 0.001427291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/event_nor.png
-  artifactKey: Guid(9bdfb7f18f74645eab4208a52bc2931a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/event_nor.png using Guid(9bdfb7f18f74645eab4208a52bc2931a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd42b6ae9a1455c4569dabd83e973296d') in 0.004641667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectData.cs
-  artifactKey: Guid(c85b107498f404931a106ea7cdf87119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseProjectData.cs using Guid(c85b107498f404931a106ea7cdf87119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fdc81c78895bcf65ebf29d4028d678e') in 0.001755209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseEditorSettingsView.cs
-  artifactKey: Guid(5ae3074265f274a08b9125ca52b21d7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseEditorSettingsView.cs using Guid(5ae3074265f274a08b9125ca52b21d7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9aa1928faa0745c535d7c90db6f94ce') in 0.001501416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/Tools/AddressableInstaller/Editor/AddressableAssetBuilder.cs
-  artifactKey: Guid(1556b8696c7774da585c0d85e2257f17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Tools/AddressableInstaller/Editor/AddressableAssetBuilder.cs using Guid(1556b8696c7774da585c0d85e2257f17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f65399cf9f7778c659fd834af73857cd') in 0.001424792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Wwise/Tools/AddressableInstaller/Editor/AddressableInstaller.cs
-  artifactKey: Guid(1a6e593ff2a394c3db48c01ca3c6dd8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Tools/AddressableInstaller/Editor/AddressableInstaller.cs using Guid(1a6e593ff2a394c3db48c01ca3c6dd8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94369b75e572a0125407dc2b4cc28583') in 0.001484792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Wwise/Documentation/Windows/ja/WwiseUnityIntegrationHelp_ja.chm
-  artifactKey: Guid(26fa3b7d8f9104cc6aea261d3ab5906e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Documentation/Windows/ja/WwiseUnityIntegrationHelp_ja.chm using Guid(26fa3b7d8f9104cc6aea261d3ab5906e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '702daf521a1061185668db73316c8886') in 0.001289042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkAttenuationCurveType.cs
-  artifactKey: Guid(3f627d2891fbf4e078ca7da54d58979f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkAttenuationCurveType.cs using Guid(3f627d2891fbf4e078ca7da54d58979f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cea543bb9228923c60b4abf3a9bf78d') in 0.001518083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkXboxOneUtils.cs
-  artifactKey: Guid(2d48e69af50ed480ab31495df68fcb57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/MonoBehaviour/Editor/WwiseSetupWizard/AkXboxOneUtils.cs using Guid(2d48e69af50ed480ab31495df68fcb57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3a5b8330b87c27e6806dffac81fc0ff') in 0.001496375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Wwise/Documentation/AppleCommon/zh/WwiseUnityIntegrationHelp_Mac_zh.chm
-  artifactKey: Guid(2219f4727ae7a4db29b87cac0ce2b347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Documentation/AppleCommon/zh/WwiseUnityIntegrationHelp_Mac_zh.chm using Guid(2219f4727ae7a4db29b87cac0ce2b347) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '251bb58219681ecd685550220816ca44') in 0.001481041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeProjectDataSource.cs
-  artifactKey: Guid(33096985b070a4c9487586ac22ede87f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeProjectDataSource.cs using Guid(33096985b070a4c9487586ac22ede87f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b205df09ae4a03bd16fec9056ef5b61') in 0.001582292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Wwise/Documentation/AppleCommon/ja/WwiseUnityIntegrationHelp_Mac_ja.chm
-  artifactKey: Guid(e6e2160ef05564aabacac24a4efb902a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/Documentation/AppleCommon/ja/WwiseUnityIntegrationHelp_Mac_ja.chm using Guid(e6e2160ef05564aabacac24a4efb902a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'acf550494fae8775f9f70486ff214b96') in 0.001549666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeWAAPIDataSource.cs
-  artifactKey: Guid(332a20ca942f94fa3b8d48607d343ffc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/AkWwiseTreeWAAPIDataSource.cs using Guid(332a20ca942f94fa3b8d48607d343ffc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fe814ab245c6d6d7128ee6fd9e706b4') in 0.001687875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/blank.png
-  artifactKey: Guid(6b8bbb9f65dce4c7088591c13e67b962) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/blank.png using Guid(6b8bbb9f65dce4c7088591c13e67b962) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fff54ab1c2cb3ba61336e8e8af14315e') in 0.004160875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Wwise/API/Runtime/Generated/Common/AkAudioDeviceState.cs
-  artifactKey: Guid(ab90485b7ebb04f9893103158c53bb77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Generated/Common/AkAudioDeviceState.cs using Guid(ab90485b7ebb04f9893103158c53bb77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60266d24a773e6d42c0e3117be2bfa59') in 0.002453375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Unloading 7276 unused Assets / (3.6 MB). Loaded Objects now: 8065.
+Memory consumption went from 151.6 MB to 148.0 MB.
+Total: 9.182959 ms (FindLiveObjects: 1.027541 ms CreateObjectMapping: 0.332333 ms MarkObjects: 6.032667 ms  DeleteObjects: 1.790167 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x16b847000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.487 seconds
-Refreshing native plugins compatible for Editor in 1.69 ms, found 14 plugins.
+Thread 0x1777b7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.468 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 14 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -1033,41 +273,41 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.26 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 14 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.544 seconds
-Domain Reload Profiling: 1033ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 1010ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (327ms)
-		LoadAssemblies (237ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (208ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
+		AnalyzeDomain (137ms)
 			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (109ms)
+			BuildScriptInfoCaches (118ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (544ms)
+	FinalizeReload (540ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
+		SetupLoadedEditorAssemblies (445ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -1078,15 +318,110 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 2.17 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 1.93 ms, found 14 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7275 unused Assets / (3.9 MB). Loaded Objects now: 8071.
-Memory consumption went from 165.8 MB to 161.9 MB.
-Total: 7.422375 ms (FindLiveObjects: 0.393417 ms CreateObjectMapping: 0.282041 ms MarkObjects: 5.352125 ms  DeleteObjects: 1.394584 ms)
+Unloading 7274 unused Assets / (4.3 MB). Loaded Objects now: 8069.
+Memory consumption went from 162.3 MB to 158.0 MB.
+Total: 7.146917 ms (FindLiveObjects: 0.423000 ms CreateObjectMapping: 0.250458 ms MarkObjects: 5.140750 ms  DeleteObjects: 1.332500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.80 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7219 unused Assets / (4.1 MB). Loaded Objects now: 8069.
+Memory consumption went from 152.5 MB to 148.4 MB.
+Total: 7.301208 ms (FindLiveObjects: 0.386417 ms CreateObjectMapping: 0.265542 ms MarkObjects: 5.046291 ms  DeleteObjects: 1.602750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.20 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7219 unused Assets / (4.0 MB). Loaded Objects now: 8069.
+Memory consumption went from 152.5 MB to 148.5 MB.
+Total: 7.173583 ms (FindLiveObjects: 0.441500 ms CreateObjectMapping: 0.278875 ms MarkObjects: 4.991709 ms  DeleteObjects: 1.461458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.18 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7219 unused Assets / (3.9 MB). Loaded Objects now: 8069.
+Memory consumption went from 152.5 MB to 148.6 MB.
+Total: 7.963209 ms (FindLiveObjects: 0.472584 ms CreateObjectMapping: 0.253333 ms MarkObjects: 5.866958 ms  DeleteObjects: 1.370167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.11 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7219 unused Assets / (4.1 MB). Loaded Objects now: 8069.
+Memory consumption went from 152.5 MB to 148.4 MB.
+Total: 7.445083 ms (FindLiveObjects: 0.419084 ms CreateObjectMapping: 0.300250 ms MarkObjects: 5.112125 ms  DeleteObjects: 1.613583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.66 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7219 unused Assets / (3.2 MB). Loaded Objects now: 8069.
+Memory consumption went from 152.5 MB to 149.2 MB.
+Total: 8.335292 ms (FindLiveObjects: 1.183459 ms CreateObjectMapping: 0.362375 ms MarkObjects: 5.392250 ms  DeleteObjects: 1.396125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.11 ms, found 14 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7219 unused Assets / (3.7 MB). Loaded Objects now: 8069.
+Memory consumption went from 152.5 MB to 148.8 MB.
+Total: 7.452250 ms (FindLiveObjects: 0.437291 ms CreateObjectMapping: 0.243750 ms MarkObjects: 5.391125 ms  DeleteObjects: 1.379833 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting

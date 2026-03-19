@@ -10,18 +10,58 @@
     "Type": "User",
     "GUID": "{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}",
     "Language": "SFX",
-    "Hash": "{2015CE9E-2B1D-A414-E8D5-77DA4B3886F4}",
+    "Hash": "{45B61768-CB4B-23FC-2D7F-7EC945500201}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "Media": [
+     {
+      "Id": "3932996",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 12.wav",
+      "CachePath": "80/{803A9298-B48A-72D8-6142-FA3674D7A306}.wem"
+     },
+     {
+      "Id": "10070908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 2.wav",
+      "CachePath": "B0/{B027DC1E-7EB8-8FC6-1AC3-5FA59D21ABBC}.wem"
+     },
+     {
+      "Id": "13625485",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 1.wav",
+      "CachePath": "15/{15BB6413-5E58-3EC8-B7A1-0C2F286137F7}.wem"
+     },
      {
       "Id": "37747879",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 12.wav",
-      "CachePath": "27/{278C14BD-1BD8-B626-9EB4-823E833D8EBD}.wem"
+      "CachePath": "BD/{BD45BDA2-6D48-5128-C877-017576E27A9A}.wem"
+     },
+     {
+      "Id": "52383536",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 6.wav",
+      "CachePath": "A7/{A71459EB-5218-02A8-E70E-9678768314B9}.wem"
+     },
+     {
+      "Id": "59963502",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 8.wav",
+      "CachePath": "B9/{B92D75EF-35C9-B427-ADAA-1AEC78CA2E4D}.wem"
      },
      {
       "Id": "97259081",
@@ -29,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 7.wav",
-      "CachePath": "42/{42D01734-648E-5200-EC8D-E6758BCDF9A5}.wem"
+      "CachePath": "25/{2503F9D4-B8CC-20A0-A872-599B20D56AC1}.wem"
      },
      {
       "Id": "101856125",
@@ -37,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 2.wav",
-      "CachePath": "9B/{9B1C7170-9CE3-2710-C356-B198B4A3DCD3}.wem"
+      "CachePath": "CA/{CA2095A5-BD8F-96AB-C8F3-4FE0CE65549C}.wem"
      },
      {
       "Id": "103324352",
@@ -54,6 +94,14 @@
       "Location": "Memory",
       "ShortName": "erhe synth.wav",
       "CachePath": "74/{74405A48-95B9-8FE1-473F-D2F3058DD58F}.wem"
+     },
+     {
+      "Id": "201234011",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 10.wav",
+      "CachePath": "ED/{EDF6C991-A489-0D0A-DF45-0829415404E5}.wem"
      },
      {
       "Id": "223573031",
@@ -85,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 6.wav",
-      "CachePath": "DC/{DCEB7CA5-B8EE-DDA8-CE38-1ECFA5B9FF2D}.wem"
+      "CachePath": "EF/{EF3CAF98-CC1F-F02B-65BD-3364C923B53C}.wem"
      },
      {
       "Id": "268716891",
@@ -93,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 11.wav",
-      "CachePath": "A1/{A1649A2A-D377-F53F-AAD1-8ED25F85FD66}.wem"
+      "CachePath": "34/{347F71BC-6C0B-8BDB-F089-C220880C2C32}.wem"
      },
      {
       "Id": "280573994",
@@ -101,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 9.wav",
-      "CachePath": "D1/{D11D0E95-ADE4-7A0A-50DD-BC9C97327328}.wem"
+      "CachePath": "B1/{B157164F-9E19-691D-1092-84CF56EC4F54}.wem"
      },
      {
       "Id": "288982015",
@@ -120,6 +168,22 @@
       "CachePath": "13/{13AAFA49-92A3-1915-B0F7-789C97157D59}.wem"
      },
      {
+      "Id": "315263006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 5.wav",
+      "CachePath": "0E/{0EC13DE3-325A-8401-F2E8-66AC81E5B2B2}.wem"
+     },
+     {
+      "Id": "366117751",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 1.wav",
+      "CachePath": "FD/{FD0C65EB-EC06-9D29-7F8F-B270E487B473}.wem"
+     },
+     {
       "Id": "376297985",
       "Language": "SFX",
       "Streaming": "false",
@@ -128,12 +192,20 @@
       "CachePath": "35/{35A3ED06-DF91-B5D9-21FF-FC0ABC9B72EA}.wem"
      },
      {
+      "Id": "392924225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 4.wav",
+      "CachePath": "2C/{2C8ECC00-1715-F71D-67BD-E11F48415E28}.wem"
+     },
+     {
       "Id": "435482048",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 4.wav",
-      "CachePath": "10/{1077E3C7-BD99-F067-15FE-4222D8A73738}.wem"
+      "CachePath": "F3/{F36F23C9-A7A0-9C7B-8222-E70F83C747E8}.wem"
      },
      {
       "Id": "550033654",
@@ -141,7 +213,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 1.wav",
-      "CachePath": "1B/{1BAF3DFD-141C-079C-B760-AEABA9E76AAA}.wem"
+      "CachePath": "6E/{6E00E2D8-27D9-966C-A0EE-C111ADA4219C}.wem"
+     },
+     {
+      "Id": "558874189",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu metal 1.wav",
+      "CachePath": "3A/{3A62A962-2EE9-421E-0929-CF78609C66E7}.wem"
      },
      {
       "Id": "562936772",
@@ -150,6 +230,14 @@
       "Location": "Memory",
       "ShortName": "Synthfunk 1.wav",
       "CachePath": "CC/{CC0A2B1A-906A-0933-4577-915C10E62DDD}.wem"
+     },
+     {
+      "Id": "573790367",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 13.wav",
+      "CachePath": "4E/{4E68F52E-2918-3CEC-C518-6059B0FAA1AE}.wem"
      },
      {
       "Id": "591089466",
@@ -168,6 +256,14 @@
       "CachePath": "32/{32E1122C-214E-6158-13D7-FD3F29252282}.wem"
      },
      {
+      "Id": "656497149",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu metal 13.wav",
+      "CachePath": "8D/{8D4E8C16-5981-851C-FC6C-5EA2F6286B54}.wem"
+     },
+     {
       "Id": "680413131",
       "Language": "SFX",
       "Streaming": "false",
@@ -181,7 +277,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 8.wav",
-      "CachePath": "07/{0714173D-EFF4-D942-0A8D-8C3064BE2115}.wem"
+      "CachePath": "8D/{8D79EDBB-0831-C178-B540-EB84ECB14D05}.wem"
+     },
+     {
+      "Id": "732713746",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 7.wav",
+      "CachePath": "A9/{A984EB3B-FE3B-B6A1-D2F9-97D257777FC4}.wem"
+     },
+     {
+      "Id": "755510174",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 3.wav",
+      "CachePath": "CE/{CEC212C9-70FE-1B59-E7EC-F6AC61FF2EF0}.wem"
      },
      {
       "Id": "785881601",
@@ -189,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 3.wav",
-      "CachePath": "77/{77E4E7C7-89F0-6C5F-2085-196849485255}.wem"
+      "CachePath": "B2/{B2E66768-AADE-6FBF-098A-ACA30BDC28D8}.wem"
      },
      {
       "Id": "792136571",
@@ -200,12 +312,28 @@
       "CachePath": "7F/{7F379DB3-5685-44C5-4D4B-B688A8EE8946}.wem"
      },
      {
+      "Id": "809510247",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill erhe.wav",
+      "CachePath": "70/{7031384C-228B-B6D9-61C4-013B42E12DDA}.wem"
+     },
+     {
       "Id": "819429724",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 10.wav",
-      "CachePath": "95/{95B9F5DA-587B-8A77-73D1-599E7D4BECA6}.wem"
+      "CachePath": "E8/{E8128B49-4AC3-EAD2-C9BD-55AEEAEB9C38}.wem"
+     },
+     {
+      "Id": "866446915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 11.wav",
+      "CachePath": "CE/{CE60A399-1839-C9F6-AB2E-A78E9B9C64F4}.wem"
      },
      {
       "Id": "872487916",
@@ -213,7 +341,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 5.wav",
-      "CachePath": "93/{9332A1AA-B1E6-FCEA-6294-C774CCB65853}.wem"
+      "CachePath": "1D/{1D8DA2B4-96E8-E5F0-A46F-19B9F31F1D8A}.wem"
      },
      {
       "Id": "917405352",
@@ -224,20 +352,20 @@
       "CachePath": "AB/{ABD78E40-1400-45C8-CAD0-DDBF90DD2366}.wem"
      },
      {
-      "Id": "946831152",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "C#Metal.wav",
-      "CachePath": "2B/{2B4F23E8-0B68-3A2F-1CB1-C0D27C7A88A1}.wem"
-     },
-     {
       "Id": "992427979",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Synthfunk 12.wav",
       "CachePath": "A5/{A5402D86-A274-337D-4E19-ECD71D8B7BCB}.wem"
+     },
+     {
+      "Id": "1023676036",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chill 9.wav",
+      "CachePath": "E9/{E9827EE4-B5D9-28B0-BD43-04D39122F5A0}.wem"
      },
      {
       "Id": "1060215097",
@@ -267,7 +395,20 @@
         },
         "MediaRefs": [
          {
-          "Id": "946831152"
+          "Id": "558874189"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "13625485"
          }
         ]
        },
@@ -312,6 +453,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "59963502"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
          "Id": "926145703",
          "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
@@ -349,6 +503,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "866446915"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
          "Id": "926145703",
          "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
@@ -367,7 +534,7 @@
       "GUID": "{72698361-D76E-4A81-912C-31289D54847D}",
       "DurationType": "OneShot",
       "DurationMin": "0.6840875",
-      "DurationMax": "0.7717499",
+      "DurationMax": "0.890455",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -379,6 +546,19 @@
         "MediaRefs": [
          {
           "Id": "297863056"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "809510247"
          }
         ]
        },
@@ -423,6 +603,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "315263006"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
          "Id": "926145703",
          "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
@@ -453,6 +646,19 @@
         "MediaRefs": [
          {
           "Id": "435482048"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "392924225"
          }
         ]
        },
@@ -497,6 +703,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1023676036"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
          "Id": "926145703",
          "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
@@ -527,6 +746,19 @@
         "MediaRefs": [
          {
           "Id": "550033654"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "366117751"
          }
         ]
        },
@@ -571,6 +803,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "732713746"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
          "Id": "926145703",
          "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
@@ -601,6 +846,19 @@
         "MediaRefs": [
          {
           "Id": "256302799"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "52383536"
          }
         ]
        },
@@ -645,6 +903,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "201234011"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
          "Id": "926145703",
          "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
@@ -682,6 +953,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "755510174"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
          "Id": "926145703",
          "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
@@ -711,7 +995,20 @@
         },
         "MediaRefs": [
          {
-          "Id": "37747879"
+          "Id": "656497149"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "573790367"
          }
         ]
        },
@@ -737,7 +1034,7 @@
       "GUID": "{CE79D099-FB75-474C-857B-C8B8A0F75331}",
       "DurationType": "OneShot",
       "DurationMin": "0.5504583",
-      "DurationMax": "0.64395756",
+      "DurationMax": "0.6666667",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -748,7 +1045,20 @@
         },
         "MediaRefs": [
          {
-          "Id": "268716891"
+          "Id": "37747879"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "3932996"
          }
         ]
        },
@@ -793,6 +1103,19 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "92342489",
+         "Id": "4294400669",
+         "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "10070908"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "92342489",
          "Id": "926145703",
          "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
         },
@@ -825,12 +1148,6 @@
         "GUID": "{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"
        },
        {
-        "Id": "1090423996",
-        "Name": "ChillPiano",
-        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\ChillPiano",
-        "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
-       },
-       {
         "Id": "2473969246",
         "Name": "Metal",
         "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\Metal",
@@ -841,12 +1158,18 @@
         "Name": "MainMenu",
         "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\MainMenu",
         "GUID": "{E5822606-7595-4C38-927F-E02B9E5302A0}"
+       },
+       {
+        "Id": "4294400669",
+        "Name": "Chill",
+        "ObjectPath": "\\States\\Default Work Unit\\ScaleGenres\\Chill",
+        "GUID": "{B244221A-5FCA-4053-A711-28F9A8F4A953}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{615C2561-92FF-913E-6499-35B16207932E}"
+  "FileHash": "{5848B0DA-040E-7F2C-13A7-7467710A3616}"
  }
 }
