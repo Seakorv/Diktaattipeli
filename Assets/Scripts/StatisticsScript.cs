@@ -24,14 +24,13 @@ public class StatisticsScript : MonoBehaviour
         this.gameObject.SetActive(false);
     }
     
-    /// <summary>
-    /// Setting the highscore information for the statistics popup window
-    /// </summary>
-    /// <param name="scoreOne">Game mode one's highscore</param>
-    /// <param name="scoreTwo">Game mode two's highscore</param>
-    public void SetStatisticsScore(int scoreOne, int scoreTwo)
+    public void SetStatisticsScoreGmOne(int scoreOne)
     {
         highScoreOne.text = scoreOne.ToString();
+    }
+
+    public void SetStatisticsScoreGmTwo(int scoreTwo)
+    {
         highScoreTwo.text = scoreTwo.ToString();
     }
 

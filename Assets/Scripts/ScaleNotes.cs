@@ -48,6 +48,7 @@ public class ScaleNotes : MonoBehaviour
             }
         }
         Debug.Log("Oikein!");
+        GameManager.gameManagerInstance.SetCorrectScaleText(GameManager.gameManagerInstance.CurrentScaleObject.ScaleName + "!");
         GameManager.gameManagerInstance.AnsweredCorrect();
         GameManager.gameManagerInstance.UpdatePointCounters(true);
     }

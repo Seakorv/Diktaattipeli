@@ -15,11 +15,13 @@
 						<ObjectRef Name="Play_EightSFX" ID="{B3D7968F-91FF-409E-8ECA-186C3517351F}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ThriteenSFX" ID="{9B4FEDCC-0F78-40FD-85CB-C9C2148ACC34}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TenSFX" ID="{0A157E1B-E9FF-436F-886A-6317295371F9}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_MenuMusic" ID="{D8BFCD6A-3B25-44A1-8CDE-34F545E0D85F}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_OneSFX" ID="{ABA39A9E-5111-4537-875F-3AA089195784}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FourSFX" ID="{BF65097A-F504-45A2-BBA4-59C6B3497153}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TwelveSFX" ID="{CE79D099-FB75-474C-857B-C8B8A0F75331}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TwoSFX" ID="{71D9B768-645D-48D5-975C-7BA3D9D8DA85}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SixSFX" ID="{21434977-CB87-4A67-9C90-BC0FE069FE5A}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MenuMusic" ID="{7FCD63A5-0617-4A75-969B-EC27DE89EA1B}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ErrorSFX" ID="{72698361-D76E-4A81-912C-31289D54847D}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ThreeSFX" ID="{B1B25B9D-935D-4BFF-9DE2-1B890FCD9765}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_NineSFX" ID="{F78203EB-3E5C-4CC7-A3CF-78824E501A5E}" WorkUnitID="{994233EC-8DFC-408B-B74B-DFE421BD72AD}" Origin="Manual" Filter="7"/>

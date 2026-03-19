@@ -58,38 +58,6 @@
 												<ActiveSource Name="D" ID="{5AFF7740-22E1-47A9-981B-210AFE9BD3F6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="BaseNoteCis" ID="{DB06A031-420C-4378-AB83-A7D604AF58B1}" ShortID="448534867">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Gradu metal 1" ID="{0901329C-EBA8-49C8-BA17-2189412C1649}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0459275220002502"/>
-														<Property Name="LoopBegin" Type="Real64" Value="0"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="VolumeOffset" Type="Real64">
-															<ValueList>
-																<Value>3</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Gradu metal 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="558874189"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Gradu metal 1" ID="{0901329C-EBA8-49C8-BA17-2189412C1649}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="BaseNoteG" ID="{CBA43AB5-8102-4EEA-97A0-73748EE75D6E}" ShortID="225293328">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -114,6 +82,33 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Chill 1" ID="{AD96574A-CBAB-42E8-9F26-359B7FF81B33}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BaseNoteCis" ID="{6BE59D30-8B5E-4BD2-80BB-17CE6B8CA246}" ShortID="363247720">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gradu metal 1" ID="{107FEBDF-A326-4088-BF35-C44B3C198013}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0193756733438555"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.411912443071529"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Gradu metal 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="434320709"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gradu metal 1" ID="{107FEBDF-A326-4088-BF35-C44B3C198013}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -150,7 +145,7 @@
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
-												<ItemRef Name="BaseNoteCis" ID="{DB06A031-420C-4378-AB83-A7D604AF58B1}"/>
+												<ItemRef Name="BaseNoteCis" ID="{6BE59D30-8B5E-4BD2-80BB-17CE6B8CA246}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="BaseNoteD" ID="{2C300EAA-659B-4DDA-83A1-B036A2A6C973}"/>
@@ -163,7 +158,7 @@
 											<Grouping>
 												<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 												<ItemList>
-													<ItemRef Name="BaseNoteCis" ID="{DB06A031-420C-4378-AB83-A7D604AF58B1}"/>
+													<ItemRef Name="BaseNoteCis" ID="{6BE59D30-8B5E-4BD2-80BB-17CE6B8CA246}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -450,7 +445,7 @@
 														<ActiveSource Name="Chill 1" ID="{A3420497-F382-4F66-B200-46AA7230769E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 1" ID="{38637C07-E7F7-4316-B361-58AADFBEB83F}" ShortID="571761267">
+												<Sound Name="Gradu metal 1" ID="{34717F5E-F728-4FFD-A8DE-F078F89DCE3D}" ShortID="568638551">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -460,16 +455,11 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 1" ID="{2386910A-7B83-4868-BBBD-5D5E748DA254}">
+														<AudioFileSource Name="Gradu metal 1" ID="{D8FCB5F0-4D58-48D8-820D-51DAD5FF6C11}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0897021914067387"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0430570518752345"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="VolumeOffset" Type="Real64">
-																	<ValueList>
-																		<Value>5</Value>
-																	</ValueList>
-																</Property>
+																<Property Name="TrimEnd" Type="Real64" Value="0.433440969009146"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Gradu metal 1.wav</AudioFile>
@@ -477,16 +467,33 @@
 																<MediaID ID="550033654"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="Gradu metal 1_01" ID="{65796192-2494-44DF-B575-D401144EF980}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0337280239689338"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.432723351477892"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="783646925"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 1" ID="{2386910A-7B83-4868-BBBD-5D5E748DA254}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 1_01" ID="{65796192-2494-44DF-B575-D401144EF980}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 1" ID="{38637C07-E7F7-4316-B361-58AADFBEB83F}"/>
+														<ItemRef Name="Gradu metal 1" ID="{34717F5E-F728-4FFD-A8DE-F078F89DCE3D}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Chill 1" ID="{3FAFC5CD-2E04-49F2-BFD1-CDE26EE4B7B5}"/>
@@ -499,7 +506,7 @@
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 1" ID="{38637C07-E7F7-4316-B361-58AADFBEB83F}"/>
+															<ItemRef Name="Gradu metal 1" ID="{34717F5E-F728-4FFD-A8DE-F078F89DCE3D}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -601,7 +608,7 @@
 														<ActiveSource Name="Chill 2" ID="{78145E27-080F-4B6F-BB69-364B93548397}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 2" ID="{BE136DDC-5287-4CF7-A327-A6AFA128E950}" ShortID="699569036">
+												<Sound Name="Gradu metal 2" ID="{5B1ED077-4653-488A-ADAE-159601D510A7}" ShortID="645895495">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -611,14 +618,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 2" ID="{E009CC87-1FE9-4781-9DBB-DB0FA5AB7BE1}">
+														<AudioFileSource Name="Gradu metal 2" ID="{1B9DD46E-E5C3-47EE-AA8C-2888994BA2F9}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0681736654691214"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0229637610001251"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.408324355415259"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -630,27 +637,27 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 2" ID="{E009CC87-1FE9-4781-9DBB-DB0FA5AB7BE1}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 2" ID="{1B9DD46E-E5C3-47EE-AA8C-2888994BA2F9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 2" ID="{5B1ED077-4653-488A-ADAE-159601D510A7}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
 														<ItemRef Name="Chill 2" ID="{56A270B3-360B-4723-8F96-9D3DD8A90C6F}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Synthfunk 2" ID="{A596D1D8-EF34-457D-81D9-512C521926E3}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 2" ID="{BE136DDC-5287-4CF7-A327-A6AFA128E950}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 2" ID="{BE136DDC-5287-4CF7-A327-A6AFA128E950}"/>
+															<ItemRef Name="Gradu metal 2" ID="{5B1ED077-4653-488A-ADAE-159601D510A7}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -752,7 +759,7 @@
 														<ActiveSource Name="Chill 3" ID="{46A48409-D8CA-4ABC-A6C0-6B4A6DF79D04}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 3" ID="{936E5621-B18C-4A68-9C8E-F5AD638D8579}" ShortID="118270641">
+												<Sound Name="Gradu metal 3" ID="{76728B47-8DA7-4807-87B8-AA5CA99C1647}" ShortID="957109552">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -762,14 +769,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 3" ID="{73F741CE-58ED-4E9C-992D-40708D498579}">
+														<AudioFileSource Name="Gradu metal 3" ID="{0BAA8B35-ECDC-41F4-8B85-1DAA327899FA}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0775026933754223"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0215285259376173"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.40473626775899"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -781,14 +788,14 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 3" ID="{73F741CE-58ED-4E9C-992D-40708D498579}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 3" ID="{0BAA8B35-ECDC-41F4-8B85-1DAA327899FA}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 3" ID="{936E5621-B18C-4A68-9C8E-F5AD638D8579}"/>
+														<ItemRef Name="Gradu metal 3" ID="{76728B47-8DA7-4807-87B8-AA5CA99C1647}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Synthfunk 3" ID="{4BC56879-0726-48B1-BEFC-2A502502015B}"/>
@@ -801,7 +808,7 @@
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 3" ID="{936E5621-B18C-4A68-9C8E-F5AD638D8579}"/>
+															<ItemRef Name="Gradu metal 3" ID="{76728B47-8DA7-4807-87B8-AA5CA99C1647}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -903,7 +910,7 @@
 														<ActiveSource Name="Chill 4" ID="{F552AE14-E0A2-41B5-B561-D17830D2D511}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 4" ID="{96F4F30E-E134-46C5-A23D-07A585CD37D7}" ShortID="420650933">
+												<Sound Name="Gradu metal 4" ID="{8CF61D6E-6081-43D0-B259-0D8FC137B93F}" ShortID="379304239">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -913,46 +920,46 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 4" ID="{B9A063DE-6BCE-42CA-99E8-77A7ACCC61A1}">
+														<AudioFileSource Name="Gradu metal 4" ID="{7F42EB00-4F8C-4638-AB38-AB6D104ABDAE}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0861141037504691"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0258342311251407"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.416935765790306"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Gradu metal 4.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="435482048"/>
+																<MediaID ID="804912113"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 4" ID="{B9A063DE-6BCE-42CA-99E8-77A7ACCC61A1}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 4" ID="{7F42EB00-4F8C-4638-AB38-AB6D104ABDAE}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 4" ID="{96F4F30E-E134-46C5-A23D-07A585CD37D7}"/>
-													</GroupingBehavior>
-													<GroupingBehavior>
 														<ItemRef Name="Chill 4" ID="{4F1FBC44-405E-4AC5-A0F8-245755901823}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Synthfunk 4" ID="{0298D95F-B892-404D-A189-E51E871663F6}"/>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gradu metal 4" ID="{8CF61D6E-6081-43D0-B259-0D8FC137B93F}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 4" ID="{96F4F30E-E134-46C5-A23D-07A585CD37D7}"/>
+															<ItemRef Name="Gradu metal 4" ID="{8CF61D6E-6081-43D0-B259-0D8FC137B93F}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -1054,7 +1061,7 @@
 														<ActiveSource Name="Chill 5" ID="{1B774A42-8E12-4E9F-9F3E-3EDB1103B241}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 5" ID="{141FFA73-8075-4C81-B59D-4869A46362CE}" ShortID="247122705">
+												<Sound Name="Gradu metal 5" ID="{F5548133-0F0B-407F-99EA-6BB55A2E1A45}" ShortID="587966546">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -1064,26 +1071,26 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 5" ID="{0935C578-4846-4775-B979-31C2FD173155}">
+														<AudioFileSource Name="Gradu metal 5" ID="{87B374FA-E8B8-4EDB-9222-83DAEEC0F429}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.119842127719403"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0322927889064259"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.420523853446576"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Gradu metal 5.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="872487916"/>
+																<MediaID ID="771789526"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 5" ID="{0935C578-4846-4775-B979-31C2FD173155}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 5" ID="{87B374FA-E8B8-4EDB-9222-83DAEEC0F429}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1093,17 +1100,17 @@
 														<ItemRef Name="Synthfunk 5" ID="{3FB91D31-1B35-4996-860D-99646E74ADC0}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Chill 5" ID="{07E11766-029C-4F50-9571-C0398F33EAFB}"/>
+														<ItemRef Name="Gradu metal 5" ID="{F5548133-0F0B-407F-99EA-6BB55A2E1A45}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 5" ID="{141FFA73-8075-4C81-B59D-4869A46362CE}"/>
+														<ItemRef Name="Chill 5" ID="{07E11766-029C-4F50-9571-C0398F33EAFB}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 5" ID="{141FFA73-8075-4C81-B59D-4869A46362CE}"/>
+															<ItemRef Name="Gradu metal 5" ID="{F5548133-0F0B-407F-99EA-6BB55A2E1A45}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -1205,7 +1212,7 @@
 														<ActiveSource Name="Chill 6" ID="{FB574E0B-E3D4-4C74-B4C5-B7474817679F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 6" ID="{F54F0288-2872-49B1-92CD-B202F1E144D4}" ShortID="727792823">
+												<Sound Name="Gradu metal 6" ID="{6F6CC954-9B76-4759-B4C0-E40E83B86EFD}" ShortID="800719251">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -1215,11 +1222,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 6" ID="{03FB993E-823C-4EBB-B26C-18C10D5F10DB}">
+														<AudioFileSource Name="Gradu metal 6" ID="{6FF06DDE-0FA1-4B23-97F7-709352DAF426}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.100466454375547"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0215285259376172"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.411912443071529"/>
+																<Property Name="VolumeOffset" Type="Real64">
+																	<ValueList>
+																		<Value>-3</Value>
+																	</ValueList>
+																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Gradu metal 6.wav</AudioFile>
@@ -1229,17 +1241,17 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 6" ID="{03FB993E-823C-4EBB-B26C-18C10D5F10DB}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 6" ID="{6FF06DDE-0FA1-4B23-97F7-709352DAF426}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Synthfunk 6" ID="{F3D24F80-DEB8-4C60-A750-9807804F7313}"/>
+														<ItemRef Name="Gradu metal 6" ID="{6F6CC954-9B76-4759-B4C0-E40E83B86EFD}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 6" ID="{F54F0288-2872-49B1-92CD-B202F1E144D4}"/>
+														<ItemRef Name="Synthfunk 6" ID="{F3D24F80-DEB8-4C60-A750-9807804F7313}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Chill 6" ID="{C9ED68EC-E00E-420D-8EBD-557F508A250F}"/>
@@ -1249,7 +1261,7 @@
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 6" ID="{F54F0288-2872-49B1-92CD-B202F1E144D4}"/>
+															<ItemRef Name="Gradu metal 6" ID="{6F6CC954-9B76-4759-B4C0-E40E83B86EFD}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -1351,7 +1363,7 @@
 														<ActiveSource Name="Chill 7" ID="{F2CD711C-41F5-4908-A2F8-66D3E434B4F4}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 7" ID="{A2F3B4D8-CAB8-4891-BB9F-E029AD036A66}" ShortID="944565252">
+												<Sound Name="Gradu metal 7" ID="{95EF144B-18BC-440C-AB20-B6E9DB52E65D}" ShortID="680100910">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -1361,14 +1373,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 7" ID="{BCDD2E35-532A-468E-827C-160EA01EAC92}">
+														<AudioFileSource Name="Gradu metal 7" ID="{10D2906D-9A47-4B31-9792-069DD1548585}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0940078965942621"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0279870837189025"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.419806235915322"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -1380,7 +1392,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 7" ID="{BCDD2E35-532A-468E-827C-160EA01EAC92}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 7" ID="{10D2906D-9A47-4B31-9792-069DD1548585}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1390,17 +1402,17 @@
 														<ItemRef Name="Chill 7" ID="{4CB2CD0A-3521-44A9-A4B5-4AAD1AE3F07C}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Synthfunk 7" ID="{516D92BB-1FF2-4751-A2BF-3F322D6CB2F4}"/>
+														<ItemRef Name="Gradu metal 7" ID="{95EF144B-18BC-440C-AB20-B6E9DB52E65D}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 7" ID="{A2F3B4D8-CAB8-4891-BB9F-E029AD036A66}"/>
+														<ItemRef Name="Synthfunk 7" ID="{516D92BB-1FF2-4751-A2BF-3F322D6CB2F4}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 7" ID="{A2F3B4D8-CAB8-4891-BB9F-E029AD036A66}"/>
+															<ItemRef Name="Gradu metal 7" ID="{95EF144B-18BC-440C-AB20-B6E9DB52E65D}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -1502,7 +1514,7 @@
 														<ActiveSource Name="Chill 8" ID="{4BD7F5C4-F9FB-43F2-BCCF-7A847D60A6E9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 8" ID="{6D31D950-A27C-488C-B7E7-72528536EC8C}" ShortID="502417219">
+												<Sound Name="Gradu metal 8" ID="{E800FA57-91CB-41C5-B896-869950A32C2F}" ShortID="244565779">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -1512,33 +1524,45 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 8" ID="{8B44A099-2FB9-4C28-AB8E-E9CB53091D64}">
+														<AudioFileSource Name="Gradu metal 8" ID="{F2CEBAB2-4227-4E77-BA7D-2EC70AFE252B}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.107642629688086"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0208109084063633"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.411194825540275"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Gradu metal 8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1009765289"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Gradu metal 8_01" ID="{E0EC01BC-0E52-44FE-BE28-A4BD92D2BDF4}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.015787585687586"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.41406529566529"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Gradu metal 8.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="688208975"/>
+																<MediaID ID="354320375"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 8" ID="{8B44A099-2FB9-4C28-AB8E-E9CB53091D64}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 8_01" ID="{E0EC01BC-0E52-44FE-BE28-A4BD92D2BDF4}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 8" ID="{6D31D950-A27C-488C-B7E7-72528536EC8C}"/>
+														<ItemRef Name="Gradu metal 8" ID="{E800FA57-91CB-41C5-B896-869950A32C2F}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Chill 8" ID="{5C30CF7D-12DD-46B3-A065-635B3DD2400F}"/>
@@ -1551,7 +1575,7 @@
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 8" ID="{6D31D950-A27C-488C-B7E7-72528536EC8C}"/>
+															<ItemRef Name="Gradu metal 8" ID="{E800FA57-91CB-41C5-B896-869950A32C2F}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -1653,7 +1677,7 @@
 														<ActiveSource Name="Chill 9" ID="{99BFA5E9-5939-4A80-9F4B-5CDE32B19ABD}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 9" ID="{B254FEB7-99B6-4E2F-BA9D-C4484A810661}" ShortID="325397179">
+												<Sound Name="Gradu metal 9" ID="{DE9918A9-1E97-491B-B2BF-B53144DAA5D4}" ShortID="112704276">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -1663,33 +1687,33 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 9" ID="{E0C77A76-1F2D-493D-B4E5-F453DEDEEF2D}">
+														<AudioFileSource Name="Gradu metal 9" ID="{6B2F9A00-6BE5-4A22-B39F-80615C957A0D}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0997488368442934"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0215285259376173"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.409041972946513"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Gradu metal 9.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="280573994"/>
+																<MediaID ID="391699430"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 9" ID="{E0C77A76-1F2D-493D-B4E5-F453DEDEEF2D}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 9" ID="{6B2F9A00-6BE5-4A22-B39F-80615C957A0D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 9" ID="{B254FEB7-99B6-4E2F-BA9D-C4484A810661}"/>
+														<ItemRef Name="Gradu metal 9" ID="{DE9918A9-1E97-491B-B2BF-B53144DAA5D4}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Synthfunk 9" ID="{29ED61C6-D694-4D1E-A289-6705AD120F5C}"/>
@@ -1702,7 +1726,7 @@
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 9" ID="{B254FEB7-99B6-4E2F-BA9D-C4484A810661}"/>
+															<ItemRef Name="Gradu metal 9" ID="{DE9918A9-1E97-491B-B2BF-B53144DAA5D4}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -1804,7 +1828,7 @@
 														<ActiveSource Name="Chill 10" ID="{5F523740-EFF0-43ED-942A-02A4BDDAF43C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 10" ID="{8175E20F-C125-45D6-99F7-17FFF314B09C}" ShortID="312889908">
+												<Sound Name="Gradu metal 10" ID="{81B59615-1F9E-48D6-BDD2-F74E333EB87D}" ShortID="313092507">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -1814,14 +1838,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 10" ID="{88256940-011B-4360-B265-EC6F6CB5A53E}">
+														<AudioFileSource Name="Gradu metal 10" ID="{0A90BE22-E81D-42B1-842E-2E2306C48E50}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.09544313165677"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0229637610001251"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.404018650227736"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -1833,14 +1857,14 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 10" ID="{88256940-011B-4360-B265-EC6F6CB5A53E}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 10" ID="{0A90BE22-E81D-42B1-842E-2E2306C48E50}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 10" ID="{8175E20F-C125-45D6-99F7-17FFF314B09C}"/>
+														<ItemRef Name="Gradu metal 10" ID="{81B59615-1F9E-48D6-BDD2-F74E333EB87D}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Chill 10" ID="{C315EE7F-C946-4F75-BC42-019486A603BE}"/>
@@ -1853,7 +1877,7 @@
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 10" ID="{8175E20F-C125-45D6-99F7-17FFF314B09C}"/>
+															<ItemRef Name="Gradu metal 10" ID="{81B59615-1F9E-48D6-BDD2-F74E333EB87D}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -1955,7 +1979,7 @@
 														<ActiveSource Name="Chill 11" ID="{2A175C0C-56C0-4260-8B76-E653DCDE95A0}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 11" ID="{1786DB7A-2B2E-4F72-8533-25E5F6145132}" ShortID="15823454">
+												<Sound Name="Gradu metal 11" ID="{490BC694-5E63-4DB0-9370-AD76271EBE91}" ShortID="861188574">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -1965,26 +1989,26 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 11" ID="{6F2E0017-D144-4588-B637-57DA694EE7CA}">
+														<AudioFileSource Name="Gradu metal 11" ID="{F89DD01E-6C7A-4E22-8D27-2A26AF98C76A}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0775026933754221"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0258342311251407"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.419088618384068"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Gradu metal 11.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="268716891"/>
+																<MediaID ID="1044593035"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 11" ID="{6F2E0017-D144-4588-B637-57DA694EE7CA}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 11" ID="{F89DD01E-6C7A-4E22-8D27-2A26AF98C76A}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1994,7 +2018,7 @@
 														<ItemRef Name="Chill 11" ID="{AEC57944-2D40-40A4-B8A1-43514C119037}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 11" ID="{1786DB7A-2B2E-4F72-8533-25E5F6145132}"/>
+														<ItemRef Name="Gradu metal 11" ID="{490BC694-5E63-4DB0-9370-AD76271EBE91}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Synthfunk 11" ID="{7D99EBE5-3E77-4349-9AFC-48E5C2F82F0F}"/>
@@ -2004,7 +2028,7 @@
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 11" ID="{1786DB7A-2B2E-4F72-8533-25E5F6145132}"/>
+															<ItemRef Name="Gradu metal 11" ID="{490BC694-5E63-4DB0-9370-AD76271EBE91}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -2106,7 +2130,7 @@
 														<ActiveSource Name="Chill 12" ID="{1E6E2E2D-FBDF-4CD7-9987-A9BE67ED8EA7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 12" ID="{2F972EC2-BD2B-44DE-B5B8-F7F7847997D7}" ShortID="1036709889">
+												<Sound Name="Gradu metal 12" ID="{68DDFE56-A9C5-4904-A079-9FCF17F5FE1F}" ShortID="195769609">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -2116,14 +2140,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 12" ID="{3FC1B70F-BD19-47C1-BC05-363AEC1A7C0B}">
+														<AudioFileSource Name="Gradu metal 12" ID="{1CD0C1CE-366C-4E47-9A57-B29D9DD48E03}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0904198089379925"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0287047012501564"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.415500530727799"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -2135,7 +2159,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 12" ID="{3FC1B70F-BD19-47C1-BC05-363AEC1A7C0B}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 12" ID="{1CD0C1CE-366C-4E47-9A57-B29D9DD48E03}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2148,14 +2172,14 @@
 														<ItemRef Name="Synthfunk 12" ID="{CA6E6C36-5C43-41B0-9374-808DEEFDF9A9}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 12" ID="{2F972EC2-BD2B-44DE-B5B8-F7F7847997D7}"/>
+														<ItemRef Name="Gradu metal 12" ID="{68DDFE56-A9C5-4904-A079-9FCF17F5FE1F}"/>
 													</GroupingBehavior>
 												</GroupingBehaviorList>
 												<GroupingList>
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 12" ID="{2F972EC2-BD2B-44DE-B5B8-F7F7847997D7}"/>
+															<ItemRef Name="Gradu metal 12" ID="{68DDFE56-A9C5-4904-A079-9FCF17F5FE1F}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>
@@ -2257,7 +2281,7 @@
 														<ActiveSource Name="Chill 13" ID="{54B257DA-0672-4C01-9094-61470295E219}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gradu metal 13" ID="{D9CB5E12-D34F-42EF-A35E-7492316C047C}" ShortID="67432815">
+												<Sound Name="Gradu metal 13" ID="{407D952B-89F3-4387-82C6-A10315EC0E5B}" ShortID="564180666">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
@@ -2267,14 +2291,14 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gradu metal 13" ID="{166CD77B-7B8D-43EF-BF63-70108C5E3B4E}">
+														<AudioFileSource Name="Gradu metal 13" ID="{C4A76D84-152B-4E91-863D-74E12410278F}">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="0.0925726615317543"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0337280239689337"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.409041972946513"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
-																		<Value>5</Value>
+																		<Value>-3</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -2286,14 +2310,14 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gradu metal 13" ID="{166CD77B-7B8D-43EF-BF63-70108C5E3B4E}" Platform="Linked"/>
+														<ActiveSource Name="Gradu metal 13" ID="{C4A76D84-152B-4E91-863D-74E12410278F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
-														<ItemRef Name="Gradu metal 13" ID="{D9CB5E12-D34F-42EF-A35E-7492316C047C}"/>
+														<ItemRef Name="Gradu metal 13" ID="{407D952B-89F3-4387-82C6-A10315EC0E5B}"/>
 													</GroupingBehavior>
 													<GroupingBehavior>
 														<ItemRef Name="Chill 13" ID="{3AC0DC50-6213-4F6B-BF48-22C075288250}"/>
@@ -2306,7 +2330,7 @@
 													<Grouping>
 														<SwitchRef Name="Metal" ID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
 														<ItemList>
-															<ItemRef Name="Gradu metal 13" ID="{D9CB5E12-D34F-42EF-A35E-7492316C047C}"/>
+															<ItemRef Name="Gradu metal 13" ID="{407D952B-89F3-4387-82C6-A10315EC0E5B}"/>
 														</ItemList>
 													</Grouping>
 													<Grouping>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}",
     "Language": "SFX",
-    "Hash": "{45B61768-CB4B-23FC-2D7F-7EC945500201}",
+    "Hash": "{094E9F47-EC48-08B4-C34E-1ED2B661A32C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 12.wav",
-      "CachePath": "BD/{BD45BDA2-6D48-5128-C877-017576E27A9A}.wem"
+      "CachePath": "CE/{CEFA643F-2D9D-F4B6-97F8-FE3DEF6D8667}.wem"
      },
      {
       "Id": "52383536",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 7.wav",
-      "CachePath": "25/{2503F9D4-B8CC-20A0-A872-599B20D56AC1}.wem"
+      "CachePath": "24/{241FCC08-BC34-0340-385A-9955E4475B50}.wem"
      },
      {
       "Id": "101856125",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 2.wav",
-      "CachePath": "CA/{CA2095A5-BD8F-96AB-C8F3-4FE0CE65549C}.wem"
+      "CachePath": "B4/{B4A8EBD9-F36A-26D9-30A0-753B7E7B9258}.wem"
      },
      {
       "Id": "103324352",
@@ -133,23 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 6.wav",
-      "CachePath": "EF/{EF3CAF98-CC1F-F02B-65BD-3364C923B53C}.wem"
-     },
-     {
-      "Id": "268716891",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Gradu metal 11.wav",
-      "CachePath": "34/{347F71BC-6C0B-8BDB-F089-C220880C2C32}.wem"
-     },
-     {
-      "Id": "280573994",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Gradu metal 9.wav",
-      "CachePath": "B1/{B157164F-9E19-691D-1092-84CF56EC4F54}.wem"
+      "CachePath": "6D/{6D442B3F-0F07-AE8A-ED33-D0FD72AB68F1}.wem"
      },
      {
       "Id": "288982015",
@@ -176,6 +160,14 @@
       "CachePath": "0E/{0EC13DE3-325A-8401-F2E8-66AC81E5B2B2}.wem"
      },
      {
+      "Id": "354320375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu metal 8.wav",
+      "CachePath": "93/{93ACF7AC-A37C-CC34-3174-68EF8A03488D}.wem"
+     },
+     {
       "Id": "366117751",
       "Language": "SFX",
       "Streaming": "false",
@@ -192,6 +184,14 @@
       "CachePath": "35/{35A3ED06-DF91-B5D9-21FF-FC0ABC9B72EA}.wem"
      },
      {
+      "Id": "391699430",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu metal 9.wav",
+      "CachePath": "C1/{C120C72B-47B9-9909-C756-4422A65830B7}.wem"
+     },
+     {
       "Id": "392924225",
       "Language": "SFX",
       "Streaming": "false",
@@ -200,28 +200,12 @@
       "CachePath": "2C/{2C8ECC00-1715-F71D-67BD-E11F48415E28}.wem"
      },
      {
-      "Id": "435482048",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Gradu metal 4.wav",
-      "CachePath": "F3/{F36F23C9-A7A0-9C7B-8222-E70F83C747E8}.wem"
-     },
-     {
-      "Id": "550033654",
+      "Id": "434320709",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 1.wav",
-      "CachePath": "6E/{6E00E2D8-27D9-966C-A0EE-C111ADA4219C}.wem"
-     },
-     {
-      "Id": "558874189",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Gradu metal 1.wav",
-      "CachePath": "3A/{3A62A962-2EE9-421E-0929-CF78609C66E7}.wem"
+      "CachePath": "18/{18A8A577-AF14-7DB9-6463-D42BC7E2B115}.wem"
      },
      {
       "Id": "562936772",
@@ -248,6 +232,14 @@
       "CachePath": "2E/{2E68B411-012C-6AEB-C1C3-2955F26920CD}.wem"
      },
      {
+      "Id": "592352046",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu Lofi.wav",
+      "CachePath": "72/{7275193A-796F-DA9C-2A50-261A8581F80C}.wem"
+     },
+     {
       "Id": "598179866",
       "Language": "SFX",
       "Streaming": "false",
@@ -261,7 +253,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 13.wav",
-      "CachePath": "8D/{8D4E8C16-5981-851C-FC6C-5EA2F6286B54}.wem"
+      "CachePath": "8F/{8FA6C089-B4C4-D55E-DDC3-B207CD7000C7}.wem"
      },
      {
       "Id": "680413131",
@@ -270,14 +262,6 @@
       "Location": "Memory",
       "ShortName": "Synthfunk 4.wav",
       "CachePath": "0D/{0DEA75CF-6F47-8DB5-2568-7922D53F5884}.wem"
-     },
-     {
-      "Id": "688208975",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Gradu metal 8.wav",
-      "CachePath": "8D/{8D79EDBB-0831-C178-B540-EB84ECB14D05}.wem"
      },
      {
       "Id": "732713746",
@@ -296,12 +280,28 @@
       "CachePath": "CE/{CEC212C9-70FE-1B59-E7EC-F6AC61FF2EF0}.wem"
      },
      {
+      "Id": "771789526",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu metal 5.wav",
+      "CachePath": "90/{90737AC7-B675-7E8A-A819-2715299C768B}.wem"
+     },
+     {
+      "Id": "783646925",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu metal 1.wav",
+      "CachePath": "99/{9994DD9E-3CC4-DA46-52D4-9568E01E95A7}.wem"
+     },
+     {
       "Id": "785881601",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 3.wav",
-      "CachePath": "B2/{B2E66768-AADE-6FBF-098A-ACA30BDC28D8}.wem"
+      "CachePath": "64/{6473629D-5877-29AD-4DFF-2EF4962A8372}.wem"
      },
      {
       "Id": "792136571",
@@ -310,6 +310,14 @@
       "Location": "Memory",
       "ShortName": "Synthfunk 10.wav",
       "CachePath": "7F/{7F379DB3-5685-44C5-4D4B-B688A8EE8946}.wem"
+     },
+     {
+      "Id": "804912113",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu metal 4.wav",
+      "CachePath": "25/{2505D7AC-271B-3810-3D9B-1C2CED4057F2}.wem"
      },
      {
       "Id": "809510247",
@@ -325,7 +333,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Gradu metal 10.wav",
-      "CachePath": "E8/{E8128B49-4AC3-EAD2-C9BD-55AEEAEB9C38}.wem"
+      "CachePath": "E1/{E13C6BDB-E6AA-A904-C0A3-3F729164C518}.wem"
      },
      {
       "Id": "866446915",
@@ -334,14 +342,6 @@
       "Location": "Memory",
       "ShortName": "Chill 11.wav",
       "CachePath": "CE/{CE60A399-1839-C9F6-AB2E-A78E9B9C64F4}.wem"
-     },
-     {
-      "Id": "872487916",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Gradu metal 5.wav",
-      "CachePath": "1D/{1D8DA2B4-96E8-E5F0-A46F-19B9F31F1D8A}.wem"
      },
      {
       "Id": "917405352",
@@ -368,6 +368,14 @@
       "CachePath": "E9/{E9827EE4-B5D9-28B0-BD43-04D39122F5A0}.wem"
      },
      {
+      "Id": "1044593035",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gradu metal 11.wav",
+      "CachePath": "17/{17EDA41D-E4A1-D37A-A882-5D8F6BADF524}.wem"
+     },
+     {
       "Id": "1060215097",
       "Language": "SFX",
       "Streaming": "false",
@@ -383,8 +391,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_BaseNotes",
       "GUID": "{68C0AF51-5DA7-4EF6-A1AB-2AF17DF74BEA}",
       "DurationType": "OneShot",
-      "DurationMin": "0.52823573",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.41191244",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -395,7 +403,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "558874189"
+          "Id": "434320709"
          }
         ]
        },
@@ -433,8 +441,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_EightSFX",
       "GUID": "{B3D7968F-91FF-409E-8ECA-186C3517351F}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.4140653",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -445,7 +453,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "688208975"
+          "Id": "354320375"
          }
         ]
        },
@@ -483,8 +491,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_ElevenSFX",
       "GUID": "{D284E182-1C35-4D46-9002-B5C33118A8D9}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.41908863",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -495,7 +503,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "268716891"
+          "Id": "1044593035"
          }
         ]
        },
@@ -583,8 +591,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_FiveSFX",
       "GUID": "{71E91059-03D2-4E94-B1F6-5E2285E2C593}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.42052385",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -595,7 +603,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "872487916"
+          "Id": "771789526"
          }
         ]
        },
@@ -633,8 +641,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_FourSFX",
       "GUID": "{BF65097A-F504-45A2-BBA4-59C6B3497153}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.41693577",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -645,7 +653,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "435482048"
+          "Id": "804912113"
          }
         ]
        },
@@ -678,13 +686,25 @@
       ]
      },
      {
+      "Id": "2570041344",
+      "Name": "Play_MenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MenuMusic",
+      "GUID": "{7FCD63A5-0617-4A75-969B-EC27DE89EA1B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "592352046"
+       }
+      ]
+     },
+     {
       "Id": "1729980979",
       "Name": "Play_NineSFX",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_NineSFX",
       "GUID": "{F78203EB-3E5C-4CC7-A3CF-78824E501A5E}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.40904197",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -695,7 +715,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "280573994"
+          "Id": "391699430"
          }
         ]
        },
@@ -733,8 +753,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_OneSFX",
       "GUID": "{ABA39A9E-5111-4537-875F-3AA089195784}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.43272334",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -745,7 +765,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "550033654"
+          "Id": "783646925"
          }
         ]
        },
@@ -783,8 +803,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SevenSFX",
       "GUID": "{8E986303-6A62-4E8B-92C6-CE6489F45CA5}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.41980624",
+      "DurationMax": "0.6383125",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -833,8 +853,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SixSFX",
       "GUID": "{21434977-CB87-4A67-9C90-BC0FE069FE5A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.41191244",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -883,8 +903,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_TenSFX",
       "GUID": "{0A157E1B-E9FF-436F-886A-6317295371F9}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.40401864",
+      "DurationMax": "0.6383125",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -933,8 +953,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_ThreeSFX",
       "GUID": "{B1B25B9D-935D-4BFF-9DE2-1B890FCD9765}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.40473628",
+      "DurationMax": "0.6383125",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -983,8 +1003,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_ThriteenSFX",
       "GUID": "{9B4FEDCC-0F78-40FD-85CB-C9C2148ACC34}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.40904197",
+      "DurationMax": "0.6383125",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1033,8 +1053,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_TwelveSFX",
       "GUID": "{CE79D099-FB75-474C-857B-C8B8A0F75331}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.41550052",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1083,8 +1103,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_TwoSFX",
       "GUID": "{71D9B768-645D-48D5-975C-7BA3D9D8DA85}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5504583",
-      "DurationMax": "0.6666667",
+      "DurationMin": "0.40832436",
+      "DurationMax": "0.63829166",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1126,6 +1146,16 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "2753202630",
+      "Name": "Stop_MenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_MenuMusic",
+      "GUID": "{D8BFCD6A-3B25-44A1-8CDE-34F545E0D85F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "StateGroups": [
@@ -1170,6 +1200,6 @@
     ]
    }
   ],
-  "FileHash": "{5848B0DA-040E-7F2C-13A7-7467710A3616}"
+  "FileHash": "{1D5DA5C0-79E8-8AB1-CA36-AC3309AE8315}"
  }
 }

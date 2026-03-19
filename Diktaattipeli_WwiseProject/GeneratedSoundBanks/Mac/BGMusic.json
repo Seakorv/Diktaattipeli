@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3}",
     "Language": "SFX",
-    "Hash": "{5A49D8F8-B03D-607E-D82B-9A077DC5FFF8}",
+    "Hash": "{235695E9-BC81-88BD-F9E1-740D91E48A92}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BGMusic",
     "ShortName": "BGMusic",
     "Path": "BGMusic.bnk",
@@ -892,6 +892,6 @@
     ]
    }
   ],
-  "FileHash": "{3AA69466-716A-C086-F4E3-DB97CBA2324C}"
+  "FileHash": "{C57EE580-2C5B-EC65-AE8D-51E38D5C53FD}"
  }
 }

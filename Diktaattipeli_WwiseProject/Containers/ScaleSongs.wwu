@@ -5619,6 +5619,128 @@
 						</ObjectList>
 					</ObjectLists>
 				</MusicSwitchContainer>
+				<MusicPlaylistContainer Name="MenuMusic" ID="{F7DE8C06-C70E-408F-B930-248D1DF1E35C}" ShortID="490446992">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="94"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{9DAE839C-07E9-4039-9B97-A5003C17E2A7}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{BAF56789-5065-4172-A874-D26AAF797CB0}" ShortID="815017043">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{BEB82F79-D886-4A02-8082-A8155A21054A}" ShortID="386947909">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="Menu Lofi" ID="{8A2B2BFB-6B53-4140-89AF-5DBA72F965C1}" WorkUnitID="{552EE90C-A2FC-4D55-8CE6-003969261947}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{9A7D72B9-245E-46D3-9A06-33998C646001}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{4DE01B17-51B9-4EF6-80C8-80AF68664C5A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Menu Lofi" ID="{8A2B2BFB-6B53-4140-89AF-5DBA72F965C1}" ShortID="346957684">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="20425.5416666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9AB4C169-6393-4DFE-9AA8-025A4AB17516}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Menu Lofi" ID="{7B143262-AF35-4FB4-8845-87A287376A4F}" ShortID="15871429">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3228B5F-D981-416A-85E0-DB4CC9044218}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{5973CB5D-2094-4080-811D-AB1923C0A58D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Menu Lofi" ID="{0F79CEC8-580F-4340-8366-1E31FEF00BCF}">
+											<Language>SFX</Language>
+											<AudioFile>Menu Lofi.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="592352046"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<MusicTrackSequence Name="" ID="{195E1B72-5200-4555-9CC0-30CC2C4461D6}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<MusicClip Name="Menu Lofi" ID="{000DD55C-97F8-41A6-B491-6C88955C23F0}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="20425.5416666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Menu Lofi" ID="{0F79CEC8-580F-4340-8366-1E31FEF00BCF}"/>
+														</MusicClip>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<MusicCue Name="Entry Cue" ID="{737F297E-0B86-42BB-8D8C-6A4C25B39CF1}"/>
+									<MusicCue Name="Exit Cue" ID="{1A0BE866-FD94-480E-8D39-B5EB67F7E213}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="20425.5416666667"/>
+										</PropertyList>
+									</MusicCue>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

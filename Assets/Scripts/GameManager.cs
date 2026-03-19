@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour
     /// Defines how many correct answers it will take to change the genre. 
     /// If this number is 10, it will change the genre after 10 points.
     /// </summary>
-    public const int GenreChangeChecker = 10;
+    public const int GenreChangeChecker = 7;
     public List<Scale> AllScales { get; private set; }
     public List<Scale> AllScalesRandomOrder { get; private set; }
     public CurrentScaleState currentScale;
@@ -53,6 +54,7 @@ public class GameManager : MonoBehaviour
 
     //Scale object
     public Scale CurrentScaleObject;
+    public Scale PreviousScaleObject;
     private int currentScaleIndex = 0;
 
     // Script's instance
@@ -111,7 +113,7 @@ public class GameManager : MonoBehaviour
     // Other things
     [Header("Other")]
     [SerializeField] private TextMeshProUGUI kierroslaskuri;
-    [SerializeField] private TextMeshProUGUI currentScaletext;
+    [SerializeField] private TextMeshProUGUI correctScaleText;
     private int kierrokset = -1;
     private string kierrosText = "";
 
@@ -155,7 +157,7 @@ public class GameManager : MonoBehaviour
         if (correctPress)
         {
             Debug.Log("Vastausaika: " + timeForAnswer);
-            DataSaving.dataSavingInstance.CorrectSaving(CurrentScaleObject, timeForAnswer);
+            DataSaving.dataSavingInstance.CorrectSaving(PreviousScaleObject, timeForAnswer);
             timeForAnswer = 0f;
             correctPress = false;
         }
@@ -308,8 +310,19 @@ public class GameManager : MonoBehaviour
                 metalState.SetValue();
                 break;
         }
+    }
 
-        
+    public void SetCorrectScaleText(string text)
+    {
+        StartCoroutine(ShowCorrectScale(text));
+    }
+
+    public IEnumerator ShowCorrectScale(string text)
+    {
+        correctScaleText.gameObject.SetActive(true);
+        correctScaleText.text = text;
+        yield return new WaitForSeconds(60f / currentTempo * 2); // It stays on one half note of bg music
+        correctScaleText.gameObject.SetActive(false);
     }
 
     /// <summary>
@@ -324,10 +337,10 @@ public class GameManager : MonoBehaviour
         if (myGameModeNumber == 1) { SetGameModeOneButtonScales(); }
         //if (myGameModeNumber == 2 && !gamemodeTwoSetUp) { SetGameModeTwoButtons(); }
         
-        if (newScaleState != CurrentScaleState.None || newScaleState != CurrentScaleState.GameOver)
+        /*if (newScaleState != CurrentScaleState.None || newScaleState != CurrentScaleState.GameOver)
         {
-            currentScaletext.text = GetScaletextFromRandomList();
-        }
+            correctScaleText.text = GetScaletextFromRandomList();
+        }*/
 
         switch (newScaleState)
         {
@@ -474,6 +487,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void AnsweredCorrect()
     {
+        PreviousScaleObject = CurrentScaleObject;
         correctPress = true;
 
         // If every scale has been gone through, restart and re-randomize the list

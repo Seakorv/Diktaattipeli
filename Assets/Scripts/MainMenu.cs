@@ -22,12 +22,15 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private Button exitButton;
     [SerializeField] private GameObject statisticsPopUp;
     [SerializeField] private GameObject optionsPopUp;
+    [SerializeField] private AK.Wwise.Event playMenuMusic;
+    [SerializeField] private AK.Wwise.Event stopMenuMusic;
 
     private SaveGameData statisticsInformation;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        SetMenuMusic(true);
         gameModeOneButton.onClick.AddListener(OpenGameModeOne);
         gameModeTwoButton.onClick.AddListener(OpenGameModeTwo);
         exitButton.onClick.AddListener(QuitGame);
@@ -41,6 +44,12 @@ public class MainMenu : MonoBehaviour
         
     }
 
+    public void SetMenuMusic(bool onOff)
+    {
+        if (onOff) { playMenuMusic.Post(gameObject); }
+        else { stopMenuMusic.Post(gameObject); }
+    }
+
     public void QuitGame()
     {
         Application.Quit();
@@ -48,13 +57,13 @@ public class MainMenu : MonoBehaviour
 
     public void OpenGameModeOne()
     {
-        //AkUnitySoundEngine.StopAll();
+        SetMenuMusic(false);
         SceneManager.LoadSceneAsync(1);
     }
 
     public void OpenGameModeTwo()
     {
-        //AkUnitySoundEngine.StopAll();
+        SetMenuMusic(false);
         SceneManager.LoadSceneAsync(2);
     }
 
@@ -66,7 +75,10 @@ public class MainMenu : MonoBehaviour
     public void OpenStatistics()
     {
         statisticsInformation = DataSaveSystem.LoadData();
-        SetStatistics();
+        if (statisticsInformation != null)
+        {
+            SetStatistics();    
+        }
         statisticsPopUp.SetActive(true);
     }
 
@@ -75,7 +87,9 @@ public class MainMenu : MonoBehaviour
         Debug.Log("High score gm one: " + statisticsInformation.HighScore[0].SaveScore);
         SetMostCorrectWrong();
         SetAverages();
-        statisticsPopUp.GetComponent<StatisticsScript>().SetStatisticsScore(statisticsInformation.HighScore[0].SaveScore, statisticsInformation.HighScore[1].SaveScore);
+
+        statisticsPopUp.GetComponent<StatisticsScript>().SetStatisticsScoreGmOne(statisticsInformation.HighScore[0].SaveScore);
+        statisticsPopUp.GetComponent<StatisticsScript>().SetStatisticsScoreGmTwo(statisticsInformation.HighScore[1].SaveScore);
     }
     
 
@@ -123,22 +137,15 @@ public class MainMenu : MonoBehaviour
                 scale => scale.Key,
                 scale => scale.Average(correct => correct.AnswerTime)
             );
-        
+
         //Ordering them again. Last is the fastest value, first is the slowest
         var fastestScaleGmOne = scaleSpeedsGmOne
             .OrderByDescending(scale => scale.Value)
-            .Last();
+            .LastOrDefault();
         
         var slowestScaleGmOne = scaleSpeedsGmOne
             .OrderByDescending(scale => scale.Value)
-            .First();
-        
-        foreach (var scale in scaleSpeedsGmOne)
-        {
-            Debug.Log(scale.Key + " Average: " + scale.Value);
-        }
-        Debug.Log("Fastest scale gm one: " + fastestScaleGmOne);
-
+            .FirstOrDefault();
 
         //Exactly the same things but for game mode two ones
         var scaleSpeedsGmTwo = statisticsInformation.CorrectAnswers
@@ -151,11 +158,11 @@ public class MainMenu : MonoBehaviour
         
         var fastestScaleGmTwo = scaleSpeedsGmTwo
             .OrderByDescending(scale => scale.Value)
-            .Last();
+            .LastOrDefault();
         
         var slowestScaleGmTwo = scaleSpeedsGmTwo
             .OrderByDescending(scale => scale.Value)
-            .First();
+            .FirstOrDefault();
         
         statisticsPopUp.GetComponent<StatisticsScript>().SetSpeedStatisticsGmOne(fastestScaleGmOne.Key, slowestScaleGmOne.Key);
         statisticsPopUp.GetComponent<StatisticsScript>().SetSpeedStatisticsGmTwo(fastestScaleGmTwo.Key, slowestScaleGmTwo.Key);

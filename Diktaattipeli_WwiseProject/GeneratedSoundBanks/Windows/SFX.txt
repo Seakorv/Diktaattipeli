@@ -6,6 +6,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	1729980979	Play_NineSFX			\Default Work Unit\Play_NineSFX	
 	1921777701	Play_ErrorSFX			\Default Work Unit\Play_ErrorSFX	
 	2284647426	Play_ElevenSFX			\Default Work Unit\Play_ElevenSFX	
+	2570041344	Play_MenuMusic			\Default Work Unit\Play_MenuMusic	
+	2753202630	Stop_MenuMusic			\Default Work Unit\Stop_MenuMusic	
 	2774229803	Play_FourSFX			\Default Work Unit\Play_FourSFX	
 	2937730755	Play_FiveSFX			\Default Work Unit\Play_FiveSFX	
 	3188720456	Play_BaseNotes			\Default Work Unit\Play_BaseNotes	
@@ -29,46 +31,47 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3932996	Chill 12	.cache\80\{803A9298-B48A-72D8-6142-FA3674D7A306}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwelveSFX\Chill 12		122712
 	10070908	Chill 2	.cache\B0\{B027DC1E-7EB8-8FC6-1AC3-5FA59D21ABBC}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwoSFX\Chill 2		122712
 	13625485	BaseNoteG	.cache\15\{15BB6413-5E58-3EC8-B7A1-0C2F286137F7}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteG		122712
-	37747879	Gradu metal 12	.cache\BD\{BD45BDA2-6D48-5128-C877-017576E27A9A}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwelveSFX\Gradu metal 12		128160
+	37747879	Gradu metal 12	.cache\CE\{CEFA643F-2D9D-F4B6-97F8-FE3DEF6D8667}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwelveSFX\Gradu metal 12		79936
 	52383536	Chill 6	.cache\A7\{A71459EB-5218-02A8-E70E-9678768314B9}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\SixSFX\Chill 6		122712
 	59963502	Chill 8	.cache\B9\{B92D75EF-35C9-B427-ADAA-1AEC78CA2E4D}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\EightSFX\Chill 8		122712
-	97259081	Gradu metal 7	.cache\25\{2503F9D4-B8CC-20A0-A872-599B20D56AC1}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\SevenSFX\Gradu metal 7		128160
-	101856125	Gradu metal 2	.cache\CA\{CA2095A5-BD8F-96AB-C8F3-4FE0CE65549C}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwoSFX\Gradu metal 2		128160
+	97259081	Gradu metal 7	.cache\24\{241FCC08-BC34-0340-385A-9955E4475B50}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\SevenSFX\Gradu metal 7		80764
+	101856125	Gradu metal 2	.cache\B4\{B4A8EBD9-F36A-26D9-30A0-753B7E7B9258}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwoSFX\Gradu metal 2		78560
 	103324352	Synthfunk 8	.cache\B9\{B97924CA-1E44-2BFB-8294-8E4360ACB479}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\EightSFX\Synthfunk 8		105848
 	140832148	SynthError	.cache\74\{74405A48-95B9-8FE1-473F-D2F3058DD58F}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\SynthError		148336
 	201234011	Chill 10	.cache\ED\{EDF6C991-A489-0D0A-DF45-0829415404E5}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TenSFX\Chill 10		122716
 	223573031	Synthfunk 13	.cache\23\{23D2806A-FAD8-CF89-CFB1-4327A86FE988}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ThriteenSFX\Synthfunk 13		105848
 	238150404	Synthfunk 9	.cache\E6\{E687D8E6-AEBB-ADC6-52D1-C22BAAF236E2}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\NineSFX\Synthfunk 9		105848
 	255375077	Synthfunk 7	.cache\77\{774EB44F-598D-3519-75C7-5398E4FA2FAE}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\SevenSFX\Synthfunk 7		105848
-	256302799	Gradu metal 6	.cache\EF\{EF3CAF98-CC1F-F02B-65BD-3364C923B53C}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\SixSFX\Gradu metal 6		128160
-	268716891	Gradu metal 11	.cache\34\{347F71BC-6C0B-8BDB-F089-C220880C2C32}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ElevenSFX\Gradu metal 11		128160
-	280573994	Gradu metal 9	.cache\B1\{B157164F-9E19-691D-1092-84CF56EC4F54}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\NineSFX\Gradu metal 9		128160
+	256302799	Gradu metal 6	.cache\6D\{6D442B3F-0F07-AE8A-ED33-D0FD72AB68F1}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\SixSFX\Gradu metal 6		79248
 	288982015	Synthfunk 11	.cache\8B\{8BFA97F7-A07C-ED2B-8C5E-5C595AADA9E1}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ElevenSFX\Synthfunk 11		105848
 	297863056	MetalError	.cache\13\{13AAFA49-92A3-1915-B0F7-789C97157D59}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\MetalError		131504
 	315263006	Chill 5	.cache\0E\{0EC13DE3-325A-8401-F2E8-66AC81E5B2B2}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FiveSFX\Chill 5		122712
+	354320375	Gradu metal 8	.cache\93\{93ACF7AC-A37C-CC34-3174-68EF8A03488D}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\EightSFX\Gradu metal 8		79660
 	366117751	Chill 1	.cache\FD\{FD0C65EB-EC06-9D29-7F8F-B270E487B473}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\OneSFX\Chill 1		122712
 	376297985	Synthfunk 5	.cache\35\{35A3ED06-DF91-B5D9-21FF-FC0ABC9B72EA}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FiveSFX\Synthfunk 5		105848
+	391699430	Gradu metal 9	.cache\C1\{C120C72B-47B9-9909-C756-4422A65830B7}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\NineSFX\Gradu metal 9		78696
 	392924225	Chill 4	.cache\2C\{2C8ECC00-1715-F71D-67BD-E11F48415E28}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FourSFX\Chill 4		122712
-	435482048	Gradu metal 4	.cache\F3\{F36F23C9-A7A0-9C7B-8222-E70F83C747E8}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FourSFX\Gradu metal 4		128160
-	550033654	Gradu metal 1	.cache\6E\{6E00E2D8-27D9-966C-A0EE-C111ADA4219C}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\OneSFX\Gradu metal 1		128160
-	558874189	BaseNoteCis	.cache\3A\{3A62A962-2EE9-421E-0929-CF78609C66E7}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteCis		128160
+	434320709	BaseNoteCis	.cache\18\{18A8A577-AF14-7DB9-6463-D42BC7E2B115}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteCis		79248
 	562936772	Synthfunk 1	.cache\CC\{CC0A2B1A-906A-0933-4577-915C10E62DDD}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\OneSFX\Synthfunk 1		105848
 	573790367	Chill 13	.cache\4E\{4E68F52E-2918-3CEC-C518-6059B0FAA1AE}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ThriteenSFX\Chill 13		122716
 	591089466	Synthfunk 2	.cache\2E\{2E68B411-012C-6AEB-C1C3-2955F26920CD}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwoSFX\Synthfunk 2		105848
+	592352046	Menu Lofi	.cache\72\{7275193A-796F-DA9C-2A50-261A8581F80C}.wem		\Containers\ScaleSongs\MenuMusic\Menu Lofi\Menu Lofi		3921864
 	598179866	Synthfunk 3	.cache\32\{32E1122C-214E-6158-13D7-FD3F29252282}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ThreeSFX\Synthfunk 3		105848
-	656497149	Gradu metal 13	.cache\8D\{8D4E8C16-5981-851C-FC6C-5EA2F6286B54}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ThriteenSFX\Gradu metal 13		128160
+	656497149	Gradu metal 13	.cache\8F\{8FA6C089-B4C4-D55E-DDC3-B207CD7000C7}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ThriteenSFX\Gradu metal 13		78696
 	680413131	Synthfunk 4	.cache\0D\{0DEA75CF-6F47-8DB5-2568-7922D53F5884}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FourSFX\Synthfunk 4		105848
-	688208975	Gradu metal 8	.cache\8D\{8D79EDBB-0831-C178-B540-EB84ECB14D05}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\EightSFX\Gradu metal 8		128160
 	732713746	Chill 7	.cache\A9\{A984EB3B-FE3B-B6A1-D2F9-97D257777FC4}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\SevenSFX\Chill 7		122716
 	755510174	Chill 3	.cache\CE\{CEC212C9-70FE-1B59-E7EC-F6AC61FF2EF0}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ThreeSFX\Chill 3		122716
-	785881601	Gradu metal 3	.cache\B2\{B2E66768-AADE-6FBF-098A-ACA30BDC28D8}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ThreeSFX\Gradu metal 3		128160
+	771789526	Gradu metal 5	.cache\90\{90737AC7-B675-7E8A-A819-2715299C768B}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FiveSFX\Gradu metal 5		80900
+	783646925	Gradu metal 1	.cache\99\{9994DD9E-3CC4-DA46-52D4-9568E01E95A7}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\OneSFX\Gradu metal 1		83244
+	785881601	Gradu metal 3	.cache\64\{6473629D-5877-29AD-4DFF-2EF4962A8372}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ThreeSFX\Gradu metal 3		77868
 	792136571	Synthfunk 10	.cache\7F\{7F379DB3-5685-44C5-4D4B-B688A8EE8946}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TenSFX\Synthfunk 10		105848
+	804912113	Gradu metal 4	.cache\25\{2505D7AC-271B-3810-3D9B-1C2CED4057F2}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FourSFX\Gradu metal 4		80212
 	809510247	ChillError	.cache\70\{7031384C-228B-B6D9-61C4-013B42E12DDA}.wem		\Containers\Default Work Unit\SFX\GameSFX\ErrorSFX\ChillError		171128
-	819429724	Gradu metal 10	.cache\E8\{E8128B49-4AC3-EAD2-C9BD-55AEEAEB9C38}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TenSFX\Gradu metal 10		128160
+	819429724	Gradu metal 10	.cache\E1\{E13C6BDB-E6AA-A904-C0A3-3F729164C518}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TenSFX\Gradu metal 10		77732
 	866446915	Chill 11	.cache\CE\{CE60A399-1839-C9F6-AB2E-A78E9B9C64F4}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ElevenSFX\Chill 11		122712
-	872487916	Gradu metal 5	.cache\1D\{1D8DA2B4-96E8-E5F0-A46F-19B9F31F1D8A}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\FiveSFX\Gradu metal 5		128160
 	917405352	Synthfunk 6	.cache\AB\{ABD78E40-1400-45C8-CAD0-DDBF90DD2366}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\SixSFX\Synthfunk 6		105848
 	992427979	Synthfunk 12	.cache\A5\{A5402D86-A274-337D-4E19-ECD71D8B7BCB}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\TwelveSFX\Synthfunk 12		105848
 	1023676036	Chill 9	.cache\E9\{E9827EE4-B5D9-28B0-BD43-04D39122F5A0}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\NineSFX\Chill 9		122712
+	1044593035	Gradu metal 11	.cache\17\{17EDA41D-E4A1-D37A-A882-5D8F6BADF524}.wem		\Containers\Default Work Unit\SFX\GameSFX\PlayScale\ElevenSFX\Gradu metal 11		80624
 	1060215097	BaseNoteD	.cache\D0\{D0F188ED-5401-BEA4-7724-563C5FDFA720}.wem		\Containers\Default Work Unit\SFX\GameSFX\BaseNotes\BaseNoteD		101580
 
