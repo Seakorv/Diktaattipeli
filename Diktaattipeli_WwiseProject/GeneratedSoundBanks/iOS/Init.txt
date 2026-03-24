@@ -1,0 +1,24 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	92342489	ScaleGenres			\Default Work Unit\ScaleGenres	
+
+State	ID	Name	State Group			Notes
+	748895195	None	ScaleGenres			
+	926145703	EasySynth	ScaleGenres			
+	2473969246	Metal	ScaleGenres			
+	3604647259	MainMenu	ScaleGenres			
+	4294400669	Chill	ScaleGenres			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+	3803850708	SfxBus			\Default Work Unit\SfxBus	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1502772432	SFX Bus			\Default Work Unit\Main Audio Bus\SFX Bus	
+	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+	3127962312	Music Bus			\Default Work Unit\Main Audio Bus\Music Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
