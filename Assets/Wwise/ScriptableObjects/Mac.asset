@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3d3bf0b49c34a7998de089180bf2f6, type: 3}
+  m_Script: {fileID: 11500000, guid: d23559b61a6c744679f0edd90bff003e, type: 3}
   m_Name: Mac
   m_EditorClassIdentifier: AK.Wwise.Unity.API::AkMacSettings
   IgnorePropertyNameList: []
@@ -123,7 +123,7 @@ MonoBehaviour:
     m_IOMemorySize: 2097152
     m_TargetAutoStreamBufferLengthMs: 380
     m_UseStreamCache: 0
-    m_LoadBankAsynchronously: 1
+    m_LoadBankAsynchronously: 0
     m_MaximumPinnedBytesInCache: 4294967295
     m_EnableGameSyncPreparation: 0
     m_ContinuousPlaybackLookAhead: 1
