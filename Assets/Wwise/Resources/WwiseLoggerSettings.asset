@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ca605fbaa8814ddfb94128d0d66b7b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 542d0d754c2514938b46f10a17d642ef, type: 3}
   m_Name: WwiseLoggerSettings
   m_EditorClassIdentifier: AK.Wwise.Unity.Logging::AK.Wwise.Unity.Logging.WwiseLoggerSettings
   m_logLevel: 3

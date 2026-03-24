@@ -26,11 +26,11 @@
         },
         {
             "id": "DeploymentPlatforms",
-            "valueId": "Emscripten"
+            "valueId": "Windows"
         },
         {
             "id": "DeploymentPlatforms",
-            "valueId": "Windows"
+            "valueId": "Emscripten"
         }
     ]
 }

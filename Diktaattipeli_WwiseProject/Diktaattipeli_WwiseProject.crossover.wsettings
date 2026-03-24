@@ -55,10 +55,10 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Android"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="iOS"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="QGWnTMl3REWGqinnWHaM/ZbmnFDcRKpCsU8h7ca6Cxk="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="H4dESA0XOEi0+C0GxaCOYUBlp0zJd0RFhqop51h2jP2W5pxQ3ESqQrFPIe3GugsZ"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{06EC1BD0-6567-4096-A628-7A82E6CFC59A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1F+Le6YT1ZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{09B85F35-18A3-44AE-A468-C53BCEF5ABA9} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP2zfi4MBgj9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -157,13 +157,13 @@
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Audio_FocusedObject" Type="string" Value="{34717F5E-F728-4FFD-A8DE-F078F89DCE3D}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentSearch" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="0"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="2"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Events_FocusedObject" Type="string" Value="{D8BFCD6A-3B25-44A1-8CDE-34F545E0D85F}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Game Syncs_FocusedObject" Type="string" Value="{B244221A-5FCA-4053-A711-28F9A8F4A953}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Queries_FocusedObject" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Sessions_FocusedObject" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\ShareSets_FocusedObject" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\SoundBanks_FocusedObject" Type="string" Value="{15BDCBDB-5C20-4E9D-BD7E-C425BC4C09B3}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\SoundBanks_FocusedObject" Type="string" Value="{6BC4F269-5B11-4EDC-8E85-24A6DEA44978}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Audio_LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1ZfiyLDgdlqQYXg20zJBEIY2KQUFaYdKkGhfnXKDCFJ8/i7p17AZFBKiCGgfoviHWiGLJnj6MK7ToiiwPbm+UbbQDs3JEHHQEqUOT4bJGY9zllslV3yVKFAmZjfAKJ92OzGEGFKZARYTpHpERPNmcjy99AH/UIfaE+dflXMNsCfO3pVnReXPk5JsbS/esfLaPawTg7VH4CHRYbPv68V8W5xQMEmXGOOIE6W0VGHkoZArGrvSRJIDgFEnOO2hpPpzWyWWsqRJZkKR4fHQif2Cb3mW9kRAkuVHEeOgW/jBlwpApRRJvetvOFNqC/eTvTwNq7q+fJgJND6TrK1xSpXFoTvI0JXMbMFjEuaVrypqHO1yb3E6KXWrHdDmRTA7vYq9dV7OkNp0zz1SYP50kU4joF+n1yGVLD7hUCHiX+4PLaxhKmSyfLyldBIqNxB6wvnWQCEFhtVD+owTIDjRSNIrGN3DOkuVfyiVU2M5gA5aSYZRykj1L6q+8pFqg3VxDiVM2sUIwXE7sp2SJkbO08SXX0rZUVTu1WpQkOaN35k09VNflIsErimzqREiOQ50BLQPR/EG808SVtvRoNdPVjeKB1HlZ8VOlBfxk2PAbIu4UjtMLt1yfposNxMo7odPnB0YW0y3zmALJjvT70651tydQSAWIMeKDSCvE6FcF8V4tsNgNVaXrV+F0FDpCqAMLpVAIYIbvhH0VjiTJ819f1J8ZoJZC6Qm0hlo0ut+Z4Z5hDTHfNu1C7yXDlApsepp56zRqQEydyM6US8QIn4xpHDIVFk"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Events_LastExpandedState" Type="string" Value="/PCbpkrYfEir3Vb3HLKhJuwzQpn8jYtAt0vf5CG9cq2GMSXxpIMDSZObF9Remoew3vWaMB8D4Eybm8ClNidTQw=="/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Game Syncs_LastExpandedState" Type="string" Value="8XVhy4BgI0qS7wgH4wTQwSdJ2q1PZuxEgvy2QMNQngK/tUVxAcx5T6zgSvMz78aWewSU1Av6VUGY5LuSe9U117nnqVnJYRpGqW9Jl7VBpZzPHX1tJWbBQY38Ehk7ecGgkZcRNIO8nkyr0jlzmHDmwI6BJUB/CXJKtpK4ouJmPcsDQvaHZyhkQLsS6cd2tLTr/Fd2bFhHQU29TGiwn5HbKQ=="/>
@@ -173,7 +173,7 @@
 				<Property Name="ProjectExplorer\SelectionChannel_1\x64_SoundBanks_LastExpandedState" Type="string" Value="P2eOyUyiqEiWDxBWX/5woO7c5YJ+fPJFqau08O0dON8="/>
 				<Property Name="ProjectExplorer\SelectionChannel_2\Audio_FocusedObject" Type="string" Value="{5D956C59-54F2-40A1-9998-DF00A27DD8EC}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_2\CurrentSearch" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\SelectionChannel_2\CurrentTab" Type="int32" Value="0"/>
+				<Property Name="ProjectExplorer\SelectionChannel_2\CurrentTab" Type="int32" Value="1"/>
 				<Property Name="ProjectExplorer\SelectionChannel_2\Events_FocusedObject" Type="string" Value="{D8BFCD6A-3B25-44A1-8CDE-34F545E0D85F}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_2\Game Syncs_FocusedObject" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_2\Queries_FocusedObject" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
