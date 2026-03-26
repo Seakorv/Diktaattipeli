@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-03-26T18:44:25Z
+Date:                    2026-03-26T19:42:51Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-26T18:44:25.238372Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-26T19:42:51.940993Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity
@@ -23,9 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59123
--licensingIpc
-LicenseClient-arttujuntunen
+50004
 -force-metal
 -job-worker-count
 5
@@ -71,12 +69,12 @@ Successfully changed project path to: /Users/arttujuntunen/Unity/Diktaattipeli
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8766697728]  Target information:
+Player connection [8763552000]  Target information:
 
-Player connection [8766697728]  * "[IP] 192.168.50.251 [Port] 0 [Flags] 2 [Guid] 245843766 [EditorId] 245843766 [Version] 1048832 [Id] OSXEditor(0,Arttus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8763552000]  * "[IP] 192.168.50.49 [Port] 0 [Flags] 2 [Guid] 1721790823 [EditorId] 1721790823 [Version] 1048832 [Id] OSXEditor(0,Arttus-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8766697728] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8766697728] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8763552000] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8763552000] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -88,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 23.52 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 26.68 ms, found 14 plugins.
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/arttujuntunen/Unity/Diktaattipeli/Assets
@@ -109,7 +107,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56615
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -119,14 +117,14 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Play
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              3b666487bba94174ab3877573492dc54
-  Correlation Id:          adb602ad2f20511cf2459a7804312cc8
-  External correlation Id: 6205175686864262042
+  Session Id:              1cce45bd74634541b56cf56441f55c71
+  Correlation Id:          879bfad0e76a7d9b3b2dcf03eddbb3d4
+  External correlation Id: 6690235160533650081
   Machine Id:              D0ssRK69MwrgWmWGKHtRBTEIAgI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen" (connect: 0.00s, validation: 0.00s, handshake: 0.90s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-notifications" at "2026-03-26T18:44:26.140408Z"
-[Licensing::Module] Licensing Background thread has ended after 0.90s
-[Licensing::Module] Licensing is initialized (took 0.32s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen" (connect: 0.00s, validation: 0.00s, handshake: 0.83s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-notifications" at "2026-03-26T19:42:52.771829Z"
+[Licensing::Module] Licensing Background thread has ended after 0.83s
+[Licensing::Module] Licensing is initialized (took 0.26s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 5773553284137-UnityPersXXXX
@@ -136,13 +134,13 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Play
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.326253 seconds.
+Registered in 0.265058 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 117 ms
+Android Extension - Scanning For ADB Devices 82 ms
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -152,23 +150,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.454 seconds
-Domain Reload Profiling: 1068ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0.389 seconds
+Domain Reload Profiling: 945ms
+	BeginReloadAssembly (78ms)
 	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (359ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (67ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (130ms)
-	FinalizeReload (455ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (297ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (126ms)
+	FinalizeReload (389ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (225ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (62ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			InitializePlatformSupportModulesInManaged (171ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (61ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 [CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
@@ -212,7 +210,7 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Refreshing native plugins compatible for Editor in 6.35 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 4.81 ms, found 14 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -221,33 +219,33 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.50 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 4.56 ms, found 14 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.644 seconds
-Domain Reload Profiling: 1188ms
-	BeginReloadAssembly (91ms)
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 1125ms
+	BeginReloadAssembly (89ms)
 		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (381ms)
-		LoadAssemblies (229ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (140ms)
-				TypeCache.ScanAssembly (124ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (239ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (129ms)
 			BuildScriptInfoCaches (41ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (644ms)
+	FinalizeReload (562ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -255,27 +253,780 @@ Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support con
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Launching external process: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 9.23 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 6.17 ms, found 14 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7547 unused Assets / (5.3 MB). Loaded Objects now: 8223.
-Memory consumption went from 174.5 MB to 169.1 MB.
-Total: 8.083625 ms (FindLiveObjects: 0.420042 ms CreateObjectMapping: 0.257791 ms MarkObjects: 5.843250 ms  DeleteObjects: 1.562250 ms)
+Unloading 7548 unused Assets / (5.2 MB). Loaded Objects now: 8224.
+Memory consumption went from 174.7 MB to 169.5 MB.
+Total: 7.402709 ms (FindLiveObjects: 0.367625 ms CreateObjectMapping: 0.272000 ms MarkObjects: 5.300750 ms  DeleteObjects: 1.461833 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 93073.544562 seconds.
-  path: Assets/StreamingAssets/Audio/GeneratedSoundBanks/Web
-  importAddress: Guid(f4733f2f64583496594de9aeb4021309) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/StreamingAssets/Audio/GeneratedSoundBanks/Web using Guid(f4733f2f64583496594de9aeb4021309) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b332078b3c4a8626020655189aacbca5') in 0.025996291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b8473e15fa8bd41dd5ed78297c51665 DependenciesID=de4c8a75f91b67a357bbe33f84565def StaticDependenciesID=a3496bec7e719dd4e7e4a3581df53085 
+  Time since last request: 825.832233 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  importAddress: Guid(3da663995d0e74cfcaabab2564eb0f5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/MainMenu.cs using Guid(3da663995d0e74cfcaabab2564eb0f5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0458a88a9f5107f490c7004edac4a830') in 0.031858834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69eb25c1bc41a32e52ee020ff00f4c30 DependenciesID=54825ef27f73b71245a06e238c4c121c StaticDependenciesID=1ee00274f27f640044c2edd1824d5b6d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Start Game.unity
+  importAddress: Guid(dfce17c28ee6b411abfd8bebd5193947) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Start Game.unity using Guid(dfce17c28ee6b411abfd8bebd5193947) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e95b88c8586fedd68934da60bdf6f1fa') in 0.003344792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dfafba794c195ce85d8369b12ea33191 DependenciesID=3fbf4d5270385c2639165d6aca6634a6 StaticDependenciesID=7e6ae56fe1ee670cd21948c9e856272f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x173567000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 4.50 ms, found 14 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.60 ms, found 14 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 1051ms
+	BeginReloadAssembly (109ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (207ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (14ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (561ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.58 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7547 unused Assets / (4.8 MB). Loaded Objects now: 8230.
+Memory consumption went from 188.5 MB to 183.7 MB.
+Total: 8.282875 ms (FindLiveObjects: 0.365333 ms CreateObjectMapping: 0.315375 ms MarkObjects: 5.782791 ms  DeleteObjects: 1.819083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.28 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.8 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.2 MB.
+Total: 6.815708 ms (FindLiveObjects: 0.326375 ms CreateObjectMapping: 0.246500 ms MarkObjects: 4.873292 ms  DeleteObjects: 1.369292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.64 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (5.0 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.1 MB.
+Total: 7.141959 ms (FindLiveObjects: 0.353334 ms CreateObjectMapping: 0.255875 ms MarkObjects: 5.000750 ms  DeleteObjects: 1.531709 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.67 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.8 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.3 MB.
+Total: 7.279083 ms (FindLiveObjects: 0.429709 ms CreateObjectMapping: 0.295292 ms MarkObjects: 5.131667 ms  DeleteObjects: 1.422041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.87 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.9 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.1 MB.
+Total: 7.178709 ms (FindLiveObjects: 0.421333 ms CreateObjectMapping: 0.246625 ms MarkObjects: 5.007625 ms  DeleteObjects: 1.502750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.22 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (5.0 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.0 MB.
+Total: 7.107667 ms (FindLiveObjects: 0.405375 ms CreateObjectMapping: 0.265417 ms MarkObjects: 5.041791 ms  DeleteObjects: 1.394541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 8.16 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.9 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.1 MB.
+Total: 8.140333 ms (FindLiveObjects: 0.473416 ms CreateObjectMapping: 0.280000 ms MarkObjects: 5.840292 ms  DeleteObjects: 1.546167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.84 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.8 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.3 MB.
+Total: 7.408542 ms (FindLiveObjects: 0.433292 ms CreateObjectMapping: 0.260875 ms MarkObjects: 5.413583 ms  DeleteObjects: 1.300500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.31 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.7 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.4 MB.
+Total: 7.803667 ms (FindLiveObjects: 0.446625 ms CreateObjectMapping: 0.280708 ms MarkObjects: 5.695500 ms  DeleteObjects: 1.380375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.41 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (5.1 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 171.9 MB.
+Total: 6.799916 ms (FindLiveObjects: 0.387666 ms CreateObjectMapping: 0.242542 ms MarkObjects: 4.824500 ms  DeleteObjects: 1.344583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.87 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.9 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.1 MB.
+Total: 6.762417 ms (FindLiveObjects: 0.348958 ms CreateObjectMapping: 0.229125 ms MarkObjects: 4.807792 ms  DeleteObjects: 1.376292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.59 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.6 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.5 MB.
+Total: 6.653958 ms (FindLiveObjects: 0.344667 ms CreateObjectMapping: 0.238166 ms MarkObjects: 4.765333 ms  DeleteObjects: 1.305458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 8.30 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (5.0 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.1 MB.
+Total: 6.857917 ms (FindLiveObjects: 0.346875 ms CreateObjectMapping: 0.242458 ms MarkObjects: 4.872334 ms  DeleteObjects: 1.396000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.12 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.5 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.6 MB.
+Total: 6.690625 ms (FindLiveObjects: 0.351667 ms CreateObjectMapping: 0.230334 ms MarkObjects: 4.794458 ms  DeleteObjects: 1.313833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.87 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.5 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.5 MB.
+Total: 6.812292 ms (FindLiveObjects: 0.346833 ms CreateObjectMapping: 0.253917 ms MarkObjects: 4.886417 ms  DeleteObjects: 1.324834 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.86 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.9 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.1 MB.
+Total: 6.671500 ms (FindLiveObjects: 0.338125 ms CreateObjectMapping: 0.247500 ms MarkObjects: 4.735958 ms  DeleteObjects: 1.349583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.98 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.9 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.2 MB.
+Total: 6.686291 ms (FindLiveObjects: 0.344792 ms CreateObjectMapping: 0.236500 ms MarkObjects: 4.712958 ms  DeleteObjects: 1.391708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.07 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.9 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.1 MB.
+Total: 6.675875 ms (FindLiveObjects: 0.351458 ms CreateObjectMapping: 0.230375 ms MarkObjects: 4.728792 ms  DeleteObjects: 1.364958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.52 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.8 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 172.2 MB.
+Total: 6.966500 ms (FindLiveObjects: 0.378250 ms CreateObjectMapping: 0.245750 ms MarkObjects: 4.921458 ms  DeleteObjects: 1.420625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.14 ms, found 14 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (3.0 MB). Loaded Objects now: 8230.
+Memory consumption went from 177.0 MB to 174.1 MB.
+Total: 8.384250 ms (FindLiveObjects: 0.401750 ms CreateObjectMapping: 0.234916 ms MarkObjects: 6.587709 ms  DeleteObjects: 1.159541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Import Request.
+  Time since last request: 210.507468 seconds.
+  path: Assets/Wwise/ScriptableObjects/Android.asset
+  importAddress: Guid(eb2717992138c4062bc030fa4efe0684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Android.asset using Guid(eb2717992138c4062bc030fa4efe0684) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ba8573cf99aa89d106479eac0b303ba5') in 0.010261708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a579ab96b88ad279e8b7ccb97d0c7ce5 DependenciesID=3b0bef6445ff9053e8d92d05f8cbd9a8 StaticDependenciesID=ae253bc34ae57487e89b427828241647 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/B3D7968F-91FF-409E-8ECA-186C3517351F.asset
+  importAddress: Guid(b6bbf001f1c5744028380e52284c1e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Event/B3D7968F-91FF-409E-8ECA-186C3517351F.asset using Guid(b6bbf001f1c5744028380e52284c1e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '29df9b65cd21754e4fb6cffb032b6276') in 0.002107875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea6c1552178f63aec27d0c913e04de20 DependenciesID=debdaa1ea4e13c312ac4ab35b3462085 StaticDependenciesID=bc51309276da714154ebdeaa2d2d91b9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/D8BFCD6A-3B25-44A1-8CDE-34F545E0D85F.asset
+  importAddress: Guid(59c1b63d4e3144bb7a2cb13aee2a63c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Event/D8BFCD6A-3B25-44A1-8CDE-34F545E0D85F.asset using Guid(59c1b63d4e3144bb7a2cb13aee2a63c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '77d1aa4409a20832075d6aa5b5c6c460') in 0.000946458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9cb684d5e117729072659844a9a4f8a3 DependenciesID=a35938d12ba2fac9eedb4550c3a75d10 StaticDependenciesID=a01bb4970cd2f22f3e3761782c70e902 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/CF279CE2-A790-4465-88EC-0AFC495FF4C6.asset
+  importAddress: Guid(acc2196c52314442d81c056c685cf216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Event/CF279CE2-A790-4465-88EC-0AFC495FF4C6.asset using Guid(acc2196c52314442d81c056c685cf216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a0eae9225fcda612c0b7e20efb3c5740') in 0.000673792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be9e07aecade24274bf3ab6377e20bc8 DependenciesID=98061e6b3ae6673ae36363891bef6761 StaticDependenciesID=8d8ffd7d35aeec28724d47faa345f7f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Wwise/ScriptableObjects/Switch/CDEAD4ED-BD43-4FC6-AC23-75E007395E74.asset
+  importAddress: Guid(2c3e8eb3fd348483e8df5fa9df4f4c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Switch/CDEAD4ED-BD43-4FC6-AC23-75E007395E74.asset using Guid(2c3e8eb3fd348483e8df5fa9df4f4c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8af95bc5ce6f408b9ecc8cba8106d58a') in 0.001112875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3286eb91c1c6fe7a60e73d7d03641d5d DependenciesID=e6637ad32f2ed91f24c960dc1e157ec1 StaticDependenciesID=3fea2c27c7acb4768eca4e93bd538ad0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Answerbutton.prefab
+  importAddress: Guid(aba47a7683bd341c4990a1e2c7ea78e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Answerbutton.prefab using Guid(aba47a7683bd341c4990a1e2c7ea78e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ac4adda513921ca665af4270e696573e') in 0.029031791 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8cdf9f3d3e935066fc798e6f4fa4144 DependenciesID=a94df82a3e74eb7ca4f75f66c1d2e9a6 StaticDependenciesID=a21947ebdd98ee8c760878b56a387df9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/B1B25B9D-935D-4BFF-9DE2-1B890FCD9765.asset
+  importAddress: Guid(23277a8f72f0b426883a456007c0e0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Event/B1B25B9D-935D-4BFF-9DE2-1B890FCD9765.asset using Guid(23277a8f72f0b426883a456007c0e0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '95670f1d11250ff5d3e936306553b699') in 0.000764 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65b2141d7846f0bafe08f26ce549311f DependenciesID=ef6e611888ba325b8a477354a7275d9a StaticDependenciesID=93e1707d1d53e5f3b0e3986b59beba7b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/BF65097A-F504-45A2-BBA4-59C6B3497153.asset
+  importAddress: Guid(06cc41b7c07e546dd9c90337d633bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Event/BF65097A-F504-45A2-BBA4-59C6B3497153.asset using Guid(06cc41b7c07e546dd9c90337d633bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd5ea66ebc86b3d46eca67f9f3be7da6d') in 0.000869667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c600ee2b5c0ab46d0386a680b77f29c DependenciesID=6e5ae5a29dbc0c69d87e14658b793d0c StaticDependenciesID=1055fbea78bc2779506221d072ed21ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/BrowserIcon.png
+  importAddress: Guid(2f8ddcba71799411da86571bfaf3e770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/BrowserIcon.png using Guid(2f8ddcba71799411da86571bfaf3e770) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (Import Result ID: '99bfa5bf4f0e79ddcf30d1c9ee74e9ac') in 0.04954675 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9cbf2cef56d2c8e53c08a2d2d8257522 DependenciesID=a2526158d89f28fb9d1df2a74e5aa118 StaticDependenciesID=b782fac62f7e1674feeea59c3bf9c054 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.491889 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  importAddress: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '13517ddd13655bb34e9d836aef98069c') in 0.000685916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69fe006145016d29bb327cea1225d966 DependenciesID=15b4fd93cf85b93da05f6de27cfa8ab2 StaticDependenciesID=841ee506dc54052f65cc18f1d27be155 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Wwise/ScriptableObjects/GameParameter/E81A65A4-31D1-4D24-8A37-D499C937B429.asset
+  importAddress: Guid(55e1b7d930377491eaa6998ce1a50f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/GameParameter/E81A65A4-31D1-4D24-8A37-D499C937B429.asset using Guid(55e1b7d930377491eaa6998ce1a50f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f8a186c21a81d24b1142d406f85aee36') in 0.000914916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c88c7dc153d0bcfc285c41b53f6a4f0 DependenciesID=5186533601e7062f6357f3070d67887a StaticDependenciesID=8260cd8dfb0c8288f04c9985d7222cbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  importAddress: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '46f042c81f7326ef9b12fc2085bc0c27') in 0.0046395 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eebcc774e51ff2ded1f71e740225a3bc DependenciesID=82ef8e241a84c9ac74d77226fdfe43b5 StaticDependenciesID=d8036b88366d48ebca4be82ed8f00863 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Wwise/ScriptableObjects/Switch/F66111AB-E1A4-494A-ABC2-6F0D1B5C569C.asset
+  importAddress: Guid(2b80d66d29adc4cd8ab2726d4b2d052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Switch/F66111AB-E1A4-494A-ABC2-6F0D1B5C569C.asset using Guid(2b80d66d29adc4cd8ab2726d4b2d052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1352ac0985d8ba5a9107812e711e4ddf') in 0.00075475 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04e9f0c304dea2eccbf039576288ff91 DependenciesID=6171e4a0c1b5ae28807e2b9543ee23ff StaticDependenciesID=2115451dcf1e684d59869b42029c2ce5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Wwise/ScriptableObjects/Event/F78203EB-3E5C-4CC7-A3CF-78824E501A5E.asset
+  importAddress: Guid(054326fcedf134534a0bec905942d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Event/F78203EB-3E5C-4CC7-A3CF-78824E501A5E.asset using Guid(054326fcedf134534a0bec905942d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6bdb0f70714ada6ad5240f06dbc0ffc3') in 0.000693417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d54bc4e375ffd47fdb4cb5ab5493ee19 DependenciesID=21e7b239b71b7fc82153f200e5d4e1ec StaticDependenciesID=eb78fed17b2a2187426b320ffad60895 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fonts/Santa Rosalia.ttf
+  importAddress: Guid(d0cf20f4c05a54e5caa03b3c29e55cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Santa Rosalia.ttf using Guid(d0cf20f4c05a54e5caa03b3c29e55cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '718b97b55195eca6dc3b36fdf543eff9') in 0.264418 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f7d715a554efd655fed91c9651ff04b DependenciesID=27fc31d26d69a7751481cc2bd893fa86 StaticDependenciesID=ce8ee64417d12cd6d7268ae79cbb9ec1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/event_nor.png
+  importAddress: Guid(2fed11582cb2e44549703580f3e5e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/event_nor.png using Guid(2fed11582cb2e44549703580f3e5e178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8d38236d2e2cb3c2ef02e309702e0279') in 0.005328333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9d6642ec99b257ac1a47037bed58ed7 DependenciesID=2eeedc8ca974d085e1428b1e1e75cf8f StaticDependenciesID=9a3ab0c1af20359aac3c5ce79ae7986d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/BrowserIcons/GraphNode_ExpandAll.png
+  importAddress: Guid(b11d31f44fd3240989ae2f36490a41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/BrowserIcons/GraphNode_ExpandAll.png using Guid(b11d31f44fd3240989ae2f36490a41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0ed6c1d7c61aa479f1e9d2629924cfb2') in 0.004588709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbe4007ad51a1a29726dcbc514a910b6 DependenciesID=ce8b0e3c665c4d671085a789c8b8da60 StaticDependenciesID=beb286dbbd31b870b44e72b8f5fe24a9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Wwise/ScriptableObjects/GameParameter/F395BCE9-5985-4094-92EE-D9EF3AE976DC.asset
+  importAddress: Guid(0a23a9768afd64f95bbfd2bc49b0641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/GameParameter/F395BCE9-5985-4094-92EE-D9EF3AE976DC.asset using Guid(0a23a9768afd64f95bbfd2bc49b0641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1004f1c47569f620138b4b6b98fe020b') in 0.000590583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76e721f6ecc60e9e453fc07be284aefc DependenciesID=3e76c59a2b2404b733df989697e21aea StaticDependenciesID=7bb624c38f32180870388813a455271c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157529 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  importAddress: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)xcrun: error: sh -c '/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -find metal-objdump 2> /dev/null' failed with exit code 17664: (null) (errno=Invalid argument)
+xcrun: error: unable to find utility "metal-objdump", not a developer tool or in PATH
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+error: error: cannot execute tool 'metal' due to missing Metal Toolchain; use: xcodebuild -downloadComponent MetalToolchain
+ -> (Import Result ID: '6cbcb95a4f4013b47f5b9c4755fb7577') in 2.751817959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b4eb5f92b19b667fc8ecaa82dab1d1ad DependenciesID=95456085d24f30acecac1bb6966f25ab StaticDependenciesID=f011b82bc7243a83ba36de670083e4f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Fonts/Santa Rosalia SDF.asset
+  importAddress: Guid(c56885f853ec64255921d18d684fa859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Santa Rosalia SDF.asset using Guid(c56885f853ec64255921d18d684fa859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '56a1509b271ed5aae569736c9aa87ec5') in 0.008934208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58872f0ee64fbb117be47d46fdecf1bb DependenciesID=c290b4cb1876fce56e578d5c417e3929 StaticDependenciesID=981c730ce6e81f3c14c14bf4b0695142 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/wproj.png
+  importAddress: Guid(5f30b8e412bcb49c5b547401248d1fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/wproj.png using Guid(5f30b8e412bcb49c5b547401248d1fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1d0c07f171b556f75d663c78a698e499') in 0.004699875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b6b47104f33dfbb3d1339d5b403b590 DependenciesID=62d258c512cc2ac277b988b5ae364529 StaticDependenciesID=873754d176356a89ce08126d1659df1c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/trigger_nor.png
+  importAddress: Guid(1f0142881d1174f8681367977e95316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/trigger_nor.png using Guid(1f0142881d1174f8681367977e95316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7b84fd93fb2c2895ecdff8049cad175e') in 0.004250875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16db83c143bb36149323701ed930eb20 DependenciesID=034fa8fe7ff54d901531f9dbbaf6207c StaticDependenciesID=7e1858e77ed2d3b427cf0cd273301fd6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  importAddress: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '197dee026f08fde9aee892635a8ba071') in 0.000604791 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f9f516b949c1b90b8c0cce80df5ec2d DependenciesID=2bf089b53be589419f0ce2cf3cf6673a StaticDependenciesID=fdfba7c117c549dbc236c436449baf28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  importAddress: Guid(96de908384869cd409c75efa351d5edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0936ead6e3e7b1b642633b39c58c10d2') in 0.000815 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d581c40b2bebaeee46eb7f4c3267105 DependenciesID=b9321ea0da396e45d5fa7a67a9c334e1 StaticDependenciesID=4694c7f3ef22d9b3f3abd0c08b396694 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Wwise/Resources/WwiseLoggerSettings.asset
+  importAddress: Guid(5dc327d4ddba643a69ed492cfbb07555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Resources/WwiseLoggerSettings.asset using Guid(5dc327d4ddba643a69ed492cfbb07555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd416387642032c6071cb6ff971cb8b64') in 0.0005265 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2faa5ea3549e481fde1a220ef8cacdf9 DependenciesID=0cf62d0c28cd0df714e7d6b45fc0cc0e StaticDependenciesID=c2ff1693e226339177bded76374a23ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Wwise/ScriptableObjects/Windows.asset
+  importAddress: Guid(e8fff913fdc9b404799f8e52ca29c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Windows.asset using Guid(e8fff913fdc9b404799f8e52ca29c6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '758457130969a819472788396f806735') in 0.001034958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee99f8bd2e45ca7be3c11e6c85ec21ef DependenciesID=663c6e5aa2d62857c8bc618cec6461fb StaticDependenciesID=3d242ad86d634408f5bb3382ce535b5b 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Wwise/ScriptableObjects/Web.asset
-  importAddress: Guid(1059234f6319740659894c38d6f73eec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/ScriptableObjects/Web.asset using Guid(1059234f6319740659894c38d6f73eec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'de3b184583717e85ae1646d890183c25') in 0.0096605 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52c860467aa85b169bef9bb815957c7d DependenciesID=fa235476f2d6e2e03e07a332386223f1 StaticDependenciesID=04f7d7ca52b992f88b453de0688e6ceb 
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/switch_nor.png
+  importAddress: Guid(eb072e1d4023a427a9dfbc9a5261c5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/switch_nor.png using Guid(eb072e1d4023a427a9dfbc9a5261c5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ac9f911e4c1b8ee3e180aff0bdd0813e') in 0.004966375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d445328efffae4c9a77ecca806bca414 DependenciesID=204e7f7e8604f7ef8b4c0cefd8a7d589 StaticDependenciesID=7011a2866b3dfbd249adbe50807b97c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  importAddress: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ea25659344912c18064825ea7a6d6796') in 0.00061325 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4aafbca621650307f5749b5f294260db DependenciesID=ad9e089bd5e3a0a63340dcd3220bb0f6 StaticDependenciesID=9dc6342d1fe7a928354958668740784f 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/state_nor.png
+  importAddress: Guid(e21119ad60c004a41ad20515a644c725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/state_nor.png using Guid(e21119ad60c004a41ad20515a644c725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7366b2613421fc6fc6a01254994643e2') in 0.00439 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9dcb1fae04c1214c9268c523e5d27e6 DependenciesID=4ac5cdfe910cbb0b40f10431f328eea0 StaticDependenciesID=c3fcc08d5f92f5bc5b646ce9abce46bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  importAddress: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f6330552ed4ddc82630863087ce5375e') in 0.00054675 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1b9bcf4db4974a245cc06fb4a12ab8c DependenciesID=1a65dd370d8763460ce513c4bc8b6e8e StaticDependenciesID=019b0864ae8d0fb5c82cb0effbf48691 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/ScaleNote.prefab
+  importAddress: Guid(47c59390d16fe4faf947ff68e64fd146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ScaleNote.prefab using Guid(47c59390d16fe4faf947ff68e64fd146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5f4dcd606d8251df6a6bdef2c40b0ab1') in 0.0030095 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00f45b6a28b5dae949604d15d23f531a DependenciesID=6c90993d1dbf1667cab609d6fef8835f StaticDependenciesID=1ba598e68b04d52359d9d4b83cd5124c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Arts/ModuneLogo.png
+  importAddress: Guid(08a803fdf68b6419592975c342e81155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/ModuneLogo.png using Guid(08a803fdf68b6419592975c342e81155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0db2a98e3fce107339f29427d77fe579') in 0.006488292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8668ac7520b81b9e339692d8ec9772ce DependenciesID=d9e2d3f654ab42f9d1324a2c73bc2c2b StaticDependenciesID=b0080065d0afec5d85c5bb8595a4b0b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Wwise/ScriptableObjects/Web.asset
+  importAddress: Guid(1059234f6319740659894c38d6f73eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Web.asset using Guid(1059234f6319740659894c38d6f73eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '100ca1257c61b55f22a07b9dcf64d771') in 0.001155916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09a13e2e8c056fea3fde7827eca32976 DependenciesID=e99fd193ed1d3747fdeaf7b8e97f1252 StaticDependenciesID=8d45a1fefcba167d77247626ae7f780d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/stategroup_nor.png
+  importAddress: Guid(81877b4bb58fe44058e61f5ec1a78cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/stategroup_nor.png using Guid(81877b4bb58fe44058e61f5ec1a78cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '99ad0946caa5ed2b28d31caefa4cf1fd') in 0.00502875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dafe6a61bbe553f4b16b9cc91cf6a003 DependenciesID=1ab65c9684c8362c02bc9674a71ecfd3 StaticDependenciesID=e2ffdf35f102a67b35fecf89613906b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Wwise/ScriptableObjects/Mac.asset
+  importAddress: Guid(6634466921e3149c5a7d9ea9e9aad7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Mac.asset using Guid(6634466921e3149c5a7d9ea9e9aad7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0506c669e0fe0cdca3d8f1b0ae2a067a') in 0.001042416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dcf02813cc8ea5a51cd363a0ff7dd1ec DependenciesID=36a0b19c0a72c55ba6d9ccd82f090f92 StaticDependenciesID=93e48aa7ace59bc800fd347777a4e401 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  importAddress: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '64710e368e35e43e92bbd4400d088296') in 0.006934708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=791ae50f9037dcf6921aa21a918b3f27 DependenciesID=cac4fe6096bc43837e07a7e7c33a0601 StaticDependenciesID=f70fd60f7a005b2ab7dbc0ae3d7d01a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  importAddress: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '610656afaffd5a24872a03935739842b') in 0.011259083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1333e6bbf3c51b9f59eaa961a06df958 DependenciesID=57a177e1497230cf47e4ea6191fc9559 StaticDependenciesID=f2a247851fe58a083baadb86424c9a8b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Options.prefab
+  importAddress: Guid(3e2e57de283c2433dbd7649feaf467a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Options.prefab using Guid(3e2e57de283c2433dbd7649feaf467a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dc8e5618bb9b1871f811e1f147328477') in 0.004566583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a69bc4c034bff87e7ae983b05fbacfc4 DependenciesID=10b19abf3103f6e4630a76423fc19ee2 StaticDependenciesID=722078c40f48be847cb4861b7f5c01e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 104
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  importAddress: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9fdaf0177dfc98609fd5a38fd2553ea5') in 0.0005845 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79043248f17f33858e57beb876180b37 DependenciesID=e33aa36a62bb0300178757d51c235351 StaticDependenciesID=7bf5fcf64164a21870811ad906762239 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Fonts/Strawberry SDF.asset
+  importAddress: Guid(62e00ec34d539480e8ef13402b2815a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Strawberry SDF.asset using Guid(62e00ec34d539480e8ef13402b2815a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '296503e8e8a48d081f2064750094daff') in 0.006988958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4be7f390967eb9fee8c967f53c33a498 DependenciesID=0d8f97e4fa501fcdd2ed3e549dd926e8 StaticDependenciesID=15b1bf6e8755b1757cc26f307afbedf8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  importAddress: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '01b4b721660883aa2511c322e18c604f') in 0.000729584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53dc825db36a45b6971a0244bc750842 DependenciesID=80b2b08e24647cdc42d96d04024de026 StaticDependenciesID=b3de4a33cc573e4907649799f42713c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/switchgroup_nor.png
+  importAddress: Guid(a6f3efc267a714bcfb47cefc4f949109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/switchgroup_nor.png using Guid(a6f3efc267a714bcfb47cefc4f949109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5068d27e117e21a5e6c165cc4747e10d') in 0.005266083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=267056fc9cba3583722e53ce4f2c4e13 DependenciesID=663a859eee9875ab1330b59eaee97ec3 StaticDependenciesID=b47483983da814e8a917bf7d475079a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  importAddress: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'de3555de91e7ffac353a477ef7bf80f3') in 0.000665458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44ecbdef3eb68bd019219260b1a7d7e5 DependenciesID=8d54a2f1f9da3325ca285093011b54bc StaticDependenciesID=c1ec0ab2b1a1c88c050a8aa2d82a06e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/workunit_nor.png
+  importAddress: Guid(637f745b91aca4eb4983708e13b03d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API/Editor/WwiseWindows/TreeViewIcons/workunit_nor.png using Guid(637f745b91aca4eb4983708e13b03d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4045be5a1c0ac861133435f49eb4b488') in 0.004743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f316d393f28acfccfe5de3e2bcb7ebc5 DependenciesID=df87a2859a0fbe376a3daf9e6656340e StaticDependenciesID=d5eada581aadc9d16e04a05231be419c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
