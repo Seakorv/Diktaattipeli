@@ -9,16 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b84d0e987a79f4d7c9d2b00b1ab960e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f1a54b96822042b488fd26bfe48223b, type: 3}
   m_Name: AkWwiseInitializationSettings
   m_EditorClassIdentifier: AK.Wwise.Unity.API::AkWwiseInitializationSettings
   PlatformSettingsNameList:
   - Android
   - Mac
+  - Web
   - Windows
   PlatformSettingsList:
   - {fileID: 11400000, guid: eb2717992138c4062bc030fa4efe0684, type: 2}
   - {fileID: 11400000, guid: 6634466921e3149c5a7d9ea9e9aad7f3, type: 2}
+  - {fileID: 11400000, guid: 1059234f6319740659894c38d6f73eec, type: 2}
   - {fileID: 11400000, guid: e8fff913fdc9b404799f8e52ca29c6ef, type: 2}
   InvalidReferencePlatforms:
   - iOS

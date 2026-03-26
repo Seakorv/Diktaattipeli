@@ -29,6 +29,13 @@
     "Path": "../../../../../Diktaattipeli_WwiseProject/GeneratedSoundBanks/Mac"
    },
    {
+    "Name": "Web",
+    "GUID": "{FE22E4F0-6802-4D47-B618-2623DCA108CA}",
+    "BasePlatform": "Web",
+    "BasePlatformGUID": "{639AD233-23F2-4C0F-9127-79F44C15E1DA}",
+    "Path": "../../../../../Diktaattipeli_WwiseProject/GeneratedSoundBanks/Web"
+   },
+   {
     "Name": "Windows",
     "GUID": "{509CE696-44DC-42AA-B14F-21EDC6BA0B19}",
     "BasePlatform": "Windows",
@@ -45,6 +52,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{324F1268-F10E-4517-77A6-13F00AB6D2AA}"
+  "FileHash": "{D48FC504-A78A-3851-5D75-55CFA28D598E}"
  }
 }
