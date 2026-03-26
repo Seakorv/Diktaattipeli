@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-03-26T18:44:25Z
+Date:                    2026-03-26T19:42:51Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-26T18:44:25.231019Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-26T19:42:51.952967Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity
@@ -23,9 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59123
--licensingIpc
-LicenseClient-arttujuntunen
+50004
 -force-metal
 -job-worker-count
 5
@@ -71,12 +69,12 @@ Successfully changed project path to: /Users/arttujuntunen/Unity/Diktaattipeli
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8766697728]  Target information:
+Player connection [8763552000]  Target information:
 
-Player connection [8766697728]  * "[IP] 192.168.50.251 [Port] 0 [Flags] 2 [Guid] 486350908 [EditorId] 486350908 [Version] 1048832 [Id] OSXEditor(0,Arttus-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8763552000]  * "[IP] 192.168.50.49 [Port] 0 [Flags] 2 [Guid] 512300376 [EditorId] 512300376 [Version] 1048832 [Id] OSXEditor(0,Arttus-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8766697728] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8766697728] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8763552000] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8763552000] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -88,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 13.81 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 22.56 ms, found 14 plugins.
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/arttujuntunen/Unity/Diktaattipeli/Assets
@@ -109,7 +107,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56206
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56617
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -119,14 +117,14 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Play
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              73395daff30d444a8632997b02dac141
-  Correlation Id:          adb602ad2f20511cf2459a7804312cc8
-  External correlation Id: 4884973464819015991
+  Session Id:              4c7b6df2724c47a5aa1bd1b627f44cae
+  Correlation Id:          879bfad0e76a7d9b3b2dcf03eddbb3d4
+  External correlation Id: 3856313897399600739
   Machine Id:              D0ssRK69MwrgWmWGKHtRBTEIAgI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen" (connect: 0.00s, validation: 0.00s, handshake: 0.86s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-notifications" at "2026-03-26T18:44:26.090109Z"
-[Licensing::Module] Licensing Background thread has ended after 0.86s
-[Licensing::Module] Licensing is initialized (took 0.27s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen" (connect: 0.00s, validation: 0.00s, handshake: 0.78s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-notifications" at "2026-03-26T19:42:52.73844Z"
+[Licensing::Module] Licensing Background thread has ended after 0.79s
+[Licensing::Module] Licensing is initialized (took 0.23s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 5773553284137-UnityPersXXXX
@@ -136,13 +134,13 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Play
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.275726 seconds.
+Registered in 0.229890 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 157 ms
+Android Extension - Scanning For ADB Devices 82 ms
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -152,23 +150,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.505 seconds
-Domain Reload Profiling: 1069ms
-	BeginReloadAssembly (67ms)
-	RebuildCommonClasses (27ms)
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 919ms
+	BeginReloadAssembly (78ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (309ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (67ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (129ms)
-	FinalizeReload (505ms)
+	initialDomainReloadingComplete (262ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (78ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (124ms)
+	FinalizeReload (398ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (273ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (65ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			InitializePlatformSupportModulesInManaged (178ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (59ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 [CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
@@ -212,7 +210,7 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Refreshing native plugins compatible for Editor in 7.08 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 5.22 ms, found 14 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -221,95 +219,66 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.05 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 4.78 ms, found 14 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.645 seconds
-Domain Reload Profiling: 1187ms
+- Finished resetting the current domain, in  0.556 seconds
+Domain Reload Profiling: 1127ms
 	BeginReloadAssembly (90ms)
 		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (382ms)
-		LoadAssemblies (229ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (121ms)
-			BuildScriptInfoCaches (43ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (239ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (130ms)
+			BuildScriptInfoCaches (41ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (645ms)
+	FinalizeReload (556ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (302ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Launching external process: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.97 ms, found 14 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.80 ms, found 14 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7547 unused Assets / (4.5 MB). Loaded Objects now: 8223.
-Memory consumption went from 174.4 MB to 169.8 MB.
-Total: 8.503250 ms (FindLiveObjects: 0.370625 ms CreateObjectMapping: 0.263625 ms MarkObjects: 5.991125 ms  DeleteObjects: 1.877542 ms)
+Unloading 7548 unused Assets / (5.2 MB). Loaded Objects now: 8224.
+Memory consumption went from 175.1 MB to 169.9 MB.
+Total: 7.739166 ms (FindLiveObjects: 0.483084 ms CreateObjectMapping: 0.279541 ms MarkObjects: 5.323500 ms  DeleteObjects: 1.652917 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 93073.534717 seconds.
-  path: Assets/Fonts/Strawberry SDF.asset
-  importAddress: Guid(62e00ec34d539480e8ef13402b2815a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fonts/Strawberry SDF.asset using Guid(62e00ec34d539480e8ef13402b2815a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '024a4659d1c1521b1b645ef50f3709ed') in 0.061871166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=232a4a3cfab1facd922f80a5cb6b1958 DependenciesID=8181b8e8866c993022bc128b972a1d2d StaticDependenciesID=ddf430c61982e3e8a5823f96b072a8bd 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 825.833277 seconds.
+  path: Assets/Scripts/GameManager.cs
+  importAddress: Guid(34d2e101b20894bbbb347f36b7b31df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/GameManager.cs using Guid(34d2e101b20894bbbb347f36b7b31df1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ac9024130c8ddf5bdeaef9f92c4202b') in 0.031439042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce2ead5f11e8c795604a6302c7eb0d2c DependenciesID=0d0ca8cb0401403354761cc3eb74c65f StaticDependenciesID=e0d81bdeb50644d92e955c96d3a30f23 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/WebGL/Profile/libAkUnitySoundEngine.a
-  importAddress: Guid(6e0584a9ca4154e5c8747547a9246af3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/WebGL/Profile/libAkUnitySoundEngine.a using Guid(6e0584a9ca4154e5c8747547a9246af3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9fc41caf5590e0bc4da75e03bd8b0491') in 0.003194958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11b21c492aa0794e5a65094408dde314 DependenciesID=59e5c56afefc0069a0064e2c00f97fc4 StaticDependenciesID=47cae9ceb953cf215e17765b21e44380 
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scripts/StartGame.cs
+  importAddress: Guid(a7513aad61a3041bfa887ec24126014f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/StartGame.cs using Guid(a7513aad61a3041bfa887ec24126014f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '62b988c429c2817a4475bb487464864b') in 0.002163292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcd8b3912bac6946793421e0dc0bf293 DependenciesID=7224d0792d3818e914a6128445aadc67 StaticDependenciesID=a88aa5b5afe9c0f89ffad6b01c8b0195 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.20 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (2.7 MB). Loaded Objects now: 8225.
-Memory consumption went from 160.5 MB to 157.8 MB.
-Total: 6.048916 ms (FindLiveObjects: 0.238875 ms CreateObjectMapping: 0.134917 ms MarkObjects: 5.362916 ms  DeleteObjects: 0.311833 ms)
-
-Prepare: number of updated asset objects reloaded= 224
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.09 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (2.7 MB). Loaded Objects now: 8225.
-Memory consumption went from 160.4 MB to 157.7 MB.
-Total: 6.880875 ms (FindLiveObjects: 0.265084 ms CreateObjectMapping: 0.146834 ms MarkObjects: 6.080375 ms  DeleteObjects: 0.387834 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x1747b3000 may have been prematurely finalized
+Thread 0x17312b000 may have been prematurely finalized
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
@@ -347,7 +316,7 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Refreshing native plugins compatible for Editor in 19.10 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 4.18 ms, found 14 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -356,342 +325,47 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.80 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 4.59 ms, found 14 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.569 seconds
-Domain Reload Profiling: 1315ms
-	BeginReloadAssembly (223ms)
-		DisableScriptedObjects (26ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (455ms)
-		LoadAssemblies (315ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (94ms)
-			BuildScriptInfoCaches (73ms)
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1022ms
+	BeginReloadAssembly (108ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (205ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (14ms)
+			BuildScriptInfoCaches (110ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (570ms)
+	FinalizeReload (545ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (265ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.80 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 6.94 ms, found 14 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7546 unused Assets / (6.0 MB). Loaded Objects now: 8229.
-Memory consumption went from 181.0 MB to 175.1 MB.
-Total: 8.443625 ms (FindLiveObjects: 0.456667 ms CreateObjectMapping: 0.281375 ms MarkObjects: 5.680875 ms  DeleteObjects: 2.024375 ms)
+Unloading 7547 unused Assets / (4.9 MB). Loaded Objects now: 8230.
+Memory consumption went from 187.4 MB to 182.5 MB.
+Total: 7.942084 ms (FindLiveObjects: 0.431125 ms CreateObjectMapping: 0.326042 ms MarkObjects: 5.456041 ms  DeleteObjects: 1.728584 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.91 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.4 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.1 MB.
-Total: 7.174458 ms (FindLiveObjects: 0.425167 ms CreateObjectMapping: 0.277416 ms MarkObjects: 4.762584 ms  DeleteObjects: 1.708791 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.28 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.4 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.1 MB.
-Total: 7.945000 ms (FindLiveObjects: 0.458250 ms CreateObjectMapping: 0.322250 ms MarkObjects: 5.392833 ms  DeleteObjects: 1.771083 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.90 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.0 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.4 MB.
-Total: 7.751375 ms (FindLiveObjects: 0.419167 ms CreateObjectMapping: 0.276250 ms MarkObjects: 5.490083 ms  DeleteObjects: 1.565500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.35 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.3 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.2 MB.
-Total: 7.320625 ms (FindLiveObjects: 0.491166 ms CreateObjectMapping: 0.273667 ms MarkObjects: 4.844167 ms  DeleteObjects: 1.711250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.73 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.4 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.1 MB.
-Total: 7.417875 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.284291 ms MarkObjects: 4.954917 ms  DeleteObjects: 1.709458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.69 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.3 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.1 MB.
-Total: 7.098625 ms (FindLiveObjects: 0.380375 ms CreateObjectMapping: 0.270208 ms MarkObjects: 4.787625 ms  DeleteObjects: 1.659916 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.06 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.5 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.0 MB.
-Total: 12.362917 ms (FindLiveObjects: 0.560750 ms CreateObjectMapping: 0.270834 ms MarkObjects: 9.735167 ms  DeleteObjects: 1.795958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.16 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.3 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.2 MB.
-Total: 7.355750 ms (FindLiveObjects: 0.402667 ms CreateObjectMapping: 0.228417 ms MarkObjects: 5.105708 ms  DeleteObjects: 1.618459 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.58 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.2 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.3 MB.
-Total: 7.687375 ms (FindLiveObjects: 0.451042 ms CreateObjectMapping: 0.260708 ms MarkObjects: 5.264333 ms  DeleteObjects: 1.710875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.51 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.3 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.2 MB.
-Total: 7.316958 ms (FindLiveObjects: 0.422000 ms CreateObjectMapping: 0.257042 ms MarkObjects: 5.101166 ms  DeleteObjects: 1.536375 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.62 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7344 unused Assets / (5.0 MB). Loaded Objects now: 8229.
-Memory consumption went from 167.5 MB to 162.5 MB.
-Total: 7.060375 ms (FindLiveObjects: 0.433334 ms CreateObjectMapping: 0.264291 ms MarkObjects: 4.851000 ms  DeleteObjects: 1.511417 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.65 ms, found 14 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (2.7 MB). Loaded Objects now: 8229.
-Memory consumption went from 163.5 MB to 160.8 MB.
-Total: 6.112000 ms (FindLiveObjects: 0.254833 ms CreateObjectMapping: 0.127167 ms MarkObjects: 5.422250 ms  DeleteObjects: 0.307625 ms)
-
-
-=================================================================
-	Native Crash Reporting
-=================================================================
-Got a segv while executing native code. This usually indicates
-a fatal error in the mono runtime or one of the native libraries 
-used by your application.
-=================================================================
-
-=================================================================
-	Native stacktrace:
-=================================================================
-	0x170bc1368 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Frameworks/libmonobdwgc-2.0.dylib : mono_dump_native_crash_info
-	0x170b835e8 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Frameworks/libmonobdwgc-2.0.dylib : mono_handle_native_crash
-	0x170b0bdf0 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Frameworks/libmonobdwgc-2.0.dylib : mono_sigsegv_signal_handler_debug
-	0x19e5d9764 - /usr/lib/system/libsystem_platform.dylib : _sigtramp
-	0x107037a78 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZNK4core13base_hash_setINS_4pairIKNS_12basic_stringIcNS_20StringStorageDefaultIcEEEEN8keywords12LocalKeywordELb1EEENS_9hash_pairINS_4hashINS_16basic_string_refIcEEEES5_EENS_10equal_pairINSt3__18equal_toISD_EES5_EEE6lookupISD_SK_EEPNSL_4nodeERKT_RKT0_
-	0x107033c54 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN8keywords12KeywordRemap4InitERKNS_10LocalSpaceES3_
-	0x107061130 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN9ShaderLab9IntShader15ResolveFallbackERKNS_16SerializedShaderEP6ShaderRN4core6vectorI4PPtrIS4_ENS6_9allocatorIS9_Lm0EEEEEb
-	0x106fdd120 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN9ShaderLab9IntShader36CreateFromSerializedShaderMainThreadEPS0_RKNS_16SerializedShaderERN4core6vectorI4PPtrI6ShaderENS5_9allocatorIS9_Lm0EEEEEbPS8_
-	0x106fe12f4 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _Z36ShaderFromSerializedShaderMainThreadPN9ShaderLab9IntShaderEPKNS_16SerializedShaderERN4core6vectorI4PPtrI6ShaderENS5_9allocatorIS9_Lm0EEEEEbPS8_
-	0x10751aef4 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN6Shader20CreateFromParsedFormEv
-	0x10751b254 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN6Shader13AwakeFromLoadE17AwakeFromLoadMode
-	0x1072cfa40 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue28InvokePersistentManagerAwakeEPNS_4ItemEj17AwakeFromLoadModeb
-	0x1072cf400 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue41PersistentManagerSingleQueueAwakeFromLoadEi17AwakeFromLoadMode
-	0x1072cf030 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN18AwakeFromLoadQueue39PersistentManagerAwakeFromLoad_NoChecksE17AwakeFromLoadMode
-	0x1072dbe9c - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager27IntegrateAllThreadedObjectsEv
-	0x1072dd3bc - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager38LoadAndIntegrateAllPreallocatedObjectsENS_9LockFlagsE
-	0x1072dfc24 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _ZN17PersistentManager11LoadObjectsEPK8EntityIdib
-	0x104af4afc - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _Z15ReloadInstancesRKN4core6vectorI8EntityIdNS_9allocatorIS1_Lm0EEEEERKNS_8hash_mapIS1_17ScriptingGCHandleNS_4hashIS1_EENSt3__18equal_toIS1_EEEE
-	0x104af6fd8 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _Z19ReloadAssetIfLoadedRK9UnityGUID
-	0x1049f0fe0 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : ___ZZN23AssetImportWorkerClient13HandleMessageERK14PrepareMessageENK4$_12clEv_block_invoke
-	0x19e42cad4 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
-	0x19e422a18 - /usr/lib/system/libdispatch.dylib : _dispatch_async_and_wait_invoke
-	0x19e42cad4 - /usr/lib/system/libdispatch.dylib : _dispatch_client_callout
-	0x19e44a0d0 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_drain.cold.5
-	0x19e421f48 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_drain
-	0x19e421e84 - /usr/lib/system/libdispatch.dylib : _dispatch_main_queue_callback_4CF
-	0x19e6989a0 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
-	0x19e66d7fc - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRunLoopRun
-	0x19e727f3c - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : _CFRunLoopRunSpecificWithOptions
-	0x1ab1d8790 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : RunCurrentEventLoopInMode
-	0x1ab1dbab8 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : ReceiveNextEventCommon
-	0x1ab365b64 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : _BlockUntilNextEventMatchingListInMode
-	0x1a2f8a014 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSBlockUntilNextEventMatchingListInMode
-	0x1a2a87e48 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
-	0x1a354ef08 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
-	0x1a354ec14 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEventRouting) nextEventMatchingMask:untilDate:inMode:dequeue:]
-	0x1a2a80780 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
-	0x1a2a6c6dc - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
-	0x105a28850 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : _Z10EditorMainiPPKc
-	0x105a28b34 - /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity : main
-	0x19e205d54 - /usr/lib/dyld : start
-
-=================================================================
-	Telemetry Dumper:
-=================================================================
-Pkilling 0x6248624128x from 0x8766697728x
-Pkilling 0x6280065024x from 0x8766697728x
-Pkilling 0x6114734080x from 0x8766697728x
-Pkilling 0x6116454400x from 0x8766697728x
-Pkilling 0x6115307520x from 0x8766697728x
-Pkilling 0x6252212224x from 0x8766697728x
-Pkilling 0x6114160640x from 0x8766697728x
-Pkilling 0x6183350272x from 0x8766697728x
-Pkilling 0x6109999104x from 0x8766697728x
-Pkilling 0x6277918720x from 0x8766697728x
-Pkilling 0x6115880960x from 0x8766697728x
-Pkilling 0x6103838720x from 0x8766697728x
-Pkilling 0x6185496576x from 0x8766697728x
-Pkilling 0x12903804928x from 0x8766697728x
-Entering thread summarizer pause from 0x8766697728x
-Finished thread summarizer pause from 0x8766697728x.
-Failed to create breadcrumb file (null)/crash_hash_0x0
-debugger-agent: Unable to listen on 42
-
-Waiting for dumping threads to resume
-
-=================================================================
-	External Debugger Dump:
-=================================================================
-
-=================================================================
-	Basic Fault Address Reporting
-=================================================================
-Memory around native instruction pointer (0x107037a94):0x107037a84  8a 02 40 f9 ab f1 7d d3 6b 01 0d cb 40 01 0b 8b  ..@...}.k...@...
-0x107037a94  0c 00 40 b9 9f 01 09 6b 01 03 00 54 eb 03 00 aa  ..@....k...T....
-0x107037aa4  6e 8d 40 f8 6f 7d 40 39 f0 03 80 52 10 02 0f cb  n.@.o}@9...R....
-0x107037ab4  71 09 40 f9 ff 01 01 71 6f 31 8e 9a 0e 32 91 9a  q.@....qo1...2..
-
-=================================================================
-	Managed Stacktrace:
-=================================================================
-=================================================================
-Obtained 37 stack frames.
-#0  0x00000107037a94 in core::base_hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, keywords::LocalKeyword, true>, core::hash_pair<core::hash<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>::node* core::base_hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, keywords::LocalKeyword, true>, core::hash_pair<core::hash<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>::lookup<core::basic_string_ref<char>, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>>>(core::basic_string_ref<char> const&, core::equal_pair<std::__1::equal_to<core::basic_string_ref<char>>, core::basic_string<char, core::StringStorageDefault<char>>> const&) const
-#1  0x00000107033c54 in keywords::KeywordRemap::Init(keywords::LocalSpace const&, keywords::LocalSpace const&)
-#2  0x00000107061130 in ShaderLab::IntShader::ResolveFallback(ShaderLab::SerializedShader const&, Shader*, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool)
-#3  0x00000106fdd120 in ShaderLab::IntShader::CreateFromSerializedShaderMainThread(ShaderLab::IntShader*, ShaderLab::SerializedShader const&, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool, Shader*)
-#4  0x00000106fe12f4 in ShaderFromSerializedShaderMainThread(ShaderLab::IntShader*, ShaderLab::SerializedShader const*, core::vector<PPtr<Shader>, core::allocator<PPtr<Shader>, 0ul>>&, bool, Shader*)
-#5  0x0000010751aef4 in Shader::CreateFromParsedForm()
-#6  0x0000010751b254 in Shader::AwakeFromLoad(AwakeFromLoadMode)
-#7  0x000001072cfa40 in AwakeFromLoadQueue::InvokePersistentManagerAwake(AwakeFromLoadQueue::Item*, unsigned int, AwakeFromLoadMode, bool)
-#8  0x000001072cf400 in AwakeFromLoadQueue::PersistentManagerSingleQueueAwakeFromLoad(int, AwakeFromLoadMode)
-#9  0x000001072cf030 in AwakeFromLoadQueue::PersistentManagerAwakeFromLoad_NoChecks(AwakeFromLoadMode)
-#10 0x000001072dbe9c in PersistentManager::IntegrateAllThreadedObjects()
-#11 0x000001072dd3bc in PersistentManager::LoadAndIntegrateAllPreallocatedObjects(PersistentManager::LockFlags)
-#12 0x000001072dfc24 in PersistentManager::LoadObjects(EntityId const*, int, bool)
-#13 0x00000104af4afc in ReloadInstances(core::vector<EntityId, core::allocator<EntityId, 0ul>> const&, core::hash_map<EntityId, ScriptingGCHandle, core::hash<EntityId>, std::__1::equal_to<EntityId>> const&)
-#14 0x00000104af6fd8 in ReloadAssetIfLoaded(UnityGUID const&)
-#15 0x000001049f0fe0 in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_12::operator()() const
-#16 0x0000019e42cad4 in _dispatch_client_callout
-#17 0x0000019e422a18 in _dispatch_async_and_wait_invoke
-#18 0x0000019e42cad4 in _dispatch_client_callout
-#19 0x0000019e44a0d0 in _dispatch_main_queue_drain.cold.5
-#20 0x0000019e421f48 in _dispatch_main_queue_drain
-#21 0x0000019e421e84 in _dispatch_main_queue_callback_4CF
-#22 0x0000019e6989a0 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
-#23 0x0000019e66d7fc in __CFRunLoopRun
-#24 0x0000019e727f3c in _CFRunLoopRunSpecificWithOptions
-#25 0x000001ab1d8790 in RunCurrentEventLoopInMode
-#26 0x000001ab1dbab8 in ReceiveNextEventCommon
-#27 0x000001ab365b64 in _BlockUntilNextEventMatchingListInMode
-#28 0x000001a2f8a014 in _DPSBlockUntilNextEventMatchingListInMode
-#29 0x000001a2a87e48 in _DPSNextEvent
-#30 0x000001a354ef08 in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
-#31 0x000001a354ec14 in -[NSApplication(NSEventRouting) nextEventMatchingMask:untilDate:inMode:dequeue:]
-#32 0x000001a2a80780 in -[NSApplication run]
-#33 0x000001a2a6c6dc in NSApplicationMain
-#34 0x00000105a28850 in EditorMain(int, char const**)
-#35 0x00000105a28b34 in main
-#36 0x0000019e205d54 in start
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

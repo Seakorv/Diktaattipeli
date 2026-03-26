@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_ERRORSFX = 1921777701U;
         static const AkUniqueID PLAY_FIVESFX = 2937730755U;
         static const AkUniqueID PLAY_FOURSFX = 2774229803U;
+        static const AkUniqueID PLAY_MENUMUSIC = 2570041344U;
         static const AkUniqueID PLAY_NINESFX = 1729980979U;
         static const AkUniqueID PLAY_ONESFX = 368130171U;
         static const AkUniqueID PLAY_SCALESONGS = 817798694U;
@@ -29,6 +30,7 @@ namespace AK
         static const AkUniqueID PLAY_THRITEENSFX = 3384797370U;
         static const AkUniqueID PLAY_TWELVESFX = 1252036970U;
         static const AkUniqueID PLAY_TWOSFX = 1434809009U;
+        static const AkUniqueID STOP_MENUMUSIC = 2753202630U;
     } // namespace EVENTS
 
     namespace STATES
@@ -39,7 +41,7 @@ namespace AK
 
             namespace STATE
             {
-                static const AkUniqueID CHILLPIANO = 1090423996U;
+                static const AkUniqueID CHILL = 4294400669U;
                 static const AkUniqueID EASYSYNTH = 926145703U;
                 static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID METAL = 2473969246U;

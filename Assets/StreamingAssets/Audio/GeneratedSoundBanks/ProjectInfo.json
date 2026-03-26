@@ -3,9 +3,9 @@
   "Project": {
    "Name": "Diktaattipeli_WwiseProject",
    "GUID": "{77187925-B0A5-4C27-9A5D-4CE005BE88F0}",
-   "Generator": "2025.1.4.9062"
+   "Generator": "2025.1.6.9117"
   },
-  "CacheRoot": "../.cache",
+  "CacheRoot": "../../../../Diktaattipeli_WwiseProject/.cache",
   "Platforms": [
    {
     "Name": "Android",
@@ -29,6 +29,13 @@
     "Path": "Mac"
    },
    {
+    "Name": "Web",
+    "GUID": "{FE22E4F0-6802-4D47-B618-2623DCA108CA}",
+    "BasePlatform": "Web",
+    "BasePlatformGUID": "{639AD233-23F2-4C0F-9127-79F44C15E1DA}",
+    "Path": "Web"
+   },
+   {
     "Name": "Windows",
     "GUID": "{509CE696-44DC-42AA-B14F-21EDC6BA0B19}",
     "BasePlatform": "Windows",
@@ -45,6 +52,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{59F9575A-BC8A-8C05-9EAD-57715E8BA69C}"
+  "FileHash": "{D4E621D1-BA84-9112-7BCB-1B1242C6296E}"
  }
 }
