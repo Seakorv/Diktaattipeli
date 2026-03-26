@@ -29,7 +29,7 @@ public class GameOver : MonoBehaviour
     private void OnMainMenuClick()
     {
         AkUnitySoundEngine.StopAll();
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void SetPoints(int points)

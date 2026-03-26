@@ -34,7 +34,7 @@ public class StartGame : MonoBehaviour
     private void OnMainMenuClick()
     {
         AkUnitySoundEngine.StopAll();
-        SceneManager.LoadSceneAsync(0);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void SetPopUpGameName(string game)

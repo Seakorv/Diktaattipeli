@@ -58,13 +58,13 @@ public class MainMenu : MonoBehaviour
     public void OpenGameModeOne()
     {
         SetMenuMusic(false);
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(2);
     }
 
     public void OpenGameModeTwo()
     {
         SetMenuMusic(false);
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(3);
     }
 
     public void OpenOptions()
