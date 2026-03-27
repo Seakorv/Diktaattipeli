@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Web" BasePlatform="Web" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{33FB0BA5-D4C8-2638-307C-AFA91FFDC0AD}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{1E7CC126-B383-4E1C-AD58-95EF25802344}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{79B14271-0A73-4067-B98A-6CED425E86DA}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="1502772432" Name="SFX Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX Bus" GUID="{D14DDC5E-4F44-418C-B12A-19EEADABF574}"/>
+				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3127962312" Name="Music Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Music Bus" GUID="{9DAE839C-07E9-4039-9B97-A5003C17E2A7}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume" GUID="{E81A65A4-31D1-4D24-8A37-D499C937B429}"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume" GUID="{F395BCE9-5985-4094-92EE-D9EF3AE976DC}"/>
+				<GameParameter Id="3803850708" Name="SfxBus" ObjectPath="\Game Parameters\Default Work Unit\SfxBus" GUID="{41721D20-490D-4DD1-8517-6FB4139F04AD}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="92342489" Name="ScaleGenres" ObjectPath="\States\Default Work Unit\ScaleGenres" GUID="{34119791-BC83-4C9E-ABD2-39739870E6C0}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ScaleGenres\None" GUID="{E221B796-6943-41E2-BF23-E0718CD665DE}"/>
+						<State Id="926145703" Name="EasySynth" ObjectPath="\States\Default Work Unit\ScaleGenres\EasySynth" GUID="{AE030C5F-7EED-4379-BE3B-1AC6C667A6F0}"/>
+						<State Id="2473969246" Name="Metal" ObjectPath="\States\Default Work Unit\ScaleGenres\Metal" GUID="{1B3F6C11-4C51-4CA3-9C0F-0C1F8B68CB68}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\ScaleGenres\MainMenu" GUID="{E5822606-7595-4C38-927F-E02B9E5302A0}"/>
+						<State Id="4294400669" Name="Chill" ObjectPath="\States\Default Work Unit\ScaleGenres\Chill" GUID="{B244221A-5FCA-4053-A711-28F9A8F4A953}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="748887965" Name="BaseNotes" ObjectPath="\Switches\Default Work Unit\BaseNotes" GUID="{7145B5BF-CC01-4F79-ACE0-4AF333EFC696}">
+					<Switches>
+						<Switch Id="84696443" Name="D" ObjectPath="\Switches\Default Work Unit\BaseNotes\D" GUID="{CDEAD4ED-BD43-4FC6-AC23-75E007395E74}"/>
+						<Switch Id="84696445" Name="B" ObjectPath="\Switches\Default Work Unit\BaseNotes\B" GUID="{71B2BC0E-0621-40EA-9606-5873E82721C6}"/>
+						<Switch Id="1117237268" Name="Cis" ObjectPath="\Switches\Default Work Unit\BaseNotes\Cis" GUID="{6297F96C-C875-4809-BE62-DD1F0FA0F08E}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1454150757" Name="ScaleSwitch" ObjectPath="\Switches\Default Work Unit\ScaleSwitch" GUID="{D494047B-FA0B-4155-98E4-BB927BD535D7}">
+					<Switches>
+						<Switch Id="40732931" Name="Locrian" ObjectPath="\Switches\Default Work Unit\ScaleSwitch\Locrian" GUID="{1D3BF287-FAAA-4D03-B245-F7C1E1C2E892}"/>
+						<Switch Id="610372824" Name="Dorian" ObjectPath="\Switches\Default Work Unit\ScaleSwitch\Dorian" GUID="{F66111AB-E1A4-494A-ABC2-6F0D1B5C569C}"/>
+						<Switch Id="927541631" Name="Phrygian" ObjectPath="\Switches\Default Work Unit\ScaleSwitch\Phrygian" GUID="{9D0DE504-78D1-4DE5-899E-CE54FDB2A8BC}"/>
+						<Switch Id="1524650939" Name="Ionian" ObjectPath="\Switches\Default Work Unit\ScaleSwitch\Ionian" GUID="{2E986AAA-19EB-43EC-AE11-A70754E900EC}"/>
+						<Switch Id="2758142541" Name="Mixolydian" ObjectPath="\Switches\Default Work Unit\ScaleSwitch\Mixolydian" GUID="{4DEE75F2-4C3A-494C-AEF4-191F12CD721B}"/>
+						<Switch Id="3294824594" Name="Aeolian" ObjectPath="\Switches\Default Work Unit\ScaleSwitch\Aeolian" GUID="{906637CC-E85F-4E85-A2C3-F6AEC5517DDB}"/>
+						<Switch Id="3817576676" Name="Lydian" ObjectPath="\Switches\Default Work Unit\ScaleSwitch\Lydian" GUID="{1324D3DD-55A8-4543-92E9-DA87B63C2708}"/>
+						<Switch Id="4158285989" Name="GameOver" ObjectPath="\Switches\Default Work Unit\ScaleSwitch\GameOver" GUID="{8EE19AC0-5B0E-4C15-8A29-32D17A6C3E34}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E1C2D9A3-CCA0-A0D6-46F1-DF997C499338}</FileHash>
+</SoundBanksInfo>

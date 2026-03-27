@@ -147,7 +147,7 @@
 				<Property Name="Music Transition List\{FA87512F-DBEC-44B4-9C10-E4BE5495BD69}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{FB983A67-FB42-47E8-A11C-73455AD1B008}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{FB983A67-FB42-47E8-A11C-73455AD1B008}\x64_Expand States" Type="string" Value=""/>
-				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value="ewAxADUAQgBEAEMAQgBEAEIALQA1AEMAMgAwAC0ANABFADkARAAtAEIARAA3AEUALQBDADQAMgA1AEIAQwA0AEMAMAA5AEIAMwB9AAAAAAE="/>
+				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value="ewBEADIAOAA0AEUAMQA4ADIALQAxAEMAMwA1AC0ANABEADQANgAtADkAMAAwADIALQBCADUAQwAzADMAMQAxADgAQQA4AEQAOQB9AAAAAAE="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{618C1FF9-37D4-45A7-AF0A-E2D511E44707}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{826CEF9F-ACB3-45D2-8319-9C9994E4CA5C}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{A45AAC64-78D1-46A7-88FA-F242B38651B4}" Type="string" Value=""/>
@@ -159,8 +159,8 @@
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Audio_FocusedObject" Type="string" Value="{BED42329-FBAA-45CA-AA0D-D5C43895336B}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentSearch" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="2"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\Events_FocusedObject" Type="string" Value="{D8BFCD6A-3B25-44A1-8CDE-34F545E0D85F}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="1"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\Events_FocusedObject" Type="string" Value="{D284E182-1C35-4D46-9002-B5C33118A8D9}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Game Syncs_FocusedObject" Type="string" Value="{41721D20-490D-4DD1-8517-6FB4139F04AD}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Queries_FocusedObject" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Sessions_FocusedObject" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>

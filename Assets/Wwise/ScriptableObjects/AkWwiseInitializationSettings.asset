@@ -25,7 +25,7 @@ MonoBehaviour:
   InvalidReferencePlatforms:
   - iOS
   UserSettings:
-    m_BasePath: Audio/GeneratedSoundBanks/
+    m_BasePath: Audio/GeneratedSoundBanks
     m_StartupLanguage: English(US)
     m_EngineLogging: 1
     m_IsDecodedBankEnabled: 0
