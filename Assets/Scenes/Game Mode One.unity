@@ -1361,9 +1361,10 @@ MonoBehaviour:
   metalTempo: 90
   chillTempo: 94
   CurrentScaleObject: {fileID: 0}
+  PreviousScaleObject: {fileID: 0}
   timerBar: {fileID: 299231133}
-  timerDecreaseSpeed: 0.3
-  wrongAnswerTimerDecrease: 100
+  timerDecreaseSpeed: 0.5
+  wrongAnswerTimerDecrease: 150
   correctAnswerTimerIncrease: 100
   correctCounterText: {fileID: 383794573}
   wrongCounterText: {fileID: 2050627089}
@@ -3349,6 +3350,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3734,7 +3736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8.884613, y: -3.9484863}
+  m_AnchoredPosition: {x: 8.884644, y: -3.9484863}
   m_SizeDelta: {x: 124.3832, y: 126.3575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2106972827

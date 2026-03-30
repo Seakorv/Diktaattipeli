@@ -237,9 +237,10 @@ MonoBehaviour:
   metalTempo: 90
   chillTempo: 94
   CurrentScaleObject: {fileID: 0}
+  PreviousScaleObject: {fileID: 0}
   timerBar: {fileID: 1451705963}
-  timerDecreaseSpeed: 0.3
-  wrongAnswerTimerDecrease: 50
+  timerDecreaseSpeed: 0.2
+  wrongAnswerTimerDecrease: 200
   correctAnswerTimerIncrease: 150
   correctCounterText: {fileID: 1078897717}
   wrongCounterText: {fileID: 1906282595}
@@ -3618,6 +3619,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0

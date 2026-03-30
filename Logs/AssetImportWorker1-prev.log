@@ -7,9 +7,9 @@ Darwin version:          25.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-03-26T23:19:28Z
+Date:                    2026-03-26T23:45:19Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-26T23:19:28.614011Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen" at "2026-03-26T23:45:19.234474Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65423
+50867
 -force-metal
 -job-worker-count
 5
@@ -71,7 +71,7 @@ Successfully changed project path to: /Users/arttujuntunen/Unity/Diktaattipeli
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
 Player connection [8763552000]  Target information:
 
-Player connection [8763552000]  * "[IP] 192.168.50.49 [Port] 0 [Flags] 2 [Guid] 1839199270 [EditorId] 1839199270 [Version] 1048832 [Id] OSXEditor(0,Arttus-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8763552000]  * "[IP] 192.168.50.49 [Port] 0 [Flags] 2 [Guid] 2730813944 [EditorId] 2730813944 [Version] 1048832 [Id] OSXEditor(0,Arttus-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8763552000] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8763552000] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 14.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.43 ms, found 4 plugins.
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/arttujuntunen/Unity/Diktaattipeli/Assets
@@ -107,7 +107,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56458
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56683
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -117,12 +117,12 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Play
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              1f0f71816a854589b8c3d44ee116330f
+  Session Id:              9fa03b7276d54975b231b0e85e64066a
   Correlation Id:          a0bb263a0a94a40a461618155119ad08
-  External correlation Id: 4933246673904989024
+  External correlation Id: 8684204639399106261
   Machine Id:              D0ssRK69MwrgWmWGKHtRBTEIAgI=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-arttujuntunen" (connect: 0.00s, validation: 0.00s, handshake: 0.84s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-notifications" at "2026-03-26T23:19:29.449979Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-arttujuntunen-notifications" at "2026-03-26T23:45:20.074834Z"
 [Licensing::Module] Licensing Background thread has ended after 0.84s
 [Licensing::Module] Licensing is initialized (took 0.32s).
 [Licensing::Client] Successfully resolved entitlement details
@@ -134,13 +134,13 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/Play
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.322520 seconds.
+Registered in 0.317453 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 381 ms
+Android Extension - Scanning For ADB Devices 270 ms
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -150,23 +150,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.677 seconds
-Domain Reload Profiling: 1267ms
-	BeginReloadAssembly (55ms)
-	RebuildCommonClasses (26ms)
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 1200ms
+	BeginReloadAssembly (56ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (353ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (55ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (126ms)
-	FinalizeReload (677ms)
+	initialDomainReloadingComplete (350ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (56ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (140ms)
+	FinalizeReload (596ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (467ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (54ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			InitializePlatformSupportModulesInManaged (365ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 [CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
@@ -210,7 +210,7 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Refreshing native plugins compatible for Editor in 5.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -219,33 +219,33 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 6.51 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.63 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.660 seconds
-Domain Reload Profiling: 1150ms
-	BeginReloadAssembly (85ms)
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1202ms
+	BeginReloadAssembly (90ms)
 		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (337ms)
-		LoadAssemblies (185ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (121ms)
-			BuildScriptInfoCaches (45ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (660ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (224ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (647ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -254,75 +254,19 @@ Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support con
 LogWwiseProjectDatabase Log: Platform Mac: Having both "Generate All Banks Metadata file" and "Generate Per Bank Metadata file" will use the latter.
 Launching external process: /Applications/Unity/Hub/Editor/6000.4.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.70 ms, found 4 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7548 unused Assets / (5.8 MB). Loaded Objects now: 8224.
-Memory consumption went from 174.7 MB to 168.9 MB.
-Total: 7.779542 ms (FindLiveObjects: 0.398417 ms CreateObjectMapping: 0.279833 ms MarkObjects: 5.122125 ms  DeleteObjects: 1.978917 ms)
+Unloading 7548 unused Assets / (4.8 MB). Loaded Objects now: 8224.
+Memory consumption went from 175.0 MB to 170.1 MB.
+Total: 8.595875 ms (FindLiveObjects: 0.461833 ms CreateObjectMapping: 0.479959 ms MarkObjects: 5.702416 ms  DeleteObjects: 1.951417 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13822.702880 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkRecorderADM.dll
-  importAddress: Guid(dd136ecd323b74b2887291278596b8e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/AkRecorderADM.dll using Guid(dd136ecd323b74b2887291278596b8e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '21e4e101d7643e4af08aa7c9887d0285') in 0.037275042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af033532c2d2dbffaaff8034a718746c DependenciesID=41eee9c07f798ccd0f02f93e1ec97a79 StaticDependenciesID=dd8f76c533e7ad6540835f8acb5e7432 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAuro.bundle
-  importAddress: Guid(a89851aebde8848928adbc280bc8ce87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAuro.bundle using Guid(a89851aebde8848928adbc280bc8ce87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd18d63c81be4adf4ca98f2990aa6410a') in 0.002289583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b99523a15027a165968c0463fe8f871 DependenciesID=4497722d194d54a750a142b51d302e22 StaticDependenciesID=70a9d25e44bb2f3e2f90c9356c14dd4e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/McDSP.dll
-  importAddress: Guid(77ee3d98d76c6430f9c5f78d91f67286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/McDSP.dll using Guid(77ee3d98d76c6430f9c5f78d91f67286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ded2f1435fc3583ec3995d4b19c55963') in 0.001747708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4cfb422d51d3c727ec91d08d96e0ee4 DependenciesID=3469e500a47349e59315e8dc6bbcef8d StaticDependenciesID=7b15a6721a8ff7d1b227377d38504ee5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkFlanger.bundle
-  importAddress: Guid(4192dbc6303e34521a9d0f418cab9874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkFlanger.bundle using Guid(4192dbc6303e34521a9d0f418cab9874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6c0670fb1247e8e20ed1ba54fc21c0e9') in 0.001666417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3cace23a812bbff2057a948ddcbf59b DependenciesID=5b563e77391db2dfe3a41b6144fa99b8 StaticDependenciesID=0e950431f76b827cf2abe13bc3eb1555 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle
-  importAddress: Guid(4de19862c80ee4890bf848ce91c7eb30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle using Guid(4de19862c80ee4890bf848ce91c7eb30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6cf56adcdd410eb97baeedb9ccff7ebb') in 0.00161875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2365514fa451fd4d7dd6a0c2a6f5e6b4 DependenciesID=b852ad8efd808a46027f459185e5ddcc StaticDependenciesID=ce6333a822386c79fa0b4d905bd56670 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libiZotope.bundle
-  importAddress: Guid(a7e626251eb304b15b43c88e370e560e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libiZotope.bundle using Guid(a7e626251eb304b15b43c88e370e560e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8ba295e66b573a5f7821918968d7e060') in 0.001612125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1469901539467d92af0f79da01b9bf93 DependenciesID=2a1a002d58c72722a9bf3e6b87fbb082 StaticDependenciesID=24587fe791e376758cd22dd3598b6583 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSynthOne.bundle
-  importAddress: Guid(40dd6d30621e842ed9a26839fa5533b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSynthOne.bundle using Guid(40dd6d30621e842ed9a26839fa5533b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '92043d99b8a8b68492fdcadc072c1388') in 0.001748917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2815cb78c3c097d5a3d9bad497e667d DependenciesID=063fb63c676a56c5677be316ed1fc679 StaticDependenciesID=c495ac302f50441fc98e6fa21840084e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/Auro.dll
-  importAddress: Guid(5b17ede75915c4457b111e3c4b699afd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Wwise/API/Runtime/Plugins/Windows/x86_64/DSP/Auro.dll using Guid(5b17ede75915c4457b111e3c4b699afd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc779d02d1d1fcf3c99006bf29919ca4') in 0.001484416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78950f949d01181ead7f867a4c9918ba DependenciesID=2221f329abd611a84c269fbfbf8934e0 StaticDependenciesID=0e03133fd627427a27919abccfe20055 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 15373.336598 seconds.
+  path: Assets/Wwise/ScriptableObjects/Mac.asset
+  importAddress: Guid(6634466921e3149c5a7d9ea9e9aad7f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Wwise/ScriptableObjects/Mac.asset using Guid(6634466921e3149c5a7d9ea9e9aad7f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0f6d6950d15d7f62a5f3d570dd881020') in 0.035027792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f00445238f66ed6e34ea7c6ca9b6600 DependenciesID=61eaaf76fd3ce0f697b8ab3379251274 StaticDependenciesID=e98acfc0e349e16fa06dbb6df6338986 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
@@ -331,11 +275,11 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.63 ms, found 4 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (4.7 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.4 MB.
-Total: 7.060333 ms (FindLiveObjects: 0.403583 ms CreateObjectMapping: 0.287375 ms MarkObjects: 4.933083 ms  DeleteObjects: 1.436125 ms)
+Unloading 7345 unused Assets / (4.3 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 168.1 MB.
+Total: 8.122958 ms (FindLiveObjects: 0.474500 ms CreateObjectMapping: 0.412542 ms MarkObjects: 5.558166 ms  DeleteObjects: 1.677500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 EnvironmentDependencyValues requested are different than current active one (requested -> active):
@@ -347,11 +291,11 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.97 ms, found 4 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.1 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.0 MB.
-Total: 7.615500 ms (FindLiveObjects: 0.414583 ms CreateObjectMapping: 0.264667 ms MarkObjects: 5.426541 ms  DeleteObjects: 1.509292 ms)
+Unloading 7345 unused Assets / (5.4 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 167.0 MB.
+Total: 8.089875 ms (FindLiveObjects: 0.496167 ms CreateObjectMapping: 0.335292 ms MarkObjects: 5.340959 ms  DeleteObjects: 1.916916 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 EnvironmentDependencyValues requested are different than current active one (requested -> active):
@@ -363,11 +307,11 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.33 ms, found 4 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.0 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.1 MB.
-Total: 6.667292 ms (FindLiveObjects: 0.315792 ms CreateObjectMapping: 0.239791 ms MarkObjects: 4.680250 ms  DeleteObjects: 1.431125 ms)
+Unloading 7345 unused Assets / (5.2 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 167.2 MB.
+Total: 7.939875 ms (FindLiveObjects: 0.458334 ms CreateObjectMapping: 0.357334 ms MarkObjects: 5.302541 ms  DeleteObjects: 1.821292 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 EnvironmentDependencyValues requested are different than current active one (requested -> active):
@@ -379,11 +323,91 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.36 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.71 ms, found 4 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.0 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.1 MB.
-Total: 6.563542 ms (FindLiveObjects: 0.323375 ms CreateObjectMapping: 0.242958 ms MarkObjects: 4.616666 ms  DeleteObjects: 1.380167 ms)
+Unloading 7345 unused Assets / (5.2 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 167.2 MB.
+Total: 7.662583 ms (FindLiveObjects: 0.457625 ms CreateObjectMapping: 0.320042 ms MarkObjects: 5.175166 ms  DeleteObjects: 1.709166 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.21 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (5.3 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 167.1 MB.
+Total: 8.103000 ms (FindLiveObjects: 0.421750 ms CreateObjectMapping: 0.310333 ms MarkObjects: 5.436875 ms  DeleteObjects: 1.933625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (5.3 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 167.1 MB.
+Total: 8.032250 ms (FindLiveObjects: 0.444708 ms CreateObjectMapping: 0.293666 ms MarkObjects: 5.424917 ms  DeleteObjects: 1.868250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 7.21 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.9 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 167.5 MB.
+Total: 8.417333 ms (FindLiveObjects: 0.473167 ms CreateObjectMapping: 0.355833 ms MarkObjects: 5.823167 ms  DeleteObjects: 1.764833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.42 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (4.5 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 167.9 MB.
+Total: 7.789625 ms (FindLiveObjects: 0.422417 ms CreateObjectMapping: 0.272458 ms MarkObjects: 5.371583 ms  DeleteObjects: 1.722917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 67584
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7345 unused Assets / (5.6 MB). Loaded Objects now: 8226.
+Memory consumption went from 172.4 MB to 166.8 MB.
+Total: 8.030375 ms (FindLiveObjects: 0.441833 ms CreateObjectMapping: 0.314750 ms MarkObjects: 5.276958 ms  DeleteObjects: 1.996417 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 EnvironmentDependencyValues requested are different than current active one (requested -> active):
@@ -397,250 +421,13 @@ Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support con
 Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
 Refreshing native plugins compatible for Editor in 5.11 ms, found 4 plugins.
 Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.2 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 166.9 MB.
-Total: 7.028542 ms (FindLiveObjects: 0.357958 ms CreateObjectMapping: 0.247875 ms MarkObjects: 4.890541 ms  DeleteObjects: 1.531959 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.81 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.1 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 166.9 MB.
-Total: 6.894375 ms (FindLiveObjects: 0.347375 ms CreateObjectMapping: 0.245583 ms MarkObjects: 4.869750 ms  DeleteObjects: 1.431458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.74 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (4.8 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.3 MB.
-Total: 7.199375 ms (FindLiveObjects: 0.400084 ms CreateObjectMapping: 0.266708 ms MarkObjects: 4.960125 ms  DeleteObjects: 1.571958 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 6.03 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.0 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.1 MB.
-Total: 7.223875 ms (FindLiveObjects: 0.336292 ms CreateObjectMapping: 0.233083 ms MarkObjects: 5.179375 ms  DeleteObjects: 1.474791 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.38 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.2 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 166.9 MB.
-Total: 6.835333 ms (FindLiveObjects: 0.414000 ms CreateObjectMapping: 0.256500 ms MarkObjects: 4.770958 ms  DeleteObjects: 1.393458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.70 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.2 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 166.9 MB.
-Total: 6.975458 ms (FindLiveObjects: 0.352709 ms CreateObjectMapping: 0.240625 ms MarkObjects: 4.951584 ms  DeleteObjects: 1.430125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (4.7 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.4 MB.
-Total: 6.709042 ms (FindLiveObjects: 0.319959 ms CreateObjectMapping: 0.240083 ms MarkObjects: 4.732958 ms  DeleteObjects: 1.415750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.15 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.5 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 166.6 MB.
-Total: 8.255833 ms (FindLiveObjects: 0.405041 ms CreateObjectMapping: 0.242750 ms MarkObjects: 5.744125 ms  DeleteObjects: 1.863709 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.62 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.2 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 166.9 MB.
-Total: 7.658833 ms (FindLiveObjects: 0.413708 ms CreateObjectMapping: 0.281666 ms MarkObjects: 5.291417 ms  DeleteObjects: 1.671791 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.45 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (4.9 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.2 MB.
-Total: 6.985750 ms (FindLiveObjects: 0.343042 ms CreateObjectMapping: 0.248500 ms MarkObjects: 4.928708 ms  DeleteObjects: 1.465084 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.56 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (4.8 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.3 MB.
-Total: 7.851417 ms (FindLiveObjects: 0.453583 ms CreateObjectMapping: 0.281083 ms MarkObjects: 5.736834 ms  DeleteObjects: 1.379583 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.71 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.1 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 167.0 MB.
-Total: 7.505291 ms (FindLiveObjects: 0.461084 ms CreateObjectMapping: 0.304083 ms MarkObjects: 5.092875 ms  DeleteObjects: 1.646875 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.05 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 7345 unused Assets / (5.3 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 166.8 MB.
-Total: 7.110625 ms (FindLiveObjects: 0.417750 ms CreateObjectMapping: 0.245625 ms MarkObjects: 5.008042 ms  DeleteObjects: 1.438833 ms)
+Memory consumption went from 172.4 MB to 167.1 MB.
+Total: 7.667791 ms (FindLiveObjects: 0.424833 ms CreateObjectMapping: 0.284417 ms MarkObjects: 5.356208 ms  DeleteObjects: 1.601917 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 EnvironmentDependencyValues requested are different than current active one (requested -> active):
   graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.06 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (5.2 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 166.9 MB.
-Total: 7.082875 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.237375 ms MarkObjects: 4.983791 ms  DeleteObjects: 1.455833 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 4.99 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (2.9 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 169.2 MB.
-Total: 7.176042 ms (FindLiveObjects: 0.417875 ms CreateObjectMapping: 0.249125 ms MarkObjects: 5.287541 ms  DeleteObjects: 1.221000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
-========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 5.81 ms, found 4 plugins.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7345 unused Assets / (4.1 MB). Loaded Objects now: 8226.
-Memory consumption went from 172.1 MB to 168.0 MB.
-Total: 8.213791 ms (FindLiveObjects: 0.408833 ms CreateObjectMapping: 0.246292 ms MarkObjects: 6.257125 ms  DeleteObjects: 1.301125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-EnvironmentDependencyValues requested are different than current active one (requested -> active):
-  graphicsApiMask: 2048 -> 67584
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

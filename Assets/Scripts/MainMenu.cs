@@ -99,24 +99,41 @@ public class MainMenu : MonoBehaviour
     /// <returns>The name of the most correct answered scale</returns>
     private void SetMostCorrectWrong()
     {
+        string mostCorrectTest = "---";
+        string mostWrongTest = "---";
+
         //First grouping the list by the correct scale names
         //then ordering them high to low where first element is the most amount of
         //correct answers.
         //Then getting the key = scale name for te var mostCorrect from the first element
-        var mostCorrect= statisticsInformation.CorrectAnswers
-            .GroupBy(correct => correct.CorrectScale)
-            .OrderByDescending(scale => scale.Count())
-            .First().Key;
+        // mostCorrect will always be a string so its safe to put it in mostCorrectTest
+        if (statisticsInformation.CorrectAnswers.Any())
+        {
+            var mostCorrect= statisticsInformation.CorrectAnswers
+                .GroupBy(correct => correct.CorrectScale)
+                .OrderByDescending(scale => scale.Count())
+                .First().Key;
+
+            mostCorrectTest = mostCorrect;
+        }
+
 
         //First doing the same thing as above expect
         //we want to know the correct answer when player answered wrong, thats why wrong.CorrectScale
         //Then doing the same thing as above again
-        var mostWrong = statisticsInformation.IncorrectAnswers
-            .GroupBy(wrong => wrong.CorrectScale)
-            .OrderByDescending(scale => scale.Count())
-            .First().Key;
+        if (statisticsInformation.IncorrectAnswers.Any())
+        {
+            var mostWrong = statisticsInformation.IncorrectAnswers
+                .GroupBy(wrong => wrong.CorrectScale)
+                .OrderByDescending(scale => scale.Count())
+                .First().Key;
+            
+            mostWrongTest = mostWrong;
+        }
 
-        statisticsPopUp.GetComponent<StatisticsScript>().SetStatisticsMostCorrectWrong(mostCorrect, mostWrong);
+
+
+        statisticsPopUp.GetComponent<StatisticsScript>().SetStatisticsMostCorrectWrong(mostCorrectTest, mostWrongTest);
     }
 
     /// <summary>
