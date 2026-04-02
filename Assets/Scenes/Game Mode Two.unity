@@ -241,7 +241,7 @@ MonoBehaviour:
   timerBar: {fileID: 1451705963}
   timerDecreaseSpeed: 0.2
   wrongAnswerTimerDecrease: 200
-  correctAnswerTimerIncrease: 150
+  correctAnswerTimerIncrease: 250
   correctCounterText: {fileID: 1078897717}
   wrongCounterText: {fileID: 1906282595}
   startGamePopUp: {fileID: 153055848}

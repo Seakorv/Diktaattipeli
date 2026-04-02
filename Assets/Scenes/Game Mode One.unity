@@ -1363,9 +1363,9 @@ MonoBehaviour:
   CurrentScaleObject: {fileID: 0}
   PreviousScaleObject: {fileID: 0}
   timerBar: {fileID: 299231133}
-  timerDecreaseSpeed: 0.5
+  timerDecreaseSpeed: 0.3
   wrongAnswerTimerDecrease: 150
-  correctAnswerTimerIncrease: 100
+  correctAnswerTimerIncrease: 250
   correctCounterText: {fileID: 383794573}
   wrongCounterText: {fileID: 2050627089}
   startGamePopUp: {fileID: 1681817160}
