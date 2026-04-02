@@ -1365,7 +1365,7 @@ MonoBehaviour:
   timerBar: {fileID: 299231133}
   timerDecreaseSpeed: 0.3
   wrongAnswerTimerDecrease: 150
-  correctAnswerTimerIncrease: 250
+  correctAnswerTimerIncrease: 200
   correctCounterText: {fileID: 383794573}
   wrongCounterText: {fileID: 2050627089}
   startGamePopUp: {fileID: 1681817160}
@@ -1869,6 +1869,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5706023064468707845, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7011545336987974865, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
@@ -1920,6 +1924,10 @@ PrefabInstance:
     - target: {fileID: 8390913138579732743, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411365292213501515, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9098681414707055382, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
       propertyPath: m_Pivot.x

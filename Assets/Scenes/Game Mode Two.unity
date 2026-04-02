@@ -240,7 +240,7 @@ MonoBehaviour:
   PreviousScaleObject: {fileID: 0}
   timerBar: {fileID: 1451705963}
   timerDecreaseSpeed: 0.2
-  wrongAnswerTimerDecrease: 200
+  wrongAnswerTimerDecrease: 150
   correctAnswerTimerIncrease: 250
   correctCounterText: {fileID: 1078897717}
   wrongCounterText: {fileID: 1906282595}
@@ -994,9 +994,35 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 236552464726016978, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
+      propertyPath: m_text
+      value: "     Quess the correct scale notes!\n\u25CA Press the \"b\" and \"#\"
+        to change the notes\n\u25CA You can listen to the notes by pressing them\n\u25CA
+        When you are ready, press submit"
+      objectReference: {fileID: 0}
+    - target: {fileID: 236552464726016978, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
+      propertyPath: m_fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 236552464726016978, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 236552464726016978, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 595555575765918334, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 681259900533726672, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 681259900533726672, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 1648969938796873316, guid: ba1381986ebc5420ab0262863550f6b9, type: 3}
       propertyPath: m_SortingOrder
@@ -3196,7 +3222,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.3685303, y: -0.99420166}
+  m_AnchoredPosition: {x: 1.3685303, y: -0.9941406}
   m_SizeDelta: {x: 137.2692, y: 119.9343}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529856558

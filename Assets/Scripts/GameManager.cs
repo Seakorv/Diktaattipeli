@@ -622,7 +622,8 @@ public class GameManager : MonoBehaviour
     {
         DataSaving.dataSavingInstance.SaveHighScore(GetMyGameModeNumber(), CorrectCounter);
         DataSaveSystem.SaveData();
-        AkUnitySoundEngine.StopAll();
+        AkSoundEngine.StopAll();
+        //AkSoundEngine.ClearBanks();
         SceneManager.LoadSceneAsync(1);
     }
 }

@@ -99,6 +99,11 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.0193756733438555"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.411912443071529"/>
+														<Property Name="VolumeOffset" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Gradu metal 1.wav</AudioFile>

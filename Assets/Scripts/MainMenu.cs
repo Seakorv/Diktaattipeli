@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -27,16 +28,35 @@ public class MainMenu : MonoBehaviour
 
     private SaveGameData statisticsInformation;
 
+    public void Awake()
+    {
+        
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SetMenuMusic(true);
+        StartCoroutine(InitMenuMusic());
+        Debug.Log("Hei");
         gameModeOneButton.onClick.AddListener(OpenGameModeOne);
         gameModeTwoButton.onClick.AddListener(OpenGameModeTwo);
         exitButton.onClick.AddListener(QuitGame);
         statisticsButton.onClick.AddListener(OpenStatistics);
         optionsButton.onClick.AddListener(OpenOptions);
     }
+
+    IEnumerator InitMenuMusic()
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        AkBankLoader.akBankLoaderInstance.LoadSoundBanks();
+
+        yield return new WaitForSeconds(0.1f);
+
+        SetMenuMusic(true);
+    }
+
+    
 
     // Update is called once per frame
     void Update()

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -16,5 +17,4 @@ public class StartScreen : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(1);
     }
-
 }

@@ -28,7 +28,8 @@ public class GameOver : MonoBehaviour
 
     private void OnMainMenuClick()
     {
-        AkUnitySoundEngine.StopAll();
+        AkSoundEngine.StopAll();
+        //AkSoundEngine.ClearBanks();
         SceneManager.LoadSceneAsync(1);
     }
 
